@@ -3,7 +3,6 @@
 ## Tracking Board
 
 ### /htdocs
-
 .  
 ├── about.xml  
 ├── advocacy  
@@ -25,11 +24,11 @@
 ├── developers.xml  
 ├── doc  
 │   └── Makefile  
-├── docs.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`    
+├── docs.xml ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `In Review`  
 ├── features.xml  
 ├── index.xsl ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Updated Aug 10 16:19:36 2017 UTC` [rD50658](https://svnweb.freebsd.org/doc?view=revision&revision=50658)  
 ├── internet.xml  
-├── logo.xml  
+├── logo.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 ├── mailto.xml  
 ├── Makefile  
 ├── Makefile.inc  
@@ -38,20 +37,37 @@
 │   ├── Makefile.inc  
 │   ├── news.xml  
 │   └── pressreleases.xml  
+├── platforms  
+│   ├── alpha.xml  
+│   ├── amd64  
+│   │   ├── Makefile  
+│   │   └── motherboards.xml  
+│   ├── amd64.xml  
+│   ├── arm.xml  
+│   ├── i386.xml  
+│   ├── index.xml  
+│   ├── Makefile  
+│   └── Makefile.inc  
 ...  
 ├── relnotes.xml  
 ├── security  
 │   ├── charter.xml  
-│   ├── Makefile
+│   ├── Makefile  
 │   ├── mkindex.xsl  
 │   └── security.xml  
 ├── send-pr.xml  
 ├── support.xml  
 └── where.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 
+Legend:
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+
 ## Doc Commits
 | Time | Name | Differential | Commit | Reviewer | Committer |   
 |:-:|:-:|:-:|:-:|:-:|:-:|  
+| In Progress | Update docs.xml | [D12012](https://reviews.freebsd.org/D12012) ||||
 | Aug 11 16:03:20 2017 UTC | Update share/xml/header.l10n.ent and remove layout | [D11794](https://reviews.freebsd.org/D11794) | [rD50662](https://svnweb.freebsd.org/doc?view=revision&revision=50662) | delphij@ | rcyu@ |  
 | Aug 10 16:19:36 2017 UTC | Update index.xsl | [D11792](https://reviews.freebsd.org/D11792) | [rD50658](https://svnweb.freebsd.org/doc?view=revision&revision=50658) | delphij@ | rcyu@ |  
 | Jul 27 15:12:33 2017 UTC | Add articles/leap-seconds | [D11739](https://reviews.freebsd.org/D11739) | [rD50588](https://svnweb.freebsd.org/doc?view=revision&revision=50588) | delphij@ | rcyu@ |  
@@ -64,17 +80,6 @@
 
 ## Pastebin (Docs Tree Misc.)
 ```
-├── platforms
-│   ├── alpha.xml
-│   ├── amd64
-│   │   ├── Makefile
-│   │   └── motherboards.xml
-│   ├── amd64.xml
-│   ├── arm.xml
-│   ├── i386.xml
-│   ├── index.xml
-│   ├── Makefile
-│   └── Makefile.inc
 ├── releases
 │   ├── 5.4R
 │   │   ├── docbook.css
