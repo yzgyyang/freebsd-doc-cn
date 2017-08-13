@@ -10,10 +10,10 @@ As of rD50588
 │   ├── index.xml  
 │   ├── Makefile  
 │   └── myths.xml  
-├── applications.xml  
-├── art.xml  
+├── applications.xml `Fine`  
+├── art.xml `Fine`  
 ├── availability.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
-├── community.xml  
+├── community.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 ├── copyright  
 │   ├── copyright.xml  
 │   ├── daemon.xml  
@@ -22,13 +22,13 @@ As of rD50588
 │   ├── license.xml  
 │   ├── Makefile  
 │   └── trademarks.xml  
-├── developers.xml  
+├── developers.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
 ├── doc  
 │   └── Makefile  
 ├── docs.xml ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `In Review`  
 ├── features.xml  
 ├── index.xsl ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Updated Aug 10 16:19:36 2017 UTC` [rD50658](https://svnweb.freebsd.org/doc?view=revision&revision=50658)  
-├── internet.xml  
+├── internet.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
 ├── logo.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 ├── mailto.xml `Fine`  
 ├── Makefile  
@@ -46,18 +46,18 @@ As of rD50588
 │   ├── amd64.xml  
 │   ├── arm.xml  
 │   ├── i386.xml  
-│   ├── index.xml  
+│   ├── index.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 │   ├── Makefile  
 │   └── Makefile.inc  
 ...  
-├── relnotes.xml  
+├── relnotes.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
 ├── security  
 │   ├── charter.xml  
 │   ├── Makefile  
 │   ├── mkindex.xsl  
 │   └── security.xml  
 ├── send-pr.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
-├── support.xml  
+├── support.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 └── where.xml ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `In Review`  
 
 Legend:
