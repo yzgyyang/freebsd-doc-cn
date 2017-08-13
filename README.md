@@ -3,6 +3,7 @@
 ## Tracking Board
 
 ### /htdocs
+As of rD50588  
 .  
 ├── about.xml  
 ├── advocacy  
@@ -11,7 +12,7 @@
 │   └── myths.xml  
 ├── applications.xml  
 ├── art.xml  
-├── availability.xml  
+├── availability.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
 ├── community.xml  
 ├── copyright  
 │   ├── copyright.xml  
@@ -29,7 +30,7 @@
 ├── index.xsl ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Updated Aug 10 16:19:36 2017 UTC` [rD50658](https://svnweb.freebsd.org/doc?view=revision&revision=50658)  
 ├── internet.xml  
 ├── logo.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
-├── mailto.xml  
+├── mailto.xml `Fine`  
 ├── Makefile  
 ├── Makefile.inc  
 ├── news  
@@ -55,9 +56,9 @@
 │   ├── Makefile  
 │   ├── mkindex.xsl  
 │   └── security.xml  
-├── send-pr.xml  
+├── send-pr.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
 ├── support.xml  
-└── where.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
+└── where.xml ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `In Review`  
 
 Legend:
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
@@ -67,6 +68,7 @@ Legend:
 ## Doc Commits
 | Time | Name | Differential | Commit | Reviewer | Committer |   
 |:-:|:-:|:-:|:-:|:-:|:-:|  
+| In Progress | Update where.xml | [D12015](https://reviews.freebsd.org/D12015) ||||
 | In Progress | Update docs.xml | [D12012](https://reviews.freebsd.org/D12012) ||||
 | Aug 11 16:03:20 2017 UTC | Update share/xml/header.l10n.ent and remove layout | [D11794](https://reviews.freebsd.org/D11794) | [rD50662](https://svnweb.freebsd.org/doc?view=revision&revision=50662) | delphij@ | rcyu@ |  
 | Aug 10 16:19:36 2017 UTC | Update index.xsl | [D11792](https://reviews.freebsd.org/D11792) | [rD50658](https://svnweb.freebsd.org/doc?view=revision&revision=50658) | delphij@ | rcyu@ |  
