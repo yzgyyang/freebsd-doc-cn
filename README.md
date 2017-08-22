@@ -1,9 +1,14 @@
-# FreeBSD Simplified Chinese Translation Project
+# FreeBSD Simplified Chinese Documentation Project
 
-## Information
+## Workflow
 
-Working Repository: https://github.com/yzgyyang/freebsd-doc  
-Experimental CI Setup: http://ci.charlieyang.me:8180/jenkins
+- Working Repository: https://github.com/yzgyyang/freebsd-doc  
+=> (triggers)
+- Experimental CI Setup: http://ci.charlieyang.me:8180/jenkins  
+=> (installs to)
+- Deployment Repository: https://github.com/yzgyyang/freebsd-doc-web-deploy  
+=> (deploy to)
+- Test Server: (Not Available)
 
 ## Tracker Board
 
