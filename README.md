@@ -7,6 +7,8 @@ Experimental CI Setup: http://ci.charlieyang.me:8180/jenkins
 
 ## Tracker Board
 
+### /share/xml
+
 ### /htdocs
 As of rD50588  
 .  
@@ -15,8 +17,8 @@ As of rD50588
 │   ├── index.xml  
 │   ├── Makefile  
 │   └── myths.xml  
-├── applications.xml `Fine`  
-├── art.xml `Fine`  
+├── applications.xml ![#c6c6c6](https://placehold.it/15/c6c6c6/000000?text=+) `Fine`  
+├── art.xml ![#c6c6c6](https://placehold.it/15/c6c6c6/000000?text=+) `Fine`  
 ├── availability.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
 ├── community.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 ├── copyright  
@@ -30,12 +32,12 @@ As of rD50588
 ├── developers.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
 ├── doc  
 │   └── Makefile  
-├── docs.xml ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `In Review`  
+├── docs.xml ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Updated Aug 22 15:18:59 2017 UTC` [rD50702](https://svnweb.freebsd.org/doc?view=revision&revision=50702)  
 ├── features.xml  
 ├── index.xsl ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Updated Aug 10 16:19:36 2017 UTC` [rD50658](https://svnweb.freebsd.org/doc?view=revision&revision=50658)  
 ├── internet.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
 ├── logo.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
-├── mailto.xml `Fine`  
+├── mailto.xml ![#c6c6c6](https://placehold.it/15/c6c6c6/000000?text=+) `Fine`  
 ├── Makefile  
 ├── Makefile.inc  
 ├── news  
@@ -44,13 +46,13 @@ As of rD50588
 │   ├── news.xml  
 │   └── pressreleases.xml  
 ├── platforms  
-│   ├── alpha.xml  
+│   ├── alpha.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 │   ├── amd64  
 │   │   ├── Makefile  
 │   │   └── motherboards.xml  
 │   ├── amd64.xml  
 │   ├── arm.xml  
-│   ├── i386.xml  
+│   ├── i386.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 │   ├── index.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 │   ├── Makefile  
 │   └── Makefile.inc  
@@ -65,10 +67,11 @@ As of rD50588
 ├── support.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
 └── where.xml ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `In Review`  
 
-Legend:
+### Legend
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+- ![#1589f0](https://placehold.it/15/1589f0/000000?text=+) `#1589f0`
+- ![#c6c6c6](https://placehold.it/15/c6c6c6/000000?text=+) `#c6c6c6`
 
 ## Doc Commits
 | Time | Name | Differential | Commit | Reviewer | Committer | Contributor |    
