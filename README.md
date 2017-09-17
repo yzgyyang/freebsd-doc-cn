@@ -25,7 +25,7 @@ As of rD50588
 ├── applications.xml ![#c6c6c6](https://placehold.it/15/c6c6c6/000000?text=+) `Fine`  
 ├── art.xml ![#c6c6c6](https://placehold.it/15/c6c6c6/000000?text=+) `Fine`  
 ├── availability.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
-├── community.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update`  
+├── community.xml ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `In Review`  
 ├── copyright  
 │   ├── copyright.xml  
 │   ├── daemon.xml  
@@ -81,7 +81,8 @@ As of rD50588
 ## Doc Commits
 | Time | Name | Differential | Commit | Reviewer | Committer | Contributor |    
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|  
-| In Progress | Update where.xml | [D12015](https://reviews.freebsd.org/D12015) |||| ygy@ |
+| In Progress | Update community.xsl | [D12305](https://reviews.freebsd.org/D12305) |||| ygy@ |
+| In Progress | Update where.xml | [D12015](https://reviews.freebsd.org/D12015) || loader@ || ygy@ |
 | Aug 22 15:18:59 2017 UTC | Update docs.xml | [D12012](https://reviews.freebsd.org/D12012) | [rD50702](https://svnweb.freebsd.org/doc?view=revision&revision=50702) | loader@ | rcyu@ | ygy@ |
 | Aug 11 16:03:20 2017 UTC | Update share/xml/header.l10n.ent and remove layout | [D11794](https://reviews.freebsd.org/D11794) | [rD50662](https://svnweb.freebsd.org/doc?view=revision&revision=50662) | delphij@ | rcyu@ | ygy@ |  
 | Aug 10 16:19:36 2017 UTC | Update index.xsl | [D11792](https://reviews.freebsd.org/D11792) | [rD50658](https://svnweb.freebsd.org/doc?view=revision&revision=50658) | delphij@ | rcyu@ | ygy@ |  
