@@ -81,7 +81,7 @@ As of rD50588
 ## Doc Commits
 | Time | Name | Differential | Commit | Reviewer | Committer | Contributor |    
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|  
-| In Progress | Update community.xsl | [D12305](https://reviews.freebsd.org/D12305) |||| ygy@ |
+| Sep 30 15:57:11 2017 UTC | Update community.xsl | [D12305](https://reviews.freebsd.org/D12305) | [rD51003](https://svnweb.freebsd.org/doc?view=revision&revision=51003) | loader@ | ygy@ | ygy@ |
 | Sep 26 16:42:52 2017 UTC | Update where.xml | [D12015](https://reviews.freebsd.org/D12015) | [rD50934](https://svnweb.freebsd.org/doc?view=revision&revision=50934) | loader@ delphij@ rcyu@ | ygy@ | ygy@ |
 | Aug 22 15:18:59 2017 UTC | Update docs.xml | [D12012](https://reviews.freebsd.org/D12012) | [rD50702](https://svnweb.freebsd.org/doc?view=revision&revision=50702) | loader@ | rcyu@ | ygy@ |
 | Aug 11 16:03:20 2017 UTC | Update share/xml/header.l10n.ent and remove layout | [D11794](https://reviews.freebsd.org/D11794) | [rD50662](https://svnweb.freebsd.org/doc?view=revision&revision=50662) | delphij@ | rcyu@ | ygy@ |  
