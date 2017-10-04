@@ -2,13 +2,13 @@
 
 ## Workflow
 
-- Working Repository: https://github.com/yzgyyang/freebsd-doc  
+- Working Repository: https://github.com/yzgyyang/freebsd-doc-dev   
 => (triggers)
 - Experimental CI Setup: http://ci.charlieyang.me:8180/jenkins  
 => (installs to)
 - Deployment Repository: https://github.com/yzgyyang/freebsd-doc-web-deploy  
 => (deploy to)
-- Test Server: (Not Available)
+- Test Server: (Not Available yet)
 
 ## Tracker Board
 
@@ -25,7 +25,7 @@ As of rD50588
 ├── applications.xml ![#c6c6c6](https://placehold.it/15/c6c6c6/000000?text=+) `Fine`  
 ├── art.xml ![#c6c6c6](https://placehold.it/15/c6c6c6/000000?text=+) `Fine`  
 ├── availability.xml ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Delete`  
-├── community.xml ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `In Review`  
+├── community.xml ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Updated Sep 30 15:57:11 2017 UTC`  
 ├── copyright  
 │   ├── copyright.xml  
 │   ├── daemon.xml  
