@@ -1,4 +1,4 @@
-# `zh_CN/htdocs` Status
+# `htdocs` Status
 
 ## Workflow
 
