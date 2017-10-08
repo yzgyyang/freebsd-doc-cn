@@ -18,6 +18,9 @@ Git设置:
 - 将自己 fork 过来的 repo clone 到本地:  
 `git clone https://github.com/your-username-here/freebsd-doc-cn`
 
+- 进入项目文件夹:
+`cd freebsd-doc-cn`
+
 - 设置上游跟踪 repo:  
 `git remote add upstream https://github.com/yzgyyang/freebsd-doc-cn`
 
@@ -45,7 +48,7 @@ upstream  https://github.com/yzgyyang/freebsd-doc-cn (push)
 `poedit zh_CN.po`
 
 - Commit:  
-`git add zh_CN.po`
+`git add zh_CN.po`  
 `git commit -m "Update XXX"`
 
 - 翻译完成后，向上游提交 Pull Request，并 @yzgyyang 进行 review。

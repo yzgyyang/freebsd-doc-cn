@@ -3,14 +3,15 @@
 ## 指南 Instructions
 
 [翻译指南 Translator's Guide](translators_guide.md)  
-[风格指南 Style Guide](style_guide.md)
+[[TBA]风格指南 Style Guide](style_guide.md)
 
-## Active Projects
+## 项目 Active Projects
 
+[[TBA] `books/handbook` Status]()  
 [`htdocs` Status](status/htdocs.md)
 
 ## 贡献者 Contributors
 
-| ID | GitHub | Projects |  
-|:-:|:-:|:-:|
-| ygy | [yzgyyang](https://github.com/yzgyyang) | htdocs, books/handbook |
+| Name <Email> | GitHub | Projects |  
+|:-:|:-:|:-:|:-:|
+| `Guangyuan Yang <ygy@FreeBSD.org>` | [yzgyyang](https://github.com/yzgyyang) | htdocs, books/handbook |
