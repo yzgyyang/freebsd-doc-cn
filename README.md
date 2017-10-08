@@ -1,11 +1,16 @@
 # FreeBSD Simplified Chinese Documentation Project
 
-## Instructions
+## 指南 Instructions
+
+[翻译指南 Translator's Guide](translators_guide.md)  
+[风格指南 Style Guide](style_guide.md)
 
 ## Active Projects
 
 [`htdocs` Status](status/htdocs.md)
 
-## Archived Documents
+## 贡献者 Contributors
 
-## Contributors
+| ID | GitHub | Projects |  
+|:-:|:-:|:-:|
+| ygy | [yzgyyang](https://github.com/yzgyyang) | htdocs, books/handbook |
