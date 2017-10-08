@@ -13,5 +13,5 @@
 ## 贡献者 Contributors
 
 | Name <Email> | GitHub | Projects |  
-|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|
 | `Guangyuan Yang <ygy@FreeBSD.org>` | [yzgyyang](https://github.com/yzgyyang) | htdocs, books/handbook |
