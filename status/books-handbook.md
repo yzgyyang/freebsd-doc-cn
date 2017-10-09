@@ -1,5 +1,13 @@
 # `books/handbook` Status
 
+## References
+
+英文版 Handbook: https://www.freebsd.org/doc/handbook/  
+繁体中文 Handbook (部分过期): https://www.freebsd.org/doc/zh_TW/books/handbook/  
+简体中文 Handbook (已过期): https://www.freebsd.org/doc/zh_CN/books/handbook/  
+
+[风格指南 Style Guide](style_guide.md)
+
 ## Status
 
 | Title | Assignee | Status | Pull Request |  
