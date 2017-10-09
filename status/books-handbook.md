@@ -3,7 +3,7 @@
 ## Status
 
 | Title | Assignee | Status | Pull Request |  
-|:|:-:|:-:|:-:|  
+|-|:-:|:-:|:-:|  
 | Preface ||||  
 | I. Getting Started 1. Introduction ||||  
 | 2. Installing FreeBSD ||||  
@@ -14,7 +14,7 @@
 | 7. Multimedia ||||  
 | 8. Configuring the FreeBSD Kernel ||||  
 | 9. Printing ||||  
-| 10. Linux® Binary Compatibility ||||
+| 10. Linux® Binary Compatibility ||||  
 | III. System Administration 11. Configuration and Tuning ||||  
 | 12. The FreeBSD Booting Process ||||  
 | 13. Security ||||  
