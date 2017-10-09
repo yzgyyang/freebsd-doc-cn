@@ -15,3 +15,4 @@
 | ID | Name <Email> | GitHub | Projects |  
 |:-:|:-:|:-:|:-:|
 | ygy | `Guangyuan Yang <ygy@FreeBSD.org>` | [yzgyyang](https://github.com/yzgyyang) | books/handbook, htdocs |
+| ykla | `ykla <yklaxds@gmail.com`> | [FindWaySociety](https://github.com/FindWaySociety) | handbook |
