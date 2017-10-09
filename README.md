@@ -3,11 +3,11 @@
 ## 指南 Instructions
 
 [翻译指南 Translator's Guide](translators_guide.md)  
-[[TBA]风格指南 Style Guide](style_guide.md)
+[风格指南 Style Guide](style_guide.md)
 
 ## 项目 Active Projects
 
-[[TBA] `books/handbook` Status]()  
+[`books/handbook` Status](status/books-handbook.md)  
 [`htdocs` Status](status/htdocs.md)
 
 ## 贡献者 Contributors
