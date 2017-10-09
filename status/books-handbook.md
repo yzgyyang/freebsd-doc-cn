@@ -20,7 +20,7 @@
 | 5. The X Window System (1811 - 2212) | ykla | ![#1589f0](https://placehold.it/15/1589f0/000000?text=+) `In Progress` ||  
 | II. Common Tasks 6. Desktop Applications || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 7. Multimedia || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
-| 8. Configuring the FreeBSD Kernel || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
+| 8. Configuring the FreeBSD Kernel (2779 - 2867) | hacking | ![#1589f0](https://placehold.it/15/1589f0/000000?text=+) `In Progress` ||  
 | 9. Printing || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 10. Linux® Binary Compatibility || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | III. System Administration 11. Configuration and Tuning || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
