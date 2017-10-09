@@ -15,4 +15,5 @@
 | ID | Name <Email> | GitHub | Projects |  
 |:-:|:-:|:-:|:-:|
 | ygy | `Guangyuan Yang <ygy@FreeBSD.org>` | [yzgyyang](https://github.com/yzgyyang) | books/handbook, htdocs |
+| hacking | `Jun Mao <maojun@whatsmath.cn>`| [maojun1998](https://github.com/maojun1998) | books/handbook |
 | ykla | `ykla <yklaxds@gmail.com`> | [FindWaySociety](https://github.com/FindWaySociety) | books/handbook |
