@@ -17,7 +17,7 @@
 | 2. Installing FreeBSD || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 3. FreeBSD Basics || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 4. Installing Applications: Packages and Ports || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
-| 5. The X Window System || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
+| 5. The X Window System (1811 - 2212) | ykla | ![#1589f0](https://placehold.it/15/1589f0/000000?text=+) `In Progress` ||  
 | II. Common Tasks 6. Desktop Applications || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 7. Multimedia || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 8. Configuring the FreeBSD Kernel || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
