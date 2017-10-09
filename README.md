@@ -15,3 +15,4 @@
 | ID | Name <Email> | GitHub | Projects |  
 |:-:|:-:|:-:|:-:|
 | ygy | `Guangyuan Yang <ygy@FreeBSD.org>` | [yzgyyang](https://github.com/yzgyyang) | books/handbook, htdocs |
+| mj  |  Mao Jun <maojun@whatsmath.cn>     | [maojun1998](https://github.com/maojun1998) | books/handbook, htdocs |
