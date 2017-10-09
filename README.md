@@ -12,6 +12,6 @@
 
 ## 贡献者 Contributors
 
-| Name <Email> | GitHub | Projects |  
-|:-:|:-:|:-:|
-| `Guangyuan Yang <ygy@FreeBSD.org>` | [yzgyyang](https://github.com/yzgyyang) | htdocs, books/handbook |
+| ID | Name <Email> | GitHub | Projects |  
+|:-:|:-:|:-:|:-:|
+| ygy | `Guangyuan Yang <ygy@FreeBSD.org>` | [yzgyyang](https://github.com/yzgyyang) | books/handbook, htdocs |
