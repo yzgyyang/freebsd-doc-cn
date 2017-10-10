@@ -16,5 +16,5 @@
 |:-:|:-:|:-:|:-:|
 | ygy | `Guangyuan Yang <ygy@FreeBSD.org>` | [yzgyyang](https://github.com/yzgyyang) | books/handbook, htdocs |
 | hacking | `Jun Mao <maojun@whatsmath.cn>`| [maojun1998](https://github.com/maojun1998) | books/handbook |
-| ykla | `ykla <yklaxds@gmail.com`> | [FindWaySociety](https://github.com/FindWaySociety) | books/handbook |
+| ykla | `ykla <yklaxds@gmail.com>` | [FindWaySociety](https://github.com/FindWaySociety) | books/handbook |
 | J3ff | `J3ff <j3ff@0x9.org>` | [J3ff](https://github.com/cnBSD) | books/handbook |
