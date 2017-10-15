@@ -15,7 +15,7 @@
 | Preface || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | I. Getting Started 1. Introduction || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 2. Installing FreeBSD (386 - 837) | j3ff | ![#1589f0](https://placehold.it/15/1589f0/000000?text=+) `In Progress` ||  
-| 3. FreeBSD Basics || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
+| 3. FreeBSD Basics (838 - 1503) | Kelven | ![#1589f0](https://placehold.it/15/1589f0/000000?text=+) `In Progress` ||  
 | 4. Installing Applications: Packages and Ports || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 5. The X Window System (1811 - 2212) | ykla | ![#1589f0](https://placehold.it/15/1589f0/000000?text=+) `In Progress` ||  
 | II. Common Tasks 6. Desktop Applications || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
