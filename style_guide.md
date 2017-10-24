@@ -1,5 +1,13 @@
 # 风格指南 Style Guide
 
+## [(2014) FreeBSD 中文文档计划风格]()
+
+- 使用英文单词时，如果前后有中文，使用空格分隔开。
+- 更新时，以英文文本为基础，以现有中文译文作为参考，尽可能保持使用原文的缩进不变。
+- 当现有中文文字有词不达意或漏译等情况时，请直接予以修正。
+
+## [在文档中正确地使用中英文](http://blog.csdn.net/ahwey/article/details/443013)
+
 ## [Livid 中文 Web 阅读体验](https://web.archive.org/web/20120513134359/http://www.livid.cn/doc_view.php?doc_id=5332)
 
 - 中文正文及标题中出现的标点符号应该使用全角方式输入。
