@@ -13,6 +13,29 @@
 ## Status
 
 ### /share/xml
+As of rD50662
+.
+├── authors-in-author-tag.ent
+├── authors.ent
+├── catalog.xml
+├── entities.ent
+├── freebsd-dblatex.xsl
+├── freebsd-fo.xsl
+├── freebsd-xhtml.xsl
+├── glossary.ent
+├── header.l10n.ent
+├── l10n.ent
+├── libcommon.xsl
+├── mailing-lists.ent
+├── mirrors-local.xsl
+├── navibar.l10n.ent
+├── news.xml
+├── press.xml
+├── release.l10n.ent
+├── teams.ent
+├── trademarks.ent
+├── transtable-local.xsl
+└── transtable.xml
 
 ### /htdocs
 As of rD50588  
