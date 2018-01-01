@@ -1,15 +1,16 @@
-#$FreeBSD$
+# $FreeBSD$
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 10:24-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-01-02 05:17+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.4\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -28,8 +29,7 @@ msgstr ""
 
 #. (itstool) path: info/pubdate
 #. (itstool) path: info/releaseinfo
-#: book.translate.xml:49
-#: book.translate.xml:134
+#: book.translate.xml:49 book.translate.xml:134
 msgid "$FreeBSD: head/en_US.ISO8859-1/books/porters-handbook/book.xml 51244 2017-11-30 15:45:49Z mat $"
 msgstr ""
 
@@ -86,12 +86,8 @@ msgstr ""
 #. (itstool) path: chapter/title
 #. (itstool) path: sect2/title
 #. (itstool) path: sect1/title
-#: book.translate.xml:145
-#: book.translate.xml:9574
-#: book.translate.xml:10183
-#: book.translate.xml:12921
-#: book.translate.xml:13411
-#: book.translate.xml:17609
+#: book.translate.xml:145 book.translate.xml:9574 book.translate.xml:10183
+#: book.translate.xml:12921 book.translate.xml:13411 book.translate.xml:17609
 msgid "Introduction"
 msgstr ""
 
@@ -163,8 +159,7 @@ msgstr ""
 #. (itstool) path: note/screen
 #: book.translate.xml:236
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>echo DEVELOPER=yes &gt;&gt; /etc/make.conf</userinput>"
+msgid "<prompt>#</prompt> <userinput>echo DEVELOPER=yes &gt;&gt; /etc/make.conf</userinput>"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -362,8 +357,7 @@ msgstr ""
 
 #. (itstool) path: sect1/title
 #. (itstool) path: chapter/title
-#: book.translate.xml:439
-#: book.translate.xml:15840
+#: book.translate.xml:439 book.translate.xml:15840
 msgid "Testing the Port"
 msgstr ""
 
@@ -383,12 +377,8 @@ msgid "<filename>pkg-plist</filename> contains everything that is installed by t
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:458
-#: book.translate.xml:744
-#: book.translate.xml:6275
-#: book.translate.xml:6328
-#: book.translate.xml:8466
-#: book.translate.xml:9344
+#: book.translate.xml:458 book.translate.xml:744 book.translate.xml:6275
+#: book.translate.xml:6328 book.translate.xml:8466 book.translate.xml:9344
 msgid "install"
 msgstr ""
 
@@ -408,11 +398,8 @@ msgid "The port can be deinstalled properly using the <_:buildtarget-1/> target.
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:470
-#: book.translate.xml:666
-#: book.translate.xml:667
-#: book.translate.xml:670
-#: book.translate.xml:6417
+#: book.translate.xml:470 book.translate.xml:666 book.translate.xml:667
+#: book.translate.xml:670 book.translate.xml:6417
 msgid "fetch"
 msgstr ""
 
@@ -609,11 +596,8 @@ msgid "The <_:buildtarget-1/> target is run. The <_:buildtarget-2/> target is re
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:683
-#: book.translate.xml:784
-#: book.translate.xml:790
-#: book.translate.xml:6395
-#: book.translate.xml:6438
+#: book.translate.xml:683 book.translate.xml:784 book.translate.xml:790
+#: book.translate.xml:6395 book.translate.xml:6438
 msgid "extract"
 msgstr ""
 
@@ -623,9 +607,7 @@ msgid "The <_:buildtarget-1/> target is run. It looks for the port's distributio
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:692
-#: book.translate.xml:4691
-#: book.translate.xml:6465
+#: book.translate.xml:692 book.translate.xml:4691 book.translate.xml:6465
 #: book.translate.xml:21731
 msgid "patch"
 msgstr ""
@@ -637,12 +619,8 @@ msgstr ""
 
 #. (itstool) path: para/buildtarget
 #. (itstool) path: entry/buildtarget
-#: book.translate.xml:702
-#: book.translate.xml:785
-#: book.translate.xml:4692
-#: book.translate.xml:10682
-#: book.translate.xml:20306
-#: book.translate.xml:20308
+#: book.translate.xml:702 book.translate.xml:785 book.translate.xml:4692
+#: book.translate.xml:10682 book.translate.xml:20306 book.translate.xml:20308
 msgid "configure"
 msgstr ""
 
@@ -662,9 +640,7 @@ msgid "If <varname>HAS_CONFIGURE</varname> or <varname>GNU_CONFIGURE</varname> i
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:720
-#: book.translate.xml:4693
-#: book.translate.xml:6274
+#: book.translate.xml:720 book.translate.xml:4693 book.translate.xml:6274
 #: book.translate.xml:21733
 msgid "build"
 msgstr ""
@@ -675,8 +651,7 @@ msgid "The <_:buildtarget-1/> target is run. This is responsible for descending 
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:727
-#: book.translate.xml:739
+#: book.translate.xml:727 book.translate.xml:739
 msgid "stage"
 msgstr ""
 
@@ -686,8 +661,7 @@ msgid "The <_:buildtarget-1/> target is run. This puts the final set of built fi
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:736
-#: book.translate.xml:746
+#: book.translate.xml:736 book.translate.xml:746
 msgid "package"
 msgstr ""
 
@@ -717,11 +691,8 @@ msgid "The above are the default actions. In addition, define targets <_:buildta
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:761
-#: book.translate.xml:765
-#: book.translate.xml:971
-#: book.translate.xml:3825
-#: book.translate.xml:8226
+#: book.translate.xml:761 book.translate.xml:765 book.translate.xml:971
+#: book.translate.xml:3825 book.translate.xml:8226
 msgid "post-extract"
 msgstr ""
 
@@ -731,17 +702,13 @@ msgid "For example, if there is a <_:buildtarget-1/> target defined in the <file
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:774
-#: book.translate.xml:779
+#: book.translate.xml:774 book.translate.xml:779
 msgid "do-<replaceable>something</replaceable>"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:777
-#: book.translate.xml:789
-#: book.translate.xml:1200
-#: book.translate.xml:8222
-#: book.translate.xml:17813
+#: book.translate.xml:777 book.translate.xml:789 book.translate.xml:1200
+#: book.translate.xml:8222 book.translate.xml:17813
 msgid "do-extract"
 msgstr ""
 
@@ -833,8 +800,7 @@ msgstr ""
 #. (itstool) path: sect1/screen
 #: book.translate.xml:898
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>cp <replaceable>file</replaceable> <replaceable>file</replaceable>.orig</userinput>"
+msgid "<prompt>%</prompt> <userinput>cp <replaceable>file</replaceable> <replaceable>file</replaceable>.orig</userinput>"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -905,8 +871,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:998
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>diff -u <replaceable>file</replaceable>.orig <replaceable>file</replaceable> &gt; patch-<replaceable>pathname-file</replaceable></userinput>"
+msgid "<prompt>%</prompt> <userinput>diff -u <replaceable>file</replaceable>.orig <replaceable>file</replaceable> &gt; patch-<replaceable>pathname-file</replaceable></userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -917,8 +882,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:1005
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>diff -u -N <replaceable>newfile</replaceable>.orig <replaceable>newfile</replaceable> &gt; patch-<replaceable>pathname-newfile</replaceable></userinput>"
+msgid "<prompt>%</prompt> <userinput>diff -u -N <replaceable>newfile</replaceable>.orig <replaceable>newfile</replaceable> &gt; patch-<replaceable>pathname-newfile</replaceable></userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -957,8 +921,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:1052
 #, no-wrap
-msgid ""
-"USES=\tdos2unix"
+msgid "USES=\tdos2unix"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -1129,8 +1092,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: row/entry
-#: book.translate.xml:1212
-#: book.translate.xml:1937
+#: book.translate.xml:1212 book.translate.xml:1937
 msgid "<varname>PORTNAME</varname>"
 msgstr ""
 
@@ -1243,14 +1205,12 @@ msgid "Examples of <varname>DISTVERSION</varname> and the Derived <varname>PORTV
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:1338
-#: book.translate.xml:1939
+#: book.translate.xml:1338 book.translate.xml:1939
 msgid "<varname>DISTVERSION</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:1339
-#: book.translate.xml:1940
+#: book.translate.xml:1339 book.translate.xml:1940
 msgid "<varname>PORTVERSION</varname>"
 msgstr ""
 
@@ -1835,37 +1795,20 @@ msgid "mule-2.2.2"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:1948
-#: book.translate.xml:1950
-#: book.translate.xml:1958
-#: book.translate.xml:1970
-#: book.translate.xml:1972
-#: book.translate.xml:1980
-#: book.translate.xml:1982
-#: book.translate.xml:1990
-#: book.translate.xml:1992
-#: book.translate.xml:2000
-#: book.translate.xml:2002
-#: book.translate.xml:2010
-#: book.translate.xml:2012
-#: book.translate.xml:2020
-#: book.translate.xml:2022
-#: book.translate.xml:2031
-#: book.translate.xml:2033
-#: book.translate.xml:2042
-#: book.translate.xml:2044
-#: book.translate.xml:2055
-#: book.translate.xml:2063
-#: book.translate.xml:2074
-#: book.translate.xml:13586
-#: book.translate.xml:13603
+#: book.translate.xml:1948 book.translate.xml:1950 book.translate.xml:1958
+#: book.translate.xml:1970 book.translate.xml:1972 book.translate.xml:1980
+#: book.translate.xml:1982 book.translate.xml:1990 book.translate.xml:1992
+#: book.translate.xml:2000 book.translate.xml:2002 book.translate.xml:2010
+#: book.translate.xml:2012 book.translate.xml:2020 book.translate.xml:2022
+#: book.translate.xml:2031 book.translate.xml:2033 book.translate.xml:2042
+#: book.translate.xml:2044 book.translate.xml:2055 book.translate.xml:2063
+#: book.translate.xml:2074 book.translate.xml:13586 book.translate.xml:13603
 #: book.translate.xml:13611
 msgid "(empty)"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:1949
-#: book.translate.xml:1959
+#: book.translate.xml:1949 book.translate.xml:1959
 msgid "mule"
 msgstr ""
 
@@ -2000,8 +1943,7 @@ msgid "What the heck was that anyway?"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:2019
-#: book.translate.xml:2021
+#: book.translate.xml:2019 book.translate.xml:2021
 msgid "tvtwm"
 msgstr ""
 
@@ -2011,20 +1953,17 @@ msgid "p11"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:2025
-#: book.translate.xml:2036
+#: book.translate.xml:2025 book.translate.xml:2036
 msgid "No version in the filename, use what upstream says it is"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:2030
-#: book.translate.xml:2032
+#: book.translate.xml:2030 book.translate.xml:2032
 msgid "piewm"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:2034
-#: book.translate.xml:2077
+#: book.translate.xml:2034 book.translate.xml:2077
 msgid "1.0"
 msgstr ""
 
@@ -2099,8 +2038,7 @@ msgid "Paper size hardcoded at package build time"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:2073
-#: book.translate.xml:2075
+#: book.translate.xml:2073 book.translate.xml:2075
 msgid "pkfonts"
 msgstr ""
 
@@ -2126,8 +2064,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:2101
-#: book.translate.xml:7984
+#: book.translate.xml:2101 book.translate.xml:7984
 msgid "<varname>CATEGORIES</varname>"
 msgstr ""
 
@@ -2162,26 +2099,13 @@ msgid "Category"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:2144
-#: book.translate.xml:3540
-#: book.translate.xml:10402
-#: book.translate.xml:10675
-#: book.translate.xml:10711
-#: book.translate.xml:10983
-#: book.translate.xml:11148
-#: book.translate.xml:11222
-#: book.translate.xml:11282
-#: book.translate.xml:11456
-#: book.translate.xml:11641
-#: book.translate.xml:12678
-#: book.translate.xml:12723
-#: book.translate.xml:12958
-#: book.translate.xml:13020
-#: book.translate.xml:13098
-#: book.translate.xml:13140
-#: book.translate.xml:13285
-#: book.translate.xml:13452
-#: book.translate.xml:17718
+#: book.translate.xml:2144 book.translate.xml:3540 book.translate.xml:10402
+#: book.translate.xml:10675 book.translate.xml:10711 book.translate.xml:10983
+#: book.translate.xml:11148 book.translate.xml:11222 book.translate.xml:11282
+#: book.translate.xml:11456 book.translate.xml:11641 book.translate.xml:12678
+#: book.translate.xml:12723 book.translate.xml:12958 book.translate.xml:13020
+#: book.translate.xml:13098 book.translate.xml:13140 book.translate.xml:13285
+#: book.translate.xml:13452 book.translate.xml:17718
 msgid "Description"
 msgstr ""
 
@@ -3496,8 +3420,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:3214
-#: book.translate.xml:8080
+#: book.translate.xml:3214 book.translate.xml:8080
 msgid "<varname>MASTER_SITES</varname>"
 msgstr ""
 
@@ -3534,8 +3457,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:3252
 #, no-wrap
-msgid ""
-"MASTER_SITES=\tGNU/make"
+msgid "MASTER_SITES=\tGNU/make"
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -3564,8 +3486,7 @@ msgstr ""
 #. (itstool) path: tip/programlisting
 #: book.translate.xml:3272
 #, no-wrap
-msgid ""
-"MASTER_SITES=\t<replaceable>FOO</replaceable>"
+msgid "MASTER_SITES=\t<replaceable>FOO</replaceable>"
 msgstr ""
 
 #. (itstool) path: tip/para
@@ -3576,8 +3497,7 @@ msgstr ""
 #. (itstool) path: tip/programlisting
 #: book.translate.xml:3277
 #, no-wrap
-msgid ""
-"MASTER_SITES=\t<replaceable>FOO</replaceable>/<replaceable>bar</replaceable>"
+msgid "MASTER_SITES=\t<replaceable>FOO</replaceable>/<replaceable>bar</replaceable>"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -3591,8 +3511,7 @@ msgid "Shortcuts for <varname>MASTER_SITE_<replaceable>*</replaceable></varname>
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3294
-#: book.translate.xml:3377
+#: book.translate.xml:3294 book.translate.xml:3377
 msgid "Macro"
 msgstr ""
 
@@ -3607,8 +3526,7 @@ msgid "<varname>PERL_CPAN</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3302
-#: book.translate.xml:3409
+#: book.translate.xml:3302 book.translate.xml:3409
 msgid "<varname>CPAN</varname>"
 msgstr ""
 
@@ -3618,8 +3536,7 @@ msgid "<varname>GITHUB</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3307
-#: book.translate.xml:3444
+#: book.translate.xml:3307 book.translate.xml:3444
 msgid "<varname>GH</varname>"
 msgstr ""
 
@@ -3629,8 +3546,7 @@ msgid "<varname>GITHUB_CLOUD</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3312
-#: book.translate.xml:3449
+#: book.translate.xml:3312 book.translate.xml:3449
 msgid "<varname>GHC</varname>"
 msgstr ""
 
@@ -3640,8 +3556,7 @@ msgid "<varname>LIBREOFFICE_DEV</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3317
-#: book.translate.xml:3479
+#: book.translate.xml:3317 book.translate.xml:3479
 msgid "<varname>LODEV</varname>"
 msgstr ""
 
@@ -3651,8 +3566,7 @@ msgid "<varname>NETLIB</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3322
-#: book.translate.xml:3494
+#: book.translate.xml:3322 book.translate.xml:3494
 msgid "<varname>NL</varname>"
 msgstr ""
 
@@ -3672,8 +3586,7 @@ msgid "<varname>SOURCEFORGE</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3332
-#: book.translate.xml:3514
+#: book.translate.xml:3332 book.translate.xml:3514
 msgid "<varname>SF</varname>"
 msgstr ""
 
@@ -3700,8 +3613,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:3356
 #, no-wrap
-msgid ""
-"MASTER_SITES=\tSF"
+msgid "MASTER_SITES=\tSF"
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -3712,8 +3624,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:3363
 #, no-wrap
-msgid ""
-"MASTER_SITES=\tSF/stardict/WyabdcRealPeopleTTS/${PORTVERSION}"
+msgid "MASTER_SITES=\tSF/stardict/WyabdcRealPeopleTTS/${PORTVERSION}"
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -3745,8 +3656,7 @@ msgid "<varname>APACHE_COMMONS_BINARIES</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3385
-#: book.translate.xml:3390
+#: book.translate.xml:3385 book.translate.xml:3390
 msgid "<literal>${PORTNAME:S,commons-,,}</literal>"
 msgstr ""
 
@@ -3806,15 +3716,9 @@ msgid "<varname>FARSIGHT</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3420
-#: book.translate.xml:3460
-#: book.translate.xml:3465
-#: book.translate.xml:3470
-#: book.translate.xml:3475
-#: book.translate.xml:3480
-#: book.translate.xml:3495
-#: book.translate.xml:3505
-#: book.translate.xml:3550
+#: book.translate.xml:3420 book.translate.xml:3460 book.translate.xml:3465
+#: book.translate.xml:3470 book.translate.xml:3475 book.translate.xml:3480
+#: book.translate.xml:3495 book.translate.xml:3505 book.translate.xml:3550
 #: book.translate.xml:3556
 msgid "<literal>${PORTNAME}</literal>"
 msgstr ""
@@ -3915,8 +3819,7 @@ msgid "<varname>MOZDEV</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3490
-#: book.translate.xml:3510
+#: book.translate.xml:3490 book.translate.xml:3510
 msgid "<literal>${PORTNAME:tl}</literal>"
 msgstr ""
 
@@ -3961,20 +3864,11 @@ msgid "<varname>USE_GITHUB</varname> Description"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:3539
-#: book.translate.xml:6521
-#: book.translate.xml:9371
-#: book.translate.xml:9428
-#: book.translate.xml:9473
-#: book.translate.xml:11347
-#: book.translate.xml:11712
-#: book.translate.xml:11780
-#: book.translate.xml:12677
-#: book.translate.xml:12722
-#: book.translate.xml:12957
-#: book.translate.xml:13890
-#: book.translate.xml:15738
-#: book.translate.xml:17717
+#: book.translate.xml:3539 book.translate.xml:6521 book.translate.xml:9371
+#: book.translate.xml:9428 book.translate.xml:9473 book.translate.xml:11347
+#: book.translate.xml:11712 book.translate.xml:11780 book.translate.xml:12677
+#: book.translate.xml:12722 book.translate.xml:12957 book.translate.xml:13890
+#: book.translate.xml:15738 book.translate.xml:17717
 msgid "Variable"
 msgstr ""
 
@@ -3985,8 +3879,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:3547
-#: book.translate.xml:8032
+#: book.translate.xml:3547 book.translate.xml:8032
 msgid "<varname>GH_ACCOUNT</varname>"
 msgstr ""
 
@@ -3997,8 +3890,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:3554
-#: book.translate.xml:8036
+#: book.translate.xml:3554 book.translate.xml:8036
 msgid "<varname>GH_PROJECT</varname>"
 msgstr ""
 
@@ -4009,8 +3901,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:3561
-#: book.translate.xml:8044
+#: book.translate.xml:3561 book.translate.xml:8044
 msgid "<varname>GH_TAGNAME</varname>"
 msgstr ""
 
@@ -4026,8 +3917,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:3570
-#: book.translate.xml:8040
+#: book.translate.xml:3570 book.translate.xml:8040
 msgid "<varname>GH_SUBDIR</varname>"
 msgstr ""
 
@@ -4043,8 +3933,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:3580
-#: book.translate.xml:8048
+#: book.translate.xml:3580 book.translate.xml:8048
 msgid "<varname>GH_TUPLE</varname>"
 msgstr ""
 
@@ -4295,8 +4184,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:3803
 #, no-wrap
-msgid ""
-"USE_GITHUB=\tnodefault"
+msgid "USE_GITHUB=\tnodefault"
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -4544,8 +4432,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:4061
-#: book.translate.xml:8020
+#: book.translate.xml:4061 book.translate.xml:8020
 msgid "<varname>DISTFILES</varname>"
 msgstr ""
 
@@ -4562,8 +4449,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:4073
 #, no-wrap
-msgid ""
-"DISTFILES=\tsource1.tar.gz source2.tar.gz"
+msgid "DISTFILES=\tsource1.tar.gz source2.tar.gz"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -4573,8 +4459,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:4081
-#: book.translate.xml:8024
+#: book.translate.xml:4081 book.translate.xml:8024
 msgid "<varname>EXTRACT_ONLY</varname>"
 msgstr ""
 
@@ -4599,14 +4484,12 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:4096
 #, no-wrap
-msgid ""
-"EXTRACT_ONLY="
+msgid "EXTRACT_ONLY="
 msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:4100
-#: book.translate.xml:8084
+#: book.translate.xml:4100 book.translate.xml:8084
 msgid "<varname>PATCHFILES</varname>"
 msgstr ""
 
@@ -4638,8 +4521,7 @@ msgstr ""
 #. (itstool) path: tip/programlisting
 #: book.translate.xml:4140
 #, no-wrap
-msgid ""
-"PATCHFILES=\tpatch1 patch2:-p1"
+msgid "PATCHFILES=\tpatch1 patch2:-p1"
 msgstr ""
 
 #. (itstool) path: tip/para
@@ -4650,8 +4532,7 @@ msgstr ""
 #. (itstool) path: tip/programlisting
 #: book.translate.xml:4145
 #, no-wrap
-msgid ""
-"PATCHFILES=\tpatch2:-p1:source2"
+msgid "PATCHFILES=\tpatch2:-p1:source2"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
@@ -4687,8 +4568,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:4180
 #, no-wrap
-msgid ""
-"DISTFILES=\talpha:0 beta:1"
+msgid "DISTFILES=\talpha:0 beta:1"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -4825,15 +4705,13 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:4335
 #, no-wrap
-msgid ""
-"MASTER_SITES=\talpha"
+msgid "MASTER_SITES=\talpha"
 msgstr ""
 
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:4337
 #, no-wrap
-msgid ""
-"MASTER_SITES=\talpha:DEFAULT"
+msgid "MASTER_SITES=\talpha:DEFAULT"
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -4859,29 +4737,25 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:4362
 #, no-wrap
-msgid ""
-"MASTER_SITES=\talpha alpha:SOME_SITE"
+msgid "MASTER_SITES=\talpha alpha:SOME_SITE"
 msgstr ""
 
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:4364
 #, no-wrap
-msgid ""
-"MASTER_SITES=\talpha:DEFAULT alpha:SOME_SITE"
+msgid "MASTER_SITES=\talpha:DEFAULT alpha:SOME_SITE"
 msgstr ""
 
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:4366
 #, no-wrap
-msgid ""
-"MASTER_SITES=\talpha:SOME_SITE,DEFAULT"
+msgid "MASTER_SITES=\talpha:SOME_SITE,DEFAULT"
 msgstr ""
 
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:4368
 #, no-wrap
-msgid ""
-"MASTER_SITES=\talpha:DEFAULT,SOME_SITE"
+msgid "MASTER_SITES=\talpha:DEFAULT,SOME_SITE"
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -4907,8 +4781,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:4425
 #, no-wrap
-msgid ""
-"MASTER_SITE_SUBDIR=\told:n new/:NEW"
+msgid "MASTER_SITE_SUBDIR=\told:n new/:NEW"
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -4955,53 +4828,39 @@ msgid "<filename>file1</filename> will be fetched from"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: book.translate.xml:4472
-#: book.translate.xml:4508
-#: book.translate.xml:4543
-#: book.translate.xml:4562
-#: book.translate.xml:4597
-#: book.translate.xml:4612
+#: book.translate.xml:4472 book.translate.xml:4508 book.translate.xml:4543
+#: book.translate.xml:4562 book.translate.xml:4597 book.translate.xml:4612
 msgid "<varname>MASTER_SITE_OVERRIDE</varname>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: book.translate.xml:4476
-#: book.translate.xml:4512
+#: book.translate.xml:4476 book.translate.xml:4512
 msgid "http://site1/directory-trial:1/"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: book.translate.xml:4480
-#: book.translate.xml:4516
+#: book.translate.xml:4480 book.translate.xml:4516
 msgid "http://site1/directory-one/"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: book.translate.xml:4484
-#: book.translate.xml:4520
+#: book.translate.xml:4484 book.translate.xml:4520
 msgid "http://site1/directory/"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: book.translate.xml:4488
-#: book.translate.xml:4524
+#: book.translate.xml:4488 book.translate.xml:4524
 msgid "http://site2/"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: book.translate.xml:4492
-#: book.translate.xml:4528
-#: book.translate.xml:4578
+#: book.translate.xml:4492 book.translate.xml:4528 book.translate.xml:4578
 msgid "http://site7/"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: book.translate.xml:4496
-#: book.translate.xml:4532
-#: book.translate.xml:4551
-#: book.translate.xml:4586
-#: book.translate.xml:4601
-#: book.translate.xml:4620
+#: book.translate.xml:4496 book.translate.xml:4532 book.translate.xml:4551
+#: book.translate.xml:4586 book.translate.xml:4601 book.translate.xml:4620
 msgid "<varname>MASTER_SITE_BACKUP</varname>"
 msgstr ""
 
@@ -5132,31 +4991,23 @@ msgid "makesum"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:4694
-#: book.translate.xml:4701
-#: book.translate.xml:4717
+#: book.translate.xml:4694 book.translate.xml:4701 book.translate.xml:4717
 #: book.translate.xml:8210
 msgid "do-fetch"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:4695
-#: book.translate.xml:4714
-#: book.translate.xml:4715
+#: book.translate.xml:4695 book.translate.xml:4714 book.translate.xml:4715
 msgid "fetch-list"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:4696
-#: book.translate.xml:4721
-#: book.translate.xml:4772
+#: book.translate.xml:4696 book.translate.xml:4721 book.translate.xml:4772
 msgid "master-sites"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:4697
-#: book.translate.xml:4722
-#: book.translate.xml:4773
+#: book.translate.xml:4697 book.translate.xml:4722 book.translate.xml:4773
 msgid "patch-sites"
 msgstr ""
 
@@ -5191,16 +5042,12 @@ msgid "<_:buildtarget-1/> and <_:buildtarget-2/>: (incompatible with older versi
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:4731
-#: book.translate.xml:4769
-#: book.translate.xml:4781
+#: book.translate.xml:4731 book.translate.xml:4769 book.translate.xml:4781
 msgid "master-sites-all"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:4732
-#: book.translate.xml:4770
-#: book.translate.xml:4782
+#: book.translate.xml:4732 book.translate.xml:4770 book.translate.xml:4782
 msgid "patch-sites-all"
 msgstr ""
 
@@ -5397,8 +5244,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:4956
 #, no-wrap
-msgid ""
-"COMMENT=\tCat chasing a mouse all over the screen"
+msgid "COMMENT=\tCat chasing a mouse all over the screen"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -5454,8 +5300,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:5005
 #, no-wrap
-msgid ""
-"LICENSE=\tLGPL21+"
+msgid "LICENSE=\tLGPL21+"
 msgstr ""
 
 #. (itstool) path: example/para
@@ -5487,17 +5332,10 @@ msgid "Short Name"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5025
-#: book.translate.xml:11147
-#: book.translate.xml:11221
-#: book.translate.xml:11281
-#: book.translate.xml:11455
-#: book.translate.xml:11640
-#: book.translate.xml:13061
-#: book.translate.xml:13097
-#: book.translate.xml:13139
-#: book.translate.xml:13284
-#: book.translate.xml:13451
+#: book.translate.xml:5025 book.translate.xml:11147 book.translate.xml:11221
+#: book.translate.xml:11281 book.translate.xml:11455 book.translate.xml:11640
+#: book.translate.xml:13061 book.translate.xml:13097 book.translate.xml:13139
+#: book.translate.xml:13284 book.translate.xml:13451
 msgid "Name"
 msgstr ""
 
@@ -5522,101 +5360,41 @@ msgid "GNU Affero General Public License version 3"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5054
-#: book.translate.xml:5063
-#: book.translate.xml:5101
-#: book.translate.xml:5445
-#: book.translate.xml:5468
-#: book.translate.xml:5476
-#: book.translate.xml:5485
-#: book.translate.xml:5493
-#: book.translate.xml:5502
-#: book.translate.xml:5510
-#: book.translate.xml:5519
-#: book.translate.xml:5528
-#: book.translate.xml:5537
-#: book.translate.xml:5555
-#: book.translate.xml:5564
-#: book.translate.xml:5573
-#: book.translate.xml:5582
-#: book.translate.xml:5591
-#: book.translate.xml:5600
-#: book.translate.xml:5783
+#: book.translate.xml:5054 book.translate.xml:5063 book.translate.xml:5101
+#: book.translate.xml:5445 book.translate.xml:5468 book.translate.xml:5476
+#: book.translate.xml:5485 book.translate.xml:5493 book.translate.xml:5502
+#: book.translate.xml:5510 book.translate.xml:5519 book.translate.xml:5528
+#: book.translate.xml:5537 book.translate.xml:5555 book.translate.xml:5564
+#: book.translate.xml:5573 book.translate.xml:5582 book.translate.xml:5591
+#: book.translate.xml:5600 book.translate.xml:5783
 msgid "<literal>FSF</literal> <literal>GPL</literal> <literal>OSI</literal>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5056
-#: book.translate.xml:5065
-#: book.translate.xml:5072
-#: book.translate.xml:5080
-#: book.translate.xml:5088
-#: book.translate.xml:5095
-#: book.translate.xml:5103
-#: book.translate.xml:5110
-#: book.translate.xml:5118
-#: book.translate.xml:5126
-#: book.translate.xml:5134
-#: book.translate.xml:5141
-#: book.translate.xml:5149
-#: book.translate.xml:5156
-#: book.translate.xml:5163
-#: book.translate.xml:5170
-#: book.translate.xml:5177
-#: book.translate.xml:5184
-#: book.translate.xml:5342
-#: book.translate.xml:5350
-#: book.translate.xml:5358
-#: book.translate.xml:5366
-#: book.translate.xml:5374
-#: book.translate.xml:5382
-#: book.translate.xml:5390
-#: book.translate.xml:5398
-#: book.translate.xml:5406
-#: book.translate.xml:5414
-#: book.translate.xml:5422
-#: book.translate.xml:5431
-#: book.translate.xml:5439
-#: book.translate.xml:5447
-#: book.translate.xml:5455
-#: book.translate.xml:5462
-#: book.translate.xml:5470
-#: book.translate.xml:5478
-#: book.translate.xml:5487
-#: book.translate.xml:5495
-#: book.translate.xml:5504
-#: book.translate.xml:5512
-#: book.translate.xml:5521
-#: book.translate.xml:5530
-#: book.translate.xml:5539
-#: book.translate.xml:5548
-#: book.translate.xml:5557
-#: book.translate.xml:5566
-#: book.translate.xml:5575
-#: book.translate.xml:5584
-#: book.translate.xml:5593
-#: book.translate.xml:5602
-#: book.translate.xml:5674
-#: book.translate.xml:5682
-#: book.translate.xml:5690
-#: book.translate.xml:5698
-#: book.translate.xml:5708
-#: book.translate.xml:5723
-#: book.translate.xml:5731
-#: book.translate.xml:5738
-#: book.translate.xml:5745
-#: book.translate.xml:5753
-#: book.translate.xml:5761
-#: book.translate.xml:5769
-#: book.translate.xml:5777
-#: book.translate.xml:5785
-#: book.translate.xml:5794
-#: book.translate.xml:5801
-#: book.translate.xml:5809
-#: book.translate.xml:5818
-#: book.translate.xml:5827
-#: book.translate.xml:5835
-#: book.translate.xml:5843
+#: book.translate.xml:5056 book.translate.xml:5065 book.translate.xml:5072
+#: book.translate.xml:5080 book.translate.xml:5088 book.translate.xml:5095
+#: book.translate.xml:5103 book.translate.xml:5110 book.translate.xml:5118
+#: book.translate.xml:5126 book.translate.xml:5134 book.translate.xml:5141
+#: book.translate.xml:5149 book.translate.xml:5156 book.translate.xml:5163
+#: book.translate.xml:5170 book.translate.xml:5177 book.translate.xml:5184
+#: book.translate.xml:5342 book.translate.xml:5350 book.translate.xml:5358
+#: book.translate.xml:5366 book.translate.xml:5374 book.translate.xml:5382
+#: book.translate.xml:5390 book.translate.xml:5398 book.translate.xml:5406
+#: book.translate.xml:5414 book.translate.xml:5422 book.translate.xml:5431
+#: book.translate.xml:5439 book.translate.xml:5447 book.translate.xml:5455
+#: book.translate.xml:5462 book.translate.xml:5470 book.translate.xml:5478
+#: book.translate.xml:5487 book.translate.xml:5495 book.translate.xml:5504
+#: book.translate.xml:5512 book.translate.xml:5521 book.translate.xml:5530
+#: book.translate.xml:5539 book.translate.xml:5548 book.translate.xml:5557
+#: book.translate.xml:5566 book.translate.xml:5575 book.translate.xml:5584
+#: book.translate.xml:5593 book.translate.xml:5602 book.translate.xml:5674
+#: book.translate.xml:5682 book.translate.xml:5690 book.translate.xml:5698
+#: book.translate.xml:5708 book.translate.xml:5723 book.translate.xml:5731
+#: book.translate.xml:5738 book.translate.xml:5745 book.translate.xml:5753
+#: book.translate.xml:5761 book.translate.xml:5769 book.translate.xml:5777
+#: book.translate.xml:5785 book.translate.xml:5794 book.translate.xml:5801
+#: book.translate.xml:5809 book.translate.xml:5818 book.translate.xml:5827
+#: book.translate.xml:5835 book.translate.xml:5843
 msgid "(default)"
 msgstr ""
 
@@ -5642,12 +5420,8 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: varlistentry/term
-#: book.translate.xml:5071
-#: book.translate.xml:5140
-#: book.translate.xml:5461
-#: book.translate.xml:5744
-#: book.translate.xml:5800
-#: book.translate.xml:6030
+#: book.translate.xml:5071 book.translate.xml:5140 book.translate.xml:5461
+#: book.translate.xml:5744 book.translate.xml:5800 book.translate.xml:6030
 msgid "<literal>FSF</literal>"
 msgstr ""
 
@@ -5662,24 +5436,12 @@ msgid "Apache License 1.1"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5078
-#: book.translate.xml:5086
-#: book.translate.xml:5429
-#: book.translate.xml:5437
-#: book.translate.xml:5453
-#: book.translate.xml:5608
-#: book.translate.xml:5617
-#: book.translate.xml:5626
-#: book.translate.xml:5635
-#: book.translate.xml:5644
-#: book.translate.xml:5653
-#: book.translate.xml:5662
-#: book.translate.xml:5680
-#: book.translate.xml:5688
-#: book.translate.xml:5696
-#: book.translate.xml:5759
-#: book.translate.xml:5767
-#: book.translate.xml:5775
+#: book.translate.xml:5078 book.translate.xml:5086 book.translate.xml:5429
+#: book.translate.xml:5437 book.translate.xml:5453 book.translate.xml:5608
+#: book.translate.xml:5617 book.translate.xml:5626 book.translate.xml:5635
+#: book.translate.xml:5644 book.translate.xml:5653 book.translate.xml:5662
+#: book.translate.xml:5680 book.translate.xml:5688 book.translate.xml:5696
+#: book.translate.xml:5759 book.translate.xml:5767 book.translate.xml:5775
 msgid "<literal>FSF</literal> <literal>OSI</literal>"
 msgstr ""
 
@@ -5705,9 +5467,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: varlistentry/term
-#: book.translate.xml:5094
-#: book.translate.xml:5109
-#: book.translate.xml:6047
+#: book.translate.xml:5094 book.translate.xml:5109 book.translate.xml:6047
 msgid "<literal>OSI</literal>"
 msgstr ""
 
@@ -5742,9 +5502,7 @@ msgid "BSD license Generic Version (deprecated)"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5116
-#: book.translate.xml:5124
-#: book.translate.xml:5132
+#: book.translate.xml:5116 book.translate.xml:5124 book.translate.xml:5132
 #: book.translate.xml:5147
 msgid "<literal>FSF</literal> <literal>OSI</literal> <literal>COPYFREE</literal>"
 msgstr ""
@@ -5850,21 +5608,11 @@ msgid "Creative Commons Attribution Non Commercial 1.0"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5192
-#: book.translate.xml:5202
-#: book.translate.xml:5212
-#: book.translate.xml:5222
-#: book.translate.xml:5232
-#: book.translate.xml:5242
-#: book.translate.xml:5252
-#: book.translate.xml:5262
-#: book.translate.xml:5272
-#: book.translate.xml:5282
-#: book.translate.xml:5292
-#: book.translate.xml:5302
-#: book.translate.xml:5312
-#: book.translate.xml:5322
-#: book.translate.xml:5332
+#: book.translate.xml:5192 book.translate.xml:5202 book.translate.xml:5212
+#: book.translate.xml:5222 book.translate.xml:5232 book.translate.xml:5242
+#: book.translate.xml:5252 book.translate.xml:5262 book.translate.xml:5272
+#: book.translate.xml:5282 book.translate.xml:5292 book.translate.xml:5302
+#: book.translate.xml:5312 book.translate.xml:5322 book.translate.xml:5332
 msgid "<literal>dist-mirror</literal> <literal>pkg-mirror</literal> <literal>auto-accept</literal>"
 msgstr ""
 
@@ -6274,8 +6022,7 @@ msgid "Internet Systems Consortium License"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5545
-#: book.translate.xml:5791
+#: book.translate.xml:5545 book.translate.xml:5791
 msgid "<literal>FSF</literal> <literal>GPL</literal> <literal>OSI</literal> <literal>COPYFREE</literal>"
 msgstr ""
 
@@ -6350,12 +6097,8 @@ msgid "LaTeX Project Public License version 1.0"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5610
-#: book.translate.xml:5619
-#: book.translate.xml:5628
-#: book.translate.xml:5637
-#: book.translate.xml:5646
-#: book.translate.xml:5655
+#: book.translate.xml:5610 book.translate.xml:5619 book.translate.xml:5628
+#: book.translate.xml:5637 book.translate.xml:5646 book.translate.xml:5655
 #: book.translate.xml:5664
 msgid "<literal>dist-mirror</literal> <literal>dist-sell</literal>"
 msgstr ""
@@ -6431,8 +6174,7 @@ msgid "MIT license / X11 license"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5671
-#: book.translate.xml:5705
+#: book.translate.xml:5671 book.translate.xml:5705
 msgid "<literal>COPYFREE</literal> <literal>FSF</literal> <literal>GPL</literal> <literal>OSI</literal>"
 msgstr ""
 
@@ -6487,8 +6229,7 @@ msgid "No license specified"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5715
-#: book.translate.xml:13113
+#: book.translate.xml:5715 book.translate.xml:13113
 msgid "<literal>none</literal>"
 msgstr ""
 
@@ -6504,9 +6245,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: varlistentry/term
-#: book.translate.xml:5722
-#: book.translate.xml:5730
-#: book.translate.xml:6066
+#: book.translate.xml:5722 book.translate.xml:5730 book.translate.xml:6066
 msgid "<literal>FONTS</literal>"
 msgstr ""
 
@@ -6532,8 +6271,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: varlistentry/term
-#: book.translate.xml:5737
-#: book.translate.xml:6056
+#: book.translate.xml:5737 book.translate.xml:6056
 msgid "<literal>COPYFREE</literal>"
 msgstr ""
 
@@ -6648,8 +6386,7 @@ msgid "Do What the Fuck You Want To Public License version 2"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:5816
-#: book.translate.xml:5825
+#: book.translate.xml:5816 book.translate.xml:5825
 msgid "<literal>GPL</literal> <literal>FSF</literal> <literal>COPYFREE</literal>"
 msgstr ""
 
@@ -7110,8 +6847,7 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:6218
 #, no-wrap
-msgid ""
-"PORTSCOUT=\tignore:8.2"
+msgid "PORTSCOUT=\tignore:8.2"
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -7122,8 +6858,7 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:6228
 #, no-wrap
-msgid ""
-"PORTSCOUT=\tlimit:^0\\.6\\.4"
+msgid "PORTSCOUT=\tlimit:^0\\.6\\.4"
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -7134,8 +6869,7 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:6238
 #, no-wrap
-msgid ""
-"PORTSCOUT=\tsite:http://pgfoundry.org/frs/?group_id=1000416"
+msgid "PORTSCOUT=\tsite:http://pgfoundry.org/frs/?group_id=1000416"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -7150,8 +6884,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:6256
-#: book.translate.xml:7927
+#: book.translate.xml:6256 book.translate.xml:7927
 msgid "<varname>LIB_DEPENDS</varname>"
 msgstr ""
 
@@ -7163,8 +6896,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6266
 #, no-wrap
-msgid ""
-"LIB_DEPENDS=   libjpeg.so:graphics/jpeg"
+msgid "LIB_DEPENDS=   libjpeg.so:graphics/jpeg"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7179,8 +6911,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:6283
-#: book.translate.xml:7931
+#: book.translate.xml:6283 book.translate.xml:7931
 msgid "<varname>RUN_DEPENDS</varname>"
 msgstr ""
 
@@ -7220,8 +6951,7 @@ msgstr ""
 #. (itstool) path: note/programlisting
 #: book.translate.xml:6324
 #, no-wrap
-msgid ""
-"/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin"
+msgid "/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7237,8 +6967,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6343
 #, no-wrap
-msgid ""
-"RUN_DEPENDS=\t${BUILD_DEPENDS}"
+msgid "RUN_DEPENDS=\t${BUILD_DEPENDS}"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7263,8 +6992,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:6377
-#: book.translate.xml:7923
+#: book.translate.xml:6377 book.translate.xml:7923
 msgid "<varname>BUILD_DEPENDS</varname>"
 msgstr ""
 
@@ -7276,13 +7004,11 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6385
 #, no-wrap
-msgid ""
-"BUILD_DEPENDS=\tunzip:archivers/unzip"
+msgid "BUILD_DEPENDS=\tunzip:archivers/unzip"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: book.translate.xml:6387
-#: book.translate.xml:6432
+#: book.translate.xml:6387 book.translate.xml:6432
 msgid "will check for an executable called <command>unzip</command>, and descend into the <filename>archivers/unzip</filename> subdirectory of the ports tree to build and install it if it is not found."
 msgstr ""
 
@@ -7293,8 +7019,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:6402
-#: book.translate.xml:7919
+#: book.translate.xml:6402 book.translate.xml:7919
 msgid "<varname>FETCH_DEPENDS</varname>"
 msgstr ""
 
@@ -7306,8 +7031,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6409
 #, no-wrap
-msgid ""
-"FETCH_DEPENDS=\tncftp2:net/ncftp2"
+msgid "FETCH_DEPENDS=\tncftp2:net/ncftp2"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7316,16 +7040,13 @@ msgid "will check for an executable called <command>ncftp2</command>, and descen
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: book.translate.xml:6416
-#: book.translate.xml:6437
-#: book.translate.xml:6464
+#: book.translate.xml:6416 book.translate.xml:6437 book.translate.xml:6464
 msgid "The dependency is checked from within the <_:buildtarget-1/> target. The <replaceable>target</replaceable> part can be omitted if it is the same as <varname>DEPENDS_TARGET</varname>."
 msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:6423
-#: book.translate.xml:7911
+#: book.translate.xml:6423 book.translate.xml:7911
 msgid "<varname>EXTRACT_DEPENDS</varname>"
 msgstr ""
 
@@ -7337,8 +7058,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6430
 #, no-wrap
-msgid ""
-"EXTRACT_DEPENDS=\tunzip:archivers/unzip"
+msgid "EXTRACT_DEPENDS=\tunzip:archivers/unzip"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -7348,8 +7068,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:6452
-#: book.translate.xml:7915
+#: book.translate.xml:6452 book.translate.xml:7915
 msgid "<varname>PATCH_DEPENDS</varname>"
 msgstr ""
 
@@ -7361,8 +7080,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6459
 #, no-wrap
-msgid ""
-"PATCH_DEPENDS=\t${NONEXISTENT}:java/jfc:extract"
+msgid "PATCH_DEPENDS=\t${NONEXISTENT}:java/jfc:extract"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7372,8 +7090,7 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #. (itstool) path: listitem/para
-#: book.translate.xml:6471
-#: book.translate.xml:8124
+#: book.translate.xml:6471 book.translate.xml:8124
 msgid "<varname>USES</varname>"
 msgstr ""
 
@@ -7385,8 +7102,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6477
 #, no-wrap
-msgid ""
-"USES= feature[:arguments]"
+msgid "USES= feature[:arguments]"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7402,9 +7118,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #. (itstool) path: table/title
 #. (itstool) path: varlistentry/term
-#: book.translate.xml:6489
-#: book.translate.xml:6516
-#: book.translate.xml:7225
+#: book.translate.xml:6489 book.translate.xml:6516 book.translate.xml:7225
 msgid "<varname>USE_<replaceable>*</replaceable></varname>"
 msgstr ""
 
@@ -7421,8 +7135,7 @@ msgstr ""
 #. (itstool) path: note/programlisting
 #: book.translate.xml:6508
 #, no-wrap
-msgid ""
-"USE_GCC=X.Y"
+msgid "USE_GCC=X.Y"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -7431,14 +7144,9 @@ msgid "(where X.Y is version number) would add a dependency on gccXY for every p
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:6522
-#: book.translate.xml:9372
-#: book.translate.xml:9429
-#: book.translate.xml:9474
-#: book.translate.xml:9858
-#: book.translate.xml:11348
-#: book.translate.xml:11713
-#: book.translate.xml:13891
+#: book.translate.xml:6522 book.translate.xml:9372 book.translate.xml:9429
+#: book.translate.xml:9474 book.translate.xml:9858 book.translate.xml:11348
+#: book.translate.xml:11713 book.translate.xml:13891
 msgid "Means"
 msgstr ""
 
@@ -7470,8 +7178,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6586
 #, no-wrap
-msgid ""
-"p5-Spiffy&gt;=0.26:devel/p5-Spiffy"
+msgid "p5-Spiffy&gt;=0.26:devel/p5-Spiffy"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7507,8 +7214,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6624
 #, no-wrap
-msgid ""
-"BUILD_DEPENDS=\t${NONEXISTENT}:graphics/jpeg:extract"
+msgid "BUILD_DEPENDS=\t${NONEXISTENT}:graphics/jpeg:extract"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7595,8 +7301,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6705
 #, no-wrap
-msgid ""
-"USE_FIREFOX=\tyes"
+msgid "USE_FIREFOX=\tyes"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7607,8 +7312,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6711
 #, no-wrap
-msgid ""
-"USE_APACHE=\t22"
+msgid "USE_APACHE=\t22"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7619,8 +7323,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6720
 #, no-wrap
-msgid ""
-"USE_PHP=\tsession mhash gettext mbstring pcre openssl xml"
+msgid "USE_PHP=\tsession mhash gettext mbstring pcre openssl xml"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7631,8 +7334,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:6726
 #, no-wrap
-msgid ""
-"WANT_PHP_WEB=\tyes"
+msgid "WANT_PHP_WEB=\tyes"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -7727,8 +7429,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:6830
 #, no-wrap
-msgid ""
-"INFO=\tgcc34/cpp gcc34/cppinternals gcc34/g77 ..."
+msgid "INFO=\tgcc34/cpp gcc34/cppinternals gcc34/g77 ..."
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -7789,8 +7490,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:6896
 #, no-wrap
-msgid ""
-"OPTIONS_DEFINE=\tOPT1 OPT2"
+msgid "OPTIONS_DEFINE=\tOPT1 OPT2"
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -7890,8 +7590,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:6973
 #, no-wrap
-msgid ""
-"OPTIONS_DEFAULT=\tOPT1 OPT3 OPT6"
+msgid "OPTIONS_DEFAULT=\tOPT1 OPT3 OPT6"
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -8077,8 +7776,7 @@ msgstr ""
 #. (itstool) path: note/programlisting
 #: book.translate.xml:7139
 #, no-wrap
-msgid ""
-".if !empty(VARIABLE:MVALUE)"
+msgid ".if !empty(VARIABLE:MVALUE)"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -8089,8 +7787,7 @@ msgstr ""
 #. (itstool) path: note/programlisting
 #: book.translate.xml:7143
 #, no-wrap
-msgid ""
-".if ${VARIABLE:MVALUE}"
+msgid ".if ${VARIABLE:MVALUE}"
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -8120,8 +7817,7 @@ msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: row/entry
-#: book.translate.xml:7171
-#: book.translate.xml:9391
+#: book.translate.xml:7171 book.translate.xml:9391
 msgid "<varname>CONFIGURE_ARGS</varname>"
 msgstr ""
 
@@ -8142,8 +7838,7 @@ msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: row/entry
-#: book.translate.xml:7191
-#: book.translate.xml:9435
+#: book.translate.xml:7191 book.translate.xml:9435
 msgid "<varname>CMAKE_ARGS</varname>"
 msgstr ""
 
@@ -8179,8 +7874,7 @@ msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: row/entry
-#: book.translate.xml:7217
-#: book.translate.xml:11354
+#: book.translate.xml:7217 book.translate.xml:11354
 msgid "<varname>QMAKE_ARGS</varname>"
 msgstr ""
 
@@ -8269,21 +7963,11 @@ msgstr ""
 
 #. (itstool) path: sect3/para
 #. (itstool) path: sect4/para
-#: book.translate.xml:7291
-#: book.translate.xml:7338
-#: book.translate.xml:7378
-#: book.translate.xml:7420
-#: book.translate.xml:7457
-#: book.translate.xml:7496
-#: book.translate.xml:7542
-#: book.translate.xml:7578
-#: book.translate.xml:7619
-#: book.translate.xml:7662
-#: book.translate.xml:7695
-#: book.translate.xml:7850
-#: book.translate.xml:7949
-#: book.translate.xml:8142
-#: book.translate.xml:8314
+#: book.translate.xml:7291 book.translate.xml:7338 book.translate.xml:7378
+#: book.translate.xml:7420 book.translate.xml:7457 book.translate.xml:7496
+#: book.translate.xml:7542 book.translate.xml:7578 book.translate.xml:7619
+#: book.translate.xml:7662 book.translate.xml:7695 book.translate.xml:7850
+#: book.translate.xml:7949 book.translate.xml:8142 book.translate.xml:8314
 msgid "is equivalent to:"
 msgstr ""
 
@@ -8905,8 +8589,7 @@ msgstr ""
 #. (itstool) path: important/programlisting
 #: book.translate.xml:7876
 #, no-wrap
-msgid ""
-"OPT_VARS=\tfoo=\"bar baz\""
+msgid "OPT_VARS=\tfoo=\"bar baz\""
 msgstr ""
 
 #. (itstool) path: important/para
@@ -8922,8 +8605,7 @@ msgstr ""
 #. (itstool) path: important/programlisting
 #: book.translate.xml:7893
 #, no-wrap
-msgid ""
-"OPT_VARS=\tfoo=\tbar"
+msgid "OPT_VARS=\tfoo=\tbar"
 msgstr ""
 
 #. (itstool) path: sect3/title
@@ -8997,29 +8679,25 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #. (itstool) path: row/entry
-#: book.translate.xml:7992
-#: book.translate.xml:9397
+#: book.translate.xml:7992 book.translate.xml:9397
 msgid "<varname>CONFIGURE_ENV</varname>"
 msgstr ""
 
 #. (itstool) path: listitem/para
 #. (itstool) path: sect2/title
-#: book.translate.xml:7996
-#: book.translate.xml:8445
+#: book.translate.xml:7996 book.translate.xml:8445
 msgid "<varname>CONFLICTS</varname>"
 msgstr ""
 
 #. (itstool) path: listitem/para
 #. (itstool) path: sect2/title
-#: book.translate.xml:8000
-#: book.translate.xml:8432
+#: book.translate.xml:8000 book.translate.xml:8432
 msgid "<varname>CONFLICTS_BUILD</varname>"
 msgstr ""
 
 #. (itstool) path: listitem/para
 #. (itstool) path: sect2/title
-#: book.translate.xml:8004
-#: book.translate.xml:8415
+#: book.translate.xml:8004 book.translate.xml:8415
 msgid "<varname>CONFLICTS_INSTALL</varname>"
 msgstr ""
 
@@ -9189,8 +8867,7 @@ msgstr ""
 #. (itstool) path: warning/programlisting
 #: book.translate.xml:8185
 #, no-wrap
-msgid ""
-"DOCS_ALL_TARGET=\tdoc"
+msgid "DOCS_ALL_TARGET=\tdoc"
 msgstr ""
 
 #. (itstool) path: warning/para
@@ -9255,8 +8932,7 @@ msgstr ""
 
 #. (itstool) path: para/buildtarget
 #. (itstool) path: entry/buildtarget
-#: book.translate.xml:8246
-#: book.translate.xml:12392
+#: book.translate.xml:8246 book.translate.xml:12392
 msgid "do-configure"
 msgstr ""
 
@@ -9272,43 +8948,31 @@ msgstr ""
 
 #. (itstool) path: para/buildtarget
 #. (itstool) path: entry/buildtarget
-#: book.translate.xml:8258
-#: book.translate.xml:11991
-#: book.translate.xml:12390
+#: book.translate.xml:8258 book.translate.xml:11991 book.translate.xml:12390
 msgid "do-build"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:8262
-#: book.translate.xml:12572
+#: book.translate.xml:8262 book.translate.xml:12572
 msgid "post-build"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:8266
-#: book.translate.xml:8853
-#: book.translate.xml:14692
-#: book.translate.xml:14698
-#: book.translate.xml:14722
+#: book.translate.xml:8266 book.translate.xml:8853 book.translate.xml:14692
+#: book.translate.xml:14698 book.translate.xml:14722
 msgid "pre-install"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
 #. (itstool) path: entry/buildtarget
-#: book.translate.xml:8270
-#: book.translate.xml:8854
-#: book.translate.xml:12391
+#: book.translate.xml:8270 book.translate.xml:8854 book.translate.xml:12391
 #: book.translate.xml:14693
 msgid "do-install"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:8274
-#: book.translate.xml:8557
-#: book.translate.xml:8647
-#: book.translate.xml:8855
-#: book.translate.xml:8861
-#: book.translate.xml:9080
+#: book.translate.xml:8274 book.translate.xml:8557 book.translate.xml:8647
+#: book.translate.xml:8855 book.translate.xml:8861 book.translate.xml:9080
 #: book.translate.xml:14700
 msgid "post-install"
 msgstr ""
@@ -9427,8 +9091,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:8359
 #, no-wrap
-msgid ""
-"WRKSRC=\t${WRKDIR}/foo"
+msgid "WRKSRC=\t${WRKDIR}/foo"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -9439,8 +9102,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:8363
 #, no-wrap
-msgid ""
-"WRKSRC=\t${WRKDIR}/${PORTNAME}"
+msgid "WRKSRC=\t${WRKDIR}/${PORTNAME}"
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -9456,8 +9118,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:8373
 #, no-wrap
-msgid ""
-"WRKSRC_SUBDIR=\tsrc"
+msgid "WRKSRC_SUBDIR=\tsrc"
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -9473,8 +9134,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:8383
 #, no-wrap
-msgid ""
-"NO_WRKSUBDIR=\tyes"
+msgid "NO_WRKSUBDIR=\tyes"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -9523,8 +9183,7 @@ msgid "Installing Files"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
-#: book.translate.xml:8470
-#: book.translate.xml:8482
+#: book.translate.xml:8470 book.translate.xml:8482
 msgid "*-install"
 msgstr ""
 
@@ -9794,8 +9453,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:8752
 #, no-wrap
-msgid ""
-"PORTDOCS=\tREADME.* ChangeLog docs/*"
+msgid "PORTDOCS=\tREADME.* ChangeLog docs/*"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -9851,8 +9509,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:8843
 #, no-wrap
-msgid ""
-"NO_MTREE=\tyes"
+msgid "NO_MTREE=\tyes"
 msgstr ""
 
 #. (itstool) path: tip/para
@@ -9893,13 +9550,11 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:8889
 #, no-wrap
-msgid ""
-"${RLN} ${STAGEDIR}${PREFIX}/lib/<replaceable>libfoo.so.42</replaceable> ${STAGEDIR}${PREFIX}/lib/<replaceable>libfoo.so</replaceable>"
+msgid "${RLN} ${STAGEDIR}${PREFIX}/lib/<replaceable>libfoo.so.42</replaceable> ${STAGEDIR}${PREFIX}/lib/<replaceable>libfoo.so</replaceable>"
 msgstr ""
 
 #. (itstool) path: example/para
-#: book.translate.xml:8891
-#: book.translate.xml:8919
+#: book.translate.xml:8891 book.translate.xml:8919
 msgid "Will generate:"
 msgstr ""
 
@@ -9920,8 +9575,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:8899
 #, no-wrap
-msgid ""
-"${RLN} ${STAGEDIR}${PREFIX}/libexec/foo/<replaceable>bar</replaceable> ${STAGEDIR}${PREFIX}/bin/<replaceable>bar</replaceable>"
+msgid "${RLN} ${STAGEDIR}${PREFIX}/libexec/foo/<replaceable>bar</replaceable> ${STAGEDIR}${PREFIX}/bin/<replaceable>bar</replaceable>"
 msgstr ""
 
 #. (itstool) path: example/para
@@ -9950,8 +9604,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:8917
 #, no-wrap
-msgid ""
-"${LN} -sf <replaceable>/var/cache/${PORTNAME}</replaceable> ${STAGEDIR}${PREFIX}/share/<replaceable>${PORTNAME}</replaceable>"
+msgid "${LN} -sf <replaceable>/var/cache/${PORTNAME}</replaceable> ${STAGEDIR}${PREFIX}/share/<replaceable>${PORTNAME}</replaceable>"
 msgstr ""
 
 #. (itstool) path: example/screen
@@ -9989,8 +9642,7 @@ msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: chapter/title
-#: book.translate.xml:8949
-#: book.translate.xml:17142
+#: book.translate.xml:8949 book.translate.xml:17142
 msgid "Security"
 msgstr ""
 
@@ -10097,8 +9749,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:9090
 #, no-wrap
-msgid ""
-"USE_LDCONFIG=\tyes"
+msgid "USE_LDCONFIG=\tyes"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -10109,8 +9760,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:9101
 #, no-wrap
-msgid ""
-"USE_LDCONFIG=\t${PREFIX}/lib/foo ${PREFIX}/lib/bar"
+msgid "USE_LDCONFIG=\t${PREFIX}/lib/foo ${PREFIX}/lib/bar"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -10523,8 +10173,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:9562
 #, no-wrap
-msgid ""
-"env = Environment(**ARGUMENTS)"
+msgid "env = Environment(**ARGUMENTS)"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -10545,8 +10194,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:9582
 #, no-wrap
-msgid ""
-"USE_AUTOTOOLS=\t<replaceable>tool</replaceable>[:env] ..."
+msgid "USE_AUTOTOOLS=\t<replaceable>tool</replaceable>[:env] ..."
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -10592,8 +10240,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:9628
 #, no-wrap
-msgid ""
-"LIB_DEPENDS=\tlibltdl.so:devel/libltdl"
+msgid "LIB_DEPENDS=\tlibltdl.so:devel/libltdl"
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -10609,21 +10256,18 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:9643
 #, no-wrap
-msgid ""
-"USE_AUTOTOOLS=\tautoconf[:env]"
+msgid "USE_AUTOTOOLS=\tautoconf[:env]"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: book.translate.xml:9645
-#: book.translate.xml:9687
+#: book.translate.xml:9645 book.translate.xml:9687
 msgid "and"
 msgstr ""
 
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:9647
 #, no-wrap
-msgid ""
-"USE_AUTOTOOLS=\tautoheader"
+msgid "USE_AUTOTOOLS=\tautoheader"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -10659,15 +10303,13 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:9685
 #, no-wrap
-msgid ""
-"USE_AUTOTOOLS=\tautomake[:<replaceable>env</replaceable>]"
+msgid "USE_AUTOTOOLS=\tautomake[:<replaceable>env</replaceable>]"
 msgstr ""
 
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:9689
 #, no-wrap
-msgid ""
-"USE_AUTOTOOLS=\taclocal"
+msgid "USE_AUTOTOOLS=\taclocal"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -10906,8 +10548,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:9932
 #, no-wrap
-msgid ""
-"p5-IO-Tee&gt;=0.64:devel/p5-IO-Tee"
+msgid "p5-IO-Tee&gt;=0.64:devel/p5-IO-Tee"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -10918,8 +10559,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:9939
 #, no-wrap
-msgid ""
-"lib/perl5/5.14/man/man3/AnyEvent::I3.3.gz"
+msgid "lib/perl5/5.14/man/man3/AnyEvent::I3.3.gz"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -10930,8 +10570,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:9943
 #, no-wrap
-msgid ""
-"%%PERL5_MAN3%%/AnyEvent::I3.3.gz"
+msgid "%%PERL5_MAN3%%/AnyEvent::I3.3.gz"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -11078,8 +10717,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:10094
 #, no-wrap
-msgid ""
-"USES=\tdisplay"
+msgid "USES=\tdisplay"
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -11125,8 +10763,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:10151
 #, no-wrap
-msgid ""
-"DESKTOP_ENTRIES=\t\"NAME\" \"COMMENT\" \"ICON\" \"COMMAND\" \"CATEGORY\" StartupNotify"
+msgid "DESKTOP_ENTRIES=\t\"NAME\" \"COMMENT\" \"ICON\" \"COMMAND\" \"CATEGORY\" StartupNotify"
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -11167,8 +10804,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:10193
 #, no-wrap
-msgid ""
-"DEVELOPER=yes"
+msgid "DEVELOPER=yes"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -11189,8 +10825,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:10217
 #, no-wrap
-msgid ""
-"USE_GNOME=\tgtk30"
+msgid "USE_GNOME=\tgtk30"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -11235,8 +10870,7 @@ msgid "The <varname>USE_GNOME</varname> macro without any arguments does not add
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: book.translate.xml:10260
-#: book.translate.xml:17990
+#: book.translate.xml:10260 book.translate.xml:17990
 msgid "Variables"
 msgstr ""
 
@@ -11275,8 +10909,7 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:10306
 #, no-wrap
-msgid ""
-"GLIB_SCHEMAS=foo.gschema.xml"
+msgid "GLIB_SCHEMAS=foo.gschema.xml"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -11303,8 +10936,7 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:10336
 #, no-wrap
-msgid ""
-"GCONF_SCHEMAS=my_app.schemas my_app2.schemas my_app3.schemas"
+msgid "GCONF_SCHEMAS=my_app.schemas my_app2.schemas my_app3.schemas"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -11326,8 +10958,7 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:10365
 #, no-wrap
-msgid ""
-"INSTALLS_OMF=yes"
+msgid "INSTALLS_OMF=yes"
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -11337,8 +10968,7 @@ msgstr ""
 
 #. (itstool) path: sect1/title
 #. (itstool) path: table/title
-#: book.translate.xml:10380
-#: book.translate.xml:10395
+#: book.translate.xml:10380 book.translate.xml:10395
 msgid "GNOME Components"
 msgstr ""
 
@@ -11348,25 +10978,19 @@ msgid "For further help with a GNOME port, look at some of the <link xlink:href=
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10400
-#: book.translate.xml:10674
-#: book.translate.xml:10709
-#: book.translate.xml:10982
-#: book.translate.xml:13176
+#: book.translate.xml:10400 book.translate.xml:10674 book.translate.xml:10709
+#: book.translate.xml:10982 book.translate.xml:13176
 msgid "Component"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10401
-#: book.translate.xml:10710
+#: book.translate.xml:10401 book.translate.xml:10710
 msgid "Associated program"
 msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10408
-#: book.translate.xml:19752
-#: book.translate.xml:20457
+#: book.translate.xml:10408 book.translate.xml:19752 book.translate.xml:20457
 msgid "<literal>atk</literal>"
 msgstr ""
 
@@ -11382,8 +11006,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10414
-#: book.translate.xml:19756
+#: book.translate.xml:10414 book.translate.xml:19756
 msgid "<literal>atkmm</literal>"
 msgstr ""
 
@@ -11399,9 +11022,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10420
-#: book.translate.xml:19760
-#: book.translate.xml:20469
+#: book.translate.xml:10420 book.translate.xml:19760 book.translate.xml:20469
 msgid "<literal>cairo</literal>"
 msgstr ""
 
@@ -11417,8 +11038,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10427
-#: book.translate.xml:19764
+#: book.translate.xml:10427 book.translate.xml:19764
 msgid "<literal>cairomm</literal>"
 msgstr ""
 
@@ -11434,8 +11054,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10433
-#: book.translate.xml:19768
+#: book.translate.xml:10433 book.translate.xml:19768
 msgid "<literal>dconf</literal>"
 msgstr ""
 
@@ -11451,8 +11070,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10440
-#: book.translate.xml:19776
+#: book.translate.xml:10440 book.translate.xml:19776
 msgid "<literal>evolutiondataserver3</literal>"
 msgstr ""
 
@@ -11468,9 +11086,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10447
-#: book.translate.xml:19792
-#: book.translate.xml:20513
+#: book.translate.xml:10447 book.translate.xml:19792 book.translate.xml:20513
 msgid "<literal>gdkpixbuf2</literal>"
 msgstr ""
 
@@ -11480,15 +11096,13 @@ msgid "graphics/gdk-pixbuf2"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10449
-#: book.translate.xml:10751
+#: book.translate.xml:10449 book.translate.xml:10751
 msgid "Graphics library for GTK+"
 msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10453
-#: book.translate.xml:19800
+#: book.translate.xml:10453 book.translate.xml:19800
 msgid "<literal>glib20</literal>"
 msgstr ""
 
@@ -11504,8 +11118,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10460
-#: book.translate.xml:19804
+#: book.translate.xml:10460 book.translate.xml:19804
 msgid "<literal>glibmm</literal>"
 msgstr ""
 
@@ -11521,8 +11134,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10466
-#: book.translate.xml:19808
+#: book.translate.xml:10466 book.translate.xml:19808
 msgid "<literal>gnomecontrolcenter3</literal>"
 msgstr ""
 
@@ -11538,8 +11150,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10472
-#: book.translate.xml:19812
+#: book.translate.xml:10472 book.translate.xml:19812
 msgid "<literal>gnomedesktop3</literal>"
 msgstr ""
 
@@ -11555,8 +11166,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10478
-#: book.translate.xml:19840
+#: book.translate.xml:10478 book.translate.xml:19840
 msgid "<literal>gsound</literal>"
 msgstr ""
 
@@ -11572,8 +11182,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10485
-#: book.translate.xml:19844
+#: book.translate.xml:10485 book.translate.xml:19844
 msgid "<literal>gtk-update-icon-cache</literal>"
 msgstr ""
 
@@ -11589,8 +11198,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10492
-#: book.translate.xml:19852
+#: book.translate.xml:10492 book.translate.xml:19852
 msgid "<literal>gtk20</literal>"
 msgstr ""
 
@@ -11606,8 +11214,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10498
-#: book.translate.xml:19856
+#: book.translate.xml:10498 book.translate.xml:19856
 msgid "<literal>gtk30</literal>"
 msgstr ""
 
@@ -11623,8 +11230,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10504
-#: book.translate.xml:19868
+#: book.translate.xml:10504 book.translate.xml:19868
 msgid "<literal>gtkmm20</literal>"
 msgstr ""
 
@@ -11640,8 +11246,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10510
-#: book.translate.xml:19872
+#: book.translate.xml:10510 book.translate.xml:19872
 msgid "<literal>gtkmm24</literal>"
 msgstr ""
 
@@ -11657,8 +11262,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10516
-#: book.translate.xml:19876
+#: book.translate.xml:10516 book.translate.xml:19876
 msgid "<literal>gtkmm30</literal>"
 msgstr ""
 
@@ -11674,8 +11278,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10522
-#: book.translate.xml:19888
+#: book.translate.xml:10522 book.translate.xml:19888
 msgid "<literal>gtksourceview2</literal>"
 msgstr ""
 
@@ -11685,15 +11288,13 @@ msgid "x11-toolkits/gtksourceview2"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10524
-#: book.translate.xml:10820
+#: book.translate.xml:10524 book.translate.xml:10820
 msgid "Widget that adds syntax highlighting to GtkTextView"
 msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10529
-#: book.translate.xml:19892
+#: book.translate.xml:10529 book.translate.xml:19892
 msgid "<literal>gtksourceview3</literal>"
 msgstr ""
 
@@ -11709,8 +11310,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10536
-#: book.translate.xml:19896
+#: book.translate.xml:10536 book.translate.xml:19896
 msgid "<literal>gtksourceviewmm3</literal>"
 msgstr ""
 
@@ -11726,8 +11326,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10542
-#: book.translate.xml:19900
+#: book.translate.xml:10542 book.translate.xml:19900
 msgid "<literal>gvfs</literal>"
 msgstr ""
 
@@ -11743,9 +11342,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10548
-#: book.translate.xml:19908
-#: book.translate.xml:20840
+#: book.translate.xml:10548 book.translate.xml:19908 book.translate.xml:20840
 msgid "<literal>intltool</literal>"
 msgstr ""
 
@@ -11761,8 +11358,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10555
-#: book.translate.xml:19912
+#: book.translate.xml:10555 book.translate.xml:19912
 msgid "<literal>introspection</literal>"
 msgstr ""
 
@@ -11778,8 +11374,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10565
-#: book.translate.xml:19928
+#: book.translate.xml:10565 book.translate.xml:19928
 msgid "<literal>libgda5</literal>"
 msgstr ""
 
@@ -11789,15 +11384,13 @@ msgid "databases/libgda5"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10567
-#: book.translate.xml:10847
+#: book.translate.xml:10567 book.translate.xml:10847
 msgid "Provides uniform access to different kinds of data sources"
 msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10572
-#: book.translate.xml:19932
+#: book.translate.xml:10572 book.translate.xml:19932
 msgid "<literal>libgda5-ui</literal>"
 msgstr ""
 
@@ -11813,8 +11406,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10578
-#: book.translate.xml:19936
+#: book.translate.xml:10578 book.translate.xml:19936
 msgid "<literal>libgdamm5</literal>"
 msgstr ""
 
@@ -11830,8 +11422,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10584
-#: book.translate.xml:19968
+#: book.translate.xml:10584 book.translate.xml:19968
 msgid "<literal>libgsf</literal>"
 msgstr ""
 
@@ -11847,8 +11438,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10591
-#: book.translate.xml:19984
+#: book.translate.xml:10591 book.translate.xml:19984
 msgid "<literal>librsvg2</literal>"
 msgstr ""
 
@@ -11864,8 +11454,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10598
-#: book.translate.xml:19992
+#: book.translate.xml:10598 book.translate.xml:19992
 msgid "<literal>libsigc++20</literal>"
 msgstr ""
 
@@ -11875,15 +11464,13 @@ msgid "devel/libsigc++20"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10600
-#: book.translate.xml:10918
+#: book.translate.xml:10600 book.translate.xml:10918
 msgid "Callback Framework for C++"
 msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10604
-#: book.translate.xml:20004
+#: book.translate.xml:10604 book.translate.xml:20004
 msgid "<literal>libxml++26</literal>"
 msgstr ""
 
@@ -11899,9 +11486,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10610
-#: book.translate.xml:20008
-#: book.translate.xml:20613
+#: book.translate.xml:10610 book.translate.xml:20008 book.translate.xml:20613
 msgid "<literal>libxml2</literal>"
 msgstr ""
 
@@ -11917,8 +11502,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10616
-#: book.translate.xml:20012
+#: book.translate.xml:10616 book.translate.xml:20012
 msgid "<literal>libxslt</literal>"
 msgstr ""
 
@@ -11934,8 +11518,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10622
-#: book.translate.xml:20016
+#: book.translate.xml:10622 book.translate.xml:20016
 msgid "<literal>metacity</literal>"
 msgstr ""
 
@@ -11951,8 +11534,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10628
-#: book.translate.xml:20020
+#: book.translate.xml:10628 book.translate.xml:20020
 msgid "<literal>nautilus3</literal>"
 msgstr ""
 
@@ -11968,9 +11550,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10634
-#: book.translate.xml:20028
-#: book.translate.xml:20657
+#: book.translate.xml:10634 book.translate.xml:20028 book.translate.xml:20657
 msgid "<literal>pango</literal>"
 msgstr ""
 
@@ -11986,8 +11566,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10641
-#: book.translate.xml:20032
+#: book.translate.xml:10641 book.translate.xml:20032
 msgid "<literal>pangomm</literal>"
 msgstr ""
 
@@ -12003,8 +11582,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10647
-#: book.translate.xml:20040
+#: book.translate.xml:10647 book.translate.xml:20040
 msgid "<literal>py3gobject3</literal>"
 msgstr ""
 
@@ -12020,8 +11598,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10653
-#: book.translate.xml:20052
+#: book.translate.xml:10653 book.translate.xml:20052
 msgid "<literal>pygobject3</literal>"
 msgstr ""
 
@@ -12037,8 +11614,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10659
-#: book.translate.xml:20072
+#: book.translate.xml:10659 book.translate.xml:20072
 msgid "<literal>vte3</literal>"
 msgstr ""
 
@@ -12048,8 +11624,7 @@ msgid "x11-toolkits/vte3"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10661
-#: book.translate.xml:10969
+#: book.translate.xml:10661 book.translate.xml:10969
 msgid "Terminal widget with improved accessibility and I18N support"
 msgstr ""
 
@@ -12060,8 +11635,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10681
-#: book.translate.xml:19828
+#: book.translate.xml:10681 book.translate.xml:19828
 msgid "<literal>gnomeprefix</literal>"
 msgstr ""
 
@@ -12072,9 +11646,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10687
-#: book.translate.xml:19904
-#: book.translate.xml:20836
+#: book.translate.xml:10687 book.translate.xml:19904 book.translate.xml:20836
 msgid "<literal>intlhack</literal>"
 msgstr ""
 
@@ -12085,8 +11657,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10695
-#: book.translate.xml:20064
+#: book.translate.xml:10695 book.translate.xml:20064
 msgid "<literal>referencehack</literal>"
 msgstr ""
 
@@ -12117,8 +11688,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10724
-#: book.translate.xml:19772
+#: book.translate.xml:10724 book.translate.xml:19772
 msgid "<literal>esound</literal>"
 msgstr ""
 
@@ -12149,8 +11719,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10737
-#: book.translate.xml:19780
+#: book.translate.xml:10737 book.translate.xml:19780
 msgid "<literal>gconf2</literal>"
 msgstr ""
 
@@ -12166,8 +11735,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10743
-#: book.translate.xml:19784
+#: book.translate.xml:10743 book.translate.xml:19784
 msgid "<literal>gconfmm26</literal>"
 msgstr ""
 
@@ -12183,8 +11751,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10749
-#: book.translate.xml:19788
+#: book.translate.xml:10749 book.translate.xml:19788
 msgid "<literal>gdkpixbuf</literal>"
 msgstr ""
 
@@ -12195,8 +11762,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10755
-#: book.translate.xml:19796
+#: book.translate.xml:10755 book.translate.xml:19796
 msgid "<literal>glib12</literal>"
 msgstr ""
 
@@ -12212,8 +11778,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10761
-#: book.translate.xml:19816
+#: book.translate.xml:10761 book.translate.xml:19816
 msgid "<literal>gnomedocutils</literal>"
 msgstr ""
 
@@ -12229,8 +11794,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10767
-#: book.translate.xml:19824
+#: book.translate.xml:10767 book.translate.xml:19824
 msgid "<literal>gnomemimedata</literal>"
 msgstr ""
 
@@ -12246,8 +11810,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10773
-#: book.translate.xml:19832
+#: book.translate.xml:10773 book.translate.xml:19832
 msgid "<literal>gnomesharp20</literal>"
 msgstr ""
 
@@ -12278,8 +11841,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10785
-#: book.translate.xml:19836
+#: book.translate.xml:10785 book.translate.xml:19836
 msgid "<literal>gnomevfs2</literal>"
 msgstr ""
 
@@ -12295,8 +11857,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10791
-#: book.translate.xml:19848
+#: book.translate.xml:10791 book.translate.xml:19848
 msgid "<literal>gtk12</literal>"
 msgstr ""
 
@@ -12312,8 +11873,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10797
-#: book.translate.xml:19860
+#: book.translate.xml:10797 book.translate.xml:19860
 msgid "<literal>gtkhtml3</literal>"
 msgstr ""
 
@@ -12323,16 +11883,13 @@ msgid "www/gtkhtml3"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10799
-#: book.translate.xml:10806
-#: book.translate.xml:10898
+#: book.translate.xml:10799 book.translate.xml:10806 book.translate.xml:10898
 msgid "Lightweight HTML rendering/printing/editing engine"
 msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10804
-#: book.translate.xml:19864
+#: book.translate.xml:10804 book.translate.xml:19864
 msgid "<literal>gtkhtml4</literal>"
 msgstr ""
 
@@ -12343,8 +11900,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10811
-#: book.translate.xml:19880
+#: book.translate.xml:10811 book.translate.xml:19880
 msgid "<literal>gtksharp20</literal>"
 msgstr ""
 
@@ -12360,8 +11916,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10818
-#: book.translate.xml:19884
+#: book.translate.xml:10818 book.translate.xml:19884
 msgid "<literal>gtksourceview</literal>"
 msgstr ""
 
@@ -12387,8 +11942,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10831
-#: book.translate.xml:19920
+#: book.translate.xml:10831 book.translate.xml:19920
 msgid "<literal>libbonobo</literal>"
 msgstr ""
 
@@ -12404,8 +11958,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10838
-#: book.translate.xml:19924
+#: book.translate.xml:10838 book.translate.xml:19924
 msgid "<literal>libbonoboui</literal>"
 msgstr ""
 
@@ -12431,8 +11984,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10852
-#: book.translate.xml:19940
+#: book.translate.xml:10852 book.translate.xml:19940
 msgid "<literal>libglade2</literal>"
 msgstr ""
 
@@ -12448,8 +12000,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10858
-#: book.translate.xml:19944
+#: book.translate.xml:10858 book.translate.xml:19944
 msgid "<literal>libgnome</literal>"
 msgstr ""
 
@@ -12465,8 +12016,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10865
-#: book.translate.xml:19948
+#: book.translate.xml:10865 book.translate.xml:19948
 msgid "<literal>libgnomecanvas</literal>"
 msgstr ""
 
@@ -12482,8 +12032,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10871
-#: book.translate.xml:19952
+#: book.translate.xml:10871 book.translate.xml:19952
 msgid "<literal>libgnomekbd</literal>"
 msgstr ""
 
@@ -12499,8 +12048,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10877
-#: book.translate.xml:19956
+#: book.translate.xml:10877 book.translate.xml:19956
 msgid "<literal>libgnomeprint</literal>"
 msgstr ""
 
@@ -12510,15 +12058,13 @@ msgid "print/libgnomeprint"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10879
-#: book.translate.xml:10885
+#: book.translate.xml:10879 book.translate.xml:10885
 msgid "Gnome 2 print support library"
 msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10883
-#: book.translate.xml:19960
+#: book.translate.xml:10883 book.translate.xml:19960
 msgid "<literal>libgnomeprintui</literal>"
 msgstr ""
 
@@ -12529,8 +12075,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10889
-#: book.translate.xml:19964
+#: book.translate.xml:10889 book.translate.xml:19964
 msgid "<literal>libgnomeui</literal>"
 msgstr ""
 
@@ -12546,8 +12091,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10896
-#: book.translate.xml:19972
+#: book.translate.xml:10896 book.translate.xml:19972
 msgid "<literal>libgtkhtml</literal>"
 msgstr ""
 
@@ -12558,8 +12102,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10903
-#: book.translate.xml:19976
+#: book.translate.xml:10903 book.translate.xml:19976
 msgid "<literal>libgtksourceviewmm</literal>"
 msgstr ""
 
@@ -12575,8 +12118,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10909
-#: book.translate.xml:19980
+#: book.translate.xml:10909 book.translate.xml:19980
 msgid "<literal>libidl</literal>"
 msgstr ""
 
@@ -12592,8 +12134,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10916
-#: book.translate.xml:19988
+#: book.translate.xml:10916 book.translate.xml:19988
 msgid "<literal>libsigc++12</literal>"
 msgstr ""
 
@@ -12604,8 +12145,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10922
-#: book.translate.xml:19996
+#: book.translate.xml:10922 book.translate.xml:19996
 msgid "<literal>libwnck</literal>"
 msgstr ""
 
@@ -12615,15 +12155,13 @@ msgid "x11-toolkits/libwnck"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:10924
-#: book.translate.xml:10931
+#: book.translate.xml:10924 book.translate.xml:10931
 msgid "Library used for writing pagers and taskslists"
 msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10929
-#: book.translate.xml:20000
+#: book.translate.xml:10929 book.translate.xml:20000
 msgid "<literal>libwnck3</literal>"
 msgstr ""
 
@@ -12634,8 +12172,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10936
-#: book.translate.xml:20024
+#: book.translate.xml:10936 book.translate.xml:20024
 msgid "<literal>orbit2</literal>"
 msgstr ""
 
@@ -12651,8 +12188,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10943
-#: book.translate.xml:20044
+#: book.translate.xml:10943 book.translate.xml:20044
 msgid "<literal>pygnome2</literal>"
 msgstr ""
 
@@ -12668,8 +12204,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10949
-#: book.translate.xml:20048
+#: book.translate.xml:10949 book.translate.xml:20048
 msgid "<literal>pygobject</literal>"
 msgstr ""
 
@@ -12685,8 +12220,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10955
-#: book.translate.xml:20056
+#: book.translate.xml:10955 book.translate.xml:20056
 msgid "<literal>pygtk2</literal>"
 msgstr ""
 
@@ -12702,8 +12236,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10961
-#: book.translate.xml:20060
+#: book.translate.xml:10961 book.translate.xml:20060
 msgid "<literal>pygtksourceview</literal>"
 msgstr ""
 
@@ -12719,8 +12252,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:10967
-#: book.translate.xml:20068
+#: book.translate.xml:10967 book.translate.xml:20068
 msgid "<literal>vte</literal>"
 msgstr ""
 
@@ -12756,8 +12288,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11011
-#: book.translate.xml:20036
+#: book.translate.xml:11011 book.translate.xml:20036
 msgid "<literal>pangox-compat</literal>"
 msgstr ""
 
@@ -12910,8 +12441,7 @@ msgid "Some configure scripts do not support the arguments above. To suppress mo
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: book.translate.xml:11121
-#: book.translate.xml:13082
+#: book.translate.xml:11121 book.translate.xml:13082
 msgid "Component Selection"
 msgstr ""
 
@@ -12927,8 +12457,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11154
-#: book.translate.xml:21350
+#: book.translate.xml:11154 book.translate.xml:21350
 msgid "<literal>core</literal>"
 msgstr ""
 
@@ -12949,8 +12478,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11164
-#: book.translate.xml:21354
+#: book.translate.xml:11164 book.translate.xml:21354
 msgid "<literal>dbus</literal>"
 msgstr ""
 
@@ -12961,8 +12489,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11169
-#: book.translate.xml:21378
+#: book.translate.xml:11169 book.translate.xml:21378
 msgid "<literal>gui</literal>"
 msgstr ""
 
@@ -12973,8 +12500,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11174
-#: book.translate.xml:21386
+#: book.translate.xml:11174 book.translate.xml:21386
 msgid "<literal>network</literal>"
 msgstr ""
 
@@ -12985,8 +12511,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11179
-#: book.translate.xml:21390
+#: book.translate.xml:11179 book.translate.xml:21390
 msgid "<literal>opengl</literal>"
 msgstr ""
 
@@ -12997,8 +12522,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11184
-#: book.translate.xml:21447
+#: book.translate.xml:11184 book.translate.xml:21447
 msgid "<literal>script</literal>"
 msgstr ""
 
@@ -13009,8 +12533,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11189
-#: book.translate.xml:21402
+#: book.translate.xml:11189 book.translate.xml:21402
 msgid "<literal>sql</literal>"
 msgstr ""
 
@@ -13031,8 +12554,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11199
-#: book.translate.xml:21414
+#: book.translate.xml:11199 book.translate.xml:21414
 msgid "<literal>webkit</literal>"
 msgstr ""
 
@@ -13043,8 +12565,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:11204
-#: book.translate.xml:21418
+#: book.translate.xml:11204 book.translate.xml:21418
 msgid "<literal>xml</literal>"
 msgstr ""
 
@@ -13065,8 +12586,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: sect1/title
-#: book.translate.xml:11228
-#: book.translate.xml:21536
+#: book.translate.xml:11228 book.translate.xml:21536
 msgid "<literal>qmake</literal>"
 msgstr ""
 
@@ -13076,8 +12596,7 @@ msgid "Makefile generator/build utility"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:11233
-#: book.translate.xml:11647
+#: book.translate.xml:11233 book.translate.xml:11647
 msgid "<literal>buildtools</literal>"
 msgstr ""
 
@@ -13174,8 +12693,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:11317
 #, no-wrap
-msgid ""
-"USE_QT4=\tgui moc_build qmake_build rcc_build uic_build"
+msgid "USE_QT4=\tgui moc_build qmake_build rcc_build uic_build"
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -13588,8 +13106,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: sect1/title
-#: book.translate.xml:11657
-#: book.translate.xml:20765
+#: book.translate.xml:11657 book.translate.xml:20765
 msgid "<literal>lxqt</literal>"
 msgstr ""
 
@@ -13733,20 +13250,11 @@ msgid "Variables Provided to Ports That Use Java"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:11781
-#: book.translate.xml:11950
-#: book.translate.xml:22239
-#: book.translate.xml:22753
-#: book.translate.xml:24036
-#: book.translate.xml:25203
-#: book.translate.xml:25950
-#: book.translate.xml:27257
-#: book.translate.xml:28017
-#: book.translate.xml:28625
-#: book.translate.xml:29631
-#: book.translate.xml:30181
-#: book.translate.xml:30356
-#: book.translate.xml:30505
+#: book.translate.xml:11781 book.translate.xml:11950 book.translate.xml:22239
+#: book.translate.xml:22753 book.translate.xml:24036 book.translate.xml:25203
+#: book.translate.xml:25950 book.translate.xml:27257 book.translate.xml:28017
+#: book.translate.xml:28625 book.translate.xml:29631 book.translate.xml:30181
+#: book.translate.xml:30356 book.translate.xml:30505
 msgid "Value"
 msgstr ""
 
@@ -14053,8 +13561,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:12013
 #, no-wrap
-msgid ""
-"PLIST_FILES+=\t${JAVAJARDIR}/<replaceable>myport</replaceable>.jar"
+msgid "PLIST_FILES+=\t${JAVAJARDIR}/<replaceable>myport</replaceable>.jar"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -14416,8 +13923,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:12369
 #, no-wrap
-msgid ""
-"PKGNAMEPREFIX=\t${PYTHON_PKGNAMEPREFIX}"
+msgid "PKGNAMEPREFIX=\t${PYTHON_PKGNAMEPREFIX}"
 msgstr ""
 
 #. (itstool) path: table/title
@@ -15036,8 +14542,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:12862
 #, no-wrap
-msgid ""
-"USE_SDL=\tnet mixer"
+msgid "USE_SDL=\tnet mixer"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -15061,8 +14566,7 @@ msgid "Add the variable <varname>SDL_CONFIG</varname> to <varname>CONFIGURE_ENV<
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: book.translate.xml:12886
-#: book.translate.xml:12907
+#: book.translate.xml:12886 book.translate.xml:12907
 msgid "Add the dependencies of the selected libraries to <varname>LIB_DEPENDS</varname>"
 msgstr ""
 
@@ -15102,8 +14606,7 @@ msgid "The obvious disadvantage of this is that each application has to be modif
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: book.translate.xml:12943
-#: book.translate.xml:13427
+#: book.translate.xml:12943 book.translate.xml:13427
 msgid "Version Selection"
 msgstr ""
 
@@ -15118,8 +14621,7 @@ msgid "Variables to Select <application>wxWidgets</application> Versions"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:12959
-#: book.translate.xml:15739
+#: book.translate.xml:12959 book.translate.xml:15739
 msgid "Default value"
 msgstr ""
 
@@ -15174,8 +14676,7 @@ msgid "Port"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:12997
-#: book.translate.xml:13028
+#: book.translate.xml:12997 book.translate.xml:13028
 msgid "<literal>2.8</literal>"
 msgstr ""
 
@@ -15240,8 +14741,7 @@ msgid "Full range (must be ascending)"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:13043
-#: book.translate.xml:13120
+#: book.translate.xml:13043 book.translate.xml:13120
 msgid "<literal>2.8-3.0</literal>"
 msgstr ""
 
@@ -15296,8 +14796,7 @@ msgid "Version restriction"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:13105
-#: book.translate.xml:13183
+#: book.translate.xml:13105 book.translate.xml:13183
 msgid "<literal>wx</literal>"
 msgstr ""
 
@@ -15312,8 +14811,7 @@ msgid "none"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:13111
-#: book.translate.xml:13188
+#: book.translate.xml:13111 book.translate.xml:13188
 msgid "<literal>contrib</literal>"
 msgstr ""
 
@@ -15324,9 +14822,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: sect1/title
-#: book.translate.xml:13117
-#: book.translate.xml:13193
-#: book.translate.xml:21494
+#: book.translate.xml:13117 book.translate.xml:13193 book.translate.xml:21494
 msgid "<literal>python</literal>"
 msgstr ""
 
@@ -15347,8 +14843,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: varlistentry/term
-#: book.translate.xml:13146
-#: book.translate.xml:21163
+#: book.translate.xml:13146 book.translate.xml:21163
 msgid "<literal>build</literal>"
 msgstr ""
 
@@ -15358,8 +14853,7 @@ msgid "Component is required for building, equivalent to <varname>BUILD_DEPENDS<
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:13152
-#: book.translate.xml:13194
+#: book.translate.xml:13152 book.translate.xml:13194
 msgid "<literal>run</literal>"
 msgstr ""
 
@@ -15369,11 +14863,8 @@ msgid "Component is required for running, equivalent to <varname>RUN_DEPENDS</va
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:13158
-#: book.translate.xml:13184
-#: book.translate.xml:13189
-#: book.translate.xml:13199
-#: book.translate.xml:13204
+#: book.translate.xml:13158 book.translate.xml:13184 book.translate.xml:13189
+#: book.translate.xml:13199 book.translate.xml:13204
 msgid "<literal>lib</literal>"
 msgstr ""
 
@@ -15404,8 +14895,7 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #. (itstool) path: listitem/para
-#: book.translate.xml:13203
-#: book.translate.xml:21406
+#: book.translate.xml:13203 book.translate.xml:21406
 msgid "<literal>svg</literal>"
 msgstr ""
 
@@ -15483,8 +14973,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: book.translate.xml:13271
-#: book.translate.xml:13440
+#: book.translate.xml:13271 book.translate.xml:13440
 msgid "Defined Variables"
 msgstr ""
 
@@ -15647,8 +15136,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:13432
 #, no-wrap
-msgid ""
-"USES=\tlua"
+msgid "USES=\tlua"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -15877,8 +15365,7 @@ msgid "<varname>ICONV_CONFIGURE_ARG</varname>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:13600
-#: book.translate.xml:13608
+#: book.translate.xml:13600 book.translate.xml:13608
 msgid "Preconstructed configure argument for configure scripts"
 msgstr ""
 
@@ -16295,8 +15782,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:13941
 #, no-wrap
-msgid ""
-"USE_RC_SUBR=\t<replaceable>doormand</replaceable>"
+msgid "USE_RC_SUBR=\t<replaceable>doormand</replaceable>"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -16360,8 +15846,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:13999
 #, no-wrap
-msgid ""
-"REQUIRE: LOGIN"
+msgid "REQUIRE: LOGIN"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -16372,8 +15857,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:14005
 #, no-wrap
-msgid ""
-"KEYWORD: shutdown"
+msgid "KEYWORD: shutdown"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -16389,8 +15873,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:14017
 #, no-wrap
-msgid ""
-"<replaceable>doormand</replaceable>_flags=\"\""
+msgid "<replaceable>doormand</replaceable>_flags=\"\""
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -16451,8 +15934,7 @@ msgstr ""
 #. (itstool) path: step/screen
 #: book.translate.xml:14106
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>service <replaceable>name</replaceable> stop</userinput>"
+msgid "<prompt>#</prompt> <userinput>service <replaceable>name</replaceable> stop</userinput>"
 msgstr ""
 
 #. (itstool) path: step/para
@@ -16556,8 +16038,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:14223
 #, no-wrap
-msgid ""
-"USES=\tkmod"
+msgid "USES=\tkmod"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -16642,8 +16123,7 @@ msgstr ""
 
 #. (itstool) path: chapter/title
 #. (itstool) path: sect1/title
-#: book.translate.xml:14309
-#: book.translate.xml:18774
+#: book.translate.xml:14309 book.translate.xml:18774
 msgid "Flavors"
 msgstr ""
 
@@ -16897,8 +16377,7 @@ msgid "Simple <literal>USES=python</literal>"
 msgstr ""
 
 #. (itstool) path: example/para
-#: book.translate.xml:14537
-#: book.translate.xml:14560
+#: book.translate.xml:14537 book.translate.xml:14560
 msgid "Supposing the current <application>Python</application> supported versions are 2.7, 3.4, 3.5, and 3.6, and the default <application>Python</application> 2 and 3 versions are 2.7 and 3.6, a port with:"
 msgstr ""
 
@@ -17073,8 +16552,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:14689
 #, no-wrap
-msgid ""
-"%%X11%%bin/foo-gui"
+msgid "%%X11%%bin/foo-gui"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -17155,8 +16633,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:14778
 #, no-wrap
-msgid ""
-"@dir some/directory"
+msgid "@dir some/directory"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -17177,8 +16654,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:14800
 #, no-wrap
-msgid ""
-"@sample etc/orbit.conf.sample"
+msgid "@sample etc/orbit.conf.sample"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -17199,22 +16675,19 @@ msgstr ""
 #. (itstool) path: note/programlisting
 #: book.translate.xml:14828
 #, no-wrap
-msgid ""
-"@sample etc/orbit.conf-dist etc/orbit.conf"
+msgid "@sample etc/orbit.conf-dist etc/orbit.conf"
 msgstr ""
 
 #. (itstool) path: note/para
 #. (itstool) path: sect2/para
-#: book.translate.xml:14830
-#: book.translate.xml:16102
+#: book.translate.xml:14830 book.translate.xml:16102
 msgid "or"
 msgstr ""
 
 #. (itstool) path: note/programlisting
 #: book.translate.xml:14832
 #, no-wrap
-msgid ""
-"@sample %%EXAMPLESDIR%%/orbit.conf etc/orbit.conf"
+msgid "@sample %%EXAMPLESDIR%%/orbit.conf etc/orbit.conf"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -17380,8 +16853,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:14984
 #, no-wrap
-msgid ""
-"@sample(games,games,640) etc/config.sample"
+msgid "@sample(games,games,640) etc/config.sample"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -17392,8 +16864,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:14989
 #, no-wrap
-msgid ""
-"@sample(,games,660) etc/config.sample"
+msgid "@sample(,games,660) etc/config.sample"
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -17554,8 +17025,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:15150
 #, no-wrap
-msgid ""
-"@(,games,2755) sbin/daemon"
+msgid "@(,games,2755) sbin/daemon"
 msgstr ""
 
 #. (itstool) path: sect3/title
@@ -17750,15 +17220,13 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #. (itstool) path: sect3/title
-#: book.translate.xml:15369
-#: book.translate.xml:15402
+#: book.translate.xml:15369 book.translate.xml:15402
 msgid "<literal>attributes</literal>"
 msgstr ""
 
 #. (itstool) path: listitem/para
 #. (itstool) path: sect3/title
-#: book.translate.xml:15373
-#: book.translate.xml:15415
+#: book.translate.xml:15373 book.translate.xml:15415
 msgid "<literal>action</literal>"
 msgstr ""
 
@@ -17800,8 +17268,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:15411
 #, no-wrap
-msgid ""
-"attributes: { owner: \"games\", group: \"games\", mode: 0555 }"
+msgid "attributes: { owner: \"games\", group: \"games\", mode: 0555 }"
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -17922,8 +17389,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:15516
 #, no-wrap
-msgid ""
-"@foo some.content other.content"
+msgid "@foo some.content other.content"
 msgstr ""
 
 #. (itstool) path: sect3/para
@@ -17947,8 +17413,7 @@ msgstr ""
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:15528
 #, no-wrap
-msgid ""
-"actions: [file(1)]"
+msgid "actions: [file(1)]"
 msgstr ""
 
 #. (itstool) path: sect3/title
@@ -18287,8 +17752,7 @@ msgstr ""
 #. (itstool) path: sect1/screen
 #: book.translate.xml:15910
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>port test /usr/ports/net/csup</userinput>"
+msgid "<prompt>#</prompt> <userinput>port test /usr/ports/net/csup</userinput>"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -18324,8 +17788,7 @@ msgstr ""
 #. (itstool) path: sect1/screen
 #: book.translate.xml:15955
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>make clean; make package PREFIX=/var/tmp/`make -V PORTNAME`</userinput>"
+msgid "<prompt>%</prompt> <userinput>make clean; make package PREFIX=/var/tmp/`make -V PORTNAME`</userinput>"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -18341,8 +17804,7 @@ msgstr ""
 #. (itstool) path: sect1/screen
 #: book.translate.xml:15964
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>make stage &amp;&amp; make check-plist &amp;&amp; make stage-qa &amp;&amp; make package</userinput>"
+msgid "<prompt>%</prompt> <userinput>make stage &amp;&amp; make check-plist &amp;&amp; make stage-qa &amp;&amp; make package</userinput>"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
@@ -18383,8 +17845,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:16001
 #, no-wrap
-msgid ""
-"-DPAGER=\\\"${LOCALBASE}/bin/less\\\""
+msgid "-DPAGER=\\\"${LOCALBASE}/bin/less\\\""
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -18480,15 +17941,13 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16100
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>pkg install poudriere</userinput>"
+msgid "<prompt>#</prompt> <userinput>pkg install poudriere</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16104
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>make -C /usr/ports/ports-mgmt/poudriere install clean</userinput>"
+msgid "<prompt>#</prompt> <userinput>make -C /usr/ports/ports-mgmt/poudriere install clean</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -18602,8 +18061,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16244
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere jail -c -j 93Ramd64 -v 9.3-RELEASE -a amd64</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere jail -c -j 93Ramd64 -v 9.3-RELEASE -a amd64</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -18614,8 +18072,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16255
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere jail -c -j 10i386 -v stable/10 -a i386 -m svn+https</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere jail -c -j 10i386 -v stable/10 -a i386 -m svn+https</userinput>"
 msgstr ""
 
 #. (itstool) path: para/buildtarget
@@ -18636,8 +18093,7 @@ msgstr ""
 #. (itstool) path: tip/screen
 #: book.translate.xml:16272
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere jail -c -j 10i386 -v stable/10@123456 -a i386 -m svn+https</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere jail -c -j 10i386 -v stable/10@123456 -a i386 -m svn+https</userinput>"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -18678,8 +18134,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16310
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere jail -u -j <replaceable>JAILNAME</replaceable></userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere jail -u -j <replaceable>JAILNAME</replaceable></userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -18695,8 +18150,7 @@ msgstr ""
 #. (itstool) path: tip/screen
 #: book.translate.xml:16328
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere jail -u -J 6 -j <replaceable>JAILNAME</replaceable></userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere jail -u -J 6 -j <replaceable>JAILNAME</replaceable></userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/title
@@ -18712,8 +18166,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16342
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere ports -c</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere ports -c</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -18743,8 +18196,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16372
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere ports -c -m svn+https -p subversive</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere ports -c -m svn+https -p subversive</userinput>"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -18785,8 +18237,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16412
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere ports -c -F -f none -M /work/ports -p development</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere ports -c -F -f none -M /work/ports -p development</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -18821,8 +18272,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16436
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere ports -u -p <replaceable>PORTSTREE</replaceable></userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere ports -u -p <replaceable>PORTSTREE</replaceable></userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -18853,8 +18303,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16462
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere testport -j 93Ramd64 -p development -o www/firefox</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere testport -j 93Ramd64 -p development -o www/firefox</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -18880,8 +18329,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16491
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere testport -j 93Ramd64 -p development -i -o www/firefox</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere testport -j 93Ramd64 -p development -i -o www/firefox</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -18914,8 +18362,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16520
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere testport -c -o www/firefox</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere testport -c -o www/firefox</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -18944,11 +18391,9 @@ msgid "To use sets, <application>Poudriere</application> expects an existing dir
 msgstr ""
 
 #. (itstool) path: sect2/screen
-#: book.translate.xml:16565
-#: book.translate.xml:16638
+#: book.translate.xml:16565 book.translate.xml:16638
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere testport -j 93Ramd64 -p development -z devset -o www/firefox</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere testport -j 93Ramd64 -p development -z devset -o www/firefox</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -19004,8 +18449,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16611
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere options -c www/firefox -z devset</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere options -c www/firefox -z devset</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -19086,8 +18530,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:16695
 #, no-wrap
-msgid ""
-"DEFAULT_VERSIONS+= perl=5.20"
+msgid "DEFAULT_VERSIONS+= perl=5.20"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -19108,8 +18551,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16714
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere distclean -p <replaceable>portstree</replaceable></userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere distclean -p <replaceable>portstree</replaceable></userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -19120,8 +18562,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:16725
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>poudriere distclean -p <replaceable>portstree</replaceable> -y</userinput>"
+msgid "<prompt>#</prompt> <userinput>poudriere distclean -p <replaceable>portstree</replaceable> -y</userinput>"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -19182,8 +18623,7 @@ msgstr ""
 #. (itstool) path: informalexample/screen
 #: book.translate.xml:16822
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>diff -u <replaceable>something</replaceable>.orig <replaceable>something</replaceable> &gt; something.diff</userinput>"
+msgid "<prompt>%</prompt> <userinput>diff -u <replaceable>something</replaceable>.orig <replaceable>something</replaceable> &gt; something.diff</userinput>"
 msgstr ""
 
 #. (itstool) path: chapter/para
@@ -19351,8 +18791,7 @@ msgstr ""
 #. (itstool) path: sect1/screen
 #: book.translate.xml:17016
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>svn diff &gt; ../`make -VPKGNAME`.diff</userinput>"
+msgid "<prompt>%</prompt> <userinput>svn diff &gt; ../`make -VPKGNAME`.diff</userinput>"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -19404,8 +18843,7 @@ msgstr ""
 #. (itstool) path: tip/screen
 #: book.translate.xml:17066
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>pkg delete -g -f docbook-xml* docbook-sk* docbook[2345]??-* docbook-4*</userinput>"
+msgid "<prompt>#</prompt> <userinput>pkg delete -g -f docbook-xml* docbook-sk* docbook[2345]??-* docbook-4*</userinput>"
 msgstr ""
 
 #. (itstool) path: tip/para
@@ -19416,8 +18854,7 @@ msgstr ""
 #. (itstool) path: tip/screen
 #: book.translate.xml:17074
 #, no-wrap
-msgid ""
-"<prompt>#</prompt> <userinput>pkg delete -g -f docbook-xml\\* docbook-sk\\* docbook\\[2345\\]\\?\\?-\\* docbook-4\\*</userinput>"
+msgid "<prompt>#</prompt> <userinput>pkg delete -g -f docbook-xml\\* docbook-sk\\* docbook\\[2345\\]\\?\\?-\\* docbook-4\\*</userinput>"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -19438,8 +18875,7 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:17101
 #, no-wrap
-msgid ""
-"old name|new name (blank for deleted)|date of move|reason"
+msgid "old name|new name (blank for deleted)|date of move|reason"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -19777,8 +19213,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:17553
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>pkg audit dropbear-2013.58</userinput>"
+msgid "<prompt>%</prompt> <userinput>pkg audit dropbear-2013.58</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -19802,8 +19237,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:17563
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>make validate</userinput>"
+msgid "<prompt>%</prompt> <userinput>make validate</userinput>"
 msgstr ""
 
 #. (itstool) path: note/para
@@ -19819,8 +19253,7 @@ msgstr ""
 #. (itstool) path: sect2/screen
 #: book.translate.xml:17574
 #, no-wrap
-msgid ""
-"<prompt>%</prompt> <userinput>pkg audit -f ${PORTSDIR}/security/vuxml/vuln.xml dropbear-2013.58</userinput>"
+msgid "<prompt>%</prompt> <userinput>pkg audit -f ${PORTSDIR}/security/vuxml/vuln.xml dropbear-2013.58</userinput>"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -19900,8 +19333,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:17665
 #, no-wrap
-msgid ""
-"#include &lt;sys/param.h&gt;"
+msgid "#include &lt;sys/param.h&gt;"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -20101,15 +19533,13 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:17847
 #, no-wrap
-msgid ""
-"CC?= gcc"
+msgid "CC?= gcc"
 msgstr ""
 
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:17849
 #, no-wrap
-msgid ""
-"CXX?= g++"
+msgid "CXX?= g++"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -20120,15 +19550,13 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:17854
 #, no-wrap
-msgid ""
-"CC= gcc"
+msgid "CC= gcc"
 msgstr ""
 
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:17856
 #, no-wrap
-msgid ""
-"CXX= g++"
+msgid "CXX= g++"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -20159,8 +19587,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:17885
 #, no-wrap
-msgid ""
-"CFLAGS+= -Wall -Werror"
+msgid "CFLAGS+= -Wall -Werror"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -20171,8 +19598,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:17890
 #, no-wrap
-msgid ""
-"CFLAGS= -Wall -Werror"
+msgid "CFLAGS= -Wall -Werror"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -20188,8 +19614,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:17905
 #, no-wrap
-msgid ""
-"CFLAGS= -O3 -funroll-loops -DHAVE_SOUND"
+msgid "CFLAGS= -O3 -funroll-loops -DHAVE_SOUND"
 msgstr ""
 
 #. (itstool) path: sect1/para
@@ -20200,8 +19625,7 @@ msgstr ""
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:17911
 #, no-wrap
-msgid ""
-"CFLAGS+= -DHAVE_SOUND"
+msgid "CFLAGS+= -DHAVE_SOUND"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -20370,15 +19794,13 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:18102
 #, no-wrap
-msgid ""
-"ONLY_FOR_ARCHS=\ti386 amd64"
+msgid "ONLY_FOR_ARCHS=\ti386 amd64"
 msgstr ""
 
 #. (itstool) path: listitem/programlisting
 #: book.translate.xml:18104
 #, no-wrap
-msgid ""
-"NOT_FOR_ARCHS=\tia64 sparc64"
+msgid "NOT_FOR_ARCHS=\tia64 sparc64"
 msgstr ""
 
 #. (itstool) path: listitem/para
@@ -20404,15 +19826,13 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:18135
 #, no-wrap
-msgid ""
-"BROKEN=\tfails to link with base -lcrypto"
+msgid "BROKEN=\tfails to link with base -lcrypto"
 msgstr ""
 
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:18137
 #, no-wrap
-msgid ""
-"IGNORE=\tunsupported on recent versions"
+msgid "IGNORE=\tunsupported on recent versions"
 msgstr ""
 
 #. (itstool) path: sect2/para
@@ -20423,15 +19843,13 @@ msgstr ""
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:18142
 #, no-wrap
-msgid ""
-"===&gt;  foobar-0.1 is marked as broken: fails to link with base -lcrypto."
+msgid "===&gt;  foobar-0.1 is marked as broken: fails to link with base -lcrypto."
 msgstr ""
 
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:18144
 #, no-wrap
-msgid ""
-"===&gt;  foobar-0.1 is unsupported on recent versions."
+msgid "===&gt;  foobar-0.1 is unsupported on recent versions."
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -20487,15 +19905,13 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:18204
 #, no-wrap
-msgid ""
-".error \"option is not supported\""
+msgid ".error \"option is not supported\""
 msgstr ""
 
 #. (itstool) path: example/programlisting
 #: book.translate.xml:18206
 #, no-wrap
-msgid ""
-"IGNORE=option is not supported"
+msgid "IGNORE=option is not supported"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -20886,9 +20302,7 @@ msgid "<varname>PATCHFILES</varname> Block"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: book.translate.xml:18577
-#: book.translate.xml:18672
-#: book.translate.xml:18739
+#: book.translate.xml:18577 book.translate.xml:18672 book.translate.xml:18739
 msgid "This block is optional. The variables are:"
 msgstr ""
 
@@ -21383,8 +20797,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:19114
 #, no-wrap
-msgid ""
-"USES=\tbison perl"
+msgid "USES=\tbison perl"
 msgstr ""
 
 #. (itstool) path: example/title
@@ -21395,8 +20808,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:19120
 #, no-wrap
-msgid ""
-"USES=\tgmake:lite"
+msgid "USES=\tgmake:lite"
 msgstr ""
 
 #. (itstool) path: example/title
@@ -21407,8 +20819,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:19126
 #, no-wrap
-msgid ""
-"USES=\tdrupal:7,theme"
+msgid "USES=\tdrupal:7,theme"
 msgstr ""
 
 #. (itstool) path: example/title
@@ -21419,8 +20830,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:19132
 #, no-wrap
-msgid ""
-"USES=\tpgsql:9.3+ cpe python:2.7,build"
+msgid "USES=\tpgsql:9.3+ cpe python:2.7,build"
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -21574,39 +20984,17 @@ msgid "<literal>charsetfix</literal>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: book.translate.xml:19302
-#: book.translate.xml:19387
-#: book.translate.xml:19479
-#: book.translate.xml:19492
-#: book.translate.xml:19520
-#: book.translate.xml:19571
-#: book.translate.xml:19671
-#: book.translate.xml:19727
-#: book.translate.xml:19738
-#: book.translate.xml:20095
-#: book.translate.xml:20148
-#: book.translate.xml:20267
-#: book.translate.xml:20381
-#: book.translate.xml:20390
-#: book.translate.xml:20400
-#: book.translate.xml:20767
-#: book.translate.xml:20777
-#: book.translate.xml:20786
-#: book.translate.xml:20795
-#: book.translate.xml:20895
-#: book.translate.xml:20903
-#: book.translate.xml:20970
-#: book.translate.xml:20992
-#: book.translate.xml:21001
-#: book.translate.xml:21025
-#: book.translate.xml:21049
-#: book.translate.xml:21059
-#: book.translate.xml:21603
-#: book.translate.xml:21611
-#: book.translate.xml:21624
-#: book.translate.xml:22006
-#: book.translate.xml:22027
-#: book.translate.xml:22175
+#: book.translate.xml:19302 book.translate.xml:19387 book.translate.xml:19479
+#: book.translate.xml:19492 book.translate.xml:19520 book.translate.xml:19571
+#: book.translate.xml:19671 book.translate.xml:19727 book.translate.xml:19738
+#: book.translate.xml:20095 book.translate.xml:20148 book.translate.xml:20267
+#: book.translate.xml:20381 book.translate.xml:20390 book.translate.xml:20400
+#: book.translate.xml:20767 book.translate.xml:20777 book.translate.xml:20786
+#: book.translate.xml:20795 book.translate.xml:20895 book.translate.xml:20903
+#: book.translate.xml:20970 book.translate.xml:20992 book.translate.xml:21001
+#: book.translate.xml:21025 book.translate.xml:21049 book.translate.xml:21059
+#: book.translate.xml:21603 book.translate.xml:21611 book.translate.xml:21624
+#: book.translate.xml:22006 book.translate.xml:22027 book.translate.xml:22175
 msgid "Possible arguments: (none)"
 msgstr ""
 
@@ -22026,8 +21414,7 @@ msgid "<literal>libartlgpl2</literal>"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: book.translate.xml:20076
-#: book.translate.xml:20884
+#: book.translate.xml:20076 book.translate.xml:20884
 msgid "The default dependency is build- and run-time, it can be changed with <literal>:build</literal> or <literal>:run</literal>. For example:"
 msgstr ""
 
@@ -22622,8 +22009,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #. (itstool) path: sect1/title
-#: book.translate.xml:20637
-#: book.translate.xml:21008
+#: book.translate.xml:20637 book.translate.xml:21008
 msgid "<literal>openal</literal>"
 msgstr ""
 
@@ -23705,8 +23091,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:21761
 #, no-wrap
-msgid ""
-"SHEBANG_LANG=\tlua"
+msgid "SHEBANG_LANG=\tlua"
 msgstr ""
 
 #. (itstool) path: example/title
@@ -23741,8 +23126,7 @@ msgstr ""
 #. (itstool) path: example/programlisting
 #: book.translate.xml:21790
 #, no-wrap
-msgid ""
-"python_OLD_CMD=\t/opt/bin/python2.7"
+msgid "python_OLD_CMD=\t/opt/bin/python2.7"
 msgstr ""
 
 #. (itstool) path: example/title
@@ -24178,50 +23562,26 @@ msgid "FreeBSD 12 <literal>__FreeBSD_version</literal> Values"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22241
-#: book.translate.xml:22755
-#: book.translate.xml:24038
-#: book.translate.xml:25205
-#: book.translate.xml:25952
-#: book.translate.xml:27259
-#: book.translate.xml:28019
-#: book.translate.xml:28627
-#: book.translate.xml:29633
-#: book.translate.xml:30183
-#: book.translate.xml:30358
-#: book.translate.xml:30507
+#: book.translate.xml:22241 book.translate.xml:22755 book.translate.xml:24038
+#: book.translate.xml:25205 book.translate.xml:25952 book.translate.xml:27259
+#: book.translate.xml:28019 book.translate.xml:28627 book.translate.xml:29633
+#: book.translate.xml:30183 book.translate.xml:30358 book.translate.xml:30507
 msgid "Revision"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22243
-#: book.translate.xml:22757
-#: book.translate.xml:24040
-#: book.translate.xml:25207
-#: book.translate.xml:25954
-#: book.translate.xml:27261
-#: book.translate.xml:28021
-#: book.translate.xml:28629
-#: book.translate.xml:29635
-#: book.translate.xml:30185
-#: book.translate.xml:30360
-#: book.translate.xml:30509
+#: book.translate.xml:22243 book.translate.xml:22757 book.translate.xml:24040
+#: book.translate.xml:25207 book.translate.xml:25954 book.translate.xml:27261
+#: book.translate.xml:28021 book.translate.xml:28629 book.translate.xml:29635
+#: book.translate.xml:30185 book.translate.xml:30360 book.translate.xml:30509
 msgid "Date"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22245
-#: book.translate.xml:22759
-#: book.translate.xml:24042
-#: book.translate.xml:25209
-#: book.translate.xml:25956
-#: book.translate.xml:27263
-#: book.translate.xml:28023
-#: book.translate.xml:28631
-#: book.translate.xml:29637
-#: book.translate.xml:30187
-#: book.translate.xml:30362
-#: book.translate.xml:30511
+#: book.translate.xml:22245 book.translate.xml:22759 book.translate.xml:24042
+#: book.translate.xml:25209 book.translate.xml:25956 book.translate.xml:27263
+#: book.translate.xml:28023 book.translate.xml:28631 book.translate.xml:29637
+#: book.translate.xml:30187 book.translate.xml:30362 book.translate.xml:30511
 msgid "Release"
 msgstr ""
 
@@ -24296,9 +23656,7 @@ msgid "<revnumber>304608</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22276
-#: book.translate.xml:23823
-#: book.translate.xml:25084
+#: book.translate.xml:22276 book.translate.xml:23823 book.translate.xml:25084
 msgid "August 22, 2016"
 msgstr ""
 
@@ -24688,14 +24046,9 @@ msgid "12.0-CURRENT after making the LinuxKPI task struct persistent across syst
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22451
-#: book.translate.xml:24185
-#: book.translate.xml:26805
-#: book.translate.xml:27678
-#: book.translate.xml:28564
-#: book.translate.xml:28863
-#: book.translate.xml:30375
-#: book.translate.xml:30382
+#: book.translate.xml:22451 book.translate.xml:24185 book.translate.xml:26805
+#: book.translate.xml:27678 book.translate.xml:28564 book.translate.xml:28863
+#: book.translate.xml:30375 book.translate.xml:30382
 msgid "(not changed)"
 msgstr ""
 
@@ -24705,8 +24058,7 @@ msgid "<revnumber>314373</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22453
-#: book.translate.xml:22461
+#: book.translate.xml:22453 book.translate.xml:22461
 msgid "March 2, 2017"
 msgstr ""
 
@@ -24761,8 +24113,7 @@ msgid "<revnumber>315430</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22478
-#: book.translate.xml:22487
+#: book.translate.xml:22478 book.translate.xml:22487
 msgid "March 16, 2017"
 msgstr ""
 
@@ -25052,14 +24403,12 @@ msgid "1200040"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22611
-#: book.translate.xml:23979
+#: book.translate.xml:22611 book.translate.xml:23979
 msgid "<revnumber>r321688</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22612
-#: book.translate.xml:23980
+#: book.translate.xml:22612 book.translate.xml:23980
 msgid "July 29, 2017"
 msgstr ""
 
@@ -25199,9 +24548,7 @@ msgid "<revnumber>r324053</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22669
-#: book.translate.xml:23997
-#: book.translate.xml:24007
+#: book.translate.xml:22669 book.translate.xml:23997 book.translate.xml:24007
 msgid "September 26, 2017"
 msgstr ""
 
@@ -25371,8 +24718,7 @@ msgid "<revnumber>256284</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22767
-#: book.translate.xml:24580
+#: book.translate.xml:22767 book.translate.xml:24580
 msgid "October 10, 2013"
 msgstr ""
 
@@ -25452,8 +24798,7 @@ msgid "<revnumber>259424</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22798
-#: book.translate.xml:24621
+#: book.translate.xml:22798 book.translate.xml:24621
 msgid "December 15, 2013"
 msgstr ""
 
@@ -25613,9 +24958,7 @@ msgid "<revnumber>263140</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22868
-#: book.translate.xml:22876
-#: book.translate.xml:25789
+#: book.translate.xml:22868 book.translate.xml:22876 book.translate.xml:25789
 msgid "March 14, 2014"
 msgstr ""
 
@@ -25730,8 +25073,7 @@ msgid "<revnumber>264212</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22922
-#: book.translate.xml:24659
+#: book.translate.xml:22922 book.translate.xml:24659
 msgid "April 6, 2014"
 msgstr ""
 
@@ -25746,15 +25088,12 @@ msgid "1100019"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22929
-#: book.translate.xml:24666
-#: book.translate.xml:25812
+#: book.translate.xml:22929 book.translate.xml:24666 book.translate.xml:25812
 msgid "<revnumber>264289</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22930
-#: book.translate.xml:24667
+#: book.translate.xml:22930 book.translate.xml:24667
 msgid "April 8, 2014"
 msgstr ""
 
@@ -25834,8 +25173,7 @@ msgid "<revnumber>267440</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:22968
-#: book.translate.xml:24691
+#: book.translate.xml:22968 book.translate.xml:24691
 msgid "June 13, 2014"
 msgstr ""
 
@@ -25915,9 +25253,7 @@ msgid "<revnumber>268441</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23003
-#: book.translate.xml:24702
-#: book.translate.xml:25842
+#: book.translate.xml:23003 book.translate.xml:24702 book.translate.xml:25842
 msgid "July 8, 2014"
 msgstr ""
 
@@ -25957,9 +25293,7 @@ msgid "<revnumber>270173</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23019
-#: book.translate.xml:24718
-#: book.translate.xml:24727
+#: book.translate.xml:23019 book.translate.xml:24718 book.translate.xml:24727
 msgid "August 3, 2014"
 msgstr ""
 
@@ -25994,19 +25328,14 @@ msgid "1100031"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23035
-#: book.translate.xml:24734
-#: book.translate.xml:25857
+#: book.translate.xml:23035 book.translate.xml:24734 book.translate.xml:25857
 #: book.translate.xml:27194
 msgid "<revnumber>271341</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23036
-#: book.translate.xml:23055
-#: book.translate.xml:24735
-#: book.translate.xml:25858
-#: book.translate.xml:27195
+#: book.translate.xml:23036 book.translate.xml:23055 book.translate.xml:24735
+#: book.translate.xml:25858 book.translate.xml:27195
 msgid "September 9, 2014"
 msgstr ""
 
@@ -26056,17 +25385,13 @@ msgid "1100034"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23064
-#: book.translate.xml:24742
-#: book.translate.xml:25865
+#: book.translate.xml:23064 book.translate.xml:24742 book.translate.xml:25865
 #: book.translate.xml:27202
 msgid "<revnumber>271686</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23065
-#: book.translate.xml:24743
-#: book.translate.xml:25866
+#: book.translate.xml:23065 book.translate.xml:24743 book.translate.xml:25866
 #: book.translate.xml:27203
 msgid "September 16, 2014"
 msgstr ""
@@ -26087,8 +25412,7 @@ msgid "<revnumber>271705</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23073
-#: book.translate.xml:23080
+#: book.translate.xml:23073 book.translate.xml:23080
 msgid "September 17, 2014"
 msgstr ""
 
@@ -26178,17 +25502,13 @@ msgid "1100040"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23114
-#: book.translate.xml:24771
-#: book.translate.xml:25873
+#: book.translate.xml:23114 book.translate.xml:24771 book.translate.xml:25873
 #: book.translate.xml:27210
 msgid "<revnumber>273432</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23115
-#: book.translate.xml:24772
-#: book.translate.xml:25874
+#: book.translate.xml:23115 book.translate.xml:24772 book.translate.xml:25874
 #: book.translate.xml:27211
 msgid "October 21, 2014"
 msgstr ""
@@ -26249,12 +25569,8 @@ msgid "<revnumber>274085</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23143
-#: book.translate.xml:23151
-#: book.translate.xml:23160
-#: book.translate.xml:24781
-#: book.translate.xml:25883
-#: book.translate.xml:27219
+#: book.translate.xml:23143 book.translate.xml:23151 book.translate.xml:23160
+#: book.translate.xml:24781 book.translate.xml:25883 book.translate.xml:27219
 msgid "November 4, 2014"
 msgstr ""
 
@@ -26284,9 +25600,7 @@ msgid "1100045"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23159
-#: book.translate.xml:24780
-#: book.translate.xml:25882
+#: book.translate.xml:23159 book.translate.xml:24780 book.translate.xml:25882
 #: book.translate.xml:27218
 msgid "<revnumber>274162</revnumber>"
 msgstr ""
@@ -26307,8 +25621,7 @@ msgid "<revnumber>274470</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23168
-#: book.translate.xml:23177
+#: book.translate.xml:23168 book.translate.xml:23177
 msgid "November 13, 2014"
 msgstr ""
 
@@ -26603,8 +25916,7 @@ msgid "<revnumber>278964</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23294
-#: book.translate.xml:24832
+#: book.translate.xml:23294 book.translate.xml:24832
 msgid "February 18, 2015"
 msgstr ""
 
@@ -26644,8 +25956,7 @@ msgid "<revnumber>279728</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23311
-#: book.translate.xml:23320
+#: book.translate.xml:23311 book.translate.xml:23320
 msgid "March 7, 2015"
 msgstr ""
 
@@ -26920,8 +26231,7 @@ msgid "<revnumber>284233</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23436
-#: book.translate.xml:24916
+#: book.translate.xml:23436 book.translate.xml:24916
 msgid "June 10, 2015"
 msgstr ""
 
@@ -26941,8 +26251,7 @@ msgid "<revnumber>286672</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23446
-#: book.translate.xml:23806
+#: book.translate.xml:23446 book.translate.xml:23806
 msgid "August 12, 2015"
 msgstr ""
 
@@ -27122,9 +26431,7 @@ msgid "<revnumber>290479</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23525
-#: book.translate.xml:23533
-#: book.translate.xml:23541
+#: book.translate.xml:23525 book.translate.xml:23533 book.translate.xml:23541
 msgid "November 7, 2015"
 msgstr ""
 
@@ -27574,8 +26881,7 @@ msgid "<revnumber>300207</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23714
-#: book.translate.xml:25920
+#: book.translate.xml:23714 book.translate.xml:25920
 msgid "May 19, 2016"
 msgstr ""
 
@@ -27635,8 +26941,7 @@ msgid "<revnumber>300701</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23738
-#: book.translate.xml:23746
+#: book.translate.xml:23738 book.translate.xml:23746
 msgid "May 26, 2016"
 msgstr ""
 
@@ -27751,8 +27056,7 @@ msgid "<revnumber>302150</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23790
-#: book.translate.xml:23798
+#: book.translate.xml:23790 book.translate.xml:23798
 msgid "June 23, 2016"
 msgstr ""
 
@@ -27782,8 +27086,7 @@ msgid "1100121"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23805
-#: book.translate.xml:23814
+#: book.translate.xml:23805 book.translate.xml:23814
 msgid "<revnumber>303979</revnumber>"
 msgstr ""
 
@@ -27833,8 +27136,7 @@ msgid "<revnumber>304865</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23831
-#: book.translate.xml:25092
+#: book.translate.xml:23831 book.translate.xml:25092
 msgid "August 26, 2016"
 msgstr ""
 
@@ -27854,9 +27156,7 @@ msgid "<revnumber>305733</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23840
-#: book.translate.xml:25101
-#: book.translate.xml:25930
+#: book.translate.xml:23840 book.translate.xml:25101 book.translate.xml:25930
 #: book.translate.xml:27237
 msgid "September 12, 2016"
 msgstr ""
@@ -27877,8 +27177,7 @@ msgid "<revnumber>307330</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23849
-#: book.translate.xml:25110
+#: book.translate.xml:23849 book.translate.xml:25110
 msgid "October 14, 2016"
 msgstr ""
 
@@ -27918,8 +27217,7 @@ msgid "<revnumber>308048</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23864
-#: book.translate.xml:25117
+#: book.translate.xml:23864 book.translate.xml:25117
 msgid "October 28, 2016"
 msgstr ""
 
@@ -27939,8 +27237,7 @@ msgid "<revnumber>310120</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23872
-#: book.translate.xml:25125
+#: book.translate.xml:23872 book.translate.xml:25125
 msgid "December 15, 2016"
 msgstr ""
 
@@ -28040,8 +27337,7 @@ msgid "<revnumber>316498</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23919
-#: book.translate.xml:25142
+#: book.translate.xml:23919 book.translate.xml:25142
 msgid "April 4, 2017"
 msgstr ""
 
@@ -28061,8 +27357,7 @@ msgid "<revnumber>318197</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23928
-#: book.translate.xml:25151
+#: book.translate.xml:23928 book.translate.xml:25151
 msgid "May 11, 2017"
 msgstr ""
 
@@ -28102,9 +27397,7 @@ msgid "<revnumber>320486</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:23947
-#: book.translate.xml:23955
-#: book.translate.xml:23964
+#: book.translate.xml:23947 book.translate.xml:23955 book.translate.xml:23964
 msgid "June 30, 2017"
 msgstr ""
 
@@ -28364,9 +27657,7 @@ msgid "<revnumber>230207</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24098
-#: book.translate.xml:25626
-#: book.translate.xml:27119
+#: book.translate.xml:24098 book.translate.xml:25626 book.translate.xml:27119
 msgid "January 16, 2012"
 msgstr ""
 
@@ -28526,8 +27817,7 @@ msgid "<revnumber>235788</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24165
-#: book.translate.xml:25659
+#: book.translate.xml:24165 book.translate.xml:25659
 msgid "May 22, 2012"
 msgstr ""
 
@@ -28602,8 +27892,7 @@ msgid "<revnumber>239179</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24195
-#: book.translate.xml:24203
+#: book.translate.xml:24195 book.translate.xml:24203
 msgid "August 8, 2012"
 msgstr ""
 
@@ -28698,8 +27987,7 @@ msgid "<revnumber>241897</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24236
-#: book.translate.xml:24245
+#: book.translate.xml:24236 book.translate.xml:24245
 msgid "October 22, 2012"
 msgstr ""
 
@@ -28734,8 +28022,7 @@ msgid "<revnumber>242619</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24253
-#: book.translate.xml:24263
+#: book.translate.xml:24253 book.translate.xml:24263
 msgid "November 5, 2012"
 msgstr ""
 
@@ -28990,8 +28277,7 @@ msgid "<revnumber>253049</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24374
-#: book.translate.xml:24383
+#: book.translate.xml:24374 book.translate.xml:24383
 msgid "July 9, 2013"
 msgstr ""
 
@@ -29146,8 +28432,7 @@ msgid "<revnumber>254358</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24460
-#: book.translate.xml:24469
+#: book.translate.xml:24460 book.translate.xml:24469
 msgid "August 15, 2013"
 msgstr ""
 
@@ -29242,8 +28527,7 @@ msgid "<revnumber>254760</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24507
-#: book.translate.xml:24516
+#: book.translate.xml:24507 book.translate.xml:24516
 msgid "August 24, 2013"
 msgstr ""
 
@@ -29318,9 +28602,7 @@ msgid "<revnumber>255305</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24546
-#: book.translate.xml:24554
-#: book.translate.xml:24563
+#: book.translate.xml:24546 book.translate.xml:24554 book.translate.xml:24563
 msgid "September 6, 2013"
 msgstr ""
 
@@ -29370,9 +28652,7 @@ msgid "<revnumber>259065</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24572
-#: book.translate.xml:24604
-#: book.translate.xml:24613
+#: book.translate.xml:24572 book.translate.xml:24604 book.translate.xml:24613
 msgid "December 7, 2013"
 msgstr ""
 
@@ -29407,8 +28687,7 @@ msgid "<revnumber>256916</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24588
-#: book.translate.xml:25758
+#: book.translate.xml:24588 book.translate.xml:25758
 msgid "October 22, 2013"
 msgstr ""
 
@@ -29493,8 +28772,7 @@ msgid "<revnumber>260135</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24628
-#: book.translate.xml:25773
+#: book.translate.xml:24628 book.translate.xml:25773
 msgid "December 31, 2013"
 msgstr ""
 
@@ -29509,14 +28787,12 @@ msgid "1000703"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24634
-#: book.translate.xml:25780
+#: book.translate.xml:24634 book.translate.xml:25780
 msgid "<revnumber>262801</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24635
-#: book.translate.xml:25781
+#: book.translate.xml:24635 book.translate.xml:25781
 msgid "March 5, 2014"
 msgstr ""
 
@@ -29556,8 +28832,7 @@ msgid "<revnumber>263508</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24651
-#: book.translate.xml:25797
+#: book.translate.xml:24651 book.translate.xml:25797
 msgid "March 21, 2014"
 msgstr ""
 
@@ -29602,9 +28877,7 @@ msgid "<revnumber>265122</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24674
-#: book.translate.xml:25820
-#: book.translate.xml:27181
+#: book.translate.xml:24674 book.translate.xml:25820 book.translate.xml:27181
 msgid "April 30, 2014"
 msgstr ""
 
@@ -29764,8 +29037,7 @@ msgid "<revnumber>272463</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24758
-#: book.translate.xml:24765
+#: book.translate.xml:24758 book.translate.xml:24765
 msgid "October 2, 2014"
 msgstr ""
 
@@ -29835,14 +29107,12 @@ msgid "1001504"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24797
-#: book.translate.xml:25890
+#: book.translate.xml:24797 book.translate.xml:25890
 msgid "<revnumber>275742</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24798
-#: book.translate.xml:25891
+#: book.translate.xml:24798 book.translate.xml:25891
 msgid "December 13, 2014"
 msgstr ""
 
@@ -29932,16 +29202,12 @@ msgid "1001509"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24840
-#: book.translate.xml:25899
-#: book.translate.xml:27226
+#: book.translate.xml:24840 book.translate.xml:25899 book.translate.xml:27226
 msgid "<revnumber>279287</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24841
-#: book.translate.xml:25900
-#: book.translate.xml:27227
+#: book.translate.xml:24841 book.translate.xml:25900 book.translate.xml:27227
 msgid "February 25, 2015"
 msgstr ""
 
@@ -30156,8 +29422,7 @@ msgid "<revnumber>285830</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24932
-#: book.translate.xml:24940
+#: book.translate.xml:24932 book.translate.xml:24940
 msgid "24 July, 2015"
 msgstr ""
 
@@ -30292,9 +29557,7 @@ msgid "<revnumber>293476</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:24994
-#: book.translate.xml:25002
-#: book.translate.xml:25011
+#: book.translate.xml:24994 book.translate.xml:25002 book.translate.xml:25011
 msgid "9 January, 2016"
 msgstr ""
 
@@ -30364,8 +29627,7 @@ msgid "<revnumber>296373</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25028
-#: book.translate.xml:25036
+#: book.translate.xml:25028 book.translate.xml:25036
 msgid "4 March, 2016"
 msgstr ""
 
@@ -30400,9 +29662,7 @@ msgid "<revnumber>298299</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25044
-#: book.translate.xml:25052
-#: book.translate.xml:25060
+#: book.translate.xml:25044 book.translate.xml:25052 book.translate.xml:25060
 msgid "19 June, 2016"
 msgstr ""
 
@@ -30672,8 +29932,7 @@ msgid "<revnumber>323604</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25176
-#: book.translate.xml:25184
+#: book.translate.xml:25176 book.translate.xml:25184
 msgid "September 15, 2017"
 msgstr ""
 
@@ -31518,8 +30777,7 @@ msgid "<revnumber>224217</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25551
-#: book.translate.xml:27070
+#: book.translate.xml:25551 book.translate.xml:27070
 msgid "July 19, 2011"
 msgstr ""
 
@@ -31554,8 +30812,7 @@ msgid "900042"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25566
-#: book.translate.xml:25575
+#: book.translate.xml:25566 book.translate.xml:25575
 msgid "<revnumber>225350</revnumber>"
 msgstr ""
 
@@ -31595,8 +30852,7 @@ msgid "<revnumber>225469</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25585
-#: book.translate.xml:27087
+#: book.translate.xml:25585 book.translate.xml:27087
 msgid "September 10, 2011"
 msgstr ""
 
@@ -31616,8 +30872,7 @@ msgid "<revnumber>229285</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25603
-#: book.translate.xml:25611
+#: book.translate.xml:25603 book.translate.xml:25611
 msgid "January 2, 2012"
 msgstr ""
 
@@ -31652,8 +30907,7 @@ msgid "<revnumber>229723</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25618
-#: book.translate.xml:27111
+#: book.translate.xml:25618 book.translate.xml:27111
 msgid "January 6, 2012"
 msgstr ""
 
@@ -31688,8 +30942,7 @@ msgid "<revnumber>231768</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25633
-#: book.translate.xml:27126
+#: book.translate.xml:25633 book.translate.xml:27126
 msgid "February 15, 2012"
 msgstr ""
 
@@ -31709,9 +30962,7 @@ msgid "<revnumber>232728</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25642
-#: book.translate.xml:27135
-#: book.translate.xml:27142
+#: book.translate.xml:25642 book.translate.xml:27135 book.translate.xml:27142
 msgid "March 3, 2012"
 msgstr ""
 
@@ -31846,8 +31097,7 @@ msgid "<revnumber>247090</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25700
-#: book.translate.xml:27150
+#: book.translate.xml:25700 book.translate.xml:27150
 msgid "February 21, 2013"
 msgstr ""
 
@@ -32077,8 +31327,7 @@ msgid "<revnumber>263818</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25805
-#: book.translate.xml:25813
+#: book.translate.xml:25805 book.translate.xml:25813
 msgid "March 27, 2014"
 msgstr ""
 
@@ -32103,8 +31352,7 @@ msgid "902512"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25819
-#: book.translate.xml:27180
+#: book.translate.xml:25819 book.translate.xml:27180
 msgid "<revnumber>265123</revnumber>"
 msgstr ""
 
@@ -32124,8 +31372,7 @@ msgid "<revnumber>267656</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:25827
-#: book.translate.xml:25834
+#: book.translate.xml:25827 book.translate.xml:25834
 msgid "June 20, 2014"
 msgstr ""
 
@@ -32435,8 +31682,7 @@ msgid "<revnumber>174399</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26015
-#: book.translate.xml:28567
+#: book.translate.xml:26015 book.translate.xml:28567
 msgid "December 7, 2007"
 msgstr ""
 
@@ -32676,8 +31922,7 @@ msgid "<revnumber>176112</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26116
-#: book.translate.xml:27747
+#: book.translate.xml:26116 book.translate.xml:27747
 msgid "February 8, 2008"
 msgstr ""
 
@@ -32957,8 +32202,7 @@ msgid "<revnumber>178006</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26241
-#: book.translate.xml:26251
+#: book.translate.xml:26241 book.translate.xml:26251
 msgid "April 8, 2008"
 msgstr ""
 
@@ -32993,8 +32237,7 @@ msgid "<revnumber>178051</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26262
-#: book.translate.xml:27762
+#: book.translate.xml:26262 book.translate.xml:27762
 msgid "April 10, 2008"
 msgstr ""
 
@@ -33034,8 +32277,7 @@ msgid "<revnumber>178362</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26278
-#: book.translate.xml:27793
+#: book.translate.xml:26278 book.translate.xml:27793
 msgid "April 20, 2008"
 msgstr ""
 
@@ -33215,8 +32457,7 @@ msgid "<revnumber>181905</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26352
-#: book.translate.xml:27827
+#: book.translate.xml:26352 book.translate.xml:27827
 msgid "August 20, 2008"
 msgstr ""
 
@@ -33696,8 +32937,7 @@ msgid "<revnumber>189585</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26553
-#: book.translate.xml:26561
+#: book.translate.xml:26553 book.translate.xml:26561
 msgid "March 9, 2009"
 msgstr ""
 
@@ -33732,8 +32972,7 @@ msgid "<revnumber>189825</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26570
-#: book.translate.xml:27899
+#: book.translate.xml:26570 book.translate.xml:27899
 msgid "March 14, 2009"
 msgstr ""
 
@@ -33873,11 +33112,8 @@ msgid "<revnumber>191080</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26628
-#: book.translate.xml:26638
-#: book.translate.xml:26646
-#: book.translate.xml:27907
-#: book.translate.xml:27914
+#: book.translate.xml:26628 book.translate.xml:26638 book.translate.xml:26646
+#: book.translate.xml:27907 book.translate.xml:27914
 msgid "April 15, 2009"
 msgstr ""
 
@@ -34087,8 +33323,7 @@ msgid "<revnumber>192649</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26723
-#: book.translate.xml:26731
+#: book.translate.xml:26723 book.translate.xml:26731
 msgid "May 23, 2009"
 msgstr ""
 
@@ -34143,8 +33378,7 @@ msgid "<revnumber>193011</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26747
-#: book.translate.xml:26758
+#: book.translate.xml:26747 book.translate.xml:26758
 msgid "May 29, 2009"
 msgstr ""
 
@@ -34179,8 +33413,7 @@ msgid "<revnumber>193093</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26766
-#: book.translate.xml:26774
+#: book.translate.xml:26766 book.translate.xml:26774
 msgid "May 30, 2009"
 msgstr ""
 
@@ -34390,8 +33623,7 @@ msgid "<revnumber>195699</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26863
-#: book.translate.xml:27945
+#: book.translate.xml:26863 book.translate.xml:27945
 msgid "July 14, 2009"
 msgstr ""
 
@@ -34611,8 +33843,7 @@ msgid "<revnumber>209150</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26960
-#: book.translate.xml:26967
+#: book.translate.xml:26960 book.translate.xml:26967
 msgid "June 14, 2010"
 msgstr ""
 
@@ -34667,9 +33898,7 @@ msgid "<revnumber>216639</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:26983
-#: book.translate.xml:26990
-#: book.translate.xml:27984
+#: book.translate.xml:26983 book.translate.xml:26990 book.translate.xml:27984
 #: book.translate.xml:27991
 msgid "December 22, 2010"
 msgstr ""
@@ -34765,9 +33994,7 @@ msgid "<revnumber>222401</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27021
-#: book.translate.xml:27030
-#: book.translate.xml:27038
+#: book.translate.xml:27021 book.translate.xml:27030 book.translate.xml:27038
 msgid "May 28, 2011"
 msgstr ""
 
@@ -35057,8 +34284,7 @@ msgid "<revnumber>248850</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27159
-#: book.translate.xml:27166
+#: book.translate.xml:27159 book.translate.xml:27166
 msgid "March 28, 2013"
 msgstr ""
 
@@ -35218,8 +34444,7 @@ msgid "<revnumber>147925</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27271
-#: book.translate.xml:28287
+#: book.translate.xml:27271 book.translate.xml:28287
 msgid "July 11, 2005"
 msgstr ""
 
@@ -35259,8 +34484,7 @@ msgid "<revnumber>149039</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27287
-#: book.translate.xml:28304
+#: book.translate.xml:27287 book.translate.xml:28304
 msgid "August 13, 2005"
 msgstr ""
 
@@ -35320,8 +34544,7 @@ msgid "<revnumber>152296</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27311
-#: book.translate.xml:27319
+#: book.translate.xml:27311 book.translate.xml:27319
 msgid "November 11, 2005"
 msgstr ""
 
@@ -35936,8 +35159,7 @@ msgid "<revnumber>168413</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27561
-#: book.translate.xml:28477
+#: book.translate.xml:27561 book.translate.xml:28477
 msgid "April 6, 2007"
 msgstr ""
 
@@ -36137,9 +35359,7 @@ msgid "<revnumber>170530</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27645
-#: book.translate.xml:27653
-#: book.translate.xml:28511
+#: book.translate.xml:27645 book.translate.xml:27653 book.translate.xml:28511
 msgid "June 11, 2007"
 msgstr ""
 
@@ -36224,8 +35444,7 @@ msgid "<revnumber>171195</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27689
-#: book.translate.xml:27697
+#: book.translate.xml:27689 book.translate.xml:27697
 msgid "July 4, 2007"
 msgstr ""
 
@@ -36300,8 +35519,7 @@ msgid "<revnumber>172988</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27721
-#: book.translate.xml:28526
+#: book.translate.xml:27721 book.translate.xml:28526
 msgid "October 25, 2007"
 msgstr ""
 
@@ -36411,8 +35629,7 @@ msgid "<revnumber>178108</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27770
-#: book.translate.xml:27778
+#: book.translate.xml:27770 book.translate.xml:27778
 msgid "April 11, 2008"
 msgstr ""
 
@@ -36497,14 +35714,12 @@ msgid "700109"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27810
-#: book.translate.xml:28582
+#: book.translate.xml:27810 book.translate.xml:28582
 msgid "<revnumber>179367</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27811
-#: book.translate.xml:28583
+#: book.translate.xml:27811 book.translate.xml:28583
 msgid "May 27, 2008"
 msgstr ""
 
@@ -36579,8 +35794,7 @@ msgid "<revnumber>185315</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27843
-#: book.translate.xml:27850
+#: book.translate.xml:27843 book.translate.xml:27850
 msgid "November 25, 2008"
 msgstr ""
 
@@ -36875,8 +36089,7 @@ msgid "<revnumber>203740</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:27970
-#: book.translate.xml:27977
+#: book.translate.xml:27970 book.translate.xml:27977
 msgid "February 9, 2010"
 msgstr ""
 
@@ -37311,9 +36524,7 @@ msgid "<revnumber>142683</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28172
-#: book.translate.xml:28180
-#: book.translate.xml:29527
+#: book.translate.xml:28172 book.translate.xml:28180 book.translate.xml:29527
 msgid "February 27, 2005"
 msgstr ""
 
@@ -37348,8 +36559,7 @@ msgid "<revnumber>142752</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28188
-#: book.translate.xml:29538
+#: book.translate.xml:28188 book.translate.xml:29538
 msgid "February 28, 2005"
 msgstr ""
 
@@ -37444,8 +36654,7 @@ msgid "600024"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28225
-#: book.translate.xml:28233
+#: book.translate.xml:28225 book.translate.xml:28233
 msgid "<revnumber>145565</revnumber>"
 msgstr ""
 
@@ -37735,8 +36944,7 @@ msgid "<revnumber>154453</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28344
-#: book.translate.xml:29598
+#: book.translate.xml:28344 book.translate.xml:29598
 msgid "January 17, 2006"
 msgstr ""
 
@@ -37776,8 +36984,7 @@ msgid "<revnumber>158330</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28360
-#: book.translate.xml:28367
+#: book.translate.xml:28360 book.translate.xml:28367
 msgid "May 6, 2006"
 msgstr ""
 
@@ -38237,8 +37444,7 @@ msgid "<revnumber>173897</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28552
-#: book.translate.xml:28559
+#: book.translate.xml:28552 book.translate.xml:28559
 msgid "November 25, 2007"
 msgstr ""
 
@@ -38333,8 +37539,7 @@ msgid "<revnumber>183583</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28600
-#: book.translate.xml:28607
+#: book.translate.xml:28600 book.translate.xml:28607
 msgid "October 4, 2008"
 msgstr ""
 
@@ -38379,8 +37584,7 @@ msgid "<revnumber>58009</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28639
-#: book.translate.xml:29781
+#: book.translate.xml:28639 book.translate.xml:29781
 msgid "March 13, 2000"
 msgstr ""
 
@@ -38560,8 +37764,7 @@ msgid "<revnumber>63154</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28707
-#: book.translate.xml:29819
+#: book.translate.xml:28707 book.translate.xml:29819
 msgid "July 14, 2000"
 msgstr ""
 
@@ -38681,8 +37884,7 @@ msgid "<revnumber>70894</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28753
-#: book.translate.xml:29862
+#: book.translate.xml:28753 book.translate.xml:29862
 msgid "January 10, 2001"
 msgstr ""
 
@@ -38817,8 +38019,7 @@ msgid "500022"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28809
-#: book.translate.xml:28816
+#: book.translate.xml:28809 book.translate.xml:28816
 msgid "<revnumber>83435</revnumber>"
 msgstr ""
 
@@ -38998,14 +38199,12 @@ msgid "500031"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28889
-#: book.translate.xml:29927
+#: book.translate.xml:28889 book.translate.xml:29927
 msgid "<revnumber>91203</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28890
-#: book.translate.xml:29928
+#: book.translate.xml:28890 book.translate.xml:29928
 msgid "February 24, 2002"
 msgstr ""
 
@@ -39165,8 +38364,7 @@ msgid "<revnumber>102757</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:28955
-#: book.translate.xml:30013
+#: book.translate.xml:28955 book.translate.xml:30013
 msgid "September 1, 2002"
 msgstr ""
 
@@ -39406,8 +38604,7 @@ msgid "<revnumber>112288</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29056
-#: book.translate.xml:29064
+#: book.translate.xml:29056 book.translate.xml:29064
 msgid "March 15, 2003"
 msgstr ""
 
@@ -39782,8 +38979,7 @@ msgid "<revnumber>121125</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29205
-#: book.translate.xml:29212
+#: book.translate.xml:29205 book.translate.xml:29212
 msgid "October 16, 2003"
 msgstr ""
 
@@ -39858,8 +39054,7 @@ msgid "<revnumber>123198</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29236
-#: book.translate.xml:29250
+#: book.translate.xml:29236 book.translate.xml:29250
 msgid "December 7, 2003"
 msgstr ""
 
@@ -40234,8 +39429,7 @@ msgid "<revnumber>130640</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29387
-#: book.translate.xml:29395
+#: book.translate.xml:29387 book.translate.xml:29395
 msgid "June 17, 2004"
 msgstr ""
 
@@ -40620,8 +39814,7 @@ msgid "<revnumber>144575</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29554
-#: book.translate.xml:29561
+#: book.translate.xml:29554 book.translate.xml:29561
 msgid "April 3, 2005"
 msgstr ""
 
@@ -40751,8 +39944,7 @@ msgid "<revnumber>158481</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29606
-#: book.translate.xml:29613
+#: book.translate.xml:29606 book.translate.xml:29613
 msgid "May 12, 2006"
 msgstr ""
 
@@ -40797,8 +39989,7 @@ msgid "<revnumber>43041</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29645
-#: book.translate.xml:30244
+#: book.translate.xml:29645 book.translate.xml:30244
 msgid "January 22, 1999"
 msgstr ""
 
@@ -40858,8 +40049,7 @@ msgid "<revnumber>45059</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29668
-#: book.translate.xml:30258
+#: book.translate.xml:29668 book.translate.xml:30258
 msgid "March 27, 1999"
 msgstr ""
 
@@ -41614,8 +40804,7 @@ msgid "<revnumber>97923</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29976
-#: book.translate.xml:29983
+#: book.translate.xml:29976 book.translate.xml:29983
 msgid "June 21, 2002"
 msgstr ""
 
@@ -41670,8 +40859,7 @@ msgid "<revnumber>98857</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:29999
-#: book.translate.xml:30006
+#: book.translate.xml:29999 book.translate.xml:30006
 msgid "June 26, 2002"
 msgstr ""
 
@@ -41901,8 +41089,7 @@ msgid "<revnumber>121592</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:30088
-#: book.translate.xml:30095
+#: book.translate.xml:30088 book.translate.xml:30095
 msgid "October 27, 2003"
 msgstr ""
 
@@ -42057,8 +41244,7 @@ msgid "<revnumber>138960</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:30148
-#: book.translate.xml:30155
+#: book.translate.xml:30148 book.translate.xml:30155
 msgid "December 17, 2004"
 msgstr ""
 
@@ -42223,8 +41409,7 @@ msgid "<revnumber>40438</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:30230
-#: book.translate.xml:30237
+#: book.translate.xml:30230 book.translate.xml:30237
 msgid "October 16, 1998"
 msgstr ""
 
@@ -42719,8 +41904,7 @@ msgid "<revnumber>37803</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:30447
-#: book.translate.xml:30454
+#: book.translate.xml:30447 book.translate.xml:30454
 msgid "July 21, 1998"
 msgstr ""
 
@@ -42775,8 +41959,7 @@ msgid "<revnumber>41403</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:30468
-#: book.translate.xml:30475
+#: book.translate.xml:30468 book.translate.xml:30475
 msgid "November 29, 1998"
 msgstr ""
 
@@ -42841,8 +42024,7 @@ msgid "March 19, 1995"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:30527
-#: book.translate.xml:30534
+#: book.translate.xml:30527 book.translate.xml:30534
 msgid "2.1-CURRENT"
 msgstr ""
 
@@ -42912,8 +42094,7 @@ msgid "<revnumber>12189</revnumber>"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:30554
-#: book.translate.xml:30561
+#: book.translate.xml:30554 book.translate.xml:30561
 msgid "November 10, 1995"
 msgstr ""
 
@@ -42978,8 +42159,7 @@ msgid "2.2-CURRENT before 2.1.6"
 msgstr ""
 
 #. (itstool) path: row/entry
-#: book.translate.xml:30580
-#: book.translate.xml:30587
+#: book.translate.xml:30580 book.translate.xml:30587
 msgid "199612"
 msgstr ""
 
@@ -43002,4 +42182,3 @@ msgstr ""
 #: book.translate.xml:30590
 msgid "2.1.7-RELEASE"
 msgstr ""
-
