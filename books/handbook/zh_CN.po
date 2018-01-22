@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2018-01-21 02:47-0500\n"
+"PO-Revision-Date: 2018-01-22 17:42-0500\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -384,7 +384,7 @@ msgstr "<xref linkend=“boot”/> 对第一版内容进行了扩充。"
 #. (itstool) path: listitem/para
 #: book.translate.xml:1032
 msgid "<xref linkend=\"disks\"/> has been written from what used to be two separate chapters on <quote>Disks</quote> and <quote>Backups</quote>. We feel that the topics are easier to comprehend when presented as a single chapter. A section on RAID (both hardware and software) has also been added."
-msgstr "<xref linkend=“disks”/> 由第一版中两个单独的章节“磁盘”和“备份”合并而成。我们认为这两部分作为一个整体比较容易理解。同时 RAID (包括硬件和软件 RAID) 部分也被添加进来。"
+msgstr "<xref linkend=“disks”/> 由第一版中两个单独的章节 <quote>磁盘</quote> 和<quote>备份</quote> 合并而成。我们认为这两部分作为一个整体比较容易理解。同时 RAID (包括硬件和软件 RAID) 部分也被添加进来。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1041
