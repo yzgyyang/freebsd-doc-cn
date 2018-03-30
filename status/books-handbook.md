@@ -4,7 +4,7 @@
 
 | Title | Assignee | Status | Pull Request |  
 |-|:-:|:-:|:-:|  
-| Preface || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
+| Preface | ygy | ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Updated` | #12 |  
 | I. Getting Started 1. Introduction || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 2. Installing FreeBSD || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
 | 3. FreeBSD Basics || ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Needs Update` ||  
