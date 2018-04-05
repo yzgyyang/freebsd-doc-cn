@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2018-01-22 23:30-0500\n"
+"PO-Revision-Date: 2018-04-05 23:54+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,6 +16,15 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"YF <yfdyh000@gmail.com>, 2016\n"
+"danfong <danfong.hsieh@gmail.com>, 2016\n"
+"naruto861214 <naruto861214@gmail.com>, 2016\n"
+"Vel <veloci85@gmail.com>, 2016\n"
+"Agustín Wu <losangwuyts@gmail.com>, 2016\n"
+"Chinrur Yang <chinrur@gmail.com>, 2016\n"
+"LNDDYL <lnddyl@outlook.com>, 2016\n"
+"Mingye Wang (Arthur2e5) <arthur200126@gmail.com>, 2017\n"
+"Hongyou Bai <bhy1924@gmail.com>"
 
 #. (itstool) path: info/title
 #: book.translate.xml:644
@@ -35582,7 +35591,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: book.translate.xml:37294
 msgid "The Z File System (<acronym>ZFS</acronym>)"
-msgstr ""
+msgstr "Z 文件系统 (<acronym>ZFS</acronym>)"
 
 #. (itstool) path: authorgroup/author
 #: book.translate.xml:37304
@@ -35602,57 +35611,57 @@ msgstr ""
 #. (itstool) path: chapter/para
 #: book.translate.xml:37328
 msgid "The <emphasis>Z File System</emphasis>, or <acronym>ZFS</acronym>, is an advanced file system designed to overcome many of the major problems found in previous designs."
-msgstr ""
+msgstr "<emphasis>Z 文件系统</emphasis>, 简称<acronym>ZFS</acronym>, 是一个先进的文件系统，他克服了先前文件系统中的发现的许多重要问题。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37333
 msgid "Originally developed at <trademark>Sun</trademark>, ongoing open source <acronym>ZFS</acronym> development has moved to the <link xlink:href=\"http://open-zfs.org\">OpenZFS Project</link>."
-msgstr ""
+msgstr "最先由<trademark>Sun</trademark>, 开源版本的 <acronym>ZFS</acronym> 由 <link xlink:href=\"http://open-zfs.org\">OpenZFS Project</link> 维护。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37336
 msgid "<acronym>ZFS</acronym> has three major design goals:"
-msgstr ""
+msgstr "<acronym>ZFS</acronym> 有三个主要的设计目标:"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:37340
 msgid "Data integrity: All data includes a <link linkend=\"zfs-term-checksum\">checksum</link> of the data. When data is written, the checksum is calculated and written along with it. When that data is later read back, the checksum is calculated again. If the checksums do not match, a data error has been detected. <acronym>ZFS</acronym> will attempt to automatically correct errors when data redundancy is available."
-msgstr ""
+msgstr "数据完整性: 所有的数据都有一条 <link linkend=\"zfs-term-checksum\">校验码</link> . 当文件写入时, 文件的校验码也会一同生成. 当计算机读取文件时, 校验码会重新生成. , 若新的校验码与原校验码不匹配，系统就会发现文件错误. 当冗余数据 (data redundancy) 可用时，<acronym>ZFS</acronym> 会自动修复文件错误."
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:37351
 msgid "Pooled storage: physical storage devices are added to a pool, and storage space is allocated from that shared pool. Space is available to all file systems, and can be increased by adding new storage devices to the pool."
-msgstr ""
+msgstr "存储池：实体的储存装置都会先被加入到一个储存池(Pool)，这个共用的存储池可用来配置储存空间，存储池的空间可被所有的文件系统使用且通过加入新的储存装置来增加空间。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:37358
 msgid "Performance: multiple caching mechanisms provide increased performance. <link linkend=\"zfs-term-arc\">ARC</link> is an advanced memory-based read cache. A second level of disk-based read cache can be added with <link linkend=\"zfs-term-l2arc\">L2ARC</link>, and disk-based synchronous write cache is available with <link linkend=\"zfs-term-zil\">ZIL</link>."
-msgstr ""
+msgstr "高性能：多级缓存机制提供更好的性能。<link linkend=\"zfs-term-arc\">ARC</link>是一种高级的基于内存的读取缓存。 第二级基于磁盘的读取缓存可以与<link linkend=\"zfs-term-l2arc\">L2ARC</link> 一起添加，基于磁盘的同步写入缓存可用于<link linkend=\"zfs-term-zil\">ZIL</link>。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37368
 msgid "A complete list of features and terminology is shown in <xref linkend=\"zfs-term\"/>."
-msgstr ""
+msgstr "完整的功能清单与术语在节19.8, “ ZFS特色与术语”中有详述。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:37372
 msgid "What Makes <acronym>ZFS</acronym> Different"
-msgstr ""
+msgstr "是什么让 <acronym>ZFS</acronym>  与众不同"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:37374
 msgid "<acronym>ZFS</acronym> is significantly different from any previous file system because it is more than just a file system. Combining the traditionally separate roles of volume manager and file system provides <acronym>ZFS</acronym> with unique advantages. The file system is now aware of the underlying structure of the disks. Traditional file systems could only be created on a single disk at a time. If there were two disks then two separate file systems would have to be created. In a traditional hardware <acronym>RAID</acronym> configuration, this problem was avoided by presenting the operating system with a single logical disk made up of the space provided by a number of physical disks, on top of which the operating system placed a file system. Even in the case of software <acronym>RAID</acronym> solutions like those provided by <acronym>GEOM</acronym>, the <acronym>UFS</acronym> file system living on top of the <acronym>RAID</acronym> transform believed that it was dealing with a single device. <acronym>ZFS</acronym>'s combination of the volume manager and the file system solves this and allows the creation of many file systems all sharing a pool of available storage. One of the biggest advantages to <acronym>ZFS</acronym>'s awareness of the physical layout of the disks is that existing file systems can be grown automatically when additional disks are added to the pool. This new space is then made available to all of the file systems. <acronym>ZFS</acronym> also has a number of different properties that can be applied to each file system, giving many advantages to creating a number of different file systems and datasets rather than a single monolithic file system."
-msgstr ""
+msgstr "<acronym>ZFS</acronym>与以往任何的文件系统有显著的不同，因为它不只是一个文件系统，<acronym>ZFS</acronym>的独特优点来自结合了以往被分开的磁碟区管理程序(Volume Manager)及文件系统两个角色，让文件系统也能够察觉磁碟底层结构的变动。传统在一个磁碟上只能建立一个文件系统，若有两个磁碟则会需要建立两个分开的文件系统，在传统要解决这个问题要使用硬体<acronym>RAID</acronym>来制作一个空间实际上由数颗实体磁碟所组成的单一的逻辑磁碟给作业系统，作业系统便可在这个逻辑磁碟上放置文件系统，即使是在那些使用<acronym>GEMO</acronym>提供的软体<acronym>RAID</acronym>解决方案也是一样，把<acronym>UFS</acronym>文件系统放在<acronym>RAID</acronym> Transform上面当做是一个单一的装置。<acronym>ZFS</acronym>结合了磁碟区管理程序(Volume Manager)与文件系统来解决这个问题并让建立多个文件系统可以共用一个储存池(Pool)。<acronym>ZFS</acronym>最大的优点是可以察觉实体磁碟配置的变动，当有额外的磁碟加入到储存池时可以自动扩增现有的文件系统，所有的文件系统便可使用这个新的空间。<acronym>ZFS</acronym>也有数个不同的属性可以套用到各别文件系统上，比起单一文件系统，对建立数个不同文件系统与资料集(Dataset)时有许多的好处。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:37405
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "快速入门"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:37407
 msgid "There is a startup mechanism that allows FreeBSD to mount <acronym>ZFS</acronym> pools during system initialization. To enable it, add this line to <filename>/etc/rc.conf</filename>:"
-msgstr ""
+msgstr "这里有一个启动机制，可让FreeBSD在系统初始化时挂载 <acronym>ZFS</acronym> 储存池。要开启这个功能，可加入此行到<filename>/etc/rc.conf</filename>:"
 
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:37412
@@ -35663,7 +35672,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:37414
 msgid "Then start the service:"
-msgstr ""
+msgstr "然后启动服务"
 
 #. (itstool) path: sect1/screen
 #: book.translate.xml:37416
@@ -35674,17 +35683,17 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:37418
 msgid "The examples in this section assume three <acronym>SCSI</acronym> disks with the device names <filename><replaceable>da0</replaceable></filename>, <filename><replaceable>da1</replaceable></filename>, and <filename><replaceable>da2</replaceable></filename>. Users of <acronym>SATA</acronym> hardware should instead use <filename><replaceable>ada</replaceable></filename> device names."
-msgstr ""
+msgstr "<acronym>SCSI</acronym> 本节的例子会假设有三个SCSI磁碟，名称分别为 <acronym>SCSI</acronym> <filename><replaceable>da0</replaceable></filename>, <filename><replaceable>da1</replaceable></filename>, 和<filename><replaceable>da2</replaceable></filename>. <acronym>SATA</acronym> 硬盘 <filename><replaceable>ada</replaceable></filename> 。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:37428
 msgid "Single Disk Pool"
-msgstr ""
+msgstr "单磁盘存储池"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37430
 msgid "To create a simple, non-redundant pool using a single disk device:"
-msgstr ""
+msgstr "使用一个磁盘建立一个简单，备份的存储池："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37433
@@ -35695,7 +35704,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37435
 msgid "To view the new pool, review the output of <command>df</command>:"
-msgstr ""
+msgstr "要检查这个存储池，可以通过<command>df</command>命令"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37438
@@ -35712,7 +35721,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37445
 msgid "This output shows that the <literal>example</literal> pool has been created and mounted. It is now accessible as a file system. Files can be created on it and users can browse it:"
-msgstr ""
+msgstr "df的输出结果显示，<literal>example</literal>存储池已创建并挂载。它现在是一个可以被读写的文件系统。用户可以在上面写入和读取文件。"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37450
@@ -35731,7 +35740,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37459
 msgid "However, this pool is not taking advantage of any <acronym>ZFS</acronym> features. To create a dataset on this pool with compression enabled:"
-msgstr ""
+msgstr "但这个存储池并没有使用任何 <acronym>ZFS</acronym> 的先进特性，若要在这个存储池上开启压缩功能，执行"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37463
@@ -35744,12 +35753,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37466
 msgid "The <literal>example/compressed</literal> dataset is now a <acronym>ZFS</acronym> compressed file system. Try copying some large files to <filename>/example/compressed</filename>."
-msgstr ""
+msgstr "现在我们已经在<literal>example/compressed</literal>数据集上启用  <acronym>ZFS</acronym> 的压缩功能. 可以试着复制大文件到 <filename>/example/compressed</filename>."
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37471
 msgid "Compression can be disabled with:"
-msgstr ""
+msgstr "可以使用以下命令关闭压缩功能"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37473
@@ -35760,7 +35769,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37475
 msgid "To unmount a file system, use <command>zfs umount</command> and then verify with <command>df</command>:"
-msgstr ""
+msgstr "要卸载当前文件系统，可使用<command>zfs umount</command>命令，可用<command> df </command>确认操作是否完成："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37479
@@ -35778,7 +35787,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37487
 msgid "To re-mount the file system to make it accessible again, use <command>zfs mount</command> and verify with <command>df</command>:"
-msgstr ""
+msgstr "若要再次挂在文件系统，可使用<command>zfs mount</command>命令，然后用<command> df  </command> 验证操作是否完成"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37491
@@ -35797,7 +35806,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37500
 msgid "The pool and file system may also be observed by viewing the output from <command>mount</command>:"
-msgstr ""
+msgstr "存储池和文件系统也可以通过<command> mount </command> 命令查询："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37503
@@ -35814,7 +35823,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37510
 msgid "After creation, <acronym>ZFS</acronym> datasets can be used like any file systems. However, many other features are available which can be set on a per-dataset basis. In the example below, a new file system called <literal>data</literal> is created. Important files will be stored here, so it is configured to keep two copies of each data block:"
-msgstr ""
+msgstr "在创建文件系统创建以后  <acronym>ZFS</acronym> 可以像其他的文件系统一样使用且可以在它上面启用其他特性。例如创建一个新的，用于存储重要文件的，名为<literal>data</literal>的ZFS卷。所以，每个数据块需要保留两个备份："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37518
@@ -35827,7 +35836,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37521
 msgid "It is now possible to see the data and space utilization by issuing <command>df</command>:"
-msgstr ""
+msgstr "现在可以用<command>df</command>查看磁盘占用："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37524
@@ -35843,15 +35852,16 @@ msgid ""
 "example/data        17547008       0 17547008     0%    /example/data"
 msgstr ""
 
+# 需斟酌
 #. (itstool) path: sect2/para
 #: book.translate.xml:37533
 msgid "Notice that each file system on the pool has the same amount of available space. This is the reason for using <command>df</command> in these examples, to show that the file systems use only the amount of space they need and all draw from the same pool. <acronym>ZFS</acronym> eliminates concepts such as volumes and partitions, and allows multiple file systems to occupy the same pool."
-msgstr ""
+msgstr "注意：在存储池中的每个卷有相同的可用空间，卷只使用他们需要的空间(在同一个存储池中)，这也是我们在范例中用<command>df</command> 的原因。<acronym>ZFS</acronym>消除了诸如卷和分区之类的概念，并允许多个文件系统占用相同的存储池。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37541
 msgid "To destroy the file systems and then destroy the pool as it is no longer needed:"
-msgstr ""
+msgstr "当我们不再需要时可以删除卷和存储池："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37544
@@ -35870,12 +35880,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37552
 msgid "Disks fail. One method of avoiding data loss from disk failure is to implement <acronym>RAID</acronym>. <acronym>ZFS</acronym> supports this feature in its pool design. <acronym>RAID-Z</acronym> pools require three or more disks but provide more usable space than mirrored pools."
-msgstr ""
+msgstr "在日常使用中我们使用<acronym>RAID</acronym>技术来避免因磁盘损坏而导致数据丢失，<acronym>ZFS</acronym> 在存储池设计中使用了类似的技术，名为<acronym>RAID-Z</acronym>。<acronym>RAID-Z</acronym>存储池需至少需要三个硬盘。<acronym>RAID-Z</acronym>相比镜像(Mirror)模式有更多的可用空间."
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37559
 msgid "This example creates a <acronym>RAID-Z</acronym> pool, specifying the disks to add to the pool:"
-msgstr ""
+msgstr "下面这个例子创建了一个<acronym>RAID-Z</acronym>存储池，并指定要加入这个存储池的硬盘:"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37562
@@ -35886,23 +35896,23 @@ msgstr ""
 #. (itstool) path: note/para
 #: book.translate.xml:37565
 msgid "<trademark>Sun</trademark> recommends that the number of devices used in a <acronym>RAID</acronym>-Z configuration be between three and nine. For environments requiring a single pool consisting of 10 disks or more, consider breaking it up into smaller <acronym>RAID-Z</acronym> groups. If only two disks are available and redundancy is a requirement, consider using a <acronym>ZFS</acronym> mirror. Refer to <citerefentry><refentrytitle>zpool</refentrytitle><manvolnum>8</manvolnum></citerefentry> for more details."
-msgstr ""
+msgstr "<trademark>Sun</trademark> 建议单个 <acronym>RAID-Z</acronym>-存储池使用的硬盘数量在3到9之间。若要使用更多的硬盘。可以考虑分成更小的 <acronym>RAID-Z</acronym> 群组. 如果只有两个磁盘可考虑组成 <acronym>ZFS</acronym> 镜像. 请参考 <citerefentry><refentrytitle>zpool</refentrytitle><manvolnum>8</manvolnum></citerefentry>以获取更多信息。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37575
 msgid "The previous example created the <literal>storage</literal> zpool. This example makes a new file system called <literal>home</literal> in that pool:"
-msgstr ""
+msgstr "在先前的例子中已经创建了 <literal>storage</literal>存储池（zpool）现在这个例子在该存储池中创建了一个名为 <literal>home</literal>的卷。"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37580
 #, no-wrap
 msgid "<prompt>#</prompt> <userinput>zfs create storage/home</userinput>"
-msgstr ""
+msgstr "<prompt>#</prompt> <userinput>zfs create storage/home</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37582
 msgid "Compression and keeping extra copies of directories and files can be enabled:"
-msgstr ""
+msgstr "可以启用压缩功能和保留文件副本"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37585
@@ -35911,11 +35921,13 @@ msgid ""
 "<prompt>#</prompt> <userinput>zfs set copies=2 storage/home</userinput>\n"
 "<prompt>#</prompt> <userinput>zfs set compression=gzip storage/home</userinput>"
 msgstr ""
+"<prompt>#</prompt> <userinput>zfs set copies=2 storage/home</userinput>\n"
+"<prompt>#</prompt> <userinput>zfs set compression=gzip storage/home</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37588
 msgid "To make this the new home directory for users, copy the user data to this directory and create the appropriate symbolic links:"
-msgstr ""
+msgstr "要让这个空间作为使用者的新 home 目录位置，需要复制使用者资料到这个目录并建立适合的符号链接（Symbolic link）："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37592
@@ -35926,32 +35938,37 @@ msgid ""
 "<prompt>#</prompt> <userinput>ln -s /storage/home /home</userinput>\n"
 "<prompt>#</prompt> <userinput>ln -s /storage/home /usr/home</userinput>"
 msgstr ""
+"<prompt>#</prompt> <userinput>cp -rp /home/* /storage/home</userinput>\n"
+"<prompt>#</prompt> <userinput>rm -rf /home /usr/home</userinput>\n"
+"<prompt>#</prompt> <userinput>ln -s /storage/home /home</userinput>\n"
+"<prompt>#</prompt> <userinput>ln -s /storage/home /usr/home</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37597
 msgid "Users data is now stored on the freshly-created <filename>/storage/home</filename>. Test by adding a new user and logging in as that user."
-msgstr ""
+msgstr "现在用户的资料会储存在新建立的<filename>/storage/home</filename>. 可以加入新用户并登入该使用者来测试。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37601
 msgid "Try creating a file system snapshot which can be rolled back later:"
-msgstr ""
+msgstr "试着建立文件系统快照（Snapshot），稍后可用来还原（Rollback）："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37604
 #, no-wrap
 msgid "<prompt>#</prompt> <userinput>zfs snapshot storage/home@08-30-08</userinput>"
-msgstr ""
+msgstr "<prompt>#</prompt> <userinput>zfs snapshot storage/home@08-30-08</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37606
 msgid "Snapshots can only be made of a full file system, not a single directory or file."
-msgstr ""
+msgstr "只可以对整个卷进行快照，无法对个别目录使用快照"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37609
+#, fuzzy
 msgid "The <literal>@</literal> character is a delimiter between the file system name or the volume name. If an important directory has been accidentally deleted, the file system can be backed up, then rolled back to an earlier snapshot when the directory still existed:"
-msgstr ""
+msgstr "@ 字符用来区分文件系统（file system）或磁碟区（卷）名称，若有重要的目录意外被删除，文件系统系统可以备份然后还原到先前目录还存在时的快照"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37615
@@ -35962,7 +35979,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37617
 msgid "To list all available snapshots, run <command>ls</command> in the file system's <filename>.zfs/snapshot</filename> directory. For example, to see the previously taken snapshot:"
-msgstr ""
+msgstr "要列出所有可用的快照，在ZFS的<filename>.zfs/snapshot</filename>目录下执行<command>ls</command>。例如插线先前的快照"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37622
@@ -35973,7 +35990,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37624
 msgid "It is possible to write a script to perform regular snapshots on user data. However, over time, snapshots can consume a great deal of disk space. The previous snapshot can be removed using the command:"
-msgstr ""
+msgstr "也可以写一个脚本对用户的文件进行定期快照。但随着时间推移可能消耗大量的磁盘空间。先前的快照可以使用以下指令删除："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37629
@@ -35984,7 +36001,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37631
 msgid "After testing, <filename>/storage/home</filename> can be made the real <filename>/home</filename> using this command:"
-msgstr ""
+msgstr "在测试之后，便可让<filename>/storage/home</filename>成为真正的<filename>/home</filename>,使用命令："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37635
@@ -35995,7 +36012,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37637
 msgid "Run <command>df</command> and <command>mount</command> to confirm that the system now treats the file system as the real <filename>/home</filename>:"
-msgstr ""
+msgstr "执行<command>df</command> 和<command>mount</command>来确认文件系统是否被挂载于<filename>/home</filename>:"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37641
@@ -36019,7 +36036,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37655
 msgid "This completes the <acronym>RAID-Z</acronym> configuration. Daily status updates about the file systems created can be generated as part of the nightly <citerefentry><refentrytitle>periodic</refentrytitle><manvolnum>8</manvolnum></citerefentry> runs. Add this line to <filename>/etc/periodic.conf</filename>:"
-msgstr ""
+msgstr "这个动作完成 <acronym>RAID-Z</acronym>最后的设置. 有关已建立的档案系统每日状态更新可以做为<citerefentry><refentrytitle>periodic</refentrytitle><manvolnum>8</manvolnum></citerefentry> 的一部份在每天晚上执行。加入此行到<filename>/etc/periodic.conf</filename>:"
 
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:37661
@@ -36030,23 +36047,23 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:37665
 msgid "Recovering <acronym>RAID-Z</acronym>"
-msgstr ""
+msgstr "还原<acronym>RAID-Z</acronym>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37667
 msgid "Every software <acronym>RAID</acronym> has a method of monitoring its <literal>state</literal>. The status of <acronym>RAID-Z</acronym> devices may be viewed with this command:"
-msgstr ""
+msgstr "每个软<acronym>RAID</acronym> 都有监控其状态（<literal>state</literal>）的方式，而<acronym>RAID-Z</acronym> 设备的状态可以使用这个命令来查看"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37672
 #, no-wrap
 msgid "<prompt>#</prompt> <userinput>zpool status -x</userinput>"
-msgstr ""
+msgstr "<prompt>#</prompt> <userinput>zpool status -x</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37674
 msgid "If all pools are <link linkend=\"zfs-term-online\">Online</link> and everything is normal, the message shows:"
-msgstr ""
+msgstr "如果所有的存储池都在线（ <link linkend=\"zfs-term-online\">Online</link> ）且正常运行, 则显示下列信息:"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37678
@@ -36057,7 +36074,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37680
 msgid "If there is an issue, perhaps a disk is in the <link linkend=\"zfs-term-offline\">Offline</link> state, the pool state will look similar to:"
-msgstr ""
+msgstr "如果发生问题，可能磁盘处于离线 （<link linkend=\"zfs-term-offline\">Offline</link>） 状态，则此时存储池的状态将可能是："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37684
@@ -36086,29 +36103,29 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37703
 msgid "This indicates that the device was previously taken offline by the administrator with this command:"
-msgstr ""
+msgstr "这表示设备在之前已经被管理人员用以下命令下线："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37706
 #, no-wrap
 msgid "<prompt>#</prompt> <userinput>zpool offline storage da1</userinput>"
-msgstr ""
+msgstr "<prompt>#</prompt> <userinput>zpool offline storage da1</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37708
 msgid "Now the system can be powered down to replace <filename>da1</filename>. When the system is back online, the failed disk can replaced in the pool:"
-msgstr ""
+msgstr "现在系统可以关机然后更换<filename>da1</filename>，当系统回复上线，就可以替换掉存储池中故障的磁盘："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37712
 #, no-wrap
 msgid "<prompt>#</prompt> <userinput>zpool replace storage da1</userinput>"
-msgstr ""
+msgstr "<prompt>#</prompt> <userinput>zpool replace storage da1</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37714
 msgid "From here, the status may be checked again, this time without <option>-x</option> so that all pools are shown:"
-msgstr ""
+msgstr "到此可以再次检查状态，这时不需要使用<option>-x</option>来显示所有的存储池："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37718
@@ -36133,38 +36150,38 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37733
 msgid "In this example, everything is normal."
-msgstr ""
+msgstr "在这个例子中，所有磁盘均正常工作。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:37737
 msgid "Data Verification"
-msgstr ""
+msgstr "资料校验"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37739
 msgid "<acronym>ZFS</acronym> uses checksums to verify the integrity of stored data. These are enabled automatically upon creation of file systems."
-msgstr ""
+msgstr "<acronym>ZFS</acronym>使用验证码（checksums）"
 
 #. (itstool) path: warning/para
 #: book.translate.xml:37744
 msgid "Checksums can be disabled, but it is <emphasis>not</emphasis> recommended! Checksums take very little storage space and provide data integrity. Many <acronym>ZFS</acronym> features will not work properly with checksums disabled. There is no noticeable performance gain from disabling these checksums."
-msgstr ""
+msgstr "校验码（Checksum）可以关闭，单<emphasis>不建议</emphasis>，校验码只会占用非常少的存储空间来确保资料的完整性。若关闭校验码会使许多<acronym>ZFS</acronym>功能无法正常工作。关闭校验功能不会使性能有明显的提升。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37752
 msgid "Checksum verification is known as <emphasis>scrubbing</emphasis>. Verify the data integrity of the <literal>storage</literal> pool with this command:"
-msgstr ""
+msgstr "检验校验码这个动作即所谓的清理（<emphasis>scrubbing</emphasis>），可以使用以下命令来检验<literal>storage</literal>存储池的资料完整性"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37756
 #, no-wrap
 msgid "<prompt>#</prompt> <userinput>zpool scrub storage</userinput>"
-msgstr ""
+msgstr "<prompt>#</prompt> <userinput>zpool scrub storage</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37758
 msgid "The duration of a scrub depends on the amount of data stored. Larger amounts of data will take proportionally longer to verify. Scrubs are very <acronym>I/O</acronym> intensive, and only one scrub is allowed to run at a time. After the scrub completes, the status can be viewed with <command>status</command>:"
-msgstr ""
+msgstr "完成清理所需要的时间视数据量的大小而定。较大的数据量将使用更多的时间完成校验，清理会对<acronym>I/O</acronym>有非常密集的操作且同时只能进行一个清理操作。在清理完成后，可以使用<command>status</command>来查看状态："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37765
@@ -36185,41 +36202,55 @@ msgid ""
 "\n"
 "errors: No known data errors"
 msgstr ""
+"<prompt>#</prompt> <userinput>zpool status storage</userinput>\n"
+" pool: storage\n"
+" state: ONLINE\n"
+" scrub: scrub completed with 0 errors on Sat Jan 26 19:57:37 2013\n"
+"config:\n"
+"\n"
+"\tNAME        STATE     READ WRITE CKSUM\n"
+"\tstorage     ONLINE       0     0     0\n"
+"\t  raidz1    ONLINE       0     0     0\n"
+"\t    da0     ONLINE       0     0     0\n"
+"\t    da1     ONLINE       0     0     0\n"
+"\t    da2     ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37780
 msgid "The completion date of the last scrub operation is displayed to help track when another scrub is required. Routine scrubs help protect data from silent corruption and ensure the integrity of the pool."
-msgstr ""
+msgstr "查询结果会显示上次清理时间来协助判断是否还需要清理，定期清理可以确保资料完整性："
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37785
 msgid "Refer to <citerefentry><refentrytitle>zfs</refentrytitle><manvolnum>8</manvolnum></citerefentry> and <citerefentry><refentrytitle>zpool</refentrytitle><manvolnum>8</manvolnum></citerefentry> for other <acronym>ZFS</acronym> options."
-msgstr ""
+msgstr "请参考 <citerefentry><refentrytitle>zfs</refentrytitle><manvolnum>8</manvolnum></citerefentry> 和<citerefentry><refentrytitle>zpool</refentrytitle><manvolnum>8</manvolnum></citerefentry> 来获取 <acronym>ZFS</acronym> 更多操作。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:37791
 msgid "<command>zpool</command> Administration"
-msgstr ""
+msgstr "<command>zpool</command> 管理"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:37793
 msgid "<acronym>ZFS</acronym> administration is divided between two main utilities. The <command>zpool</command> utility controls the operation of the pool and deals with adding, removing, replacing, and managing disks. The <link linkend=\"zfs-zfs\"><command>zfs</command></link> utility deals with creating, destroying, and managing datasets, both <link linkend=\"zfs-term-filesystem\">file systems</link> and <link linkend=\"zfs-term-volume\">volumes</link>."
-msgstr ""
+msgstr "<acronym>ZFS</acronym>管理主要用两个工具。<command>zpool</command>工具来控制存储池运行并可智力磁盘的新增，移除更新与管理。<link linkend=\"zfs-zfs\"><command>zfs</command></link> 工具用来建立，删除与管理文件系统（<link linkend=\"zfs-term-filesystem\">file systems</link> ）与磁盘卷<link linkend=\"zfs-term-volume\">volumes</link>的数据集。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:37803
 msgid "Creating and Destroying Storage Pools"
-msgstr ""
+msgstr "创建与删除存储池"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37805
 msgid "Creating a <acronym>ZFS</acronym> storage pool (<emphasis>zpool</emphasis>) involves making a number of decisions that are relatively permanent because the structure of the pool cannot be changed after the pool has been created. The most important decision is what types of vdevs into which to group the physical disks. See the list of <link linkend=\"zfs-term-vdev\">vdev types</link> for details about the possible options. After the pool has been created, most vdev types do not allow additional disks to be added to the vdev. The exceptions are mirrors, which allow additional disks to be added to the vdev, and stripes, which can be upgraded to mirrors by attaching an additional disk to the vdev. Although additional vdevs can be added to expand a pool, the layout of the pool cannot be changed after pool creation. Instead, the data must be backed up and the pool destroyed and recreated."
-msgstr ""
+msgstr "创建一个<acronym>ZFS</acronym> 存储池(<emphasis>zpool</emphasis>)要提前做好几个长远决定。因为存储池的结构建立以后无法再次更改。最重要的决定是哪一种vdev型号"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37822
 msgid "Create a simple mirror pool:"
-msgstr ""
+msgstr "创建一个简单的存储池"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37824
@@ -36240,11 +36271,25 @@ msgid ""
 "\n"
 "errors: No known data errors"
 msgstr ""
+"<prompt>#</prompt> <userinput>zpool create <replaceable>mypool</replaceable> mirror <replaceable>/dev/ada1</replaceable> <replaceable>/dev/ada2</replaceable></userinput>\n"
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: none requested\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada1    ONLINE       0     0     0\n"
+"            ada2    ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37839
 msgid "Multiple vdevs can be created at once. Specify multiple groups of disks separated by the vdev type keyword, <literal>mirror</literal> in this example:"
-msgstr ""
+msgstr "可以一次性创建多个vdev，磁盘组之间使用vdev类型关键字区分，在这个例子中用<literal>mirror</literal>"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37843
@@ -36267,16 +36312,32 @@ msgid ""
 "\n"
 "errors: No known data errors"
 msgstr ""
+"<prompt>#</prompt> <userinput>zpool create <replaceable>mypool</replaceable> mirror <replaceable>/dev/ada1</replaceable> <replaceable>/dev/ada2</replaceable> mirror <replaceable>/dev/ada3</replaceable> <replaceable>/dev/ada4</replaceable></userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: none requested\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada1    ONLINE       0     0     0\n"
+"            ada2    ONLINE       0     0     0\n"
+"          mirror-1  ONLINE       0     0     0\n"
+"            ada3    ONLINE       0     0     0\n"
+"            ada4    ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37860
 msgid "Pools can also be constructed using partitions rather than whole disks. Putting <acronym>ZFS</acronym> in a separate partition allows the same disk to have other partitions for other purposes. In particular, partitions with bootcode and file systems needed for booting can be added. This allows booting from disks that are also members of a pool. There is no performance penalty on FreeBSD when using a partition rather than a whole disk. Using partitions also allows the administrator to <emphasis>under-provision</emphasis> the disks, using less than the full capacity. If a future replacement disk of the same nominal size as the original actually has a slightly smaller capacity, the smaller partition will still fit, and the replacement disk can still be used."
-msgstr ""
+msgstr "存储池也可以不使用整个磁盘而改使用分区来建里。把<acronym>ZFS</acronym>放到不同的分区可让其他分区用于其他用途。尤其是有Bootcode与文件系统要用来开机的分区，这让磁盘可以用来开机也同样可以做为存储池的一部份。在 FreeBSD 用分区来替代整个磁碟并不会对性能有影响。使用分区也让管理者可以对磁碟容量做 少算的预备，使用比完整容量少的容量，未来若要替换的磁盘号称与原磁盘相同，但实际上却比较小时，也可符合这个较小的分区容量，以使用替换的磁碟。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37875
 msgid "Create a <link linkend=\"zfs-term-vdev-raidz\">RAID-Z2</link> pool using partitions:"
-msgstr ""
+msgstr "用分区创建一个<link linkend=\"zfs-term-vdev-raidz\">RAID-Z2</link> 存储池。"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37879
@@ -36301,31 +36362,50 @@ msgid ""
 "\n"
 "errors: No known data errors"
 msgstr ""
+"<prompt>#</prompt> <userinput>zpool create <replaceable>mypool</replaceable> raidz2 <replaceable>/dev/ada0p3</replaceable> <replaceable>/dev/ada1p3</replaceable> <replaceable>/dev/ada2p3</replaceable> <replaceable>/dev/ada3p3</replaceable> <replaceable>/dev/ada4p3</replaceable> <replaceable>/dev/ada5p3</replaceable></userinput>\n"
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: none requested\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          raidz2-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada1p3  ONLINE       0     0     0\n"
+"            ada2p3  ONLINE       0     0     0\n"
+"            ada3p3  ONLINE       0     0     0\n"
+"            ada4p3  ONLINE       0     0     0\n"
+"            ada5p3  ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37898
 msgid "A pool that is no longer needed can be destroyed so that the disks can be reused. Destroying a pool involves first unmounting all of the datasets in that pool. If the datasets are in use, the unmount operation will fail and the pool will not be destroyed. The destruction of the pool can be forced with <option>-f</option>, but this can cause undefined behavior in applications which had open files on those datasets."
-msgstr ""
+msgstr "不需要的存储池可以删除以获得更多可用空间。删除一个存储池需要先卸载所有该存储池上的数据集。若数据集在使用中，卸载操作不会完成，存储池也不会被删除。可以使用<option>-f</option>选项来强制卸载数据集，但正在运行的应用程序可能会对数据集做出未定义的操作。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:37909
 msgid "Adding and Removing Devices"
-msgstr ""
+msgstr "添加和移除设备"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37911
 msgid "There are two cases for adding disks to a zpool: attaching a disk to an existing vdev with <command>zpool attach</command>, or adding vdevs to the pool with <command>zpool add</command>. Only some <link linkend=\"zfs-term-vdev\">vdev types</link> allow disks to be added to the vdev after creation."
-msgstr ""
+msgstr "添加磁盘到zpool中有两种情况：用<command>zpool attach</command>命令将磁盘加入一个现有的vdev中。只有部分<link linkend=\"zfs-term-vdev\">vdev types</link> 允许在vdev建立之后加入磁盘。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37918
 msgid "A pool created with a single disk lacks redundancy. Corruption can be detected but not repaired, because there is no other copy of the data. The <link linkend=\"zfs-term-copies\">copies</link> property may be able to recover from a small failure such as a bad sector, but does not provide the same level of protection as mirroring or <acronym>RAID-Z</acronym>. Starting with a pool consisting of a single disk vdev, <command>zpool attach</command> can be used to add an additional disk to the vdev, creating a mirror. <command>zpool attach</command> can also be used to add additional disks to a mirror group, increasing redundancy and read performance. If the disks being used for the pool are partitioned, replicate the layout of the first disk on to the second, <command>gpart backup</command> and <command>gpart restore</command> can be used to make this process easier."
-msgstr ""
+msgstr "由单一磁盘建立的存储池缺乏冗余备份功能，可以检测到数据损坏单无法修复，因为数据没有其他备份。备份（<link linkend=\"zfs-term-copies\">copies</link>）属性可以让您从较小的故障（比如磁盘坏道）。单无法提供与镜像和<acronym>RAID-Z</acronym>同样级别的保护。由单一磁盘所建立的存储池可用<command>zpool attach</command>加入新设备，建里镜像。<command>zpool attach</command>也可用来加入额外的磁盘到镜像群组以增加备份和读取速度。若使用的磁盘已有分区，可以复制给磁盘分区到另一个，使用<command>gpart backup</command>与<command>gpart restore</command>可以让这个过程更简单。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37936
+#, fuzzy
 msgid "Upgrade the single disk (stripe) vdev <replaceable>ada0p3</replaceable> to a mirror by attaching <replaceable>ada1p3</replaceable>:"
-msgstr ""
+msgstr "加入<replaceable>ada0p3</replaceable> 来升级单一磁盘串通（strip）vdev<replaceable>ada1p3</replaceable>采用镜像型态："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37940
@@ -36386,26 +36466,80 @@ msgid ""
 "\n"
 "errors: No known data errors"
 msgstr ""
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: none requested\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          ada0p3    ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors\n"
+"<prompt>#</prompt> <userinput>zpool attach <replaceable>mypool</replaceable> <replaceable>ada0p3</replaceable> <replaceable>ada1p3</replaceable></userinput>\n"
+"Make sure to wait until resilver is done before rebooting.\n"
+"\n"
+"If you boot from pool 'mypool', you may need to update\n"
+"boot code on newly attached disk 'ada1p3'.\n"
+"\n"
+"Assuming you use GPT partitioning and 'da0' is your new boot disk\n"
+"you may use the following command:\n"
+"\n"
+"        gpart bootcode -b /boot/pmbr -p /boot/gptzfsboot -i 1 da0\n"
+"<prompt>#</prompt> <userinput>gpart bootcode -b /boot/pmbr -p /boot/gptzfsboot -i 1 <replaceable>ada1</replaceable></userinput>\n"
+"bootcode written to ada1\n"
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"status: One or more devices is currently being resilvered.  The pool will\n"
+"        continue to function, possibly in a degraded state.\n"
+"action: Wait for the resilver to complete.\n"
+"  scan: resilver in progress since Fri May 30 08:19:19 2014\n"
+"        527M scanned out of 781M at 47.9M/s, 0h0m to go\n"
+"        527M resilvered, 67.53% done\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada1p3  ONLINE       0     0     0  (resilvering)\n"
+"\n"
+"errors: No known data errors\n"
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: resilvered 781M in 0h0m with 0 errors on Fri May 30 08:15:58 2014\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada1p3  ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37995
 msgid "When adding disks to the existing vdev is not an option, as for <acronym>RAID-Z</acronym>, an alternative method is to add another vdev to the pool. Additional vdevs provide higher performance, distributing writes across the vdevs. Each vdev is responsible for providing its own redundancy. It is possible, but discouraged, to mix vdev types, like <literal>mirror</literal> and <literal>RAID-Z</literal>. Adding a non-redundant vdev to a pool containing mirror or <acronym>RAID-Z</acronym> vdevs risks the data on the entire pool. Writes are distributed, so the failure of the non-redundant disk will result in the loss of a fraction of every block that has been written to the pool."
-msgstr ""
+msgstr "若不想加入磁盘到现有的vdev，对<acronym>RAID-Z</acronym>来说，可选择另一种方式：加入到另一个vdev存储池。额外的vdev可以提供更好的性能，分散写入资料到vdev之间每个vdev成员负责自己的备份。也可以使用不同的vdev形态，但不建议这么做，例如混合使用<literal>mirror</literal>和<literal>RAID-Z</literal>加入到另一个无备份的vdev到一个含有mirror或RAID-Z vdev的存储池会让数据损坏的风险扩大整个储存池，由于分散写入数据，若在无备份的磁盘上发生故障的结果便是遗失大半写到储存池的数据"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38008
 msgid "Data is striped across each of the vdevs. For example, with two mirror vdevs, this is effectively a <acronym>RAID</acronym> 10 that stripes writes across two sets of mirrors. Space is allocated so that each vdev reaches 100% full at the same time. There is a performance penalty if the vdevs have different amounts of free space, as a disproportionate amount of the data is written to the less full vdev."
-msgstr ""
+msgstr "在每个vdev 间的资料是串连的，例如，有两个mirror vdev，便跟<acronym>RAID</acronym>10 一样在两个mirror 间分散写入资料，且会做空间的分配，因此vdev 会在同时达到全满100% 的用量。若 vdev 间的可用空间量不同则会影响到效能，因为资料量会不成比例的写入到使用量较少的 vdev。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38017
 msgid "When attaching additional devices to a boot pool, remember to update the bootcode."
-msgstr ""
+msgstr "当连接额外的装置到一个可以开机的储存池，要记得更新 Bootcode。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38020
 msgid "Attach a second mirror group (<filename>ada2p3</filename> and <filename>ada3p3</filename>) to the existing mirror:"
-msgstr ""
+msgstr "连接第二个mirror群组(<filename>ada2p3</filename> 和 <filename>ada3p3</filename>)到现有的mirror。"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:38024
@@ -36446,16 +36580,50 @@ msgid ""
 "\n"
 "errors: No known data errors"
 msgstr ""
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: resilvered 781M in 0h0m with 0 errors on Fri May 30 08:19:35 2014\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada1p3  ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors\n"
+"<prompt>#</prompt> <userinput>zpool add <replaceable>mypool</replaceable> mirror <replaceable>ada2p3</replaceable> <replaceable>ada3p3</replaceable></userinput>\n"
+"<prompt>#</prompt> <userinput>gpart bootcode -b /boot/pmbr -p /boot/gptzfsboot -i 1 <replaceable>ada2</replaceable></userinput>\n"
+"bootcode written to ada2\n"
+"<prompt>#</prompt> <userinput>gpart bootcode -b /boot/pmbr -p /boot/gptzfsboot -i 1 <replaceable>ada3</replaceable></userinput>\n"
+"bootcode written to ada3\n"
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: scrub repaired 0 in 0h0m with 0 errors on Fri May 30 08:29:51 2014\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada1p3  ONLINE       0     0     0\n"
+"          mirror-1  ONLINE       0     0     0\n"
+"            ada2p3  ONLINE       0     0     0\n"
+"            ada3p3  ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38059
 msgid "Currently, vdevs cannot be removed from a pool, and disks can only be removed from a mirror if there is enough remaining redundancy. If only one disk in a mirror group remains, it ceases to be a mirror and reverts to being a stripe, risking the entire pool if that remaining disk fails."
-msgstr ""
+msgstr "现在已无法从存储上移除vdev，且磁盘只能够在有足够剩余空间的情况下从mirror 移除，若在mirror 群组中只剩下一个磁盘，便会取消mirror 然后还原为stripe ，若剩下的那个磁盘故障，便会影响到整个储存池。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38065
 msgid "Remove a disk from a three-way mirror group:"
-msgstr ""
+msgstr "从一个三方 mirror 群组移除一个磁盘："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:38067
@@ -36490,16 +36658,44 @@ msgid ""
 "\n"
 "errors: No known data errors"
 msgstr ""
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: scrub repaired 0 in 0h0m with 0 errors on Fri May 30 08:29:51 2014\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada1p3  ONLINE       0     0     0\n"
+"            ada2p3  ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors\n"
+"<prompt>#</prompt> <userinput>zpool detach <replaceable>mypool</replaceable> <replaceable>ada2p3</replaceable></userinput>\n"
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: scrub repaired 0 in 0h0m with 0 errors on Fri May 30 08:29:51 2014\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada1p3  ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:38098
 msgid "Checking the Status of a Pool"
-msgstr ""
+msgstr "检擦存储池状态"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38100
 msgid "Pool status is important. If a drive goes offline or a read, write, or checksum error is detected, the corresponding error count increases. The <command>status</command> output shows the configuration and status of each device in the pool and the status of the entire pool. Actions that need to be taken and details about the last <link linkend=\"zfs-zpool-scrub\"><command>scrub</command></link> are also shown."
-msgstr ""
+msgstr "储存池的状态很重要，若有磁碟机离线或侦测到读取、写入或校验码 (Checksum) 错误，对应的错误计数便会增加。 status 会显示储存池中每一个磁碟机的设定与状态及整个储存池的状态。需要处置的方式与有关最近清洁 (Scrub) 的详细资讯也会一并显示。"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:38108
@@ -36523,31 +36719,48 @@ msgid ""
 "\n"
 "errors: No known data errors"
 msgstr ""
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: scrub repaired 0 in 2h25m with 0 errors on Sat Sep 14 04:25:50 2013\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          raidz2-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada1p3  ONLINE       0     0     0\n"
+"            ada2p3  ONLINE       0     0     0\n"
+"            ada3p3  ONLINE       0     0     0\n"
+"            ada4p3  ONLINE       0     0     0\n"
+"            ada5p3  ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:38128
 msgid "Clearing Errors"
-msgstr ""
+msgstr "排除错误"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38130
 msgid "When an error is detected, the read, write, or checksum counts are incremented. The error message can be cleared and the counts reset with <command>zpool clear <replaceable>mypool</replaceable></command>. Clearing the error state can be important for automated scripts that alert the administrator when the pool encounters an error. Further errors may not be reported if the old errors are not cleared."
-msgstr ""
+msgstr "当侦测到错误发生，读取、写入或校验码 (Checksum) 的计数便会增加。使用 <command>zpool clear <replaceable>mypool</replaceable></command> 可以清除错误讯息及重置计数。清空错误状态对当存储发生错误要使用自动化 Script 通知的管理者来说会很重要，因在旧的错误尚未清除前不会回报后续的错误。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:38141
 msgid "Replacing a Functioning Device"
-msgstr ""
+msgstr "更换正在运行的设备"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38143
 msgid "There are a number of situations where it may be desirable to replace one disk with a different disk. When replacing a working disk, the process keeps the old disk online during the replacement. The pool never enters a <link linkend=\"zfs-term-degraded\">degraded</link> state, reducing the risk of data loss. <command>zpool replace</command> copies all of the data from the old disk to the new one. After the operation completes, the old disk is disconnected from the vdev. If the new disk is larger than the old disk, it may be possible to grow the zpool, using the new space. See <link linkend=\"zfs-zpool-online\">Growing a Pool</link>."
-msgstr ""
+msgstr "可能有一些情况会需要更换磁碟为另一个磁碟，当要更换运作中的磁碟，此程序会维持旧有的磁盘在更换的过程为上线的状态，储存池不会进入降级(<link linkend=\"zfs-term-degraded\">degraded</link>) 的状态，来减少资料遗失的风险。<command>zpool replace</command> 会复制所有旧磁盘的资料到新磁碟，操作完成之后旧磁碟便会与 vdev 中断连线。若新磁碟容量较旧磁碟大，也可以会增加储存池来使用新的空间，请参考<link linkend=\"zfs-zpool-online\">扩展存储池</link>。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38155
 msgid "Replace a functioning device in the pool:"
-msgstr ""
+msgstr "更换存储池中正在运行的设备"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:38157
@@ -36611,11 +36824,68 @@ msgid ""
 "\n"
 "errors: No known data errors"
 msgstr ""
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: none requested\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada1p3  ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors\n"
+"<prompt>#</prompt> <userinput>zpool replace <replaceable>mypool</replaceable> <replaceable>ada1p3</replaceable> <replaceable>ada2p3</replaceable></userinput>\n"
+"Make sure to wait until resilver is done before rebooting.\n"
+"\n"
+"If you boot from pool 'zroot', you may need to update\n"
+"boot code on newly attached disk 'ada2p3'.\n"
+"\n"
+"Assuming you use GPT partitioning and 'da0' is your new boot disk\n"
+"you may use the following command:\n"
+"\n"
+"        gpart bootcode -b /boot/pmbr -p /boot/gptzfsboot -i 1 da0\n"
+"<prompt>#</prompt> <userinput>gpart bootcode -b /boot/pmbr -p /boot/gptzfsboot -i 1 <replaceable>ada2</replaceable></userinput>\n"
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"status: One or more devices is currently being resilvered.  The pool will\n"
+"        continue to function, possibly in a degraded state.\n"
+"action: Wait for the resilver to complete.\n"
+"  scan: resilver in progress since Mon Jun  2 14:21:35 2014\n"
+"        604M scanned out of 781M at 46.5M/s, 0h0m to go\n"
+"        604M resilvered, 77.39% done\n"
+"config:\n"
+"\n"
+"        NAME             STATE     READ WRITE CKSUM\n"
+"        mypool           ONLINE       0     0     0\n"
+"          mirror-0       ONLINE       0     0     0\n"
+"            ada0p3       ONLINE       0     0     0\n"
+"            replacing-1  ONLINE       0     0     0\n"
+"              ada1p3     ONLINE       0     0     0\n"
+"              ada2p3     ONLINE       0     0     0  (resilvering)\n"
+"\n"
+"errors: No known data errors\n"
+"<prompt>#</prompt> <userinput>zpool status</userinput>\n"
+"  pool: mypool\n"
+" state: ONLINE\n"
+"  scan: resilvered 781M in 0h0m with 0 errors on Mon Jun  2 14:21:52 2014\n"
+"config:\n"
+"\n"
+"        NAME        STATE     READ WRITE CKSUM\n"
+"        mypool      ONLINE       0     0     0\n"
+"          mirror-0  ONLINE       0     0     0\n"
+"            ada0p3  ONLINE       0     0     0\n"
+"            ada2p3  ONLINE       0     0     0\n"
+"\n"
+"errors: No known data errors"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:38217
 msgid "Dealing with Failed Devices"
-msgstr ""
+msgstr "处理故障设备"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38219
