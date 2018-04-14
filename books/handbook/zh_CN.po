@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2018-04-14 16:08+0800\n"
+"PO-Revision-Date: 2018-01-22 23:30-0500\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,15 +16,6 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"YF <yfdyh000@gmail.com>, 2016\n"
-"danfong <danfong.hsieh@gmail.com>, 2016\n"
-"naruto861214 <naruto861214@gmail.com>, 2016\n"
-"Vel <veloci85@gmail.com>, 2016\n"
-"Agustín Wu <losangwuyts@gmail.com>, 2016\n"
-"Chinrur Yang <chinrur@gmail.com>, 2016\n"
-"LNDDYL <lnddyl@outlook.com>, 2016\n"
-"Mingye Wang (Arthur2e5) <arthur200126@gmail.com>, 2017\n"
-"Hongyou Bai <bhy1924@gmail.com>"
 
 #. (itstool) path: info/title
 #: book.translate.xml:644
@@ -209,12 +200,12 @@ msgstr ""
 #. (itstool) path: abstract/para
 #: book.translate.xml:810
 msgid "Welcome to FreeBSD! This handbook covers the installation and day to day use of <emphasis>FreeBSD 11.1-RELEASE</emphasis> and <emphasis>FreeBSD 10.4-RELEASE</emphasis>. This book is the result of ongoing work by many individuals. Some sections might be outdated. Those interested in helping to update and expand this document should send email to the <link xlink:href=\"http://lists.FreeBSD.org/mailman/listinfo/freebsd-doc\">FreeBSD documentation project mailing list</link>."
-msgstr "欢迎使用 FreeBSD！本手册涵盖了 <emphasis>FreeBSD 11.1-RELEASE</emphasis> 和 <emphasis>FreeBSD 10.4-RELEASE</emphasis> 的安装与日常使用的说明.这份使用手册目前由很多人持续地维护.某些章节可能需要更新，如果您有兴趣参与这个项目，请发邮件至 <link xlink:href=\"http://lists.FreeBSD.org/mailman/listinfo/freebsd-doc\">FreeBSD 文档计划邮件列表</link>."
+msgstr "欢迎使用 FreeBSD！本手册涵盖了 <emphasis>FreeBSD 11.1-RELEASE</emphasis> 和 <emphasis>FreeBSD 10.4-RELEASE</emphasis> 的安装与日常使用的说明。这份使用手册目前由很多人持续地维护。某些章节可能需要更新，如果您有兴趣参与这个项目，请发邮件至 <link xlink:href=\"http://lists.FreeBSD.org/mailman/listinfo/freebsd-doc\">FreeBSD 文档计划邮件列表</link>。"
 
 #. (itstool) path: abstract/para
 #: book.translate.xml:818
 msgid "The latest version of this book is available from the <link xlink:href=\"https://www.FreeBSD.org/\">FreeBSD web site</link>. Previous versions can be obtained from <uri xlink:href=\"https://docs.FreeBSD.org/doc/\">https://docs.FreeBSD.org/doc/</uri>. The book can be downloaded in a variety of formats and compression options from the <link xlink:href=\"https://download.freebsd.org/ftp/doc/\">FreeBSD FTP server</link> or one of the numerous <link linkend=\"mirrors-ftp\">mirror sites</link>. Printed copies can be purchased at the <link xlink:href=\"http://www.freebsdmall.com/\">FreeBSD Mall</link>. Searches can be performed on the handbook and other documents on the <link xlink:href=\"@@URL_RELPREFIX@@/search/index.html\">search page</link>."
-msgstr "此文档最新的英文原始版本可以从 <link xlink:href=\"https://www.FreeBSD.org/\">FreeBSD 网站</link> 上获得，较早期版本可以在 <uri xlink:href=\"https://docs.FreeBSD.org/doc/\">https://docs.FreeBSD.org/doc/</uri> 找到.您也可以从 <link xlink:href=\"https://download.freebsd.org/ftp/doc/\">FreeBSD FTP 服务器</link> 或者众多 <link linkend=\"mirrors-ftp\">镜像站点</link> 上下载这份文档的各种其它格式，以及压缩形式的版本.如果您希望得到一份印刷版本的手册， 可以从 <link xlink:href=\"http://www.freebsdmall.com/\">FreeBSD Mall</link> 购买.此外， 您还可以在本手册和其它文档中 <link xlink:href=\"@@URL_RELPREFIX@@/search/index.html\">搜索内容</link>."
+msgstr "此文档最新的英文原始版本可以从 <link xlink:href=\"https://www.FreeBSD.org/\">FreeBSD 网站</link> 上获得，较早期版本可以在 <uri xlink:href=\"https://docs.FreeBSD.org/doc/\">https://docs.FreeBSD.org/doc/</uri> 找到。您也可以从 <link xlink:href=\"https://download.freebsd.org/ftp/doc/\">FreeBSD FTP 服务器</link> 或者众多 <link linkend=\"mirrors-ftp\">镜像站点</link> 上下载这份文档的各种其它格式，以及压缩形式的版本。如果您希望得到一份印刷版本的手册， 可以从 <link xlink:href=\"http://www.freebsdmall.com/\">FreeBSD Mall</link> 购买。此外， 您还可以在本手册和其它文档中 <link xlink:href=\"@@URL_RELPREFIX@@/search/index.html\">搜索内容</link>。"
 
 #. (itstool) path: preface/title
 #: book.translate.xml:839
@@ -230,17 +221,17 @@ msgstr "给读者的话"
 #. (itstool) path: preface/para
 #: book.translate.xml:844
 msgid "The FreeBSD newcomer will find that the first section of this book guides the user through the FreeBSD installation process and gently introduces the concepts and conventions that underpin <trademark class=\"registered\">UNIX</trademark>. Working through this section requires little more than the desire to explore, and the ability to take on board new concepts as they are introduced."
-msgstr "作为 FreeBSD 的新用户，您将会在本手册第一部分找到 FreeBSD 的安装方法，同时逐渐引入一些 <trademark class=\"registered\">UNIX</trademark> 系统的基础概念和惯例. 阅读这部分并不难，只需要您有探索的精神和接受新概念的能力."
+msgstr "作为 FreeBSD 的新用户，您将会在本手册第一部分找到 FreeBSD 的安装方法，同时逐渐引入一些 <trademark class=\"registered\">UNIX</trademark> 系统的基础概念和惯例。 阅读这部分并不难，只需要您有探索的精神和接受新概念的能力。"
 
 #. (itstool) path: preface/para
 #: book.translate.xml:851
 msgid "Once you have traveled this far, the second, far larger, section of the Handbook is a comprehensive reference to all manner of topics of interest to FreeBSD system administrators. Some of these chapters may recommend that you do some prior reading, and this is noted in the synopsis at the beginning of each chapter."
-msgstr "读完这些之后，本手册中很长的第二部分是 FreeBSD 系统管理员会感兴趣的所有主题的全面参考.在阅读这些章节时所需要的背景知识都注释在每一章节的大纲里，您可在阅读前进行预习."
+msgstr "读完这些之后，本手册中很长的第二部分是 FreeBSD 系统管理员会感兴趣的所有主题的全面参考。在阅读这些章节时所需要的背景知识都注释在每一章节的大纲里，您可在阅读前进行预习。"
 
 #. (itstool) path: preface/para
 #: book.translate.xml:858
 msgid "For a list of additional sources of information, please see <xref linkend=\"bibliography\"/>."
-msgstr "要获得更多信息，请查阅 <xref linkend=\"bibliography\"/>."
+msgstr "要获得更多信息，请查阅 <xref linkend=\"bibliography\"/>。"
 
 #. (itstool) path: preface/bridgehead
 #. (itstool) id: book.translate.xml#preface-changes-from3
@@ -251,32 +242,32 @@ msgstr "相对于第三版的改动"
 #. (itstool) path: preface/para
 #: book.translate.xml:864
 msgid "The current online version of the Handbook represents the cumulative effort of many hundreds of contributors over the past 10 years. The following are some of the significant changes since the two volume third edition was published in 2004:"
-msgstr "目前的在线版手册是数百位贡献者过去十多年所累积的努力成果.以下是自 2004 年两卷第三版出版之后的一些重要的内容变化："
+msgstr "目前的在线版手册是数百位贡献者过去十多年所累积的努力成果。以下是自 2004 年两卷第三版出版之后的一些重要的内容变化："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:871
 msgid "<xref linkend=\"dtrace\"/> has been added with information about the powerful DTrace performance analysis tool."
-msgstr "<xref linkend=\"dtrace\"/> 增加了强大的性能分析工具 DTrace 有关的信息."
+msgstr "<xref linkend=\"dtrace\"/> 增加了强大的性能分析工具 DTrace 有关的信息。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:876
 msgid "<xref linkend=\"filesystems\"/> has been added with information about non-native file systems in FreeBSD, such as ZFS from <trademark>Sun</trademark>."
-msgstr "<xref linkend=\"filesystems\"/> 增加了 FreeBSD 上非原生文件系统有关的信息，例如 <trademark>Sun</trademark> 的 ZFS 文件系统."
+msgstr "<xref linkend=\"filesystems\"/> 增加了 FreeBSD 上非原生文件系统有关的信息，例如 <trademark>Sun</trademark> 的 ZFS 文件系统。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:882
 msgid "<xref linkend=\"audit\"/> has been added to cover the new auditing capabilities in FreeBSD and explain its use."
-msgstr "<xref linkend=\"audit\"/> 增加了 FreeBSD 上新的审计功能和使用方法."
+msgstr "<xref linkend=\"audit\"/> 增加了 FreeBSD 上新的审计功能和使用方法。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:887
 msgid "<xref linkend=\"virtualization\"/> has been added with information about installing FreeBSD on virtualization software."
-msgstr "<xref linkend=\"virtualization\"/> 增加了在虚拟化软件上安装 FreeBSD 有关的信息."
+msgstr "<xref linkend=\"virtualization\"/> 增加了在虚拟化软件上安装 FreeBSD 有关的信息。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:893
 msgid "<xref linkend=\"bsdinstall\"/> has been added to cover installation of FreeBSD using the new installation utility, <application>bsdinstall</application>."
-msgstr "<xref linkend=\"bsdinstall\"/> 增加了使用新安装工具 <application>bsdinstall</application> 来安装 FreeBSD 的教程."
+msgstr "<xref linkend=\"bsdinstall\"/> 增加了使用新安装工具 <application>bsdinstall</application> 来安装 FreeBSD 的教程。"
 
 #. (itstool) path: preface/bridgehead
 #. (itstool) id: book.translate.xml#preface-changes-from2
@@ -287,57 +278,57 @@ msgstr "相对于第二版的改动 (2004)"
 #. (itstool) path: preface/para
 #: book.translate.xml:902
 msgid "The third edition was the culmination of over two years of work by the dedicated members of the FreeBSD Documentation Project. The printed edition grew to such a size that it was necessary to publish as two separate volumes. The following are the major changes in this new edition:"
-msgstr "本手册的第三版是 FreeBSD 文档计划的成员历时两年多完成的顶峰之作.这一版的内容已经增长到需要分成两卷才能印刷出版.第三版包含了如下的的主要变动："
+msgstr "本手册的第三版是 FreeBSD 文档计划的成员历时两年多完成的顶峰之作。这一版的内容已经增长到需要分成两卷才能印刷出版。第三版包含了如下的的主要变动："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:910
 msgid "<xref linkend=\"config-tuning\"/> has been expanded with new information about the ACPI power and resource management, the <command>cron</command> system utility, and more kernel tuning options."
-msgstr "<xref linkend=\"config-tuning\"/> 增加了关于 ACPI 电源和资源管理，<command>cron</command> 系统实用程序，以及更多的内核优化选项的内容."
+msgstr "<xref linkend=\"config-tuning\"/> 增加了关于 ACPI 电源和资源管理，<command>cron</command> 系统实用程序，以及更多的内核优化选项的内容。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:917
 msgid "<xref linkend=\"security\"/> has been expanded with new information about virtual private networks (VPNs), file system access control lists (ACLs), and security advisories."
-msgstr "<xref linkend=\"security\"/> 增加了虚拟专用网 (VPNs)，文件访问控制表 (ACLs) 以及安全公告的有关内容."
+msgstr "<xref linkend=\"security\"/> 增加了虚拟专用网 (VPNs)，文件访问控制表 (ACLs) 以及安全公告的有关内容。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:923
 msgid "<xref linkend=\"mac\"/> is a new chapter with this edition. It explains what MAC is and how this mechanism can be used to secure a FreeBSD system."
-msgstr "<xref linkend=\"mac\"/> 强制访问控制 (MAC) 是这一版新增的章节.它解释了什么是 MAC 以及这一机制如何使您的 FreeBSD 系统更安全."
+msgstr "<xref linkend=\"mac\"/> 强制访问控制 (MAC) 是这一版新增的章节。它解释了什么是 MAC 以及这一机制如何使您的 FreeBSD 系统更安全。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:929
 msgid "<xref linkend=\"disks\"/> has been expanded with new information about USB storage devices, file system snapshots, file system quotas, file and network backed filesystems, and encrypted disk partitions."
-msgstr "<xref linkend=\"disks\"/> 在原有基础上增加了 USB 存储设备，文件系统快照，文件系统配额，基于文件及网络的文件系统，以及加密磁盘分区的有关内容."
+msgstr "<xref linkend=\"disks\"/> 在原有基础上增加了 USB 存储设备，文件系统快照，文件系统配额，基于文件及网络的文件系统，以及加密磁盘分区的有关内容。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:936
 msgid "A troubleshooting section has been added to <xref linkend=\"ppp-and-slip\"/>."
-msgstr "<xref linkend=\"ppp-and-slip\"/> 增加了排除故障的章节."
+msgstr "<xref linkend=\"ppp-and-slip\"/> 增加了排除故障的章节。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:940
 msgid "<xref linkend=\"mail\"/> has been expanded with new information about using alternative transport agents, SMTP authentication, UUCP, <application>fetchmail</application>, <application>procmail</application>, and other advanced topics."
-msgstr "<xref linkend=\"mail\"/> 增加了如何使用替代的邮件代理，SMTP 认证，UUCP，<application>fetchmail</application>，<application>procmail</application> 以及其它进阶话题的内容."
+msgstr "<xref linkend=\"mail\"/> 增加了如何使用替代的邮件代理，SMTP 认证，UUCP，<application>fetchmail</application>，<application>procmail</application> 以及其它进阶话题的内容。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:948
 msgid "<xref linkend=\"network-servers\"/> is all new with this edition. This chapter includes information about setting up the <application>Apache HTTP Server</application>, <application>ftpd</application>, and setting up a server for <trademark class=\"registered\">Microsoft</trademark> <trademark class=\"registered\">Windows</trademark> clients with <application>Samba</application>. Some sections from <xref linkend=\"advanced-networking\"/> were moved here to improve the presentation."
-msgstr "<xref linkend=\"network-servers\"/> 是新版中全新的一章.这一章包括了关于如何架设 <application>Apache HTTP 服务器</application>、<application>ftpd</application>，以及服务于使用 <application>Samba</application> 的 <trademark class=\"registered\">Microsoft</trademark> <trademark class=\"registered\">Windows</trademark> 用户的服务器的信息. 一些段落来自原先的<xref linkend=\"advanced-networking\"/> 一章，以增强可读性."
+msgstr "<xref linkend=\"network-servers\"/> 是新版中全新的一章。这一章包括了关于如何架设 <application>Apache HTTP 服务器</application>、<application>ftpd</application>，以及服务于使用 <application>Samba</application> 的 <trademark class=\"registered\">Microsoft</trademark> <trademark class=\"registered\">Windows</trademark> 用户的服务器的信息。 一些段落来自原先的<xref linkend=\"advanced-networking\"/> 一章，以增强可读性。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:958
 msgid "<xref linkend=\"advanced-networking\"/> has been expanded with new information about using <trademark class=\"registered\">Bluetooth</trademark> devices with FreeBSD, setting up wireless networks, and Asynchronous Transfer Mode (ATM) networking."
-msgstr "<xref linkend=\"advanced-networking\"/> 增加了关于在 FreeBSD 中使用 <trademark class=\"registered\">Bluetooth</trademark> 设备，安装无线网络，以及使用异步传输模式 (ATM) 网络的内容."
+msgstr "<xref linkend=\"advanced-networking\"/> 增加了关于在 FreeBSD 中使用 <trademark class=\"registered\">Bluetooth</trademark> 设备，安装无线网络，以及使用异步传输模式 (ATM) 网络的内容。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:965
 msgid "A glossary has been added to provide a central location for the definitions of technical terms used throughout the book."
-msgstr "增加了一份词汇表，用以说明整本书中出现的术语."
+msgstr "增加了一份词汇表，用以说明整本书中出现的术语。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:971
 msgid "A number of aesthetic improvements have been made to the tables and figures throughout the book."
-msgstr "对于全书中图表进行了进一步的美化工作."
+msgstr "对于全书中图表进行了进一步的美化工作。"
 
 #. (itstool) path: preface/bridgehead
 #. (itstool) id: book.translate.xml#preface-changes
@@ -348,77 +339,77 @@ msgstr "相对于第一版的改变 (2001)"
 #. (itstool) path: preface/para
 #: book.translate.xml:979
 msgid "The second edition was the culmination of over two years of work by the dedicated members of the FreeBSD Documentation Project. The following were the major changes in this edition:"
-msgstr "本手册的第二版是 FreeBSD 文档计划的成员历时两年完成的顶峰之作. 第二版包含了如下的的主要变动："
+msgstr "本手册的第二版是 FreeBSD 文档计划的成员历时两年完成的顶峰之作。 第二版包含了如下的的主要变动："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:987
 msgid "A complete Index has been added."
-msgstr "添加了完整的索引."
+msgstr "添加了完整的索引。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:991
 msgid "All ASCII figures have been replaced by graphical diagrams."
-msgstr "用图表替换了以前所有的 ASCII 插图."
+msgstr "用图表替换了以前所有的 ASCII 插图。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:996
 msgid "A standard synopsis has been added to each chapter to give a quick summary of what information the chapter contains, and what the reader is expected to know."
-msgstr "每个章节添加了标准大纲，列出了该章所包含的信息和读者所应该了解的知识."
+msgstr "每个章节添加了标准大纲，列出了该章所包含的信息和读者所应该了解的知识。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1002
 msgid "The content has been logically reorganized into three parts: <quote>Getting Started</quote>, <quote>System Administration</quote>, and <quote>Appendices</quote>."
-msgstr "内容按照逻辑分成三个部分：<quote>入门</quote>，<quote>系统管理</quote>，以及 <quote>附录</quote>."
+msgstr "内容按照逻辑分成三个部分：<quote>入门</quote>，<quote>系统管理</quote>，以及 <quote>附录</quote>。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1009
 msgid "<xref linkend=\"basics\"/> has been expanded to contain additional information about processes, daemons, and signals."
-msgstr "<xref linkend=\"basics\"/> 增加了进程、守护进程和信号的额外信息."
+msgstr "<xref linkend=\"basics\"/> 增加了进程、守护进程和信号的额外信息。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1015
 msgid "<xref linkend=\"ports\"/> has been expanded to contain additional information about binary package management."
-msgstr "<xref linkend=\"ports\"/> 增加了二进制包管理的额外信息."
+msgstr "<xref linkend=\"ports\"/> 增加了二进制包管理的额外信息。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1021
 msgid "<xref linkend=\"x11\"/> has been completely rewritten with an emphasis on using modern desktop technologies such as <application>KDE</application> and <application>GNOME</application> on <trademark>XFree86</trademark> 4.X."
-msgstr "<xref linkend=\"x11\"/> 被完全重写，着重介绍了如何使用现代桌面技术，例如 <trademark>XFree86</trademark> 4.X 上运行的 <application>KDE</application> 和 <application>GNOME</application>."
+msgstr "<xref linkend=\"x11\"/> 被完全重写，着重介绍了如何使用现代桌面技术，例如 <trademark>XFree86</trademark> 4.X 上运行的 <application>KDE</application> 和 <application>GNOME</application>。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1028
 msgid "<xref linkend=\"boot\"/> has been expanded."
-msgstr "<xref linkend=\"boot\"/> 对第一版内容进行了扩充."
+msgstr "<xref linkend=\"boot\"/> 对第一版内容进行了扩充。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1032
 msgid "<xref linkend=\"disks\"/> has been written from what used to be two separate chapters on <quote>Disks</quote> and <quote>Backups</quote>. We feel that the topics are easier to comprehend when presented as a single chapter. A section on RAID (both hardware and software) has also been added."
-msgstr "<xref linkend=\"disks\"/> 由第一版中两个单独的章节 <quote>磁盘</quote> 和<quote>备份</quote> 合并而成.我们认为这两部分作为一个整体比较容易理解.同时 RAID (包括硬件和软件 RAID) 部分也被添加进来."
+msgstr "<xref linkend=\"disks\"/> 由第一版中两个单独的章节 <quote>磁盘</quote> 和<quote>备份</quote> 合并而成。我们认为这两部分作为一个整体比较容易理解。同时 RAID (包括硬件和软件 RAID) 部分也被添加进来。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1041
 msgid "<xref linkend=\"serialcomms\"/> has been completely reorganized and updated for FreeBSD 4.X/5.X."
-msgstr "<xref linkend=\"serialcomms\"/> 对第一版进行完善，并为 FreeBSD 4.x/5.x 做了更新."
+msgstr "<xref linkend=\"serialcomms\"/> 对第一版进行完善，并为 FreeBSD 4.x/5.x 做了更新。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1046
 msgid "<xref linkend=\"ppp-and-slip\"/> has been substantially updated."
-msgstr "<xref linkend=\"ppp-and-slip\"/> 包含了大量更新."
+msgstr "<xref linkend=\"ppp-and-slip\"/> 包含了大量更新。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1051
 msgid "Many new sections have been added to <xref linkend=\"advanced-networking\"/>."
-msgstr "许多新的内容被添加到 <xref linkend=\"advanced-networking\"/> 中."
+msgstr "许多新的内容被添加到 <xref linkend=\"advanced-networking\"/> 中。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1055
 msgid "<xref linkend=\"mail\"/> has been expanded to include more information about configuring <application>sendmail</application>."
-msgstr "<xref linkend=\"mail\"/> 增加了关于配置 <application>sendmail</application> 的信息."
+msgstr "<xref linkend=\"mail\"/> 增加了关于配置 <application>sendmail</application> 的信息。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1061
 msgid "<xref linkend=\"linuxemu\"/> has been expanded to include information about installing <application><trademark class=\"registered\">Oracle</trademark></application> and <application><trademark class=\"registered\">SAP</trademark> <trademark class=\"registered\">R/3</trademark></application>."
-msgstr "<xref linkend=\"linuxemu\"/> 增加了关于安装 <application><trademark class=\"registered\">Oracle</trademark></application> 和 <application><trademark class=\"registered\">SAP</trademark> <trademark class=\"registered\">R/3</trademark></application> 的信息."
+msgstr "<xref linkend=\"linuxemu\"/> 增加了关于安装 <application><trademark class=\"registered\">Oracle</trademark></application> 和 <application><trademark class=\"registered\">SAP</trademark> <trademark class=\"registered\">R/3</trademark></application> 的信息。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1068
@@ -428,12 +419,12 @@ msgstr "第二版中也涵盖了下列新的章节："
 #. (itstool) path: listitem/para
 #: book.translate.xml:1073
 msgid "<xref linkend=\"config-tuning\"/>."
-msgstr "<xref linkend=\"config-tuning\"/>."
+msgstr "<xref linkend=\"config-tuning\"/>。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1077
 msgid "<xref linkend=\"multimedia\"/>."
-msgstr "<xref linkend=\"multimedia\"/>."
+msgstr "<xref linkend=\"multimedia\"/>。"
 
 #. (itstool) path: preface/bridgehead
 #. (itstool) id: book.translate.xml#preface-overview
@@ -444,172 +435,172 @@ msgstr "本手册的组成"
 #. (itstool) path: preface/para
 #: book.translate.xml:1085
 msgid "This book is split into five logically distinct sections. The first section, <emphasis>Getting Started</emphasis>, covers the installation and basic usage of FreeBSD. It is expected that the reader will follow these chapters in sequence, possibly skipping chapters covering familiar topics. The second section, <emphasis>Common Tasks</emphasis>, covers some frequently used features of FreeBSD. This section, and all subsequent sections, can be read out of order. Each chapter begins with a succinct synopsis that describes what the chapter covers and what the reader is expected to already know. This is meant to allow the casual reader to skip around to find chapters of interest. The third section, <emphasis>System Administration</emphasis>, covers administration topics. The fourth section, <emphasis>Network Communication</emphasis>, covers networking and server topics. The fifth section contains appendices of reference information."
-msgstr "这本手册分成了五个逻辑清晰的部分.第一部分 <emphasis>入门</emphasis> 涵盖了 FreeBSD 的安装和基本使用方法.读者可根据自己的情况按顺序阅读，或者跳过一些熟悉的主题来阅读.第二部分 <emphasis>常用操作</emphasis> 涵盖了 FreeBSD 中常用的功能，从这部分起，读者可以不按顺序阅读.每个部分由一个简明的大纲开始， 这个大纲描述本章节涵盖的内容和读者需要知道的知识，这是为了使读者可以更方便地选择感兴趣的章节阅读.第三部分 <emphasis>系统管理</emphasis> 涵盖了 管理方面的话题.第四部分 <emphasis>网络通讯</emphasis> 包括了网络和服务的话题，而第五部分则是资源信息的附录."
+msgstr "这本手册分成了五个逻辑清晰的部分。第一部分 <emphasis>入门</emphasis> 涵盖了 FreeBSD 的安装和基本使用方法。读者可根据自己的情况按顺序阅读，或者跳过一些熟悉的主题来阅读。第二部分 <emphasis>常用操作</emphasis> 涵盖了 FreeBSD 中常用的功能，从这部分起，读者可以不按顺序阅读。每个部分由一个简明的大纲开始， 这个大纲描述本章节涵盖的内容和读者需要知道的知识，这是为了使读者可以更方便地选择感兴趣的章节阅读。第三部分 <emphasis>系统管理</emphasis> 涵盖了 管理方面的话题。第四部分 <emphasis>网络通讯</emphasis> 包括了网络和服务的话题，而第五部分则是资源信息的附录。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1110
 msgid "Introduces FreeBSD to a new user. It describes the history of the FreeBSD Project, its goals and development model."
-msgstr "本章向新用户介绍 FreeBSD.它描述了 FreeBSD 计划的历史、目标和开发模式."
+msgstr "本章向新用户介绍 FreeBSD。它描述了 FreeBSD 计划的历史、目标和开发模式。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1120
 msgid "Walks a user through the entire installation process of FreeBSD 9.<replaceable>x</replaceable> and later using <application>bsdinstall</application>."
-msgstr "本章将会引导用户完成 FreeBSD 9.<replaceable>x</replaceable> 及更新版本的整个安装过程."
+msgstr "本章将会引导用户完成 FreeBSD 9.<replaceable>x</replaceable> 及更新版本的整个安装过程。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1130
 msgid "Covers the basic commands and functionality of the FreeBSD operating system. If you are familiar with <trademark class=\"registered\">Linux</trademark> or another flavor of <trademark class=\"registered\">UNIX</trademark> then you can probably skip this chapter."
-msgstr "本章涵盖了 FreeBSD 操作系统的基础命令和功能.如果您已经熟悉 <trademark class=\"registered\">Linux</trademark> 或者其他类 <trademark class=\"registered\">UNIX</trademark> 操作系统，则可以跳过这章."
+msgstr "本章涵盖了 FreeBSD 操作系统的基础命令和功能。如果您已经熟悉 <trademark class=\"registered\">Linux</trademark> 或者其他类 <trademark class=\"registered\">UNIX</trademark> 操作系统，则可以跳过这章。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1141
 msgid "Covers the installation of third-party software with both FreeBSD's innovative <quote>Ports Collection</quote> and standard binary packages."
-msgstr "本章涵盖了如何用 FreeBSD 创新的的 <quote>Ports Collection</quote> 和标准二进制软件包来安装第三方软件."
+msgstr "本章涵盖了如何用 FreeBSD 创新的的 <quote>Ports Collection</quote> 和标准二进制软件包来安装第三方软件。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1151
 msgid "Describes the X Window System in general and using X11 on FreeBSD in particular. Also describes common desktop environments such as <application>KDE</application> and <application>GNOME</application>."
-msgstr "本章介绍了 X Window System 系统以及如何在 FreeBSD 上使用它.此外，这章也介绍了常用的桌面环境，例如 <application>KDE</application> 和 <application>GNOME</application>."
+msgstr "本章介绍了 X Window System 系统以及如何在 FreeBSD 上使用它。此外，这章也介绍了常用的桌面环境，例如 <application>KDE</application> 和 <application>GNOME</application>。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1164
 msgid "Lists some common desktop applications, such as web browsers and productivity suites, and describes how to install them on FreeBSD."
-msgstr "本章列出了一些常用的桌面应用程序，比如 Web 浏览器和办公套件，并且介绍了如何在 FreeBSD 上安装它们."
+msgstr "本章列出了一些常用的桌面应用程序，比如 Web 浏览器和办公套件，并且介绍了如何在 FreeBSD 上安装它们。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1173
 msgid "Shows how to set up sound and video playback support for your system. Also describes some sample audio and video applications."
-msgstr "本章展示了如何为您的系统配置声卡和视频播放支持.也介绍了一些示例的音频和视频应用程序."
+msgstr "本章展示了如何为您的系统配置声卡和视频播放支持。也介绍了一些示例的音频和视频应用程序。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1183
 msgid "Explains why you might need to configure a new kernel and provides detailed instructions for configuring, building, and installing a custom kernel."
-msgstr "本章解释了为什么您需要配置一个新内核，并提供了配置、编译、安装自定义内核的详细说明."
+msgstr "本章解释了为什么您需要配置一个新内核，并提供了配置、编译、安装自定义内核的详细说明。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1193
 msgid "Describes managing printers on FreeBSD, including information about banner pages, printer accounting, and initial setup."
-msgstr "本章介绍了 FreeBSD 上打印机管理，包括横幅页、打印统计设置，以及初始的安装过程."
+msgstr "本章介绍了 FreeBSD 上打印机管理，包括横幅页、打印统计设置，以及初始的安装过程。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1203
 msgid "Describes the <trademark class=\"registered\">Linux</trademark> compatibility features of FreeBSD. Also provides detailed installation instructions for many popular <trademark class=\"registered\">Linux</trademark> applications such as <application><trademark class=\"registered\">Oracle</trademark></application> and <application><trademark class=\"registered\">Mathematica</trademark></application>."
-msgstr "本章介绍了 FreeBSD 对 <trademark class=\"registered\">Linux</trademark> 的兼容特性，也提供了许多流行的 <trademark class=\"registered\">Linux</trademark> 应用程序的详细安装说明，例如 <application><trademark class=\"registered\">Oracle</trademark></application> 和 <application><trademark class=\"registered\">Mathematica</trademark></application>."
+msgstr "本章介绍了 FreeBSD 对 <trademark class=\"registered\">Linux</trademark> 的兼容特性，也提供了许多流行的 <trademark class=\"registered\">Linux</trademark> 应用程序的详细安装说明，例如 <application><trademark class=\"registered\">Oracle</trademark></application> 和 <application><trademark class=\"registered\">Mathematica</trademark></application>。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1217
 msgid "Describes the parameters available for system administrators to tune a FreeBSD system for optimum performance. Also describes the various configuration files used in FreeBSD and where to find them."
-msgstr "本章介绍了管理员调整 FreeBSD 系统以优化性能时可能用到的一些参数，也描述了 FreeBSD 中的各种配置文件以及它们所在的位置."
+msgstr "本章介绍了管理员调整 FreeBSD 系统以优化性能时可能用到的一些参数，也描述了 FreeBSD 中的各种配置文件以及它们所在的位置。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1228
 msgid "Describes the FreeBSD boot process and explains how to control this process with configuration options."
-msgstr "本章描述了 FreeBSD 的启动过程，并且解释了如何用可配置的选项来控制这个过程."
+msgstr "本章描述了 FreeBSD 的启动过程，并且解释了如何用可配置的选项来控制这个过程。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1237
 msgid "Describes many different tools available to help keep your FreeBSD system secure, including Kerberos, IPsec and OpenSSH."
-msgstr "本章介绍了许多不同的 FreeBSD 系统安全工具，包括 Kerberos，IPsec 和 OpenSSH."
+msgstr "本章介绍了许多不同的 FreeBSD 系统安全工具，包括 Kerberos，IPsec 和 OpenSSH。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1247
 msgid "Describes the jails framework, and the improvements of jails over the traditional chroot support of FreeBSD."
-msgstr "本章介绍了 Jails 框架，以及 Jails 相对于 FreeBSD 中传统的 chroot 支持的改进."
+msgstr "本章介绍了 Jails 框架，以及 Jails 相对于 FreeBSD 中传统的 chroot 支持的改进。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1256
 msgid "Explains what Mandatory Access Control (MAC) is and how this mechanism can be used to secure a FreeBSD system."
-msgstr "本章解释了什么是强制访问控制 (MAC)，以及如何利用这一机制来加强 FreeBSD 系统的安全."
+msgstr "本章解释了什么是强制访问控制 (MAC)，以及如何利用这一机制来加强 FreeBSD 系统的安全。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1266
 msgid "Describes what FreeBSD Event Auditing is, how it can be installed, configured, and how audit trails can be inspected or monitored."
-msgstr "本章介绍了什么是 FreeBSD 事件审计，以及如何安装、配置它，并检查或监视审计记录信息."
+msgstr "本章介绍了什么是 FreeBSD 事件审计，以及如何安装、配置它，并检查或监视审计记录信息。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1276
 msgid "Describes how to manage storage media and filesystems with FreeBSD. This includes physical disks, RAID arrays, optical and tape media, memory-backed disks, and network filesystems."
-msgstr "本章描述了怎样用 FreeBSD 来管理存储介质和文件系统，包括物理磁盘、RAID 阵列、光学和磁带媒体、后备存储磁盘以及网络文件系统."
+msgstr "本章描述了怎样用 FreeBSD 来管理存储介质和文件系统，包括物理磁盘、RAID 阵列、光学和磁带媒体、后备存储磁盘以及网络文件系统。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1287
 msgid "Describes what the GEOM framework in FreeBSD is and how to configure various supported RAID levels."
-msgstr "本章介绍了 FreeBSD 中的 GEOM 框架， 以及如何配置它所支持的各级 RAID."
+msgstr "本章介绍了 FreeBSD 中的 GEOM 框架， 以及如何配置它所支持的各级 RAID。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1296
 msgid "Examines support of non-native file systems in FreeBSD, like the Z File System from <trademark>Sun</trademark>."
-msgstr "本章探讨了 FreeBSD 对非原生文件系统的支持，比如 <trademark>Sun</trademark> 的 ZFS 文件系统."
+msgstr "本章探讨了 FreeBSD 对非原生文件系统的支持，比如 <trademark>Sun</trademark> 的 ZFS 文件系统。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1305
 msgid "Describes what virtualization systems offer, and how they can be used with FreeBSD."
-msgstr "本章介绍了虚拟化系统提供的功能，以及如何配合 FreeBSD 使用它们."
+msgstr "本章介绍了虚拟化系统提供的功能，以及如何配合 FreeBSD 使用它们。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1314
 msgid "Describes how to use FreeBSD in languages other than English. Covers both system and application level localization."
-msgstr "本章描述了如何在 FreeBSD 上使用非英语语言，涵盖了系统和应用程序级的本地化."
+msgstr "本章描述了如何在 FreeBSD 上使用非英语语言，涵盖了系统和应用程序级的本地化。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1324
 msgid "Explains the differences between FreeBSD-STABLE, FreeBSD-CURRENT, and FreeBSD releases. Describes which users would benefit from tracking a development system and outlines that process. Covers the methods users may take to update their system to the latest security release."
-msgstr "本章介绍了 FreeBSD-STABLE、FreeBSD-CURRENT 分支以及 FreeBSD 发行版本之间的差异.描述了一般用户如何紧跟开发过程并从中受益，涵盖了更新系统至发行版最新安全修正的方法."
+msgstr "本章介绍了 FreeBSD-STABLE、FreeBSD-CURRENT 分支以及 FreeBSD 发行版本之间的差异。描述了一般用户如何紧跟开发过程并从中受益，涵盖了更新系统至发行版最新安全修正的方法。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1337
 msgid "Describes how to configure and use the DTrace tool from <trademark>Sun</trademark> in FreeBSD. Dynamic tracing can help locate performance issues, by performing real time system analysis."
-msgstr "本章描述了如何在 FreeBSD 上配置和使用 <trademark>Sun</trademark> 的 DTrace 工具.动态跟踪可以通过实时的系统分析，帮助找出系统性能瓶颈."
+msgstr "本章描述了如何在 FreeBSD 上配置和使用 <trademark>Sun</trademark> 的 DTrace 工具。动态跟踪可以通过实时的系统分析，帮助找出系统性能瓶颈。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1350
 msgid "Explains how to connect terminals and modems to your FreeBSD system for both dial in and dial out connections."
-msgstr "本章解释了如何连接终端和调制解调器到 FreeBSD 系统，包括拨入和拨出连接."
+msgstr "本章解释了如何连接终端和调制解调器到 FreeBSD 系统，包括拨入和拨出连接。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1360
 msgid "Describes how to use PPP to connect to remote systems with FreeBSD."
-msgstr "本章描述了如何在 FreeBSD 上使用 PPP 来连接远程系统."
+msgstr "本章描述了如何在 FreeBSD 上使用 PPP 来连接远程系统。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1369
 msgid "Explains the different components of an email server and dives into simple configuration topics for the most popular mail server software: <application>sendmail</application>."
-msgstr "本章介绍了一个电子邮件服务器的组成部分，并且简单讨论了关于最流行的邮件服务器软件 <application>sendmail</application> 的配置."
+msgstr "本章介绍了一个电子邮件服务器的组成部分，并且简单讨论了关于最流行的邮件服务器软件 <application>sendmail</application> 的配置。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1380
 msgid "Provides detailed instructions and example configuration files to set up your FreeBSD machine as a network filesystem server, domain name server, network information system server, or time synchronization server."
-msgstr "本章提供了详细的指引和示范配置文件，说明了如何将一台 FreeBSD 机器配置为网络文件系统服务器、域名服务器、网络信息服务器或时间同步服务器."
+msgstr "本章提供了详细的指引和示范配置文件，说明了如何将一台 FreeBSD 机器配置为网络文件系统服务器、域名服务器、网络信息服务器或时间同步服务器。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1391
 msgid "Explains the philosophy behind software-based firewalls and provides detailed information about the configuration of the different firewalls available for FreeBSD."
-msgstr "本章解释了基于软件的防火墙的原理，并提供了关于配置 FreeBSD 上的几种防火墙的详细说明."
+msgstr "本章解释了基于软件的防火墙的原理，并提供了关于配置 FreeBSD 上的几种防火墙的详细说明。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1401
 msgid "Describes many networking topics, including sharing an Internet connection with other computers on your LAN, advanced routing topics, wireless networking, <trademark class=\"registered\">Bluetooth</trademark>, ATM, IPv6, and much more."
-msgstr "本章描述了许多网络相关的主题，包括如何在您的局域网中共享 Internet 连接、高级路由话题、无线网络、<trademark class=\"registered\">Bluetooth</trademark>、ATM、IPv6，以及许多高级话题."
+msgstr "本章描述了许多网络相关的主题，包括如何在您的局域网中共享 Internet 连接、高级路由话题、无线网络、<trademark class=\"registered\">Bluetooth</trademark>、ATM、IPv6，以及许多高级话题。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1414
 msgid "Lists different sources for obtaining FreeBSD media on CDROM or DVD as well as different sites on the Internet that allow you to download and install FreeBSD."
-msgstr "本附录列出了获得 FreeBSD 安装 CDROM 或 DVD 的来源，以及可下载安装 FreeBSD 的站点."
+msgstr "本附录列出了获得 FreeBSD 安装 CDROM 或 DVD 的来源，以及可下载安装 FreeBSD 的站点。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1424
 msgid "This book touches on many different subjects that may leave you hungry for a more detailed explanation. The bibliography lists many excellent books that are referenced in the text."
-msgstr "由于本手册触及到了很多不同的主题，因而您可能想要获取更多详细的讲解.参考书目中列出了很多写作这本书时参考的好书."
+msgstr "由于本手册触及到了很多不同的主题，因而您可能想要获取更多详细的讲解。参考书目中列出了很多写作这本书时参考的好书。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1435
 msgid "Describes the many forums available for FreeBSD users to post questions and engage in technical conversations about FreeBSD."
-msgstr "本附录介绍了很多对 FreeBSD 用户有用的论坛，您可以在此提出问题并进行技术交流."
+msgstr "本附录介绍了很多对 FreeBSD 用户有用的论坛，您可以在此提出问题并进行技术交流。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1445
 msgid "Lists the PGP fingerprints of several FreeBSD Developers."
-msgstr "本附录列出了一些 FreeBSD 开发者的 PGP 签名公钥."
+msgstr "本附录列出了一些 FreeBSD 开发者的 PGP 签名公钥。"
 
 #. (itstool) path: preface/bridgehead
 #. (itstool) id: book.translate.xml#preface-conv
@@ -620,7 +611,7 @@ msgstr "使用本书的一些约定"
 #. (itstool) path: preface/para
 #: book.translate.xml:1454
 msgid "To provide a consistent and easy to read text, several conventions are followed throughout the book."
-msgstr "为了使本书保持一致性和易读性，做如下约定."
+msgstr "为了使本书保持一致性和易读性，做如下约定。"
 
 #. (itstool) path: preface/bridgehead
 #. (itstool) id: book.translate.xml#preface-conv-typographic
@@ -636,7 +627,7 @@ msgstr "<emphasis>斜体</emphasis>"
 #. (itstool) path: listitem/para
 #: book.translate.xml:1464
 msgid "An <emphasis>italic</emphasis> font is used for filenames, URLs, emphasized text, and the first usage of technical terms."
-msgstr "<emphasis>斜体</emphasis> 字用来表示文件名、URLs、强调文字和首次使用的术语."
+msgstr "<emphasis>斜体</emphasis> 字用来表示文件名、URLs、强调文字和首次使用的术语。"
 
 #. (itstool) path: varlistentry/term
 #: book.translate.xml:1471
@@ -646,7 +637,7 @@ msgstr "<literal>等宽</literal>"
 #. (itstool) path: listitem/para
 #: book.translate.xml:1474
 msgid "A <literal>monospaced</literal> font is used for error messages, commands, environment variables, names of ports, hostnames, user names, group names, device names, variables, and code fragments."
-msgstr "<literal>等宽</literal> 字体用来表示错误信息、命令、环境变量、port 的名字、主机名、用户名、组名、设备名、变量名，以及代码片断."
+msgstr "<literal>等宽</literal> 字体用来表示错误信息、命令、环境变量、port 的名字、主机名、用户名、组名、设备名、变量名，以及代码片断。"
 
 #. (itstool) path: varlistentry/term
 #: book.translate.xml:1482
@@ -656,7 +647,7 @@ msgstr "<application>粗体</application>"
 #. (itstool) path: listitem/para
 #: book.translate.xml:1485
 msgid "A <keycap>bold</keycap> font is used for applications, commands, and keys."
-msgstr "<keycap>粗体</keycap> 字用来表示应用程序、命令和关键字."
+msgstr "<keycap>粗体</keycap> 字用来表示应用程序、命令和关键字。"
 
 #. (itstool) path: preface/bridgehead
 #. (itstool) id: book.translate.xml#preface-conv-commands
@@ -667,7 +658,7 @@ msgstr "用户输入"
 #. (itstool) path: preface/para
 #: book.translate.xml:1495
 msgid "Keys are shown in <keycap>bold</keycap> to stand out from other text. Key combinations that are meant to be typed simultaneously are shown with `<literal>+</literal>' between the keys, such as:"
-msgstr "按键用 <keycap>粗体</keycap> 来突出于其他文本.组合键意味着字用 `<literal>+</literal>’ 连接时，同时按下它们，例如："
+msgstr "按键用 <keycap>粗体</keycap> 来突出于其他文本。组合键意味着字用 `<literal>+</literal>’ 连接时，同时按下它们，例如："
 
 #. (itstool) path: preface/para
 #: book.translate.xml:1500
@@ -677,7 +668,7 @@ msgstr "<keycombo action=\"simul\"> <keycap>Ctrl</keycap> <keycap>Alt</keycap> <
 #. (itstool) path: preface/para
 #: book.translate.xml:1506
 msgid "Meaning the user should type the <keycap>Ctrl</keycap>, <keycap>Alt</keycap>, and <keycap>Del</keycap> keys at the same time."
-msgstr "表示您应该同时按下 <keycap>Ctrl</keycap>，<keycap>Alt</keycap> 和 <keycap>Del</keycap> 键."
+msgstr "表示您应该同时按下 <keycap>Ctrl</keycap>，<keycap>Alt</keycap> 和 <keycap>Del</keycap> 键。"
 
 #. (itstool) path: preface/para
 #: book.translate.xml:1510
@@ -692,7 +683,7 @@ msgstr "<keycombo action=\"simul\"> <keycap>Ctrl</keycap> <keycap>X</keycap> </k
 #. (itstool) path: preface/para
 #: book.translate.xml:1522
 msgid "Would mean that the user is expected to type the <keycap>Ctrl</keycap> and <keycap>X</keycap> keys simultaneously and then to type the <keycap>Ctrl</keycap> and <keycap>S</keycap> keys simultaneously."
-msgstr "这表示用户应该同时按下 <keycap>Ctrl</keycap> 和 <keycap>X</keycap> 键，然后同时按下 <keycap>Ctrl</keycap> 和 <keycap>S</keycap> 键."
+msgstr "这表示用户应该同时按下 <keycap>Ctrl</keycap> 和 <keycap>X</keycap> 键，然后同时按下 <keycap>Ctrl</keycap> 和 <keycap>S</keycap> 键。"
 
 #. (itstool) path: preface/bridgehead
 #. (itstool) id: book.translate.xml#preface-conv-examples
@@ -703,7 +694,7 @@ msgstr "示例"
 #. (itstool) path: preface/para
 #: book.translate.xml:1530
 msgid "Examples starting with <filename>C:\\&gt;</filename> indicate a <trademark class=\"registered\">MS-DOS</trademark> command. Unless otherwise noted, these commands may be executed from a <quote>Command Prompt</quote> window in a modern <trademark class=\"registered\">Microsoft</trademark> <trademark class=\"registered\">Windows</trademark> environment."
-msgstr "以 <filename>C:\\&gt;</filename> 开头的例子表示一个 <trademark class=\"registered\">MS-DOS</trademark> 命令.除非另有说明，这些命令都可以在一个现代的 <trademark class=\"registered\">Microsoft</trademark> <trademark class=\"registered\">Windows</trademark> <quote>命令提示符</quote> 窗口环境被执行."
+msgstr "以 <filename>C:\\&gt;</filename> 开头的例子表示一个 <trademark class=\"registered\">MS-DOS</trademark> 命令。除非另有说明，这些命令都可以在一个现代的 <trademark class=\"registered\">Microsoft</trademark> <trademark class=\"registered\">Windows</trademark> <quote>命令提示符</quote> 窗口环境被执行。"
 
 #. (itstool) path: preface/screen
 #: book.translate.xml:1536
@@ -714,7 +705,7 @@ msgstr "<prompt>E:\\&gt;</prompt> <userinput>tools\\fdimage floppies\\kern.flp A
 #. (itstool) path: preface/para
 #: book.translate.xml:1538
 msgid "Examples starting with <prompt>#</prompt> indicate a command that must be invoked as the superuser in FreeBSD. You can login as <systemitem class=\"username\">root</systemitem> to type the command, or login as your normal account and use <citerefentry><refentrytitle>su</refentrytitle><manvolnum>1</manvolnum></citerefentry> to gain superuser privileges."
-msgstr "以 <prompt>#</prompt> 开头的例子表示必须以 FreeBSD 超级用户身份执行的命令.您可以用 <systemitem class=\"username\">root</systemitem> 身份登录来输入这些命令，或者以普通账号登录然后用 <citerefentry><refentrytitle>su</refentrytitle><manvolnum>1</manvolnum></citerefentry> 来获得超级用户权限."
+msgstr "以 <prompt>#</prompt> 开头的例子表示必须以 FreeBSD 超级用户身份执行的命令。您可以用 <systemitem class=\"username\">root</systemitem> 身份登录来输入这些命令，或者以普通账号登录然后用 <citerefentry><refentrytitle>su</refentrytitle><manvolnum>1</manvolnum></citerefentry> 来获得超级用户权限。"
 
 #. (itstool) path: preface/screen
 #: book.translate.xml:1544
@@ -725,7 +716,7 @@ msgstr "<prompt>#</prompt> <userinput>dd if=kern.flp of=/dev/fd0</userinput>"
 #. (itstool) path: preface/para
 #: book.translate.xml:1546
 msgid "Examples starting with <prompt>%</prompt> indicate a command that should be invoked from a normal user account. Unless otherwise noted, C-shell syntax is used for setting environment variables and other shell commands."
-msgstr "以 <prompt>%</prompt> 开头的例子代表命令应该被普通账号执行.除非另有说明，在设置环境变量和使用的其他 shell 命令均为 C-shell 语法."
+msgstr "以 <prompt>%</prompt> 开头的例子代表命令应该被普通账号执行。除非另有说明，在设置环境变量和使用的其他 shell 命令均为 C-shell 语法。"
 
 #. (itstool) path: preface/screen
 #: book.translate.xml:1551
@@ -742,12 +733,12 @@ msgstr "致谢"
 #. (itstool) path: preface/para
 #: book.translate.xml:1555
 msgid "The book you are holding represents the efforts of many hundreds of people around the world. Whether they sent in fixes for typos, or submitted complete chapters, all the contributions have been useful."
-msgstr "您所看到的这本书是全球几百人努力的结果.无论是只纠正一些错误或提交完整的章节，所有的贡献都是很有用的."
+msgstr "您所看到的这本书是全球几百人努力的结果。无论是只纠正一些错误或提交完整的章节，所有的贡献都是很有用的。"
 
 #. (itstool) path: preface/para
 #: book.translate.xml:1560
 msgid "Several companies have supported the development of this document by paying authors to work on it full-time, paying for publication, etc. In particular, BSDi (subsequently acquired by <link xlink:href=\"http://www.windriver.com\">Wind River Systems</link>) paid members of the FreeBSD Documentation Project to work on improving this book full time leading up to the publication of the first printed edition in March 2000 (ISBN 1-57176-241-8). Wind River Systems then paid several additional authors to make a number of improvements to the print-output infrastructure and to add additional chapters to the text. This work culminated in the publication of the second printed edition in November 2001 (ISBN 1-57176-303-1). In 2003-2004, <link xlink:href=\"http://www.freebsdmall.com\">FreeBSD Mall, Inc</link>, paid several contributors to improve the Handbook in preparation for the third printed edition."
-msgstr "一些公司通过提供资金让作者专注于文档开发、提供出版资金等等方式来支持文档开发.其中，BSDi (后并入<link xlink:href=\"http://www.windriver.com\">Wind River Systems</link>) 资助 FreeBSD 文档计划成员来专职改善这本书直到 2000 年三月第一个印刷版 (ISBN 1-57176-241-8) 的出版.Wind River Systems 同时资助其他作者来对输出结构做很多改进和给文章添加一些附加章节.这项工作结束于 2001 年 11 月印刷第二版 (ISBN 1-57176-303-1).在 2003-2004 两年中，<link xlink:href=\"http://www.freebsdmall.com\">FreeBSD Mall, Inc</link> 向为改进这本手册以使其第三版印刷版本能够出版的志愿者支付了报酬."
+msgstr "一些公司通过提供资金让作者专注于文档开发、提供出版资金等等方式来支持文档开发。其中，BSDi (后并入<link xlink:href=\"http://www.windriver.com\">Wind River Systems</link>) 资助 FreeBSD 文档计划成员来专职改善这本书直到 2000 年三月第一个印刷版 (ISBN 1-57176-241-8) 的出版。Wind River Systems 同时资助其他作者来对输出结构做很多改进和给文章添加一些附加章节。这项工作结束于 2001 年 11 月印刷第二版 (ISBN 1-57176-303-1)。在 2003-2004 两年中，<link xlink:href=\"http://www.freebsdmall.com\">FreeBSD Mall, Inc</link> 向为改进这本手册以使其第三版印刷版本能够出版的志愿者支付了报酬。"
 
 #. (itstool) path: part/title
 #: book.translate.xml:1579
