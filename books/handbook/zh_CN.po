@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2018-04-18 00:23+0800\n"
+"PO-Revision-Date: 2018-04-18 16:41+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35607,7 +35607,7 @@ msgstr "<emphasis>Z 文件系统</emphasis>，简称 <acronym>ZFS</acronym>，�
 #. (itstool) path: chapter/para
 #: book.translate.xml:37333
 msgid "Originally developed at <trademark>Sun</trademark>, ongoing open source <acronym>ZFS</acronym> development has moved to the <link xlink:href=\"http://open-zfs.org\">OpenZFS Project</link>."
-msgstr "最先由 <trademark>Sun</trademark>。开源版本的 <acronym>ZFS</acronym> 由 <link xlink:href=\"http://open-zfs.org\">OpenZFS Project</link> 维护."
+msgstr "最初由 <trademark>Sun</trademark>。开源版本的 <acronym>ZFS</acronym> 由 <link xlink:href=\"http://open-zfs.org\">OpenZFS Project</link> 维护。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37336
@@ -35617,7 +35617,7 @@ msgstr "<acronym>ZFS</acronym> 有三个主要的设计目标："
 #. (itstool) path: listitem/para
 #: book.translate.xml:37340
 msgid "Data integrity: All data includes a <link linkend=\"zfs-term-checksum\">checksum</link> of the data. When data is written, the checksum is calculated and written along with it. When that data is later read back, the checksum is calculated again. If the checksums do not match, a data error has been detected. <acronym>ZFS</acronym> will attempt to automatically correct errors when data redundancy is available."
-msgstr "数据完整性：所有的数据都有一条 <link linkend=\"zfs-term-checksum\">校验码</link>。当文件写入时，文件的校验码也会一同生成，当计算机读取文件时，校验码会重新生成，若新的校验码与原校验码不匹配，系统就会发现文件错误。当冗余数据（data redundancy）可用时，<acronym>ZFS</acronym> 会自动修复文件错误。"
+msgstr "数据完整性：所有的数据都有一条 <link linkend=\"zfs-term-checksum\"> 校验码</link>。当文件写入时，文件的校验码也会一同生成，当计算机读取文件时，校验码会重新生成，若新的校验码与原校验码不匹配，系统就会发现文件错误。当冗余数据（data redundancy）可用时，<acronym>ZFS</acronym> 会自动修复文件错误。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:37351
@@ -35637,7 +35637,7 @@ msgstr "完整的功能清单与术语在<xref linkend=\"zfs-term\"/>中有详�
 #. (itstool) path: sect1/title
 #: book.translate.xml:37372
 msgid "What Makes <acronym>ZFS</acronym> Different"
-msgstr "是什么让 <acronym>ZFS</acronym>  与众不同"
+msgstr "是什么让 <acronym>ZFS</acronym> 与众不同"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:37374
@@ -35744,7 +35744,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37466
 msgid "The <literal>example/compressed</literal> dataset is now a <acronym>ZFS</acronym> compressed file system. Try copying some large files to <filename>/example/compressed</filename>."
-msgstr "现在我们已经在 <literal>example/compressed</literal> 数据集上启用  <acronym>ZFS</acronym> 的压缩功能。 可以试着复制大文件到 <filename>/example/compressed</filename>。"
+msgstr "现在我们已经在 <literal>example/compressed</literal> 数据集上启用 <acronym>ZFS</acronym> 的压缩功能。 可以试着复制大文件到 <filename>/example/compressed</filename>。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37471
@@ -35760,7 +35760,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37475
 msgid "To unmount a file system, use <command>zfs umount</command> and then verify with <command>df</command>:"
-msgstr "要卸载当前文件系统，可使用<command>zfs umount</command>命令，可用 <command>df</command> 确认操作是否完成："
+msgstr "要卸载当前文件系统，可使用 <command>zfs umount</command> 命令，可用 <command>df</command> 确认操作是否完成："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37479
@@ -35898,7 +35898,7 @@ msgstr "在先前的例子中已经创建了 <literal>storage</literal> 存储�
 #: book.translate.xml:37580
 #, no-wrap
 msgid "<prompt>#</prompt> <userinput>zfs create storage/home</userinput>"
-msgstr "<prompt>#</prompt> <userinput>zfs create storage/home</userinput>"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37582
@@ -35912,8 +35912,6 @@ msgid ""
 "<prompt>#</prompt> <userinput>zfs set copies=2 storage/home</userinput>\n"
 "<prompt>#</prompt> <userinput>zfs set compression=gzip storage/home</userinput>"
 msgstr ""
-"<prompt>#</prompt> <userinput>zfs set copies=2 storage/home</userinput>\n"
-"<prompt>#</prompt> <userinput>zfs set compression=gzip storage/home</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37588
@@ -35929,10 +35927,6 @@ msgid ""
 "<prompt>#</prompt> <userinput>ln -s /storage/home /home</userinput>\n"
 "<prompt>#</prompt> <userinput>ln -s /storage/home /usr/home</userinput>"
 msgstr ""
-"<prompt>#</prompt> <userinput>cp -rp /home/* /storage/home</userinput>\n"
-"<prompt>#</prompt> <userinput>rm -rf /home /usr/home</userinput>\n"
-"<prompt>#</prompt> <userinput>ln -s /storage/home /home</userinput>\n"
-"<prompt>#</prompt> <userinput>ln -s /storage/home /usr/home</userinput>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37597
@@ -35948,7 +35942,7 @@ msgstr "试着建立文件系统快照（Snapshot），稍后可用来还原（R
 #: book.translate.xml:37604
 #, no-wrap
 msgid "<prompt>#</prompt> <userinput>zfs snapshot storage/home@08-30-08</userinput>"
-msgstr "<prompt>#</prompt> <userinput>zfs snapshot storage/home@08-30-08</userinput>"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37606
