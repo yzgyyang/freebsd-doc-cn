@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2018-12-27 21:30+0800\n"
+"PO-Revision-Date: 2018-12-27 22:01+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35602,12 +35602,12 @@ msgstr ""
 #. (itstool) path: chapter/para
 #: book.translate.xml:37328
 msgid "The <emphasis>Z File System</emphasis>, or <acronym>ZFS</acronym>, is an advanced file system designed to overcome many of the major problems found in previous designs."
-msgstr "<emphasis>Z 文件系统</emphasis>，简称 <acronym>ZFS</acronym>，是一个先进的文件系统，他克服了先前文件系统中的发现的许多重要问题。"
+msgstr "<emphasis>Z 文件系统</emphasis>，简称 <acronym>ZFS</acronym>，是一个先进的文件系统，他克服了先前文件系统设计中的发现的许多重要问题。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37333
 msgid "Originally developed at <trademark>Sun</trademark>, ongoing open source <acronym>ZFS</acronym> development has moved to the <link xlink:href=\"http://open-zfs.org\">OpenZFS Project</link>."
-msgstr "最初由 <trademark>Sun</trademark>。开源版本的 <acronym>ZFS</acronym> 由 <link xlink:href=\"http://open-zfs.org\">OpenZFS Project</link> 维护。"
+msgstr "最初由 <trademark>Sun</trademark> 开发。开源版本的 <acronym>ZFS</acronym> 由 <link xlink:href=\"http://open-zfs.org\">OpenZFS Project</link> 维护。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37336
@@ -35617,7 +35617,7 @@ msgstr "<acronym>ZFS</acronym> 有三个主要的设计目标："
 #. (itstool) path: listitem/para
 #: book.translate.xml:37340
 msgid "Data integrity: All data includes a <link linkend=\"zfs-term-checksum\">checksum</link> of the data. When data is written, the checksum is calculated and written along with it. When that data is later read back, the checksum is calculated again. If the checksums do not match, a data error has been detected. <acronym>ZFS</acronym> will attempt to automatically correct errors when data redundancy is available."
-msgstr "数据完整性：所有的数据都有一条 <link linkend=\"zfs-term-checksum\"> 校验码</link>。当文件写入时，文件的校验码也会一同生成，当计算机读取文件时，校验码会重新生成，若新的校验码与原校验码不匹配，系统就会发现文件错误。当冗余数据（data redundancy）可用时，<acronym>ZFS</acronym> 会自动修复文件错误。"
+msgstr "数据完整性：所有的数据都有一条 <link linkend=\"zfs-term-checksum\"> 校验码</link>。当文件写入时，文件的校验码也会一同生成，当计算机读取文件时，校验码会重新生成，若新的校验码与原校验码不匹配，系统就会发现数据错误。当冗余数据（data redundancy）可用时，<acronym>ZFS</acronym> 会自动修复文件错误。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:37351
