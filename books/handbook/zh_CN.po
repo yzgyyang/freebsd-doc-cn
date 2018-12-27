@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2018-04-18 17:22+0800\n"
+"PO-Revision-Date: 2018-12-27 21:30+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -743,49 +743,49 @@ msgstr "一些公司通过提供资金让作者专注于文档开发、提供出
 #. (itstool) path: part/title
 #: book.translate.xml:1579
 msgid "Getting Started"
-msgstr ""
+msgstr "起步"
 
 #. (itstool) path: partintro/para
 #: book.translate.xml:1582
 msgid "This part of the handbook is for users and administrators who are new to FreeBSD. These chapters:"
-msgstr ""
+msgstr "手册的以下章节主要是针对刚开始使用 FreeBSD 的用户及管理员:"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1587
 msgid "Introduce FreeBSD."
-msgstr ""
+msgstr "介绍 FreeBSD。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1591
 msgid "Guide readers through the installation process."
-msgstr ""
+msgstr "安装过程向导。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1595
 msgid "Teach <trademark class=\"registered\">UNIX</trademark> basics and fundamentals."
-msgstr ""
+msgstr "教您 <trademark class=\"registered\">UNIX</trademark> 基本知识和基本原理。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1599
 msgid "Show how to install the wealth of third party applications available for FreeBSD."
-msgstr ""
+msgstr "展示如何在 FreeBSD 上安装大量的第三方应用程序。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1604
 msgid "Introduce X, the <trademark class=\"registered\">UNIX</trademark> windowing system, and detail how to configure a desktop environment that makes users more productive."
-msgstr ""
+msgstr "介绍使用<trademark class=\"registered\">UNIX</trademark>的窗口系统 X， 以及为一些能够提高工作效率的桌面环境配置细节。"
 
 #. (itstool) path: partintro/para
 #: book.translate.xml:1610
 msgid "The number of forward references in the text have been kept to a minimum so that this section can be read from front to back with minimal page flipping."
-msgstr ""
+msgstr "我们尝试用最少的页数来保持前言的索引，以至于可以用最少翻页次数将该手册从头至尾读过。"
 
 #. (itstool) path: info/title
 #. (itstool) path: sect1/title
 #. (itstool) path: sect2/title
 #: book.translate.xml:1624 book.translate.xml:23715 book.translate.xml:65535
 msgid "Introduction"
-msgstr ""
+msgstr "介绍"
 
 #. (itstool) path: authorgroup/author
 #: book.translate.xml:1627 book.translate.xml:2892
@@ -804,12 +804,12 @@ msgstr ""
 #: book.translate.xml:50336 book.translate.xml:52249 book.translate.xml:57977
 #: book.translate.xml:61664
 msgid "Synopsis"
-msgstr ""
+msgstr "概述"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:1641
 msgid "Thank you for your interest in FreeBSD! The following chapter covers various aspects of the FreeBSD Project, such as its history, goals, development model, and so on."
-msgstr ""
+msgstr "非常感谢您对 FreeBSD 感兴趣！ 下面的章节涵盖了 FreeBSD 项目的各个方面， 比如它的历史、目标、开发模式，等等。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:1645 book.translate.xml:2974 book.translate.xml:5566
@@ -821,37 +821,37 @@ msgstr ""
 #: book.translate.xml:46476 book.translate.xml:48679 book.translate.xml:50347
 #: book.translate.xml:58032 book.translate.xml:61669
 msgid "After reading this chapter, you will know:"
-msgstr ""
+msgstr "阅读完这章，您将了解："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1649
 msgid "How FreeBSD relates to other computer operating systems."
-msgstr ""
+msgstr "FreeBSD 与其它计算机操作系统的关系。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1654
 msgid "The history of the FreeBSD Project."
-msgstr ""
+msgstr "FreeBSD 项目的历史。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1658
 msgid "The goals of the FreeBSD Project."
-msgstr ""
+msgstr "FreeBSD 项目的目标。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1662
 msgid "The basics of the FreeBSD open-source development model."
-msgstr ""
+msgstr "FreeBSD 开放源代码开发模式的基础。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1667
 msgid "And of course: where the name <quote>FreeBSD</quote> comes from."
-msgstr ""
+msgstr "当然还有：“FreeBSD” 这个名称的由来。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:1674
 msgid "Welcome to FreeBSD!"
-msgstr ""
+msgstr "欢迎使用 FreeBSD！"
 
 #. (itstool) path: sect1/indexterm
 #. (itstool) path: para/indexterm
@@ -862,183 +862,183 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:1678
 msgid "FreeBSD is a 4.4BSD-Lite based operating system for Intel (x86 and <trademark class=\"registered\">Itanium</trademark>), AMD64, <trademark class=\"registered\">ARM</trademark>, and Sun <trademark class=\"registered\">UltraSPARC</trademark> computers. Ports to other architectures are also under way. You can also read about <link linkend=\"history\">the history of FreeBSD</link>, or the <link xlink:href=\"@@URL_RELPREFIX@@/releases\">current release</link>. If you are interested in contributing something to the Project (code, hardware, funding), see the <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/contributing/index.html\">Contributing to FreeBSD</link> article."
-msgstr ""
+msgstr "FreeBSD 是一个支持 Intel (x86 和 <trademark class=\"registered\">Itanium</trademark>)，AMD64，<trademark class=\"registered\">ARM</trademark>，和 Sun <trademark class=\"registered\">UltraSPARC</trademark> 计算机的基于 4.4BSD-Lite 的操作系统。 到其他体系结构的移植也在进行中。 您也可以阅读<link linkend=\"history\">FreeBSD 的历史</link>， 或者<link xlink:href=\"@@URL_RELPREFIX@@/releases\">最新发行版本</link>。 如果您有意捐助(代码， 硬件，基金)，请看为 <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/contributing/index.html\">为 FreeBSD 提供帮助</link>这篇文章。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:1688
 msgid "What Can FreeBSD Do?"
-msgstr ""
+msgstr "FreeBSD 能做些什么？"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1690
 msgid "FreeBSD has many noteworthy features. Some of these are:"
-msgstr ""
+msgstr "FreeBSD 有许多非凡的特性。其中一些是："
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1696
 msgid "<primary>preemptive multitasking</primary>"
-msgstr ""
+msgstr "<primary>抢占式多任务</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1695
 msgid "<emphasis>Preemptive multitasking</emphasis> <_:indexterm-1/> with dynamic priority adjustment to ensure smooth and fair sharing of the computer between applications and users, even under the heaviest of loads."
-msgstr ""
+msgstr "<emphasis>抢占式多任务处理</emphasis><_:indexterm-1/>与动态优先级调整确保在应用程序和用户之间平滑公正的分享计算机资源， 即使工作在最大的负载之下。"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1705
 msgid "<primary>multi-user facilities</primary>"
-msgstr ""
+msgstr "<primary>多用户设备</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1705
 msgid "<emphasis>Multi-user facilities</emphasis><_:indexterm-1/> which allow many people to use a FreeBSD system simultaneously for a variety of things. This means, for example, that system peripherals such as printers and tape drives are properly shared between all users on the system or the network and that individual resource limits can be placed on users or groups of users, protecting critical system resources from over-use."
-msgstr ""
+msgstr "<primary>多用户设备</primary><_:indexterm-1/>使得许多用户能够同时使用同一 FreeBSD 系统做各种事情。 比如， 像打印机和磁带驱动器这样的系统外设， 可以完全地在系统或者网络上的所有用户之间共享， 可以对用户或者用户组进行个别的资源限制， 以保护临界系统资源不被滥用。"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1718
 msgid "<primary>TCP/IP networking</primary>"
-msgstr ""
+msgstr "<primary>TCP/IP 网络</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1717
 msgid "Strong <emphasis>TCP/IP networking</emphasis><_:indexterm-1/> with support for industry standards such as SCTP, DHCP, NFS, NIS, PPP, SLIP, IPsec, and IPv6. This means that your FreeBSD machine can interoperate easily with other systems as well as act as an enterprise server, providing vital functions such as NFS (remote file access) and email services or putting your organization on the Internet with WWW, FTP, routing and firewall (security) services."
-msgstr ""
+msgstr "符合业界标准的强大<primary>TCP/IP 网络</primary><_:indexterm-1/>支持， 例如 SCTP、 DHCP、 NFS、 NIS、 PPP， SLIP， IPsec 以及 IPv6。 这意味着您的 FreeBSD 主机可以很容易地和其他系统互联， 也可以作为企业的服务器，提供重要的功能， 比如 NFS(远程文件访问)以及 email 服务， 或将您的组织接入 Internet 并提供 WWW，FTP，路由和防火墙(安全)服务。"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1731
 msgid "<primary>memory protection</primary>"
-msgstr ""
+msgstr "<primary>内存保护</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1731
 msgid "<emphasis>Memory protection</emphasis><_:indexterm-1/> ensures that applications (or users) cannot interfere with each other. One application crashing will not affect others in any way."
-msgstr ""
+msgstr "<primary>内存保护</primary><_:indexterm-1/>确保应用程序(或者用户)不会相互干扰。 一个应用程序崩溃不会以任何方式影响其他程序。"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1740 book.translate.xml:1983
 msgid "<primary>X Window System</primary>"
-msgstr ""
+msgstr "<primary>X 窗口系统</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1739
 msgid "The industry standard <emphasis>X Window System</emphasis><_:indexterm-1/> (X11R7) can provide a graphical user interface (GUI) on any machine and comes with full sources."
-msgstr ""
+msgstr "业界标准的<primary>X Window System</primary><_:indexterm-1/> (X11R7)为便宜的常见 VGA 显示卡和监视器提供了一个图形化的用户界面(GUI)， 并且完全开放代码。"
 
 #. (itstool) path: para/indexterm
 #. (itstool) path: sect1/indexterm
 #: book.translate.xml:1749 book.translate.xml:17969
 msgid "<primary>binary compatibility</primary> <secondary>Linux</secondary>"
-msgstr ""
+msgstr "<primary>二级制兼容</primary> <secondary>Linux</secondary>"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1753
 msgid "<primary>binary compatibility</primary> <secondary>SCO</secondary>"
-msgstr ""
+msgstr "<primary>二级制兼容</primary> <secondary>SCO</secondary>"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1757
 msgid "<primary>binary compatibility</primary> <secondary>SVR4</secondary>"
-msgstr ""
+msgstr "<primary>二级制兼容</primary> <secondary>SVR4</secondary>"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1761
 msgid "<primary>binary compatibility</primary> <secondary>BSD/OS</secondary>"
-msgstr ""
+msgstr "<primary>二级制兼容</primary> <secondary>BSD/OS</secondary>"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1765
 msgid "<primary>binary compatibility</primary> <secondary>NetBSD</secondary>"
-msgstr ""
+msgstr "<primary>二级制兼容</primary> <secondary>NetBSD</secondary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1748
 msgid "<_:indexterm-1/> <_:indexterm-2/> <_:indexterm-3/> <_:indexterm-4/> <_:indexterm-5/> <emphasis>Binary compatibility</emphasis> with many programs built for Linux, SCO, SVR4, BSDI and NetBSD."
-msgstr ""
+msgstr "<_:indexterm-1/> <_:indexterm-2/> <_:indexterm-3/> <_:indexterm-4/> <_:indexterm-5/> <emphasis>Binary compatibility</emphasis> 和许多 Linux，SCO，SVR4，BSDI 和 NetBSD 程序的二进制代码兼容性。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1775
 msgid "Thousands of <emphasis>ready-to-run</emphasis> applications are available from the FreeBSD <emphasis>ports</emphasis> and <emphasis>packages</emphasis> collection. Why search the net when you can find it all right here?"
-msgstr ""
+msgstr "数以千计的 <emphasis>ready to run</emphasis>  应用程序可以从 FreeBSD <emphasis>ports</emphasis>和 <emphasis>packages</emphasis>套件中找到。 您可以顺利地从这里找到， 何须搜索网络？"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1783
 msgid "Thousands of additional and <emphasis>easy-to-port</emphasis> applications are available on the Internet. FreeBSD is source code compatible with most popular commercial <trademark class=\"registered\">UNIX</trademark> systems and thus most applications require few, if any, changes to compile."
-msgstr ""
+msgstr "可以在 Internet 上找到成千上万其它 <emphasis>easy-to-port</emphasis> 的应用程序。 FreeBSD 和大多数流行的商业<trademark class=\"registered\">UNIX</trademark> 代码级兼容， 因此大多数应用程序不需要或者只要很少的改动就可以编译。"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1792
 msgid "<primary>virtual memory</primary>"
-msgstr ""
+msgstr "<primary>虚拟内存</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1791
 msgid "Demand paged <emphasis>virtual memory</emphasis><_:indexterm-1/> and <quote>merged VM/buffer cache</quote> design efficiently satisfies applications with large appetites for memory while still maintaining interactive response to other users."
-msgstr ""
+msgstr "页式请求<emphasis>virtual memory</emphasis><_:indexterm-1/>和<quote>集成的 VM/buffer 缓存</quote>设计有效地满足了应用程序巨大的内存需求并依然保持其他用户的交互式响应。"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1801
 msgid "<primary>Symmetric Multi-Processing (SMP)</primary>"
-msgstr ""
+msgstr "<primary>多处理器支持 (SMP)</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1801
 msgid "<emphasis>SMP</emphasis><_:indexterm-1/> support for machines with multiple CPUs."
-msgstr ""
+msgstr "<emphasis>SMP</emphasis><_:indexterm-1/> 提供对多处理器的支持。"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1810
 msgid "<primary>compilers</primary> <secondary>C</secondary>"
-msgstr ""
+msgstr "<primary>编译器</primary> <secondary>C</secondary>"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1814
 msgid "<primary>compilers</primary> <secondary>C++</secondary>"
-msgstr ""
+msgstr "<primary>编译器</primary> <secondary>C++</secondary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1809
 msgid "<_:indexterm-1/> <_:indexterm-2/> A full complement of <emphasis>C</emphasis> and <emphasis>C++</emphasis> development tools. Many additional languages for advanced research and development are also available in the ports and packages collection."
-msgstr ""
+msgstr "<_:indexterm-1/> <_:indexterm-2/>内建了完整的 <emphasis>C</emphasis>、<emphasis>C++</emphasis> 开发工具。 许多附加的用于高级研究和开发的程序语言， 也可以在通过 ports 和 packages 套件获得。"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1827
 msgid "<primary>source code</primary>"
-msgstr ""
+msgstr "<primary>源代码</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1827
 msgid "<emphasis>Source code</emphasis><_:indexterm-1/> for the entire system means you have the greatest degree of control over your environment. Why be locked into a proprietary solution at the mercy of your vendor when you can have a truly open system?"
-msgstr ""
+msgstr "完整的系统<emphasis>源代码</emphasis><_:indexterm-1/> 意味着您对您环境的最大程度的控制。 当您拥有了一个真正的开放系统时， 为什么还要受困于私有的解决方案， 任商业公司摆布呢？"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1836
 msgid "Extensive <emphasis>online documentation</emphasis>."
-msgstr ""
+msgstr "丰富的 <emphasis>在线文档</emphasis>."
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1841
 msgid "<emphasis>And many more!</emphasis>"
-msgstr ""
+msgstr "<emphasis>不止如此</emphasis>"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1848
 msgid "<primary>Computer Systems Research Group (CSRG)</primary>"
-msgstr ""
+msgstr "<primary>计算机系统研究组 (CSRG)</primary>"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1845
 msgid "FreeBSD is based on the 4.4BSD-Lite<_:indexterm-1/> release from Computer Systems Research Group (CSRG)<_:indexterm-2/> at the University of California at Berkeley, and carries on the distinguished tradition of BSD systems development. In addition to the fine work provided by CSRG, the FreeBSD Project has put in many thousands of hours in fine tuning the system for maximum performance and reliability in real-life load situations. FreeBSD offers performance and reliability on par with commercial offerings, combined with many cutting-edge features not available anywhere else."
-msgstr ""
+msgstr "FreeBSD 基于加州大学伯克利分校<_:indexterm-1/>计算机系统研究组 (CSRG) 发布的 4.4BSD-Lite， 继承了 BSD 系统开发的优良传统。 除了 CSRG 优秀的工作之外， FreeBSD 项目花费了非常多的时间来优化调整系统， 使其在真实负载情况下拥有最好的性能和可靠性。 在现今， 许多商业巨人正为给 PC 操作系统增加新功能、 提升和改善其可靠性， 以便在其上展开激烈竞争的同时， FreeBSD 现在 已经能够提供所有这一切了。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1859
 msgid "The applications to which FreeBSD can be put are truly limited only by your own imagination. From software development to factory automation, inventory control to azimuth correction of remote satellite antennae; if it can be done with a commercial <trademark class=\"registered\">UNIX</trademark> product then it is more than likely that you can do it with FreeBSD too! FreeBSD also benefits significantly from literally thousands of high quality applications developed by research centers and universities around the world, often available at little to no cost. Commercial applications are also available and appearing in greater numbers every day."
-msgstr ""
+msgstr "FreeBSD 可以提供的应用事实上仅局限于您的想象力。 从软件开发到工厂自动化，从存货控制到遥远的人造卫星天线方位控制， 如果商业的 <trademark class=\"registered\">UNIX</trademark> 产品可以做到， 那么就非常有可能您也可以用 FreeBSD 来做！ FreeBSD 也极大地受益于全世界的研究中心和大学开发的数以千计的高质量的应用程序， 这些程序通常只需要很少的花费甚至免费。 可用的商业应用程序， 每天也都在大量地增加。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1871
 msgid "Because the source code for FreeBSD itself is generally available, the system can also be customized to an almost unheard of degree for special applications or projects, and in ways not generally possible with operating systems from most major commercial vendors. Here is just a sampling of some of the applications in which people are currently using FreeBSD:"
-msgstr ""
+msgstr "因为 FreeBSD 自身的源代码是完全公开的， 所以对于特定的应用程序或项目，可以对系统进行最大限度的定制。 这对于大多数主流的商业生产商的操作系统来说几乎是不可能的。 以下是当前人们应用 FreeBSD 的某些程序的例子："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1881
@@ -1058,13 +1058,13 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:1895
 msgid "IPv4 and IPv6 routing"
-msgstr ""
+msgstr "IPv4 and IPv6 路由"
 
 #. (itstool) path: para/indexterm
 #. (itstool) path: chapter/indexterm
 #: book.translate.xml:1899 book.translate.xml:57968
 msgid "<primary>firewall</primary>"
-msgstr ""
+msgstr "<primary>防火墙</primary>"
 
 #. (itstool) path: para/indexterm
 #. (itstool) path: sect2/indexterm
@@ -1106,7 +1106,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:1927
 msgid "And more..."
-msgstr ""
+msgstr "还有更多…"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1933
@@ -1122,12 +1122,12 @@ msgstr ""
 #. (itstool) path: sect2/indexterm
 #: book.translate.xml:1957 book.translate.xml:62017
 msgid "<primary>router</primary>"
-msgstr ""
+msgstr "<primary>路由</primary>"
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1959
 msgid "<primary>DNS Server</primary>"
-msgstr ""
+msgstr "<primary>DNS 服务器</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1956
@@ -1137,7 +1137,7 @@ msgstr ""
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1970
 msgid "<primary>embedded</primary>"
-msgstr ""
+msgstr "<primary>嵌入式</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1968
@@ -1164,7 +1164,7 @@ msgstr ""
 #. (itstool) path: para/indexterm
 #: book.translate.xml:2008
 msgid "<primary>Compiler</primary>"
-msgstr ""
+msgstr "<primary>编译器</primary>"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:2005
@@ -1179,7 +1179,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:2024
 msgid "Who Uses FreeBSD?"
-msgstr ""
+msgstr "谁在使用 FreeBSD？"
 
 #. (itstool) path: sect2/indexterm
 #: book.translate.xml:2026
@@ -35712,7 +35712,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37445
 msgid "This output shows that the <literal>example</literal> pool has been created and mounted. It is now accessible as a file system. Files can be created on it and users can browse it:"
-msgstr "df的输出结果显示，<literal>example</literal> 存储池已创建并挂载。它现在是一个可以被读写的文件系统。用户可以在上面写入和读取文件；"
+msgstr "df的输出结果显示，<literal>example</literal> 存储池已创建并挂载，它现在是一个可以被读写的文件系统。用户可以在上面写入和读取文件："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37450
@@ -36190,7 +36190,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37780
 msgid "The completion date of the last scrub operation is displayed to help track when another scrub is required. Routine scrubs help protect data from silent corruption and ensure the integrity of the pool."
-msgstr "查询结果会显示上次清理时间来协助判断是否还需要清理，定期清理可以确保数据完整性："
+msgstr "查询结果会显示上次清理时间来协助判断是否还需要清理，定期清理可以确保数据完整性。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37785
@@ -36215,12 +36215,12 @@ msgstr "创建与删除存储池"
 #. (itstool) path: sect2/para
 #: book.translate.xml:37805
 msgid "Creating a <acronym>ZFS</acronym> storage pool (<emphasis>zpool</emphasis>) involves making a number of decisions that are relatively permanent because the structure of the pool cannot be changed after the pool has been created. The most important decision is what types of vdevs into which to group the physical disks. See the list of <link linkend=\"zfs-term-vdev\">vdev types</link> for details about the possible options. After the pool has been created, most vdev types do not allow additional disks to be added to the vdev. The exceptions are mirrors, which allow additional disks to be added to the vdev, and stripes, which can be upgraded to mirrors by attaching an additional disk to the vdev. Although additional vdevs can be added to expand a pool, the layout of the pool cannot be changed after pool creation. Instead, the data must be backed up and the pool destroyed and recreated."
-msgstr "创建一个<acronym>ZFS</acronym> 存储池（<emphasis>zpool</emphasis>）要提前做好几个长远决定。因为存储池的结构建立以后无法再次更改。最重要的决定是哪一种vdev型号"
+msgstr "创建一个<acronym>ZFS</acronym> 存储池（<emphasis>zpool</emphasis>）要提前做好几个长远决定。因为存储池的结构建立以后无法再次更改。最重要的决定是哪一种vdev型号。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37822
 msgid "Create a simple mirror pool:"
-msgstr "创建一个简单的存储池"
+msgstr "创建一个简单的存储池："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37824
@@ -36245,7 +36245,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37839
 msgid "Multiple vdevs can be created at once. Specify multiple groups of disks separated by the vdev type keyword, <literal>mirror</literal> in this example:"
-msgstr "可以一次性创建多个vdev，磁盘组之间使用vdev类型关键字区分，在这个例子中用<literal>mirror</literal>"
+msgstr "可以一次性创建多个vdev，磁盘组之间使用vdev类型关键字区分，在这个例子中用<literal>mirror</literal>："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37843
@@ -36277,7 +36277,7 @@ msgstr "存储池也可以不使用整个磁盘而改使用分区来建里。把
 #. (itstool) path: sect2/para
 #: book.translate.xml:37875
 msgid "Create a <link linkend=\"zfs-term-vdev-raidz\">RAID-Z2</link> pool using partitions:"
-msgstr "用分区创建一个<link linkend=\"zfs-term-vdev-raidz\">RAID-Z2</link> 存储池。"
+msgstr "用分区创建一个<link linkend=\"zfs-term-vdev-raidz\">RAID-Z2</link> 存储池："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37879
@@ -36391,7 +36391,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37995
 msgid "When adding disks to the existing vdev is not an option, as for <acronym>RAID-Z</acronym>, an alternative method is to add another vdev to the pool. Additional vdevs provide higher performance, distributing writes across the vdevs. Each vdev is responsible for providing its own redundancy. It is possible, but discouraged, to mix vdev types, like <literal>mirror</literal> and <literal>RAID-Z</literal>. Adding a non-redundant vdev to a pool containing mirror or <acronym>RAID-Z</acronym> vdevs risks the data on the entire pool. Writes are distributed, so the failure of the non-redundant disk will result in the loss of a fraction of every block that has been written to the pool."
-msgstr "若不想加入磁盘到现有的vdev，对<acronym>RAID-Z</acronym>来说，可选择另一种方式：加入到另一个vdev存储池。额外的vdev可以提供更好的性能，分散写入数据到vdev之间每个vdev成员负责自己的备份。也可以使用不同的vdev形态，但不建议这么做，例如混合使用<literal>mirror</literal>和<literal>RAID-Z</literal>加入到另一个无备份的vdev到一个含有mirror或RAID-Z vdev的存储池会让数据损坏的风险扩大整个存储池，由于分散写入数据，若在无备份的磁盘上发生故障的结果便是遗失大半写到存储池的数据"
+msgstr "若不想加入磁盘到现有的vdev，对<acronym>RAID-Z</acronym>来说，可选择另一种方式：加入到另一个vdev存储池。额外的vdev可以提供更好的性能，分散写入数据到vdev之间每个vdev成员负责自己的备份。也可以使用不同的vdev形态，但不建议这么做，例如混合使用<literal>mirror</literal>和<literal>RAID-Z</literal>加入到另一个无备份的vdev到一个含有mirror或RAID-Z vdev的存储池会让数据损坏的风险扩大整个存储池，由于分散写入数据，若在无备份的磁盘上发生故障的结果便是遗失大半写到存储池的数据。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:38008
@@ -36406,7 +36406,7 @@ msgstr "当连接额外的设备到一个可以开机的存储池，要记得更
 #. (itstool) path: sect2/para
 #: book.translate.xml:38020
 msgid "Attach a second mirror group (<filename>ada2p3</filename> and <filename>ada3p3</filename>) to the existing mirror:"
-msgstr "连接第二个mirror群组（<filename>ada2p3</filename> 和 <filename>ada3p3</filename>）到现有的mirror。"
+msgstr "连接第二个mirror群组（<filename>ada2p3</filename> 和 <filename>ada3p3</filename>）到现有的mirror："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:38024
@@ -36548,7 +36548,7 @@ msgstr "可能有一些情况会需要更换磁盘为另一个磁盘，当要更
 #. (itstool) path: sect2/para
 #: book.translate.xml:38155
 msgid "Replace a functioning device in the pool:"
-msgstr "更换存储池中正在运行的设备"
+msgstr "更换存储池中正在运行的设备："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:38157
@@ -36777,9 +36777,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:38387
 msgid "Some important data that to be protected from data errors using the self-healing feature is copied to the pool. A checksum of the pool is created for later comparison."
-msgstr ""
-"\n"
-"将一些需要使用自我修复功能来保护的重要数据复制到该存储池，建立一个存储池的校验码以供日后比对。"
+msgstr "将一些需要使用自我修复功能来保护的重要数据复制到该存储池，建立一个存储池的校验码以供日后比对。"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:38391
@@ -36802,7 +36800,7 @@ msgstr "写入随机的资料到镜像的第一个磁盘来模拟资料损毁的
 #. (itstool) path: warning/para
 #: book.translate.xml:38406
 msgid "This is a dangerous operation that can destroy vital data. It is shown here for demonstrational purposes only and should not be attempted during normal operation of a storage pool. Nor should this intentional corruption example be run on any disk with a different file system on it. Do not use any other disk device names other than the ones that are part of the pool. Make certain that proper backups of the pool are created before running the command!"
-msgstr "这是一个危险的操作，会破坏重要的数据。在这里使用仅为了示范用，不应在存储池正常运作时尝试使用，也不应将这个故意损坏数据的例子用在任何其他的文件系统上，所以请勿使用任何不属于该存储池的其他磁盘设备名称并确定在执行指令前已对存储池做正确的备份。"
+msgstr "这是一个危险的操作，会破坏重要的数据。在这里使用仅为了示范用，不应在存储池正常运作时尝试使用，也不应将这个故意损坏数据的例子用在任何其他的文件系统上，所以请勿使用任何不属于该存储池的其他磁盘设备名称并确定在执行指令前已对存储池做正确的备份！"
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:38417
@@ -36979,7 +36977,7 @@ msgstr "存储池在移动到其他系统之前需要做导出（<emphasis>Expor
 #. (itstool) path: sect2/para
 #: book.translate.xml:38589
 msgid "Export a pool that is not in use:"
-msgstr "导出未使用的存储池；"
+msgstr "导出未使用的存储池："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:38591
@@ -37746,7 +37744,7 @@ msgstr "指令会列出指定快照（在这个例子中为 <literal><replaceabl
 #. (itstool) path: row/entry
 #: book.translate.xml:39363
 msgid "The path or file was added."
-msgstr "加入了该路径或文件"
+msgstr "加入了该路径或文件。"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:39368
@@ -37762,7 +37760,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: book.translate.xml:39373
 msgid "The path or file was modified."
-msgstr "路径或文件被修改"
+msgstr "路径或文件被修改。"
 
 #. (itstool) path: row/entry
 #. (itstool) path: glossdiv/title
@@ -37773,7 +37771,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: book.translate.xml:39378
 msgid "The path or file was renamed."
-msgstr "路径或文件被重命名"
+msgstr "路径或文件被重命名。"
 
 #. (itstool) path: sect3/para
 #: book.translate.xml:39384
@@ -37808,7 +37806,7 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: book.translate.xml:39409
 msgid "A backup administrator can compare two snapshots received from the sending host and determine the actual changes in the dataset. See the <link linkend=\"zfs-zfs-send\">Replication</link> section for more information."
-msgstr "比对两个快照需要提供两个数据集的完整数据集名称与快照名称："
+msgstr "比对两个快照需要提供两个数据集的完整数据集名称与快照名称。"
 
 #. (itstool) path: sect3/title
 #: book.translate.xml:39417
@@ -38853,7 +38851,7 @@ msgstr "载入程序可调参数"
 #. (itstool) path: sect3/para
 #: book.translate.xml:40659
 msgid "The <filename>kmem</filename> address space can be increased on all FreeBSD architectures. On a test system with 1 GB of physical memory, success was achieved with these options added to <filename>/boot/loader.conf</filename>, and the system restarted:"
-msgstr "在所有的FreeBSD 架构上均可增加<filename>kmem</filename> 位址空间，经测试在一个1 GB 实体记忆体的测试系统上，加入以下选项到<filename>/boot/loader.conf</ filename>，重新开启系统，可成功设定。"
+msgstr "在所有的FreeBSD 架构上均可增加<filename>kmem</filename> 位址空间，经测试在一个1 GB 实体记忆体的测试系统上，加入以下选项到<filename>/boot/loader.conf</ filename>，重新开启系统，可成功设定："
 
 #. (itstool) path: sect3/programlisting
 #: book.translate.xml:40666
