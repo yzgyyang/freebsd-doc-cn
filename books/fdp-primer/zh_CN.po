@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-12-27 22:00+0800\n"
-"PO-Revision-Date: 2018-12-28 14:39+0800\n"
+"PO-Revision-Date: 2018-12-29 11:42+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -109,17 +109,17 @@ msgstr "一般使用者"
 #. (itstool) path: row/entry
 #: book.translate.xml:178 book.translate.xml:4362
 msgid "<prompt>%</prompt>"
-msgstr "<prompt>%</prompt>"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:182
 msgid "<systemitem class=\"username\">root</systemitem>"
-msgstr "<systemitem class=\"username\">root</systemitem>"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:183 book.translate.xml:4355
 msgid "<prompt>#</prompt>"
-msgstr "<prompt>#</prompt>"
+msgstr ""
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:191
@@ -166,7 +166,7 @@ msgstr "编辑 <filename>.login</filename> 。"
 #. (itstool) path: row/entry
 #: book.translate.xml:218
 msgid "On-screen computer output."
-msgstr "萤幕上会出现的讯息。"
+msgstr "萤幕上会出现的信息。"
 
 #. (itstool) path: entry/screen
 #: book.translate.xml:219
@@ -192,7 +192,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: book.translate.xml:231
 msgid "Manual page references."
-msgstr "要参考的线上手册。"
+msgstr "要参考的在线手册。"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:232
@@ -227,12 +227,12 @@ msgstr "打命令时，可替换的部份。"
 #. (itstool) path: row/entry
 #: book.translate.xml:251
 msgid "To search for a keyword in the manual pages, type <command>man -k <replaceable>keyword</replaceable></command>"
-msgstr "要搜寻线上手册的关键字，请输入 <command>man -k <replaceable>关键字</replaceable></command>"
+msgstr "要搜寻在线手册的关键字，请输入 <command>man -k <replaceable>关键字</replaceable></command>"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:257
 msgid "Environment variables."
-msgstr "环境变数。"
+msgstr "环境变量。"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:258
@@ -361,7 +361,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: book.translate.xml:413
 msgid "Install a local working copy of the documentation from the FreeBSD repository in <filename>~/doc</filename> (see <xref linkend=\"working-copy\"/>)."
-msgstr "在 <filename>~/doc</filename> 安装 FreeBSD 说明文件档案库的本地端工作副本 (请见 <xref linkend=\"working-copy\"/>)。"
+msgstr "在 <filename>~/doc</filename> 安装 FreeBSD 说明文件文件库的本地端工作副本 (请见 <xref linkend=\"working-copy\"/>)。"
 
 #. (itstool) path: step/screen
 #. (itstool) path: sect1/screen
@@ -409,7 +409,7 @@ msgstr "<prompt>%</prompt> <userinput>svn up <replaceable>~/doc</replaceable></u
 #. (itstool) path: step/para
 #: book.translate.xml:450
 msgid "Edit the documentation files that require changes. If a file needs major changes, consult the mailing list for input."
-msgstr "编辑需要修改的说明文件档案。如果档案需要大幅度的编修，请先咨询邮件论坛。"
+msgstr "编辑需要修改的说明文件文件。如果文件需要大幅度的编修，请先咨询邮件论坛。"
 
 #. (itstool) path: step/para
 #: book.translate.xml:454
@@ -430,7 +430,7 @@ msgstr "<prompt>%</prompt> <userinput>igor -R filename.xml | less -RS</userinput
 #. (itstool) path: step/para
 #: book.translate.xml:464
 msgid "Review the output and edit the file to fix any problems shown, then rerun the command to find any remaining problems. Repeat until all of the errors are resolved."
-msgstr "检查输出并重新编辑档案来修正显示的错误，然后重新执行命令来找出剩下的问题。重复执行直到所有错误都解决完。"
+msgstr "检查输出并重新编辑文件来修正显示的错误，然后重新执行命令来找出剩下的问题。重复执行直到所有错误都解决完。"
 
 #. (itstool) path: step/para
 #: book.translate.xml:471
@@ -499,23 +499,23 @@ msgstr "<emphasis>网站</emphasis>：这是 FreeBSD 在网路上的主要部份
 #. (itstool) path: sect1/para
 #: book.translate.xml:549
 msgid "Translation teams are responsible for translating the Handbook and web site into different languages. Manual pages are not translated at present."
-msgstr "翻译团队负责翻译使用手册和网站到不同的语言。线上手册目前并未翻译。"
+msgstr "翻译团队负责翻译使用手册和网站到不同的语言。在线手册目前并未翻译。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:553
 msgid "Documentation source for the FreeBSD web site, Handbook, and <acronym>FAQ</acronym> is available in the documentation repository at <literal>https://svn.FreeBSD.org/doc/</literal>."
-msgstr "FreeBSD 网站、使用手册、和 <acronym>FAQ</acronym> 的文件原始码可以在 <literal>https://svn.FreeBSD.org/doc/</literal> 的文件档案库取得。"
+msgstr "FreeBSD 网站、使用手册、和 <acronym>FAQ</acronym> 的文件原始码可以在 <literal>https://svn.FreeBSD.org/doc/</literal> 的文件文件库取得。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:558
 msgid "Source for manual pages is available in a separate source repository located at <literal>https://svn.FreeBSD.org/base/</literal>."
-msgstr "线上手册的原始码则是在 <literal>https://svn.FreeBSD.org/base/</literal> 的原始码库可以取得。"
+msgstr "在线手册的原始码则是在 <literal>https://svn.FreeBSD.org/base/</literal> 的原始码库可以取得。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:562
 #, fuzzy
 msgid "Documentation commit messages are visible with <command>svn log</command>. Commit messages are also archived at <uri xlink:href=\"http://lists.FreeBSD.org/mailman/listinfo/svn-doc-all\"> http://lists.FreeBSD.org/mailman/listinfo/svn-doc-all</uri>."
-msgstr "说明文件提交讯息可以用 <command>svn log</command> 察看。提交讯息也会封存在 <uri xlink:href=\"http://lists.FreeBSD.org/mailman/listinfo/svn-doc-all\">http://lists.FreeBSD.org/mailman/listinfo/svn-doc-all</uri>。"
+msgstr "说明文件提交信息可以用 <command>svn log</command> 察看。提交信息也会封存在 <uri xlink:href=\"http://lists.FreeBSD.org/mailman/listinfo/svn-doc-all\">http://lists.FreeBSD.org/mailman/listinfo/svn-doc-all</uri>。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:567
@@ -525,7 +525,7 @@ msgstr "这些储存库的网页版位于 <link xlink:href=\"https://svnweb.Free
 #. (itstool) path: sect1/para
 #: book.translate.xml:571
 msgid "Many people have written tutorials or how-to articles about FreeBSD. Some are stored as part of the <acronym>FDP</acronym> files. In other cases, the author has decided to keep the documentation separate. The <acronym>FDP</acronym> endeavors to provide links to as much of this external documentation as possible."
-msgstr "许多人会写 FreeBSD 的教学文件或是 how-to 文章。有些保存在 <acronym>FDP</acronym> 的档案中。其他一些说明文件则是作者希望放在他处。<acronym>FDP</acronym> 会尽力提供这些说明文件的连结。"
+msgstr "许多人会写 FreeBSD 的教学文件或是 how-to 文章。有些保存在 <acronym>FDP</acronym> 的文件中。其他一些说明文件则是作者希望放在他处。<acronym>FDP</acronym> 会尽力提供这些说明文件的连结。"
 
 #. (itstool) path: chapter/title
 #: book.translate.xml:612
@@ -545,7 +545,7 @@ msgstr "必备工具"
 #. (itstool) path: sect1/para
 #: book.translate.xml:624
 msgid "Install <package>textproc/docproj</package> from the Ports Collection. This <emphasis>meta-port</emphasis> installs all the applications required to do useful work with the FreeBSD documentation. Some further notes on particular components are given below."
-msgstr "从 Port 套件集安装 <package>textproc/docproj</package>。这个 <emphasis>meta-port</emphasis> 会安装处理 FreeBSD 说明文件需要的所有应用程式。以下列出特定元件的进一步说明。"
+msgstr "从 Port 套件集安装 <package>textproc/docproj</package>。这个 <emphasis>meta-port</emphasis> 会安装处理 FreeBSD 说明文件需要的所有应用程序。以下列出特定元件的进一步说明。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:632
@@ -596,7 +596,7 @@ msgstr "选用工具"
 #. (itstool) path: sect1/para
 #: book.translate.xml:683
 msgid "These applications are not required, but can make working on the documentation easier or add capabilities."
-msgstr "以下应用程式并非必要，但有了可让在说明文件的作业上更简单或提升能力。"
+msgstr "以下应用程序并非必要，但有了可让在说明文件的作业上更简单或提升能力。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:687
@@ -615,9 +615,8 @@ msgstr "一个很受欢迎的编辑器，可以处理 <acronym>XML</acronym> 和
 
 #. (itstool) path: varlistentry/term
 #: book.translate.xml:703
-#, fuzzy
 msgid "<application>Emacs</application> (<package>editors/emacs</package>)"
-msgstr "<application>Vim</application> (<package>editors/vim</package>)"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:707
@@ -632,7 +631,7 @@ msgstr "工作副本"
 #. (itstool) path: chapter/para
 #: book.translate.xml:751
 msgid "The <emphasis>working copy</emphasis> is a copy of the FreeBSD repository documentation tree downloaded onto the local computer. Changes are made to the local working copy, tested, and then submitted as patches to be committed to the main repository."
-msgstr "<emphasis>工作副本 (Working copy)</emphasis> 指的是已下载到本地电脑的 FreeBSD 说明文件树档案库，所有对工作副本的更改会经过测试后再以修补档 (Patch) 的格式提交到主要档案库。"
+msgstr "<emphasis>工作副本 (Working copy)</emphasis> 指的是已下载到本地电脑的 FreeBSD 说明文件树文件库，所有对工作副本的更改会经过测试后再以修补档 (Patch) 的格式提交到主要文件库。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:757
@@ -642,7 +641,7 @@ msgstr "完整的说明文件树副本会占据 700 MB 的磁碟空间，要有�
 #. (itstool) path: chapter/para
 #: book.translate.xml:762
 msgid "<link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/books/handbook/svn.html\"><application>Subversion</application></link> is used to manage the FreeBSD documentation files. It is obtained by installing the <application>Subversion</application> package:"
-msgstr "FreeBSD 说明文件档案使用 <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/books/handbook/svn.html\"><application>Subversion</application></link> 来管理。它可以通过安装 <application>Subversion</application> 软件包包获得："
+msgstr "FreeBSD 说明文件文件使用 <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/books/handbook/svn.html\"><application>Subversion</application></link> 来管理。它可以通过安装 <application>Subversion</application> 软件包包获得："
 
 #. (itstool) path: chapter/screen
 #: book.translate.xml:767
@@ -660,12 +659,12 @@ msgstr "说明文件与操作手册"
 msgid ""
 "FreeBSD documentation is not just books and articles. Manual pages for all the commands and configuration files are also part of the documentation, and part of the <acronym>FDP</acronym>'s territory. Two repositories are involved: <literal>doc</literal> for the books and articles, and <literal>base</literal> for the operating system and manual pages. To edit manual pages, the <literal>base</literal> "
 "repository must be checked out separately."
-msgstr "FreeBSD 说明文件不只有书籍与文章，还有所有命令与设定档的操作手册 (Manual page) 也是文件的一部份，其中也有一部份是 <acronym>FDP</acronym> 的地盘。相关的档案库有两个：<literal>doc</literal> 中有书籍与文章，而 <literal>base</literal> 中有作业系统以及操作手册。要编辑操作手册则必须另外取出 (Checkout) <literal>base</literal> 档案库。"
+msgstr "FreeBSD 说明文件不只有书籍与文章，还有所有命令与设定档的操作手册 (Manual page) 也是文件的一部份，其中也有一部份是 <acronym>FDP</acronym> 的地盘。相关的文件库有两个：<literal>doc</literal> 中有书籍与文章，而 <literal>base</literal> 中有作业系统以及操作手册。要编辑操作手册则必须另外取出 (Checkout) <literal>base</literal> 文件库。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:781
 msgid "Repositories may contain multiple versions of documentation and source code. New modifications are almost always made only to the latest version, called <literal>head</literal>."
-msgstr "档案库中可能会含有数个版本的说明文件与原始码。新的修改几乎都只对最新版本 <literal>head</literal> 做更新。"
+msgstr "文件库中可能会含有数个版本的说明文件与原始码。新的修改几乎都只对最新版本 <literal>head</literal> 做更新。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:787
@@ -687,7 +686,7 @@ msgstr "取出一份副本"
 #. (itstool) path: sect1/para
 #: book.translate.xml:804
 msgid "A download of a working copy from the repository is called a <emphasis>checkout</emphasis>, and done with <command>svn checkout</command>. This example checks out a copy of the latest version (<literal>head</literal>) of the main documentation tree:"
-msgstr "从档案库下载工作副本的动作称作 <emphasis>取出 (Checkout)</emphasis>，使用 <command>svn checkout</command> 来完成。本范例会取出主要说明文件树最新版本的副本："
+msgstr "从文件库下载工作副本的动作称作 <emphasis>取出 (Checkout)</emphasis>，使用 <command>svn checkout</command> 来完成。本范例会取出主要说明文件树最新版本的副本："
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:812
@@ -710,7 +709,7 @@ msgstr "更新工作副本"
 msgid ""
 "The documents and files in the FreeBSD repository change daily. People modify files and commit changes frequently. Even a short time after an initial checkout, there will already be differences between the local working copy and the main FreeBSD repository. To update the local version with the changes that have been made to the main repository, use <command>svn update</command> on the directory containing the "
 "local working copy:"
-msgstr "在 FreeBSD 档案库中的文件与档案每天都会更改，人们会修改档案与提交变更的频率非常快，即使取出 (Checkout) 只过小一段时间，本地的工作副本可能就与主要 FreeBSD 档案库有差异了。要更新本地版本以同步对主要档案库的变更可在有本地工作副本的目录下使用 <command>svn update</command>："
+msgstr "在 FreeBSD 文件库中的文件与文件每天都会更改，人们会修改文件与提交变更的频率非常快，即使取出 (Checkout) 只过小一段时间，本地的工作副本可能就与主要 FreeBSD 文件库有差异了。要更新本地版本以同步对主要文件库的变更可在有本地工作副本的目录下使用 <command>svn update</command>："
 
 #. (itstool) path: sect1/screen
 #: book.translate.xml:830
@@ -721,7 +720,7 @@ msgstr "<prompt>%</prompt> <userinput>svn update <replaceable>~/doc</replaceable
 #. (itstool) path: sect1/para
 #: book.translate.xml:832
 msgid "Get in the protective habit of using <command>svn update</command> before editing document files. Someone else may have edited that file very recently, and the local working copy will not include the latest changes until it has been updated. Editing the newest version of a file is much easier than trying to combine an older, edited local file with the newer version from the repository."
-msgstr "养成良好的习惯在编辑文件档前先执行 <command>svn update</command>，由于可能会有其他人最近才编辑完该档案，若未更新本地工作副则不会有最新变更的内容，比其还要将旧版本地档案与新版档案库档案合并的动作来说，直接编辑最新版本的档案要简单多了。"
+msgstr "养成良好的习惯在编辑文件档前先执行 <command>svn update</command>，由于可能会有其他人最近才编辑完该文件，若未更新本地工作副则不会有最新变更的内容，比其还要将旧版本地文件与新版文件库文件合并的动作来说，直接编辑最新版本的文件要简单多了。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:842
@@ -731,7 +730,7 @@ msgstr "还原变更"
 #. (itstool) path: sect1/para
 #: book.translate.xml:844
 msgid "Sometimes it turns out that changes were not necessary after all, or the writer just wants to start over. Files can be <quote>reset</quote> to their unchanged form with <command>svn revert</command>. For example, to erase the edits made to <filename>chapter.xml</filename> and reset it to unmodified form:"
-msgstr "有时才做完的变更可能就变的不需要了，或者作者刚想要重新搛写。档案可使以使用 <command>svn revert</command> 来<quote>重设</quote>成尚未被修改过的状态，举例来说，要清除所有对 <filename>chapter.xml</filename> 的修改然后还原到未修改的版本可："
+msgstr "有时才做完的变更可能就变的不需要了，或者作者刚想要重新搛写。文件可使以使用 <command>svn revert</command> 来<quote>重设</quote>成尚未被修改过的状态，举例来说，要清除所有对 <filename>chapter.xml</filename> 的修改然后还原到未修改的版本可："
 
 #. (itstool) path: sect1/screen
 #: book.translate.xml:851
@@ -747,7 +746,7 @@ msgstr "比对差异"
 #. (itstool) path: sect1/para
 #: book.translate.xml:857
 msgid "After edits to a file or group of files are completed, the differences between the local working copy and the version on the FreeBSD repository must be collected into a single file for submission. These <emphasis>diff</emphasis> files are produced by redirecting the output of <command>svn diff</command> into a file:"
-msgstr "在编辑一个档案或数个档案完成之后，需将本地工作副本与 FreeBSD 档案库的差异储存到一个档案然后提交。这些 <emphasis>差异 (Diff)</emphasis> 档可透过将 <command>svn diff</command> 的输出转向到档案来建立："
+msgstr "在编辑一个文件或数个文件完成之后，需将本地工作副本与 FreeBSD 文件库的差异储存到一个文件然后提交。这些 <emphasis>差异 (Diff)</emphasis> 档可透过将 <command>svn diff</command> 的输出转向到文件来建立："
 
 #. (itstool) path: sect1/screen
 #: book.translate.xml:864
@@ -760,7 +759,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:867
 msgid "Give the file a meaningful name that identifies the contents. The example above is for spelling fixes to the whole documentation tree."
-msgstr "给档案取一个有意义的名字来辨识这次修改的内容，上述范例为例则是要修正整个说明文件树的拼写。"
+msgstr "给文件取一个有意义的名字来辨识这次修改的内容，上述范例为例则是要修正整个说明文件树的拼写。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:871
@@ -770,7 +769,7 @@ msgstr "若 diff 档要使用网站的 <quote><link xlink:href=\"https://bugs.Fr
 #. (itstool) path: sect1/para
 #: book.translate.xml:878
 msgid "Be careful: <command>svn diff</command> includes all changes made in the current directory and any subdirectories. If there are files in the working copy with edits that are not ready to be submitted yet, provide a list of only the files that are to be included:"
-msgstr "请小心：<command>svn diff</command> 会产生所有在目前目录及其子目录的变更差异，若在该工作副本中有已经编辑过的档案还没有要提交，请列出需要比较差异的档案清单："
+msgstr "请小心：<command>svn diff</command> 会产生所有在目前目录及其子目录的变更差异，若在该工作副本中有已经编辑过的文件还没有要提交，请列出需要比较差异的文件清单："
 
 #. (itstool) path: sect1/screen
 #: book.translate.xml:884
@@ -798,7 +797,7 @@ msgstr "说明文件目录结构"
 #. (itstool) path: chapter/para
 #: book.translate.xml:933
 msgid "Files and directories in the <filename>doc/</filename> tree follow a structure meant to:"
-msgstr "在 <filename>doc/</filename> 树中的档案与目录需要遵守特定结构是因为："
+msgstr "在 <filename>doc/</filename> 树中的文件与目录需要遵守特定结构是因为："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:939
@@ -850,7 +849,7 @@ msgstr ""
 msgid ""
 "Contains files that are not specific to the various translations and encodings of the documentation. Contains subdirectories to further categorize the information. For example, the files that comprise the <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> infrastructure are in <filename>share/mk</filename>, while the additional <acronym>XML</acronym> support files (such "
 "as the FreeBSD extended DocBook <acronym>DTD</acronym>) are in <filename>share/xml</filename>."
-msgstr "含有未特定用于各说明文件翻译与编码的档案。其子目录更进一步将不同资讯的分类，例如，构成 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 基础设施的档案放置于 <filename>share/mk</filename>，而额外的 <acronym>XML</acronym> 支援档 (如 FreeBSD 延伸的 DocBook <acronym>DTD</acronym>) 则放在 <filename>share/xml</filename>。"
+msgstr "含有未特定用于各说明文件翻译与编码的文件。其子目录更进一步将不同资讯的分类，例如，构成 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 基础设施的文件放置于 <filename>share/mk</filename>，而额外的 <acronym>XML</acronym> 支援档 (如 FreeBSD 延伸的 DocBook <acronym>DTD</acronym>) 则放在 <filename>share/xml</filename>。"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:994
@@ -882,7 +881,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: book.translate.xml:1036
 msgid "Documentation marked up as a DocBook <tag>article</tag> (or equivalent). Reasonably short, and broken up into sections. Normally only available as one <acronym>XHTML</acronym> file."
-msgstr "以 DocBook <tag>article</tag> (或同等级) 标记的说明文件。非常短，且会分成几个小节，通常取得时只会有一个 <acronym>XHTML</acronym> 档案。"
+msgstr "以 DocBook <tag>article</tag> (或同等级) 标记的说明文件。非常短，且会分成几个小节，通常取得时只会有一个 <acronym>XHTML</acronym> 文件。"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:1043
@@ -892,7 +891,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: book.translate.xml:1045
 msgid "Documentation marked up as a DocBook <tag>book</tag> (or equivalent). Book length, and broken up into chapters. Normally available as both one large <acronym>XHTML</acronym> file (for people with fast connections, or who want to print it easily from a browser) and as a collection of linked, smaller files."
-msgstr "以 DocBook <tag>book</tag> (或同等级) 标记的说明文件。有跟书籍一样的长度，会分成数个章。通常取得时会包含一个大型的 <acronym>XHTML</acronym> 档 (供有较快连线速度的人使用，或者那些想直接在浏览器列印的人) 与数个连结的较小的档案。"
+msgstr "以 DocBook <tag>book</tag> (或同等级) 标记的说明文件。有跟书籍一样的长度，会分成数个章。通常取得时会包含一个大型的 <acronym>XHTML</acronym> 档 (供有较快连线速度的人使用，或者那些想直接在浏览器列印的人) 与数个连结的较小的文件。"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:1055
@@ -948,7 +947,7 @@ msgstr "实体组织结构"
 #. (itstool) path: sect3/para
 #: book.translate.xml:1098
 msgid "There are a number of files and directories within the <filename>handbook</filename> directory."
-msgstr "在 <filename>handbook</filename> 目录中有数个档案及目录。"
+msgstr "在 <filename>handbook</filename> 目录中有数个文件及目录。"
 
 #. (itstool) path: note/para
 #: book.translate.xml:1102
@@ -963,7 +962,7 @@ msgstr ""
 #. (itstool) path: sect4/para
 #: book.translate.xml:1111
 msgid "The <filename>Makefile</filename> defines some variables that affect how the <acronym>XML</acronym> source is converted to other formats, and lists the various source files that make up the Handbook. It then includes the standard <filename>doc.project.mk</filename>, to bring in the rest of the code that handles converting documents from one format to another."
-msgstr "<filename>Makefile</filename> 定义了一些会影响 <acronym>XML</acronym> 原始码要如何转换至其他格式的变数，并列出产生使用手册所需的各原始档，接著会引用可处理在各种文件格式转换的标准 <filename>doc.project.mk</filename> 程式码。"
+msgstr "<filename>Makefile</filename> 定义了一些会影响 <acronym>XML</acronym> 原始码要如何转换至其他格式的变量，并列出产生使用手册所需的各原始档，接著会引用可处理在各种文件格式转换的标准 <filename>doc.project.mk</filename> 程式码。"
 
 #. (itstool) path: sect4/title
 #: book.translate.xml:1121
@@ -978,7 +977,7 @@ msgstr "此为使用手册的最上层文件，其中包含了使用手册的 <l
 #. (itstool) path: sect4/para
 #: book.translate.xml:1128
 msgid "<filename>book.xml</filename> uses <link linkend=\"xml-primer-parameter-entities\">parameter entities</link> to load in the files with the <filename>.ent</filename> extension. These files (described later) then define <link linkend=\"xml-primer-general-entities\">general entities</link> that are used throughout the rest of the Handbook."
-msgstr "<filename>book.xml</filename> 会使用 <link linkend=\"xml-primer-parameter-entities\">参数 Entities</link> 来载入 <filename>.ent</filename> 副档名的档案。这些档案 (稍后会详述) 接著会定义使用手册剩下篇幅会使用的 <link linkend=\"xml-primer-general-entities\">一般 Entities</link>。"
+msgstr "<filename>book.xml</filename> 会使用 <link linkend=\"xml-primer-parameter-entities\">参数 Entities</link> 来载入 <filename>.ent</filename> 副档名的文件。这些文件 (稍后会详述) 接著会定义使用手册剩下篇幅会使用的 <link linkend=\"xml-primer-general-entities\">一般 Entities</link>。"
 
 #. (itstool) path: sect4/title
 #: book.translate.xml:1137
@@ -988,12 +987,12 @@ msgstr ""
 #. (itstool) path: sect4/para
 #: book.translate.xml:1139
 msgid "Each chapter in the Handbook is stored in a file called <filename>chapter.xml</filename> in a separate directory from the other chapters. Each directory is named after the value of the <literal>id</literal> attribute on the <tag>chapter</tag> element."
-msgstr "每个在使用手册的章会储存成名称为 <filename>chapter.xml</filename> 的档案，分别放在不同的目录中。每个目录均是以在 <tag>chapter</tag> 元素中 <literal>id</literal> 属性中的值来命名。"
+msgstr "每个在使用手册的章会储存成名称为 <filename>chapter.xml</filename> 的文件，分别放在不同的目录中。每个目录均是以在 <tag>chapter</tag> 元素中 <literal>id</literal> 属性中的值来命名。"
 
 #. (itstool) path: sect4/para
 #: book.translate.xml:1146
 msgid "For example, if one of the chapter files contains:"
-msgstr "例如，若有一章的档案内容为："
+msgstr "例如，若有一章的文件内容为："
 
 #. (itstool) path: sect4/programlisting
 #: book.translate.xml:1149
@@ -1007,7 +1006,7 @@ msgstr ""
 #. (itstool) path: sect4/para
 #: book.translate.xml:1153
 msgid "Then it will be called <filename>chapter.xml</filename> in the <filename>kernelconfig</filename> directory. In general, the entire contents of the chapter are in this one file."
-msgstr "那么放置这个 <filename>chapter.xml</filename> 的目录则会命名为 <filename>kernelconfig</filename>。一般来说一章的所有内容会存放在这一个档案。"
+msgstr "那么放置这个 <filename>chapter.xml</filename> 的目录则会命名为 <filename>kernelconfig</filename>。一般来说一章的所有内容会存放在这一个文件。"
 
 #. (itstool) path: sect4/para
 #: book.translate.xml:1159
@@ -1020,23 +1019,23 @@ msgid ""
 "In earlier versions of the Handbook, the files were stored in the same directory as <filename>book.xml</filename>, and named after the value of the <literal>id</literal> attribute on the file's <tag>chapter</tag> element. Now, it is possible to include images in each chapter. Images for each Handbook chapter are stored within <filename>share/images/books/handbook</filename>. The localized version of these "
 "images should be placed in the same directory as the <acronym>XML</acronym> sources for each chapter. Namespace collisions are inevitable, and it is easier to work with several directories with a few files in them than it is to work with one directory that has many files in it."
 msgstr ""
-"在早期版本的使用手册，档案皆储存在与 <filename>book.xml</filename> 相同的目录中，而名称会以 <tag>chapter</tag> 元素中的 <literal>id</literal> 属性的值来命名。现在可在每个章节之中引用图片，每个使用手册章节的图片会储存在 <filename>share/images/books/handbook</filename>，而在地化版本的图片应放在与每个章节 <acronym>XML</acronym> 原始码相同的目录。命名空间会冲突是必然的，但以目录多、档案少与目录少、档案多的结构相"
-"比，目录多、档案少会较容易处理命名空间冲突的问题。"
+"在早期版本的使用手册，文件皆储存在与 <filename>book.xml</filename> 相同的目录中，而名称会以 <tag>chapter</tag> 元素中的 <literal>id</literal> 属性的值来命名。现在可在每个章节之中引用图片，每个使用手册章节的图片会储存在 <filename>share/images/books/handbook</filename>，而在地化版本的图片应放在与每个章节 <acronym>XML</acronym> 原始码相同的目录。命名空间会冲突是必然的，但以目录多、文件少与目录少、文件多的结构相"
+"比，目录多、文件少会较容易处理命名空间冲突的问题。"
 
 #. (itstool) path: sect4/para
 #: book.translate.xml:1180
 msgid "A brief look will show that there are many directories with individual <filename>chapter.xml</filename> files, including <filename>basics/chapter.xml</filename>, <filename>introduction/chapter.xml</filename>, and <filename>printing/chapter.xml</filename>."
-msgstr "简单来说会有很多个内含 <filename>chapter.xml</filename> 档案的目录，例如 <filename>basics/chapter.xml</filename>, <filename>introduction/chapter.xml</filename> 以及 <filename>printing/chapter.xml</filename>。"
+msgstr "简单来说会有很多个内含 <filename>chapter.xml</filename> 文件的目录，例如 <filename>basics/chapter.xml</filename>, <filename>introduction/chapter.xml</filename> 以及 <filename>printing/chapter.xml</filename>。"
 
 #. (itstool) path: important/para
 #: book.translate.xml:1187
 msgid "Do not name chapters or directories after their ordering within the Handbook. This ordering can change as the content within the Handbook is reorganized. Reorganization should be possible without renaming files, unless entire chapters are being promoted or demoted within the hierarchy."
-msgstr "请勿以在使用手册中的章节顺序来命名章节或目录，因为顺序是会随使用手册重新组织后的内容改变的。重新组织结构应不需要去重新命名档案，除非整个章节的阶层被提升或下降。"
+msgstr "请勿以在使用手册中的章节顺序来命名章节或目录，因为顺序是会随使用手册重新组织后的内容改变的。重新组织结构应不需要去重新命名文件，除非整个章节的阶层被提升或下降。"
 
 #. (itstool) path: sect4/para
 #: book.translate.xml:1195
 msgid "The <filename>chapter.xml</filename> files are not complete <acronym>XML</acronym> documents that can be built individually. They can only be built as parts of the whole Handbook."
-msgstr "<filename>chapter.xml</filename> 档案并不是可以被单独建置的完整 <acronym>XML</acronym> 文件，只能结合成整本使用手册之后再一并建置。"
+msgstr "<filename>chapter.xml</filename> 文件并不是可以被单独建置的完整 <acronym>XML</acronym> 文件，只能结合成整本使用手册之后再一并建置。"
 
 #. (itstool) path: chapter/title
 #: book.translate.xml:1237
@@ -1056,7 +1055,7 @@ msgstr "绘制 Docbook 为其他格式"
 #. (itstool) path: sect1/para
 #: book.translate.xml:1245
 msgid "Different types of output can be produced from a single DocBook source file. The type of output desired is set with the <varname>FORMATS</varname> variable. A list of known formats is stored in <varname>KNOWN_FORMATS</varname>:"
-msgstr "从单一个 DocBook 原始档可以产生各种不同类型的输出，想要输出的类型可用 <varname>FORMATS</varname> 变数来设定。已知的格式清单列在 <varname>KNOWN_FORMATS</varname> 中："
+msgstr "从单一个 DocBook 原始档可以产生各种不同类型的输出，想要输出的类型可用 <varname>FORMATS</varname> 变量来设定。已知的格式清单列在 <varname>KNOWN_FORMATS</varname> 中："
 
 #. (itstool) path: sect1/screen
 #. (itstool) id: book.translate.xml#doc-build-rendering-known-formats
@@ -1080,7 +1079,7 @@ msgstr "<varname>FORMATS</varname> 值"
 #. (itstool) path: row/entry
 #: book.translate.xml:1260
 msgid "File Type"
-msgstr "档案类型"
+msgstr "文件类型"
 
 #. (itstool) path: row/entry
 #. (itstool) path: segmentedlist/segtitle
@@ -1117,7 +1116,7 @@ msgstr "<acronym>HTML</acronym>，多档"
 #. (itstool) path: row/entry
 #: book.translate.xml:1276
 msgid "Multiple <acronym>HTML</acronym> files, one for each chapter or section, for use on a typical web site."
-msgstr "多个 <acronym>HTML</acronym> 档案，每个章或节一个档案，供一般网站使用。"
+msgstr "多个 <acronym>HTML</acronym> 文件，每个章或节一个文件，供一般网站使用。"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:1282
@@ -1246,22 +1245,22 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:1386
 msgid "The first four non-empty lines define the <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> variables <varname>SUBDIR</varname>, <varname>COMPAT_SYMLINK</varname>, and <varname>DOC_PREFIX</varname>."
-msgstr "前四行非空白的行用来定义 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 的变数 <varname>SUBDIR</varname>, <varname>COMPAT_SYMLINK</varname> 及 <varname>DOC_PREFIX</varname>。"
+msgstr "前四行非空白的行用来定义 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 的变量 <varname>SUBDIR</varname>, <varname>COMPAT_SYMLINK</varname> 及 <varname>DOC_PREFIX</varname>。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1391
 msgid "The <varname>SUBDIR</varname> statement and <varname>COMPAT_SYMLINK</varname> statement show how to assign a value to a variable, overriding any previous value."
-msgstr "<varname>SUBDIR</varname> 叙述与 <varname>COMPAT_SYMLINK</varname> 叙述示范了如何指派数值到一个变数，覆盖先前的值。"
+msgstr "<varname>SUBDIR</varname> 叙述与 <varname>COMPAT_SYMLINK</varname> 叙述示范了如何指派数值到一个变量，覆盖先前的值。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1396
 msgid "The second <varname>SUBDIR</varname> statement shows how a value is appended to the current value of a variable. The <varname>SUBDIR</varname> variable is now <literal>articles books</literal>."
-msgstr "<varname>SUBDIR</varname> 的第二行叙述示范如何将数值附加到目前的变数值之后，<varname>SUBDIR</varname> 变数现在变成了 <literal>articles books</literal>。"
+msgstr "<varname>SUBDIR</varname> 的第二行叙述示范如何将数值附加到目前的变量值之后，<varname>SUBDIR</varname> 变量现在变成了 <literal>articles books</literal>。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1401
 msgid "The <varname>DOC_PREFIX</varname> assignment shows how a value is assigned to the variable, but only if it is not already defined. This is useful if <varname>DOC_PREFIX</varname> is not where this <filename>Makefile</filename> thinks it is - the user can override this and provide the correct value."
-msgstr "<varname>DOC_PREFIX</varname> 指派式示范了如何只在变数尚未定义时才指派数值给变数。这个功能在当 <varname>DOC_PREFIX</varname> 不在 <filename>Makefile</filename> 所认为的地方时，使用者可以覆盖这个值，并提供正确的值。"
+msgstr "<varname>DOC_PREFIX</varname> 指派式示范了如何只在变量尚未定义时才指派数值给变量。这个功能在当 <varname>DOC_PREFIX</varname> 不在 <filename>Makefile</filename> 所认为的地方时，使用者可以覆盖这个值，并提供正确的值。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1408
@@ -1276,12 +1275,12 @@ msgstr "<varname>COMPAT_SYMLINK</varname> 是一个用来指定语言官方编�
 #. (itstool) path: sect2/para
 #: book.translate.xml:1417
 msgid "<varname>DOC_PREFIX</varname> is the path to the root of the FreeBSD Document Project tree. This is not always that easy to find, and is also easily overridden, to allow for flexibility. <varname>.CURDIR</varname> is a <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> builtin variable with the path to the current directory."
-msgstr "<varname>DOC_PREFIX</varname> 是到 FreeBSD 说明文档计划树根目录的路径。这并非每一次都可以很轻易找到，为了增加弹性，要改写也很简单。<varname>.CURDIR</varname> 是一个 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 内建的变数，代表目前目录的路径。"
+msgstr "<varname>DOC_PREFIX</varname> 是到 FreeBSD 说明文档计划树根目录的路径。这并非每一次都可以很轻易找到，为了增加弹性，要改写也很简单。<varname>.CURDIR</varname> 是一个 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 内建的变量，代表目前目录的路径。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1424
 msgid "The final line includes the FreeBSD Documentation Project's project-wide <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> system file <filename>doc.project.mk</filename> which is the glue which converts these variables into build instructions."
-msgstr "最后一行会引用 FreeBSD 说明文档计划的全专案 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 系统档 <filename>doc.project.mk</filename>，用来转换这些变数成为建置的命令。"
+msgstr "最后一行会引用 FreeBSD 说明文档计划的全专案 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 系统档 <filename>doc.project.mk</filename>，用来转换这些变量成为建置的命令。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:1431
@@ -1291,7 +1290,7 @@ msgstr "说明文件的 <filename>Makefile</filename>"
 #. (itstool) path: sect2/para
 #: book.translate.xml:1433
 msgid "These <filename>Makefile</filename>s set <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> variables that describe how to build the documentation contained in that directory."
-msgstr "这些 <filename>Makefile</filename> 用来设定 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 变数来描述要如何建置在该目录中的说明文件。"
+msgstr "这些 <filename>Makefile</filename> 用来设定 <citerefentry><refentrytitle>make</refentrytitle><manvolnum>1</manvolnum></citerefentry> 变量来描述要如何建置在该目录中的说明文件。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1437
@@ -1322,12 +1321,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:1455
 msgid "The <varname>MAINTAINER</varname> variable allows committers to claim ownership of a document in the FreeBSD Documentation Project, and take responsibility for maintaining it."
-msgstr "<varname>MAINTAINER</varname> 变数让提交者可以声明文件在 FreeBSD 说明文档计划中的所有权，并负责维护该文件。"
+msgstr "<varname>MAINTAINER</varname> 变量让提交者可以声明文件在 FreeBSD 说明文档计划中的所有权，并负责维护该文件。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1460
 msgid "<varname>DOC</varname> is the name (sans the <filename>.xml</filename> extension) of the main document created by this directory. <varname>SRCS</varname> lists all the individual files that make up the document. This should also include important files in which a change should result in a rebuild."
-msgstr "<varname>DOC</varname> 是由此目录会建立的主要文件的名称 (不需要 <filename>.xml</filename> 副档名)。<varname>SRCS</varname> 会列出产生文件所需的各别档案，此处也应引用要在重新建置 (Rebuild) 使用的重要的档案。"
+msgstr "<varname>DOC</varname> 是由此目录会建立的主要文件的名称 (不需要 <filename>.xml</filename> 副档名)。<varname>SRCS</varname> 会列出产生文件所需的各别文件，此处也应引用要在重新建置 (Rebuild) 使用的重要的文件。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1467
@@ -1402,7 +1401,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: book.translate.xml:1534 book.translate.xml:1584
 msgid "Variables"
-msgstr "变数"
+msgstr "变量"
 
 #. (itstool) path: sect3/para
 #: book.translate.xml:1536
@@ -1617,12 +1616,12 @@ msgstr "网站"
 #. (itstool) path: chapter/para
 #: book.translate.xml:1768
 msgid "The FreeBSD web site is part of the FreeBSD documents. Files for the web site are stored in the <filename>en_US.ISO8859-1/htdocs</filename> subdirectory of the document tree directory, <filename>~/doc</filename> in this example."
-msgstr "FreeBSD 网站是 FreeBSD 文件的一部份。网站的档案储存在文件树目录，此例中是 <filename>~/doc</filename>，的 <filename>en_US.ISO8859-1/htdocs</filename> 子目录。"
+msgstr "FreeBSD 网站是 FreeBSD 文件的一部份。网站的文件储存在文件树目录，此例中是 <filename>~/doc</filename>，的 <filename>en_US.ISO8859-1/htdocs</filename> 子目录。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:1775
 msgid "Environment Variables"
-msgstr "环境变数"
+msgstr "环境变量"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:1777
@@ -2513,7 +2512,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: book.translate.xml:2656
 msgid "<filename>catalog</filename> Files"
-msgstr "<filename>catalog</filename> 档案"
+msgstr "<filename>catalog</filename> 文件"
 
 #. (itstool) path: sect3/para
 #: book.translate.xml:2658
@@ -3876,7 +3875,7 @@ msgstr "连结"
 #. (itstool) path: note/para
 #: book.translate.xml:3944
 msgid "Links are also inline elements."
-msgstr ""
+msgstr "链接也是行内元素。"
 
 #. (itstool) path: sect3/title
 #. (itstool) path: sect2/title
@@ -5142,7 +5141,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:5116
 msgid "Showing File Samples"
-msgstr "显示档案范本"
+msgstr "显示文件范本"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:5118
@@ -5627,7 +5626,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:5623
 msgid "Applications, Commands, Options, and Cites"
-msgstr "应用程式、命令、选项与引用"
+msgstr "应用程序、命令、选项与引用"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:5625
@@ -5707,7 +5706,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: book.translate.xml:5692
 msgid "Applications, Commands, and Options Example"
-msgstr "应用程式、命令、选项范例"
+msgstr "应用程序、命令、选项范例"
 
 #. (itstool) path: example/programlisting
 #: book.translate.xml:5696
@@ -5754,7 +5753,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:5743
 msgid "Files, Directories, Extensions, Device Names"
-msgstr "档案、目录、副档名、装置名称"
+msgstr "文件、目录、副档名、装置名称"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:5745
@@ -6392,7 +6391,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:6364
 msgid "Image File Locations"
-msgstr "图片档案位置"
+msgstr "图片文件位置"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:6366
@@ -6954,7 +6953,7 @@ msgstr "该学会哪些程式的使用呢？"
 #. (itstool) path: answer/para
 #: book.translate.xml:6970
 msgid "It is strongly recommended that you maintain a local copy of the FreeBSD Subversion repository (at least the documentation part). This can be done by running:"
-msgstr "强烈建议在自己机器上也建立 FreeBSD Subversion 档案库的备份 (至少要有说明文件的部分)，这可以执行："
+msgstr "强烈建议在自己机器上也建立 FreeBSD Subversion 文件库的备份 (至少要有说明文件的部分)，这可以执行："
 
 #. (itstool) path: answer/screen
 #: book.translate.xml:6974
@@ -6975,7 +6974,7 @@ msgstr "这需要安装 <package>devel/subversion</package> 套件。"
 #. (itstool) path: answer/para
 #: book.translate.xml:6987
 msgid "You should be comfortable using <application>svn</application>. This will allow you to see what has changed between different versions of the files that make up the documentation."
-msgstr "你可以很自在地使用 <application>svn</application>。他可以让你察看说明文件档案不同版本之间的修改差异。"
+msgstr "你可以很自在地使用 <application>svn</application>。他可以让你察看说明文件文件不同版本之间的修改差异。"
 
 #. (itstool) path: answer/para
 #: book.translate.xml:6992
@@ -7145,7 +7144,7 @@ msgstr "最后，会有人 (可能是文档计划管理者，或是文件工程�
 #. (itstool) path: listitem/para
 #: book.translate.xml:7158
 msgid "Do all your files use RCS strings (such as \"ID\")?"
-msgstr "你的档案是否都有用 RCS tag (像是 \"ID\" 之类的)？"
+msgstr "你的文件是否都有用 RCS tag (像是 \"ID\" 之类的)？"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:7163
@@ -7160,7 +7159,7 @@ msgstr "<command>make install</command> 是否工作正常？"
 #. (itstool) path: answer/para
 #: book.translate.xml:7174
 msgid "If there are any problems then whoever is looking at the submission will get back to you to work them out."
-msgstr "若有问题的话，那么检阅者会叮咛你，来让这些翻译成果可以正确使用。"
+msgstr "若有问题的话，那么检阅者会提示你，来让这些翻译成果可以正确使用。"
 
 #. (itstool) path: answer/para
 #: book.translate.xml:7177
@@ -7301,7 +7300,7 @@ msgstr "若你所要翻的语言可以区别这些差异，那么请用该语系
 #. (itstool) path: question/para
 #: book.translate.xml:7281
 msgid "Do I need to include any additional information in my translations?"
-msgstr "翻译成果内要不要附上一些其他讯息呢？"
+msgstr "翻译成果内要不要附上一些其他信息呢？"
 
 #. (itstool) path: answer/para
 #: book.translate.xml:7286
@@ -7327,7 +7326,7 @@ msgstr ""
 #. (itstool) path: answer/para
 #: book.translate.xml:7297
 msgid "The exact boilerplate may change, but it will always include a $FreeBSD$ line and the phrase <literal>The FreeBSD Documentation Project</literal>. Note that the $FreeBSD part is expanded automatically by Subversion, so it should be empty (just <literal>$FreeBSD$</literal>) for new files."
-msgstr "实际上的内容可能稍有不同，但每份原稿都会附上 $FreeBSD$ 这一行以及 <literal>The FreeBSD Documentation Project</literal> 宣告。请注意：$FreeBSD$ 开头的这行是会由 Subversion 随著每次异动而自动更改的，所以新档案的话请保持原状 (也就是只要写 $FreeBSD$ 就好了)。"
+msgstr "实际上的内容可能稍有不同，但每份原稿都会附上 $FreeBSD$ 这一行以及 <literal>The FreeBSD Documentation Project</literal> 宣告。请注意：$FreeBSD$ 开头的这行是会由 Subversion 随著每次异动而自动更改的，所以新文件的话请保持原状 (也就是只要写 $FreeBSD$ 就好了)。"
 
 #. (itstool) path: answer/para
 #: book.translate.xml:7305
@@ -7342,7 +7341,7 @@ msgstr "此外，还必须加上第三行来指出你所翻译的，到底是以
 #. (itstool) path: answer/para
 #: book.translate.xml:7314
 msgid "So, the Spanish version of this file might start:"
-msgstr "因此呢，西班牙文版 (Spanish) 的档案开头应该是长像这样："
+msgstr "因此呢，西班牙文版 (Spanish) 的文件开头应该是长像这样："
 
 #. (itstool) path: answer/programlisting
 #: book.translate.xml:7316
@@ -7387,7 +7386,7 @@ msgstr "安装 <acronym>PO</acronym> 编辑器"
 #. (itstool) path: step/para
 #: book.translate.xml:7365
 msgid "A <acronym>PO</acronym> editor is needed to edit translation files. This example uses <package role=\"ports\">editors/poedit</package>."
-msgstr "编辑翻译档案需要 <acronym>PO</acronym> 编辑器。这个范例使用 <package role=\"ports\">editors/poedit</package>。"
+msgstr "编辑翻译文件需要 <acronym>PO</acronym> 编辑器。这个范例使用 <package role=\"ports\">editors/poedit</package>。"
 
 #. (itstool) path: step/screen
 #: book.translate.xml:7369
@@ -7502,7 +7501,7 @@ msgstr "产生的文件名称与英文原始文件名称相符，文章通常是
 #. (itstool) path: step/para
 #: book.translate.xml:7452
 msgid "Check the generated file by rendering it to <acronym>HTML</acronym> and viewing it with a web browser:"
-msgstr "可以转换成 <acronym>HTML</acronym> 来检查产生的档案，并用浏览器来察看："
+msgstr "可以转换成 <acronym>HTML</acronym> 来检查产生的文件，并用浏览器来察看："
 
 #. (itstool) path: step/screen
 #: book.translate.xml:7456
@@ -7996,7 +7995,7 @@ msgstr "当翻译到一个新语系时必须建立一个新的语系目录。如
 msgid ""
 "FreeBSD documentation builds are controlled by a <filename>Makefile</filename> in the same directory. With simple articles, the <filename>Makefile</filename> can often just be copied verbatim from the original English directory. The translation process combines multiple separate <filename>book.xml</filename> and <filename>chapter.xml</filename> files in books into a single file, so the <filename>Makefile</"
 "filename> for book translations must be copied and modified."
-msgstr "FreeBSD 说明文件的编译是由同一个目录的 <filename>Makefile</filename> 控制。简单的文章可以从原始的英语目录直接复制 <filename>Makefile</filename> 过来。书籍的翻译流程结合多个独立的 <filename>book.xml</filename> 和 <filename>chapter.xml</filename> 成为一个档案，所以书籍翻译的 <filename>Makefile</filename> 必须复制并修改。"
+msgstr "FreeBSD 说明文件的编译是由同一个目录的 <filename>Makefile</filename> 控制。简单的文章可以从原始的英语目录直接复制 <filename>Makefile</filename> 过来。书籍的翻译流程结合多个独立的 <filename>book.xml</filename> 和 <filename>chapter.xml</filename> 成为一个文件，所以书籍翻译的 <filename>Makefile</filename> 必须复制并修改。"
 
 #. (itstool) path: example/title
 #: book.translate.xml:7683
@@ -8138,7 +8137,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: book.translate.xml:7795
 msgid "Check the contents of the <filename>Makefile</filename>. Because this is a simple article, in this case the <filename>Makefile</filename> can be used unchanged. The <literal>$FreeBSD...$</literal> version string on the second line will be replaced by the version control system when this file is committed."
-msgstr "检查 <filename>Makefile</filename> 的内容。因为这是简单的文章，此例的 <filename>Makefile</filename> 不用修改。第二行的 <literal>$FreeBSD...$</literal> 版本字串将会在档案提交时被版本控制系统替换掉。"
+msgstr "检查 <filename>Makefile</filename> 的内容。因为这是简单的文章，此例的 <filename>Makefile</filename> 不用修改。第二行的 <literal>$FreeBSD...$</literal> 版本字串将会在文件提交时被版本控制系统替换掉。"
 
 #. (itstool) path: step/programlisting
 #: book.translate.xml:7802
@@ -8190,7 +8189,7 @@ msgstr "FreeBSD <acronym>PO</acronym> 翻译系统不会覆盖掉 <acronym>PO</a
 #. (itstool) path: sect1/para
 #: book.translate.xml:7847
 msgid "A <acronym>PO</acronym> editor is used to edit the file. <package role=\"port\">editors/poedit</package> is shown in these examples because it is simple and has minimal requirements. Other <acronym>PO</acronym> editors offer features to make the job of translating easier. The Ports Collection offers several of these editors, including <package role=\"port\">devel/gtranslator</package>."
-msgstr "用 <acronym>PO</acronym> 档编辑器来编辑档案。此例是用 <package role=\"port\">editors/poedit</package>，因为它很简单而且系统需求低。其他的 <acronym>PO</acronym> 档编辑器提供一些特点，能使翻译工作更轻松。Port 套件集里有数个编辑器，包括 <package role=\"port\">devel/gtranslator</package> 。"
+msgstr "用 <acronym>PO</acronym> 档编辑器来编辑文件。此例是用 <package role=\"port\">editors/poedit</package>，因为它很简单而且系统需求低。其他的 <acronym>PO</acronym> 档编辑器提供一些特点，能使翻译工作更轻松。Port 套件集里有数个编辑器，包括 <package role=\"port\">devel/gtranslator</package> 。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:7855
@@ -8358,7 +8357,7 @@ msgstr "<literal>$FreeBSD$</literal> 字串"
 #. (itstool) path: sect2/para
 #: book.translate.xml:7981
 msgid "The $FreeBSD$ version strings used in files require special handling. In examples like <xref linkend=\"po-translations-creating-example\"/>, these strings are not meant to be expanded. The English documents use <literal>&amp;dollar;</literal> entities to avoid including actual literal dollar signs in the file:"
-msgstr "在档案中使用到的 $FreeBSD$ 版本字串都需要特别处理，例如在 <xref linkend=\"po-translations-creating-example\"/>，使用这些字串的用意并非要展开成版本。英文的说明文件会使用 <literal>&amp;dollar;</literal> Entity 来避免在档案中用到钱字符号："
+msgstr "在文件中使用到的 $FreeBSD$ 版本字串都需要特别处理，例如在 <xref linkend=\"po-translations-creating-example\"/>，使用这些字串的用意并非要展开成版本。英文的说明文件会使用 <literal>&amp;dollar;</literal> Entity 来避免在文件中用到钱字符号："
 
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:7988 book.translate.xml:8006
@@ -8441,7 +8440,7 @@ msgstr "提交新翻译"
 #. (itstool) path: sect1/para
 #: book.translate.xml:8094
 msgid "Prepare the new translation files for submission. This includes adding the files to the version control system, setting additional properties on them, then creating a diff for submission."
-msgstr "准备要提交的新翻译。这包含新增档案到版本控制系统，对档案设定额外的属性，并建立 diff 来提交。"
+msgstr "准备要提交的新翻译。这包含新增文件到版本控制系统，对文件设定额外的属性，并建立 diff 来提交。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:8099
@@ -8485,7 +8484,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: book.translate.xml:8131 book.translate.xml:8198
 msgid "Set the <application>Subversion</application> <literal>svn:keywords</literal> properties on these files to <literal>FreeBSD=%H</literal> so <literal>$FreeBSD$</literal> strings are expanded into the path, revision, date, and author when committed:"
-msgstr "在这些档案设定 <application>Subversion</application> <literal>svn:keywords</literal> 属性为 <literal>FreeBSD=%H</literal> 让 <literal>$FreeBSD$</literal> 字串可以在提交时被展开成为路径、修订、日期以及作者："
+msgstr "在这些文件设定 <application>Subversion</application> <literal>svn:keywords</literal> 属性为 <literal>FreeBSD=%H</literal> 让 <literal>$FreeBSD$</literal> 字串可以在提交时被展开成为路径、修订、日期以及作者："
 
 #. (itstool) path: step/screen
 #: book.translate.xml:8139
@@ -8504,7 +8503,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: book.translate.xml:8146
 msgid "Set the <acronym>MIME</acronym> types of the files. These are <literal>text/xml</literal> for books and articles, and <literal>text/x-gettext-translation</literal> for the <acronym>PO</acronym> file."
-msgstr "设定档案的 <acronym>MIME</acronym> 类型。书籍和文章是 <literal>text/xml</literal>，<acronym>PO</acronym> 档是 <literal>text/x-gettext-translation</literal> 。"
+msgstr "设定文件的 <acronym>MIME</acronym> 类型。书籍和文章是 <literal>text/xml</literal>，<acronym>PO</acronym> 档是 <literal>text/x-gettext-translation</literal> 。"
 
 #. (itstool) path: step/screen
 #: book.translate.xml:8152
@@ -8523,7 +8522,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: book.translate.xml:8159
 msgid "Create a diff of the new files from the <filename>~/doc/</filename> base directory so the full path is shown with the filenames. This helps committers identify the target language directory."
-msgstr "从 <filename>~/doc/</filename> 建立这些新档案的 diff，让档名显示完整的路径。这可以帮助提交者辨识目标语系目录。"
+msgstr "从 <filename>~/doc/</filename> 建立这些新文件的 diff，让档名显示完整的路径。这可以帮助提交者辨识目标语系目录。"
 
 #. (itstool) path: step/screen
 #: book.translate.xml:8164
@@ -8570,7 +8569,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: book.translate.xml:8212
 msgid "Set the <acronym>MIME</acronym> types of the files. Because these files use the <acronym>UTF-8</acronym> character set, that is also specified. To prevent the version control system from mistaking these files for binary data, the <literal>fbsd:notbinary</literal> property is also set:"
-msgstr "设定档案的 <acronym>MIME</acronym> 类型。因为这些档案使用 <acronym>UTF-8</acronym> 字符集，这也需要指定。为了防止版本控制系统将这些档案误认为二进位资料，<literal>fbsd:notbinary</literal> 属性也需要设定："
+msgstr "设定文件的 <acronym>MIME</acronym> 类型。因为这些文件使用 <acronym>UTF-8</acronym> 字符集，这也需要指定。为了防止版本控制系统将这些文件误认为二进位资料，<literal>fbsd:notbinary</literal> 属性也需要设定："
 
 #. (itstool) path: step/screen
 #: book.translate.xml:8219
@@ -8597,7 +8596,7 @@ msgstr ""
 #. (itstool) path: step/para
 #: book.translate.xml:8230
 msgid "Create a diff of these new files from the <filename>~/doc/</filename> base directory:"
-msgstr "从 <filename>~/doc/</filename> 建立这些新档案的 diff："
+msgstr "从 <filename>~/doc/</filename> 建立这些新文件的 diff："
 
 #. (itstool) path: step/screen
 #: book.translate.xml:8233
@@ -9447,9 +9446,8 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:8902
-#, fuzzy
 msgid "<filename>/usr/src/bin/cp/cp.1</filename>"
-msgstr "<filename>bn_BD.po</filename>"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:8906
@@ -9458,9 +9456,8 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:8907
-#, fuzzy
 msgid "<filename>/usr/src/share/man/man4/vt.4</filename>"
-msgstr "<filename>en_US.po</filename>"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:8911
@@ -9787,7 +9784,7 @@ msgstr "缩排"
 #. (itstool) path: sect2/para
 #: book.translate.xml:9248
 msgid "The first line in each file starts with no indentation, <emphasis>regardless</emphasis> of the indentation level of the file which might contain the current file."
-msgstr "<emphasis>无论</emphasis>档案缩排设定为何，每个档案的第一行都不缩排。"
+msgstr "<emphasis>无论</emphasis>文件缩排设定为何，每个文件的第一行都不缩排。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:9252
@@ -10068,52 +10065,52 @@ msgstr "<tag class=\"starttag\">acronym</tag><literal>DoS</literal><tag class=\"
 #. (itstool) path: row/entry
 #: book.translate.xml:9470
 msgid "email"
-msgstr "email"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9474
 msgid "file system"
-msgstr "file system"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9478
 msgid "IPsec"
-msgstr "IPsec"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9482
 msgid "Internet"
-msgstr "Internet"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9486
 msgid "manual page"
-msgstr "manual page"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9490
 msgid "mail server"
-msgstr "mail server"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9494
 msgid "name server"
-msgstr "name server"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9498
 msgid "Ports Collection"
-msgstr "Ports Collection"
+msgstr ""
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9502
 msgid "read-only"
-msgstr "read-only"
+msgstr "只读"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9506
 msgid "Soft Updates"
-msgstr "Soft Updates"
+msgstr "软件更新"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9510
@@ -10158,7 +10155,7 @@ msgstr "<tag class=\"starttag\">application</tag><literal>Subversion</literal><t
 #. (itstool) path: row/entry
 #: book.translate.xml:9528
 msgid "Do not refer to the Subversion application as <literal>SVN</literal> in upper case. To refer to the command, use <tag class=\"starttag\">command</tag><literal>svn</literal><tag class=\"endtag\">command</tag>."
-msgstr "不要用大写 <literal>SVN</literal> 来表示 Subversion 应用程式。若要表示命令，请使用 <tag class=\"starttag\">command</tag><literal>svn</literal><tag class=\"endtag\">command</tag>。"
+msgstr "不要用大写 <literal>SVN</literal> 来表示 Subversion 应用程序。若要表示命令，请使用 <tag class=\"starttag\">command</tag><literal>svn</literal><tag class=\"endtag\">command</tag>。"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:9539
@@ -10173,7 +10170,7 @@ msgstr "指那些要会用在用户空间 (User space) 而非内核空间的东�
 #. (itstool) path: row/entry
 #: book.translate.xml:9546
 msgid "web server"
-msgstr "web server"
+msgstr ""
 
 #. (itstool) path: chapter/title
 #: book.translate.xml:9584
@@ -10193,7 +10190,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:9593
 msgid "Install from <package>editors/vim</package>, <package>editors/vim-console</package>, or <package>editors/vim-tiny</package> then follow the configuration instructions in <xref linkend=\"editor-config-vim-config\"/>."
-msgstr ""
+msgstr "从 <package>editors/vim</package>，<package>editors/vim-console</package>，或<package>editors/vim-tiny</package>选一个安装，然后按照 <xref linkend=\"editor-config-vim-config\"/> 配置编辑器。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:9602
@@ -10208,7 +10205,7 @@ msgstr "设置"
 #. (itstool) path: sect2/para
 #: book.translate.xml:9611
 msgid "Edit <filename>~/.vimrc</filename>, adding these lines to the end of the file:"
-msgstr ""
+msgstr "编辑  <filename>~/.vimrc</filename>，添加这些行到文件末尾："
 
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:9614
