@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2018-01-22 23:30-0500\n"
+"PO-Revision-Date: 2019-01-02 15:25+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -743,22 +743,22 @@ msgstr "一些公司通过提供资金让作者专注于文档开发、提供出
 #. (itstool) path: part/title
 #: book.translate.xml:1579
 msgid "Getting Started"
-msgstr ""
+msgstr "起步"
 
 #. (itstool) path: partintro/para
 #: book.translate.xml:1582
 msgid "This part of the handbook is for users and administrators who are new to FreeBSD. These chapters:"
-msgstr ""
+msgstr "手册的以下章节主要是针对刚开始使用 FreeBSD 的用户及管理员："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1587
 msgid "Introduce FreeBSD."
-msgstr ""
+msgstr "FreeBSD 入门。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1591
 msgid "Guide readers through the installation process."
-msgstr ""
+msgstr "安装过程向导。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1595
@@ -768,7 +768,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:1599
 msgid "Show how to install the wealth of third party applications available for FreeBSD."
-msgstr ""
+msgstr "展示如何在 FreeBSD 上安装大量的第三方应用程序。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1604
@@ -778,14 +778,14 @@ msgstr ""
 #. (itstool) path: partintro/para
 #: book.translate.xml:1610
 msgid "The number of forward references in the text have been kept to a minimum so that this section can be read from front to back with minimal page flipping."
-msgstr ""
+msgstr "我们尝试用最少的页数来保持前言的索引，以至于可以用最少翻页次数将该手册从头至尾读过。"
 
 #. (itstool) path: info/title
 #. (itstool) path: sect1/title
 #. (itstool) path: sect2/title
 #: book.translate.xml:1624 book.translate.xml:23715 book.translate.xml:65535
 msgid "Introduction"
-msgstr ""
+msgstr "介绍"
 
 #. (itstool) path: authorgroup/author
 #: book.translate.xml:1627 book.translate.xml:2892
@@ -804,12 +804,12 @@ msgstr ""
 #: book.translate.xml:50336 book.translate.xml:52249 book.translate.xml:57977
 #: book.translate.xml:61664
 msgid "Synopsis"
-msgstr ""
+msgstr "概述"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:1641
 msgid "Thank you for your interest in FreeBSD! The following chapter covers various aspects of the FreeBSD Project, such as its history, goals, development model, and so on."
-msgstr ""
+msgstr "非常感谢您对 FreeBSD 感兴趣！ 下面的章节涵盖了 FreeBSD 项目的各个方面， 比如它的历史、目标、开发模式，等等。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:1645 book.translate.xml:2974 book.translate.xml:5566
@@ -821,37 +821,37 @@ msgstr ""
 #: book.translate.xml:46476 book.translate.xml:48679 book.translate.xml:50347
 #: book.translate.xml:58032 book.translate.xml:61669
 msgid "After reading this chapter, you will know:"
-msgstr ""
+msgstr "阅读完这章，您将了解："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1649
 msgid "How FreeBSD relates to other computer operating systems."
-msgstr ""
+msgstr "FreeBSD 与其它计算机操作系统的关系。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1654
 msgid "The history of the FreeBSD Project."
-msgstr ""
+msgstr "FreeBSD 项目的历史。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1658
 msgid "The goals of the FreeBSD Project."
-msgstr ""
+msgstr "FreeBSD 项目的目标。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1662
 msgid "The basics of the FreeBSD open-source development model."
-msgstr ""
+msgstr "FreeBSD 开放源代码开发模式的基础。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1667
 msgid "And of course: where the name <quote>FreeBSD</quote> comes from."
-msgstr ""
+msgstr "当然还有：<quote>FreeBSD</quote> 这个名称的由来。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:1674
 msgid "Welcome to FreeBSD!"
-msgstr ""
+msgstr "欢迎使用 FreeBSD！"
 
 #. (itstool) path: sect1/indexterm
 #. (itstool) path: para/indexterm
@@ -867,12 +867,12 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:1688
 msgid "What Can FreeBSD Do?"
-msgstr ""
+msgstr "FreeBSD 能做些什么？"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:1690
 msgid "FreeBSD has many noteworthy features. Some of these are:"
-msgstr ""
+msgstr "FreeBSD 有许多非凡的特性。其中一些是："
 
 #. (itstool) path: para/indexterm
 #: book.translate.xml:1696
@@ -1038,7 +1038,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:1871
 msgid "Because the source code for FreeBSD itself is generally available, the system can also be customized to an almost unheard of degree for special applications or projects, and in ways not generally possible with operating systems from most major commercial vendors. Here is just a sampling of some of the applications in which people are currently using FreeBSD:"
-msgstr ""
+msgstr "因为 FreeBSD 自身的源代码是完全公开的， 所以对于特定的应用程序或项目，可以对系统进行最大限度的定制。 这对于大多数主流的商业生产商的操作系统来说几乎是不可能的。 以下是当前人们应用 FreeBSD 的某些程序的例子："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1881
@@ -1058,7 +1058,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:1895
 msgid "IPv4 and IPv6 routing"
-msgstr ""
+msgstr "IPv4 and IPv6 路由"
 
 #. (itstool) path: para/indexterm
 #. (itstool) path: chapter/indexterm
@@ -1106,7 +1106,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:1927
 msgid "And more..."
-msgstr ""
+msgstr "还有许多…"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:1933
@@ -1179,7 +1179,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:2024
 msgid "Who Uses FreeBSD?"
-msgstr ""
+msgstr "谁在使用 FreeBSD?"
 
 #. (itstool) path: sect2/indexterm
 #: book.translate.xml:2026
@@ -1625,17 +1625,17 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: book.translate.xml:2465
 msgid "About the FreeBSD Project"
-msgstr ""
+msgstr "关于 FreeBSD Project"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:2467
 msgid "The following section provides some background information on the project, including a brief history, project goals, and the development model of the project."
-msgstr ""
+msgstr "下面的章节提供了项目的一些背景信息， 包括简要的历史、项目目标、以及项目开发模式。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:2472
 msgid "A Brief History of FreeBSD"
-msgstr ""
+msgstr " FreeBSD 的简要历史"
 
 #. (itstool) path: sect2/indexterm
 #: book.translate.xml:2474
@@ -1665,7 +1665,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:2483
 msgid "The FreeBSD Project had its genesis in the early part of 1993, partially as an outgrowth of the Unofficial 386BSDPatchkit by the patchkit's last 3 coordinators: Nate Williams, Rod Grimes and Jordan Hubbard."
-msgstr ""
+msgstr "FreeBSD 项目起源于 1993 年早期， 部分作为 “Unofficial 386BSD Patchkit” 的副产物，patchkit 的最后 3 个协调维护人是：Nate Williams，Rod Grimes 和 Jordan Hubbard。"
 
 #. (itstool) path: sect2/indexterm
 #: book.translate.xml:2488 book.translate.xml:2528
@@ -1675,7 +1675,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:2489
 msgid "The original goal was to produce an intermediate snapshot of 386BSD in order to fix a number of problems with it that the patchkit mechanism just was not capable of solving. The early working title for the project was 386BSD 0.5 or 386BSD Interim in reference of that fact."
-msgstr ""
+msgstr "我们最初的目标是做出一份 386BSD 的测试版以修正一些 Patchkit 机制无法解决的错误(bug)。 很多人可能还记得早期的项目名称叫做 “386BSD 0.5” 或者 “386BSD Interim” 就是这个原因。"
 
 #. (itstool) path: sect2/indexterm
 #: book.translate.xml:2495
@@ -1700,7 +1700,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:2509
 msgid "The trio thought that the goal remained worthwhile, even without Bill's support, and so they adopted the name \"FreeBSD\" coined by David Greenman. The initial objectives were set after consulting with the system's current users and, once it became clear that the project was on the road to perhaps even becoming a reality, Jordan contacted Walnut Creek CDROM with an eye toward improving FreeBSD's distribution channels for those many unfortunates without easy access to the Internet. Walnut Creek CDROM not only supported the idea of distributing FreeBSD on CD but also went so far as to provide the project with a machine to work on and a fast Internet connection. Without Walnut Creek CDROM's almost unprecedented degree of faith in what was, at the time, a completely unknown project, it is quite unlikely that FreeBSD would have gotten as far, as fast, as it has today."
-msgstr ""
+msgstr "没过多久， 我们认为即便没有 Bill 的支持， 项目仍有保留的价值， 因此，我们采用了 David Greenman 的意见，给其命名为 “FreeBSD”。在和当时的几个用户商量后， 我们提出了最初的目标， 而这件事明朗化后， 这个项目就走上了正轨，甚至可能成为现实。 为了拓展 FreeBSD 的发行渠道，我抱着试试看的心态， 联系了光盘商 Walnut Creek CDROM， 以便那些上网不方便的用户得到 FreeBSD。 Walnut Creek CDROM 不仅支持发行 FreeBSD 光盘版的想法， 还为这个计划提供了所需的计算机和高速网络接入。 在那时， 若没有 Walnut Creek CDROM 对一个完全未知的项目的空前信任， FreeBSD 不太可能像它今天这样，影响如此深远， 发展如此快速。"
 
 #. (itstool) path: sect2/indexterm
 #: book.translate.xml:2525
@@ -1749,8 +1749,9 @@ msgstr ""
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:2574
+#, fuzzy
 msgid "Since that time, FreeBSD has made a series of releases each time improving the stability, speed, and feature set of the previous version."
-msgstr ""
+msgstr "从那以后，FreeBSD 发布了一系列更新来改进稳定性，运行速度和新特性"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:2578
@@ -1760,7 +1761,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: book.translate.xml:2586
 msgid "FreeBSD Project Goals"
-msgstr ""
+msgstr " FreeBSD 项目目标"
 
 #. (itstool) path: authorgroup/author
 #: book.translate.xml:2589
@@ -1795,12 +1796,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:2622
 msgid "That code in our source tree which falls under the GNU General Public License (GPL) or Library General Public License (LGPL) comes with slightly more strings attached, though at least on the side of enforced access rather than the usual opposite. Due to the additional complexities that can evolve in the commercial use of GPL software we do, however, prefer software submitted under the more relaxed BSD copyright when it is a reasonable option to do so."
-msgstr ""
+msgstr "我们源代码树中， 以 GNU 公共许可证 (GPL) 或者 GNU 函数库公共许可证 (LGPL) 发布的那些代码带有少许的附加限制， 还好只是强制性的要求开放代码而不是别的。 由于使用 GPL 的软件在商业用途上会增加若干复杂性， 因此，如果可以选择的话， 我们更偏好使用限制相对更宽松的 BSD 版权来发布软件。"
 
 #. (itstool) path: info/title
 #: book.translate.xml:2634
 msgid "The FreeBSD Development Model"
-msgstr ""
+msgstr "FreeBSD 开发模式"
 
 #. (itstool) path: authorgroup/author
 #: book.translate.xml:2637
@@ -1820,7 +1821,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:2665
 msgid "Useful things to know about the FreeBSD Project and its development process, whether working independently or in close cooperation:"
-msgstr ""
+msgstr "无论是独立地工作或者封闭式的团队工作， 了解 FreeBSD 计划和它的开发过程都是有益的："
 
 #. (itstool) path: varlistentry/term
 #: book.translate.xml:2671
@@ -1901,7 +1902,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: book.translate.xml:2777
 msgid "Outside contributors"
-msgstr ""
+msgstr "外围贡献者"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:2780
@@ -1931,12 +1932,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:2814
 msgid "All we ask of those who would join us as FreeBSD developers is some of the same dedication its current people have to its continued success!"
-msgstr ""
+msgstr "我们对于那些想要加入，成为 FreeBSD 开发者的期待是： 具有如同当前其他人一样的投入，来确保持续的成功！"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:2820
 msgid "Third Party Programs"
-msgstr ""
+msgstr "第三方软件"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:2822
@@ -1946,7 +1947,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:2843
 msgid "Additional Documentation"
-msgstr ""
+msgstr "额外文档"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:2845
@@ -1956,7 +1957,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: book.translate.xml:2857
 msgid "The FreeBSD Handbook"
-msgstr ""
+msgstr "FreeBSD 使用手册"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:2860
@@ -1966,7 +1967,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: book.translate.xml:2865
 msgid "The FreeBSD FAQ"
-msgstr ""
+msgstr "FreeBSD FAQ"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:2868
@@ -1981,7 +1982,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: book.translate.xml:2889
 msgid "Installing FreeBSD"
-msgstr ""
+msgstr "安装 FreeBSD"
 
 #. (itstool) path: authorgroup/author
 #: book.translate.xml:2917
@@ -2021,12 +2022,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:2978
 msgid "The minimum hardware requirements and FreeBSD supported architectures."
-msgstr ""
+msgstr "FreeBSD 的最低硬件需求和支持架构。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:2983
 msgid "How to create the FreeBSD installation media."
-msgstr ""
+msgstr "如何创建 FreeBSD 安装介质。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:2987
@@ -2057,17 +2058,17 @@ msgstr ""
 #: book.translate.xml:46494 book.translate.xml:48705 book.translate.xml:50411
 #: book.translate.xml:58060 book.translate.xml:61711
 msgid "Before reading this chapter, you should:"
-msgstr ""
+msgstr "阅读本章之前， 您应该："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:3010
 msgid "Read the supported hardware list that shipped with the version of FreeBSD to be installed and verify that the system's hardware is supported."
-msgstr ""
+msgstr "查看将要安装的 FreeBSD 版本所附的硬件支持列表， 以确定您的硬件能够被支持。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:3018
 msgid "Minimum Hardware Requirements"
-msgstr ""
+msgstr "最低硬件需求"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:3020
@@ -2177,7 +2178,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: book.translate.xml:3139
 msgid "Pre-Installation Tasks"
-msgstr ""
+msgstr "安装前的准备工作"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:3141
@@ -2187,7 +2188,7 @@ msgstr ""
 #. (itstool) path: step/title
 #: book.translate.xml:3150
 msgid "Back Up Important Data"
-msgstr ""
+msgstr "备份重要数据"
 
 #. (itstool) path: step/para
 #: book.translate.xml:3152
@@ -2197,12 +2198,12 @@ msgstr ""
 #. (itstool) path: step/title
 #: book.translate.xml:3164
 msgid "Decide Where to Install FreeBSD"
-msgstr ""
+msgstr "决定将 FreeBSD 安装在何处"
 
 #. (itstool) path: step/para
 #: book.translate.xml:3166
 msgid "If FreeBSD will be the only operating system installed, this step can be skipped. But if FreeBSD will share the disk with another operating system, decide which disk or partition will be used for FreeBSD."
-msgstr ""
+msgstr "如果整个硬盘上仅安装 FreeBSD 一个操作系统， 那么请直接跳过此节； 但如果需要让 FreeBSD 与其他操作系统并存， 那么首先应当了解 FreeBSD 的硬盘布局结构。"
 
 #. (itstool) path: step/para
 #: book.translate.xml:3171
@@ -2237,12 +2238,12 @@ msgstr ""
 #. (itstool) path: step/title
 #: book.translate.xml:3230
 msgid "Collect Network Information"
-msgstr ""
+msgstr "收集网络配置信息"
 
 #. (itstool) path: step/para
 #: book.translate.xml:3232
 msgid "Some FreeBSD installation methods require a network connection in order to download the installation files. After any installation, the installer will offer to setup the system's network interfaces."
-msgstr ""
+msgstr "某些 FreeBSD 安装方式需要通过网络连接下载相关文件。 若要连接至以太网 (或电视电缆/DSL 调制解调器上的以太网接口)， 则需要向安装程序提供必要的网络配置信息。"
 
 #. (itstool) path: step/para
 #: book.translate.xml:3237
@@ -2252,7 +2253,7 @@ msgstr ""
 #. (itstool) path: orderedlist/title
 #: book.translate.xml:3245
 msgid "Required Network Information"
-msgstr ""
+msgstr "所需的网络配置信息"
 
 #. (itstool) path: listitem/para
 #. (itstool) path: row/entry
@@ -2263,7 +2264,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:3252
 msgid "Subnet mask"
-msgstr ""
+msgstr "子网掩码"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:3256
@@ -2273,7 +2274,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:3261
 msgid "Domain name of the network"
-msgstr ""
+msgstr "本地网络域名"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:3265
@@ -2283,7 +2284,7 @@ msgstr ""
 #. (itstool) path: step/title
 #: book.translate.xml:3272
 msgid "Check for FreeBSD Errata"
-msgstr ""
+msgstr "检查 FreeBSD 发行勘误"
 
 #. (itstool) path: step/para
 #: book.translate.xml:3274
@@ -2298,7 +2299,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:3291
 msgid "Prepare the Installation Media"
-msgstr ""
+msgstr "准备安装介质"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:3293
@@ -2324,7 +2325,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:3319
 msgid "File types:"
-msgstr ""
+msgstr "文件类型："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:3323
@@ -2440,12 +2441,12 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: book.translate.xml:3479
 msgid "Starting the Installation"
-msgstr ""
+msgstr "开始安装"
 
 #. (itstool) path: important/para
 #: book.translate.xml:3482
 msgid "By default, the installation will not make any changes to the disk(s) before the following message:"
-msgstr ""
+msgstr "默认情况下， 在您看到下面这条信息之前， 安装程序不会对硬盘数据做任何修改："
 
 #. (itstool) path: important/programlisting
 #: book.translate.xml:3485
@@ -2460,7 +2461,7 @@ msgstr ""
 #. (itstool) path: important/para
 #: book.translate.xml:3490
 msgid "The install can be exited at any time prior to this warning. If there is a concern that something is incorrectly configured, just turn the computer off before this point and no changes will be made to the system's disks."
-msgstr ""
+msgstr "在此之前均可安全退出， 抑或您担心进行了某些错误的配置， 也可以直接关闭电源。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:3497
@@ -2480,7 +2481,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:3521
 msgid "If the computer loads the existing operating system instead of the FreeBSD installer, then either:"
-msgstr ""
+msgstr "如果您的计算机正常启动并加载了现有的操作系统， 那么请检查："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:3526
@@ -2551,7 +2552,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:3603
 msgid "FreeBSD Boot Menu"
-msgstr ""
+msgstr "FreeBSD 引导加载器菜单"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:3605
@@ -2561,7 +2562,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:3609
 msgid "FreeBSD Boot Loader Menu"
-msgstr ""
+msgstr "FreeBSD 引导加载器菜单"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -2606,7 +2607,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:3663
 msgid "FreeBSD Boot Options Menu"
-msgstr ""
+msgstr "FreeBSD 引导加载器菜单"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -2656,7 +2657,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:3723
 msgid "Welcome Menu"
-msgstr ""
+msgstr "选择安装介质的使用方式"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -2691,7 +2692,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:3769
 msgid "Selecting the Keymap Menu"
-msgstr ""
+msgstr "键盘选择菜单"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:3771
@@ -2701,7 +2702,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:3776
 msgid "Keymap Selection"
-msgstr ""
+msgstr "键盘布局选择"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -2721,7 +2722,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:3794
 msgid "Selecting Keyboard Menu"
-msgstr ""
+msgstr "键盘布局选择菜单"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -2767,7 +2768,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:3834 book.translate.xml:3841
 msgid "Setting the Hostname"
-msgstr ""
+msgstr "设置主机名"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:3836
@@ -2793,7 +2794,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:3855 book.translate.xml:3861
 msgid "Selecting Components to Install"
-msgstr ""
+msgstr "选择要安装的组件"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:3857
@@ -2849,7 +2850,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:3929 book.translate.xml:3940
 msgid "Installing from the Network"
-msgstr ""
+msgstr "通过网络安装"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:3931
@@ -2874,7 +2875,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:3958
 msgid "Choosing a Mirror"
-msgstr ""
+msgstr "选择一个镜像站点"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -2895,6 +2896,8 @@ msgstr ""
 #: book.translate.xml:3973
 msgid "Allocating Disk Space"
 msgstr ""
+"分配磁盘空间\n"
+"FreeBSD 提供了三种方式来"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:3975
@@ -3084,7 +3087,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:4166
 msgid "Manual Partitioning"
-msgstr ""
+msgstr "手动式分区"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:4168
@@ -3094,7 +3097,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4171 book.translate.xml:4186 book.translate.xml:4257
 msgid "Manually Create Partitions"
-msgstr ""
+msgstr "手动创建分区"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
