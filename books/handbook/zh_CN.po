@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2019-01-02 15:25+0800\n"
+"PO-Revision-Date: 2019-01-03 13:37+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2947,7 +2947,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:4015
 msgid "Designing the Partition Layout"
-msgstr ""
+msgstr "设置分区布局"
 
 #. (itstool) path: sect2/indexterm
 #: book.translate.xml:4017
@@ -3022,7 +3022,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:4109
 msgid "Guided Partitioning"
-msgstr ""
+msgstr "向导式分区"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:4111
@@ -3032,7 +3032,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4116
 msgid "Selecting from Multiple Disks"
-msgstr ""
+msgstr "从多块磁盘中进行选择"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3072,7 +3072,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4155
 msgid "Review Created Partitions"
-msgstr ""
+msgstr "检查已创建分区"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3132,12 +3132,12 @@ msgstr ""
 #. (itstool) path: table/title
 #: book.translate.xml:4202
 msgid "Partitioning Schemes"
-msgstr ""
+msgstr "分区方案"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:4207
 msgid "Abbreviation"
-msgstr ""
+msgstr "缩写"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:4208 book.translate.xml:7166 book.translate.xml:8509
@@ -3147,7 +3147,7 @@ msgstr ""
 #: book.translate.xml:54073 book.translate.xml:54114 book.translate.xml:55440
 #: book.translate.xml:65535
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. (itstool) path: row/entry
 #. (itstool) path: glossentry/glossterm
@@ -3211,7 +3211,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: book.translate.xml:4245
 msgid "Volume Table Of Contents used by Sun SPARC64 and UltraSPARC computers."
-msgstr ""
+msgstr "Volume Table Of Contents， 用于 Sun SPARC64 和 UltraSPARC 计算机。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:4252
@@ -3286,7 +3286,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: book.translate.xml:4344
 msgid "Creating Traditional Split File System Partitions"
-msgstr ""
+msgstr "创建传统的分割式文件系统分区"
 
 #. (itstool) path: example/para
 #: book.translate.xml:4347
@@ -3301,22 +3301,22 @@ msgstr ""
 #. (itstool) path: row/entry
 #: book.translate.xml:4368
 msgid "Partition Type"
-msgstr ""
+msgstr "分区类型"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:4369
 msgid "Size"
-msgstr ""
+msgstr "大小"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:4370
 msgid "Mountpoint"
-msgstr ""
+msgstr "挂载点"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:4371
 msgid "Label"
-msgstr ""
+msgstr "标签"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:4377
@@ -3392,7 +3392,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: book.translate.xml:4411
 msgid "accept the default (remainder of the disk)"
-msgstr ""
+msgstr "接受默认值（剩余空间）"
 
 #. (itstool) path: row/entry
 #: book.translate.xml:4413
@@ -3577,7 +3577,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: book.translate.xml:4597
 msgid "Committing to the Installation"
-msgstr ""
+msgstr "安装确认"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:4599
@@ -3587,7 +3587,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4609
 msgid "Final Confirmation"
-msgstr ""
+msgstr "最后确认"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3617,7 +3617,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4631
 msgid "Fetching Distribution Files"
-msgstr ""
+msgstr "获取组件对应的文件"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3632,12 +3632,12 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:4640
 msgid "Next, the integrity of the distribution files is verified to ensure they have not been corrupted during download or misread from the installation media:"
-msgstr ""
+msgstr "接下来， 会验证这些文件的完整性， 以防止其在下载时损坏或从安装介质中误读："
 
 #. (itstool) path: figure/title
 #: book.translate.xml:4645
 msgid "Verifying Distribution Files"
-msgstr ""
+msgstr "验证组件对应的文件"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3652,12 +3652,12 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:4654
 msgid "Finally, the verified distribution files are extracted to the disk:"
-msgstr ""
+msgstr "最后， 验证过的组件文件会被提取至磁盘。"
 
 #. (itstool) path: figure/title
 #: book.translate.xml:4658
 msgid "Extracting Distribution Files"
-msgstr ""
+msgstr "提取组件对应的文件"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3677,7 +3677,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: book.translate.xml:4675
 msgid "Post-Installation"
-msgstr ""
+msgstr "安装后的配置"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:4677
@@ -3713,12 +3713,12 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:4712
 msgid "Configuring Network Interfaces"
-msgstr ""
+msgstr "配置网络接口"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:4714
 msgid "Next, a list of the network interfaces found on the computer is shown. Select the interface to configure."
-msgstr ""
+msgstr "这里将显示一个网络接口列表， 其中的接口都是在当前计算机上侦测到的， 请选择一个进行配置。"
 
 #. (itstool) path: note/para
 #: book.translate.xml:4718
@@ -3728,7 +3728,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4724
 msgid "Choose a Network Interface"
-msgstr ""
+msgstr "这里将显示一个网络接口列表， 其中的接口都是在当前计算机上侦测到的， 请选择一个进行配置。"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3748,7 +3748,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4739
 msgid "Scanning for Wireless Access Points"
-msgstr ""
+msgstr "扫描无线接入点"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3768,7 +3768,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4760
 msgid "Choosing a Wireless Network"
-msgstr ""
+msgstr "选择一个无线网络"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3788,7 +3788,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4779
 msgid "WPA2 Setup"
-msgstr ""
+msgstr "WPA2 设置"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3893,7 +3893,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4875
 msgid "Choose IPv6 Networking"
-msgstr ""
+msgstr "配置 IPv6 网络"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3918,7 +3918,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4899
 msgid "Choose IPv6 SLAAC Configuration"
-msgstr ""
+msgstr "选择 SLAAC 配置 IPv6"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3938,7 +3938,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4913
 msgid "IPv6 Static Configuration"
-msgstr ""
+msgstr "静态配置 IPv6"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3968,7 +3968,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4951
 msgid "DNS Configuration"
-msgstr ""
+msgstr "配置 DNS"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3983,7 +3983,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:4962
 msgid "Setting the Time Zone"
-msgstr ""
+msgstr "设置时区"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:4964
@@ -3993,7 +3993,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4970
 msgid "Select Local or UTC Clock"
-msgstr ""
+msgstr "选择本地或 UTC 时钟"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4018,7 +4018,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4991
 msgid "Select a Region"
-msgstr ""
+msgstr "选择地区"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4038,7 +4038,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:5004
 msgid "Select a Country"
-msgstr ""
+msgstr "选择国家"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4058,7 +4058,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:5017
 msgid "Select a Time Zone"
-msgstr ""
+msgstr "选择时区"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4078,7 +4078,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:5030
 msgid "Confirm Time Zone"
-msgstr ""
+msgstr "确认时区选择"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4098,17 +4098,18 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:5045
 msgid "Enabling Services"
-msgstr ""
+msgstr "选择需要开启的服务"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:5047
+#, fuzzy
 msgid "The next menu is used to configure which system services will be started whenever the system boots. All of these services are optional. Only start the services that are needed for the system to function."
-msgstr ""
+msgstr "可以开启额外的系统服务， 它们会在系统启动时自动运行。 所有这些服务都是可选的。"
 
 #. (itstool) path: figure/title
 #: book.translate.xml:5053
 msgid "Selecting Additional Services to Enable"
-msgstr ""
+msgstr "选择需要开启的服务"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4149,7 +4150,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:5096 book.translate.xml:5104
 msgid "Enabling Crash Dumps"
-msgstr ""
+msgstr "启用崩溃转储"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:5098
@@ -4169,7 +4170,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:5115
 msgid "Add Users"
-msgstr ""
+msgstr "添加用户"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:5117
@@ -4184,7 +4185,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:5128
 msgid "Add User Accounts"
-msgstr ""
+msgstr "添加用户账号"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4204,7 +4205,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:5141
 msgid "Enter User Information"
-msgstr ""
+msgstr "输入用户信息"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4304,7 +4305,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:5252
 msgid "Exit User and Group Management"
-msgstr ""
+msgstr "退出用户与组管理"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4330,12 +4331,12 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:5271 book.translate.xml:5277
 msgid "Final Configuration"
-msgstr ""
+msgstr "最终配置"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:5273
 msgid "After everything has been installed and configured, a final chance is provided to modify settings."
-msgstr ""
+msgstr "所有的安装及配置完成后， 仍有机会对其进行修改。"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4350,7 +4351,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:5286
 msgid "Use this menu to make any changes or do any additional configuration before completing the installation."
-msgstr ""
+msgstr "使用此菜单， 可以在完成安装前添加或修改任何配置。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5291
@@ -4396,7 +4397,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:5324 book.translate.xml:11523
 msgid "Manual Configuration"
-msgstr ""
+msgstr "手动配置"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4416,7 +4417,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:5342
 msgid "Complete the Installation"
-msgstr ""
+msgstr "完成配置"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4517,7 +4518,7 @@ msgstr ""
 #: book.translate.xml:47816 book.translate.xml:51062 book.translate.xml:62157
 #: book.translate.xml:63817 book.translate.xml:64540
 msgid "Troubleshooting"
-msgstr ""
+msgstr "故障排除"
 
 #. (itstool) path: sect1/indexterm
 #: book.translate.xml:5447
@@ -4527,7 +4528,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:5451
 msgid "This section covers basic installation troubleshooting, such as common problems people have reported."
-msgstr ""
+msgstr "下面将介绍如何排除基本的安装故障， 例如用户经常报告的问题。"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:5455
@@ -4593,7 +4594,7 @@ msgstr ""
 #. (itstool) path: chapter/title
 #: book.translate.xml:5556
 msgid "FreeBSD Basics"
-msgstr ""
+msgstr "FreeBSD 基础"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:5561
@@ -4603,12 +4604,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:5570
 msgid "How to use and configure virtual consoles."
-msgstr ""
+msgstr "如何使用和配置虚拟控制台。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5574
 msgid "How to create and manage users and groups on FreeBSD."
-msgstr ""
+msgstr "如何在 FreeBSD 中创建与管理用户和用户组"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5579
@@ -4618,47 +4619,47 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: book.translate.xml:5584
 msgid "The default FreeBSD file system layout."
-msgstr ""
+msgstr "FreeBSD 默认文件系统的架构。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5588
 msgid "The FreeBSD disk organization."
-msgstr ""
+msgstr "FreeBSD 磁盘架构。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5592
 msgid "How to mount and unmount file systems."
-msgstr ""
+msgstr "怎样挂接或卸下文件系统。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5596
 msgid "What processes, daemons, and signals are."
-msgstr ""
+msgstr "什么是进程、守护进程、信号。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5600
 msgid "What a shell is, and how to change the default login environment."
-msgstr ""
+msgstr "什么是shell，应当怎样去改变登录进入的默认环境。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5605
 msgid "How to use basic text editors."
-msgstr ""
+msgstr "怎样使用基本的文本编辑器。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5609
 msgid "What devices and device nodes are."
-msgstr ""
+msgstr "什么是设备，什么是设备节点。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5613
 msgid "How to read manual pages for more information."
-msgstr ""
+msgstr "如何使用 man 手册以获取更多信息。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:5619
 msgid "Virtual Consoles and Terminals"
-msgstr ""
+msgstr "虚拟终端与控制台"
 
 #. (itstool) path: sect1/indexterm
 #: book.translate.xml:5621
@@ -4713,7 +4714,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:5673
 msgid "Virtual Consoles"
-msgstr ""
+msgstr "虚拟控制台"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:5675
