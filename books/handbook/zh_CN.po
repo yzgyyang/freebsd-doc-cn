@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2019-01-03 13:37+0800\n"
+"PO-Revision-Date: 2019-01-05 10:19+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35586,7 +35586,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: book.translate.xml:37294
 msgid "The Z File System (<acronym>ZFS</acronym>)"
-msgstr ""
+msgstr "Z 文件系统（<acronym>ZFS</acronym>）"
 
 #. (itstool) path: authorgroup/author
 #: book.translate.xml:37304
@@ -35606,42 +35606,42 @@ msgstr ""
 #. (itstool) path: chapter/para
 #: book.translate.xml:37328
 msgid "The <emphasis>Z File System</emphasis>, or <acronym>ZFS</acronym>, is an advanced file system designed to overcome many of the major problems found in previous designs."
-msgstr ""
+msgstr "<emphasis>Z 文件系统</emphasis> 或 <acronym>ZFS</acronym>"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37333
 msgid "Originally developed at <trademark>Sun</trademark>, ongoing open source <acronym>ZFS</acronym> development has moved to the <link xlink:href=\"http://open-zfs.org\">OpenZFS Project</link>."
-msgstr ""
+msgstr "最初由 <trademark>Sun</trademark>开发，后来开源的 <acronym>ZFS</acronym> 由 <acronym>ZFS</acronym> 负责开发维护。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37336
 msgid "<acronym>ZFS</acronym> has three major design goals:"
-msgstr ""
+msgstr "<acronym>ZFS</acronym> 有三个主要设计目标："
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:37340
 msgid "Data integrity: All data includes a <link linkend=\"zfs-term-checksum\">checksum</link> of the data. When data is written, the checksum is calculated and written along with it. When that data is later read back, the checksum is calculated again. If the checksums do not match, a data error has been detected. <acronym>ZFS</acronym> will attempt to automatically correct errors when data redundancy is available."
-msgstr ""
+msgstr "数据完整性：所有的数据都会有<link linkend=\"zfs-term-checksum\">校验码（checksum）</link>。当文件写入时，校验码也会一起生成。日后读取数据时还会再计算一次校验码。如果校验码不匹配，就可以发现数据错误。如果有冗余数据 <acronym>ZFS</acronym> 将会自动修正数据错误。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:37351
 msgid "Pooled storage: physical storage devices are added to a pool, and storage space is allocated from that shared pool. Space is available to all file systems, and can be increased by adding new storage devices to the pool."
-msgstr ""
+msgstr "池化存储：物理存储设备会被加入存储池中，这个公用的存储池可用来配置存储空间。此空间可被所有文件系统使用，可以用添加新存储设备到存储池的方式扩展空间。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:37358
 msgid "Performance: multiple caching mechanisms provide increased performance. <link linkend=\"zfs-term-arc\">ARC</link> is an advanced memory-based read cache. A second level of disk-based read cache can be added with <link linkend=\"zfs-term-l2arc\">L2ARC</link>, and disk-based synchronous write cache is available with <link linkend=\"zfs-term-zil\">ZIL</link>."
-msgstr ""
+msgstr "高性能：提供多种缓存机制来提高性能。<link linkend=\"zfs-term-arc\">ARC</link>是基于内存的预读缓存。基于磁盘的二级预读缓存是 <link linkend=\"zfs-term-l2arc\">L2ARC</link> ，以磁盘为基础的同步写缓存是 <link linkend=\"zfs-term-zil\">ZIL</link>。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37368
 msgid "A complete list of features and terminology is shown in <xref linkend=\"zfs-term\"/>."
-msgstr ""
+msgstr "完整特性可以在 <xref linkend=\"zfs-term\"/> 查看。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:37372
 msgid "What Makes <acronym>ZFS</acronym> Different"
-msgstr ""
+msgstr "什么使 <acronym>ZFS</acronym> 与众不同"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:37374
@@ -35651,12 +35651,12 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: book.translate.xml:37405
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "快速入门指南"
 
 #. (itstool) path: sect1/para
 #: book.translate.xml:37407
 msgid "There is a startup mechanism that allows FreeBSD to mount <acronym>ZFS</acronym> pools during system initialization. To enable it, add this line to <filename>/etc/rc.conf</filename>:"
-msgstr ""
+msgstr "这里有一个启动机制允许 FreeBSD 在系统启动时挂载 <acronym>ZFS</acronym> 存储池。添加此行到 <filename>/etc/rc.conf</filename>文件中启用此功能："
 
 #. (itstool) path: sect1/programlisting
 #: book.translate.xml:37412
@@ -35667,7 +35667,7 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:37414
 msgid "Then start the service:"
-msgstr ""
+msgstr "然后启动服务："
 
 #. (itstool) path: sect1/screen
 #: book.translate.xml:37416
@@ -35678,17 +35678,17 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: book.translate.xml:37418
 msgid "The examples in this section assume three <acronym>SCSI</acronym> disks with the device names <filename><replaceable>da0</replaceable></filename>, <filename><replaceable>da1</replaceable></filename>, and <filename><replaceable>da2</replaceable></filename>. Users of <acronym>SATA</acronym> hardware should instead use <filename><replaceable>ada</replaceable></filename> device names."
-msgstr ""
+msgstr "本历史中假设有三块 <acronym>SCSI</acronym> 磁盘，分别名为 <replaceable>da0</replaceable></filename>，<filename><replaceable>da1</replaceable></filename>和<filename><replaceable>da2</replaceable></filename>，使用 <acronym>SATA</acronym> 硬盘的用户应该把设备名改为 <filename><replaceable>ada</replaceable></filename>。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:37428
 msgid "Single Disk Pool"
-msgstr ""
+msgstr "单个磁盘存储池"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37430
 msgid "To create a simple, non-redundant pool using a single disk device:"
-msgstr ""
+msgstr "在单个磁盘上创建一个简单， 非冗余的存储池："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37433
@@ -35699,7 +35699,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37435
 msgid "To view the new pool, review the output of <command>df</command>:"
-msgstr ""
+msgstr "可以通过 <command>df</command> 的输出查看新的存储池："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37438
@@ -35716,7 +35716,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37445
 msgid "This output shows that the <literal>example</literal> pool has been created and mounted. It is now accessible as a file system. Files can be created on it and users can browse it:"
-msgstr ""
+msgstr "这份输出表明了 <literal>example</literal> 存储池已经被成功的挂在了。现在他是一个可使用的文件系统。用户可以在上面创建文件并浏览："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37450
@@ -35735,7 +35735,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37459
 msgid "However, this pool is not taking advantage of any <acronym>ZFS</acronym> features. To create a dataset on this pool with compression enabled:"
-msgstr ""
+msgstr "遗憾的是这个存储池并没有利用到 <acronym>ZFS</acronym> 的任何特性。在这个存储池上创建一个文件系统，并启用压缩："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37463
@@ -35748,12 +35748,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37466
 msgid "The <literal>example/compressed</literal> dataset is now a <acronym>ZFS</acronym> compressed file system. Try copying some large files to <filename>/example/compressed</filename>."
-msgstr ""
+msgstr "<literal>example/compressed</literal> 现在是一个启动 <acronym>ZFS</acronym> 压缩功能的文件系统，可以尝试复制一些大文件到 <filename>/example/compressed</filename>。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37471
 msgid "Compression can be disabled with:"
-msgstr ""
+msgstr "使用以下命令禁用压缩："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37473
@@ -35764,7 +35764,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37475
 msgid "To unmount a file system, use <command>zfs umount</command> and then verify with <command>df</command>:"
-msgstr ""
+msgstr "使用 <command>zfs umount</command> 卸载这个文件系统，并用 <command>df</command> 确认操作："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37479
@@ -35782,7 +35782,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37487
 msgid "To re-mount the file system to make it accessible again, use <command>zfs mount</command> and verify with <command>df</command>:"
-msgstr ""
+msgstr "重新挂在这个文件系统使之能被访问，使用 <command>zfs mount</command> 并用 <command>df</command> 确认操作："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37491
@@ -35801,7 +35801,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37500
 msgid "The pool and file system may also be observed by viewing the output from <command>mount</command>:"
-msgstr ""
+msgstr "存储池与文件系统也可通过 <command>mount</command>的输出查看："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37503
@@ -35818,7 +35818,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37510
 msgid "After creation, <acronym>ZFS</acronym> datasets can be used like any file systems. However, many other features are available which can be set on a per-dataset basis. In the example below, a new file system called <literal>data</literal> is created. Important files will be stored here, so it is configured to keep two copies of each data block:"
-msgstr ""
+msgstr "正如前面所提到的，<acronym>ZFS</acronym>文件系统， 在创建之后就能像普通的文件系统那样使用。然而， 还有很多其他的特性是可用的。在下面的例子中， 我们将创建一个新的文件系统，<literal>data</literal>。 并要在上面存储些重要的文件， 所以文件系统需要被设置成把每一个数据块都保存两份拷贝："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37518
@@ -35831,7 +35831,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37521
 msgid "It is now possible to see the data and space utilization by issuing <command>df</command>:"
-msgstr ""
+msgstr "现在可以再次使用 <command>df</command> 查看数据和空间的使用状况："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37524
@@ -35850,12 +35850,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37533
 msgid "Notice that each file system on the pool has the same amount of available space. This is the reason for using <command>df</command> in these examples, to show that the file systems use only the amount of space they need and all draw from the same pool. <acronym>ZFS</acronym> eliminates concepts such as volumes and partitions, and allows multiple file systems to occupy the same pool."
-msgstr ""
+msgstr "请注意存储池上的每一个文件系统都有着相同数量的可用空间。 这就是我们在这些例子中使用 <command>df</command> 的原因， 是为了文件系统都是从相同的存储池取得它们所需的空间。 <acronym>ZFS</acronym> 去掉了诸如卷和分区此类的概念， 并允许多个文件系统占用同一个存储池。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37541
 msgid "To destroy the file systems and then destroy the pool as it is no longer needed:"
-msgstr ""
+msgstr "不再需要文件系统与存储池的时候能像这样销毁它们："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37544
@@ -35890,7 +35890,7 @@ msgstr ""
 #. (itstool) path: note/para
 #: book.translate.xml:37565
 msgid "<trademark>Sun</trademark> recommends that the number of devices used in a <acronym>RAID</acronym>-Z configuration be between three and nine. For environments requiring a single pool consisting of 10 disks or more, consider breaking it up into smaller <acronym>RAID-Z</acronym> groups. If only two disks are available and redundancy is a requirement, consider using a <acronym>ZFS</acronym> mirror. Refer to <citerefentry><refentrytitle>zpool</refentrytitle><manvolnum>8</manvolnum></citerefentry> for more details."
-msgstr ""
+msgstr "<trademark>Sun</trademark> 推荐在一个 <acronym>RAID</acronym>-Z 配置中使用的磁盘数量为 3 至 9 块。 如果你要求在单独的一个存储池中使用 10 块或更多的磁盘， 请考虑分拆成更小 <acronym>RAID-Z</acronym> 组。 如果你只有 2 块磁盘， 并仍然需要冗余， 请考虑使用 <acronym>ZFS</acronym> 的 mirror 特性。 更多细节请参考 <citerefentry><refentrytitle>zpool</refentrytitle><manvolnum>8</manvolnum></citerefentry> 手册页。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37575
@@ -35906,7 +35906,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37582
 msgid "Compression and keeping extra copies of directories and files can be enabled:"
-msgstr ""
+msgstr "像前文中提到的那样，用户的目录与文件也可启用压缩并保存多份拷贝， 可通过如下的命令完成："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37585
@@ -35919,7 +35919,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37588
 msgid "To make this the new home directory for users, copy the user data to this directory and create the appropriate symbolic links:"
-msgstr ""
+msgstr "把用户的数据都拷贝过来并创建一个符号链接， 让他们开始使用这个新的目录："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37592
@@ -35934,12 +35934,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37597
 msgid "Users data is now stored on the freshly-created <filename>/storage/home</filename>. Test by adding a new user and logging in as that user."
-msgstr ""
+msgstr "现在用户的数据应该都保存在新创建的 <filename>/storage/home</filename> 上了。 测试添加一个新用户并以这个身份登录。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37601
 msgid "Try creating a file system snapshot which can be rolled back later:"
-msgstr ""
+msgstr "尝试创建一个可日后用来回退的快照："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37604
@@ -35950,7 +35950,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37606
 msgid "Snapshots can only be made of a full file system, not a single directory or file."
-msgstr ""
+msgstr "请注意快照选项将只会抓取一个真实的文件系统， 而不是某个目录或文件。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37609
@@ -35966,7 +35966,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37617
 msgid "To list all available snapshots, run <command>ls</command> in the file system's <filename>.zfs/snapshot</filename> directory. For example, to see the previously taken snapshot:"
-msgstr ""
+msgstr "获得所有可用快照的列表，可使用 <command>ls</command> 命令查看文件系统的 .<filename>.zfs/snapshot</filename> 目录。例如，执行如下命令来查看之前抓取的快照："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37622
