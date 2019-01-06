@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2019-01-05 10:19+0800\n"
+"PO-Revision-Date: 2019-01-06 09:24+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35646,7 +35646,7 @@ msgstr "什么使 <acronym>ZFS</acronym> 与众不同"
 #. (itstool) path: sect1/para
 #: book.translate.xml:37374
 msgid "<acronym>ZFS</acronym> is significantly different from any previous file system because it is more than just a file system. Combining the traditionally separate roles of volume manager and file system provides <acronym>ZFS</acronym> with unique advantages. The file system is now aware of the underlying structure of the disks. Traditional file systems could only be created on a single disk at a time. If there were two disks then two separate file systems would have to be created. In a traditional hardware <acronym>RAID</acronym> configuration, this problem was avoided by presenting the operating system with a single logical disk made up of the space provided by a number of physical disks, on top of which the operating system placed a file system. Even in the case of software <acronym>RAID</acronym> solutions like those provided by <acronym>GEOM</acronym>, the <acronym>UFS</acronym> file system living on top of the <acronym>RAID</acronym> transform believed that it was dealing with a single device. <acronym>ZFS</acronym>'s combination of the volume manager and the file system solves this and allows the creation of many file systems all sharing a pool of available storage. One of the biggest advantages to <acronym>ZFS</acronym>'s awareness of the physical layout of the disks is that existing file systems can be grown automatically when additional disks are added to the pool. This new space is then made available to all of the file systems. <acronym>ZFS</acronym> also has a number of different properties that can be applied to each file system, giving many advantages to creating a number of different file systems and datasets rather than a single monolithic file system."
-msgstr ""
+msgstr "<acronym>ZFS</acronym> 不仅仅只是一个文件系统。<acronym>ZFS</acronym> 独特的优点是整合了传统的分卷管理和文件系统两个功能。这样文件系统可以感知到存储结构的变动。传统的文件系统只能创建在一块磁盘上。如果有两块硬盘就得创建两个独立的文件系统。在传统的硬 <acronym>RAID</acronym> 配置中，此问题可以通过创建逻辑磁盘解决（由多个物理磁盘组成单个逻辑磁盘），操作系统在这个逻辑磁盘上创建文件系统。对于 <acronym>GEOM</acronym> 这种软 <acronym>RAID</acronym> 的解决方案，创建在<acronym>RAID</acronym>转换上的<acronym>UFS</acronym>文件系统仍认为他在处理单块磁盘。<acronym>ZFS</acronym>通过将卷管理器和文件系统相组合，并允许创建共享可用储存池的多个文件系统，来解决这个问题。<acronym>ZFS</acronym> 对磁盘布局的感知能带来一个优势，即当有磁盘向存储池中添加时，它能自动扩展现有的文件系统。新的磁盘空间可以被所有文件系统使用。<acronym>ZFS</acronym> 还具有许多能应用于每个文件系统而不是单个整体文件系统的不同属性，这为创建更多不同的文件系统和数据集提供了优势。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:37405
