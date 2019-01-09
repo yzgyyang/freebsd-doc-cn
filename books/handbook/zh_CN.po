@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 15:21-0500\n"
-"PO-Revision-Date: 2019-01-06 09:24+0800\n"
+"PO-Revision-Date: 2019-01-09 23:52+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1635,7 +1635,7 @@ msgstr "下面的章节提供了项目的一些背景信息， 包括简要的�
 #. (itstool) path: sect2/title
 #: book.translate.xml:2472
 msgid "A Brief History of FreeBSD"
-msgstr " FreeBSD 的简要历史"
+msgstr "FreeBSD 的简要历史"
 
 #. (itstool) path: sect2/indexterm
 #: book.translate.xml:2474
@@ -1761,7 +1761,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: book.translate.xml:2586
 msgid "FreeBSD Project Goals"
-msgstr " FreeBSD 项目目标"
+msgstr "FreeBSD 项目目标"
 
 #. (itstool) path: authorgroup/author
 #: book.translate.xml:2589
@@ -3728,7 +3728,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: book.translate.xml:4724
 msgid "Choose a Network Interface"
-msgstr "这里将显示一个网络接口列表， 其中的接口都是在当前计算机上侦测到的， 请选择一个进行配置。"
+msgstr "这里将显示一个网络接口列表， 其中的接口都是在当前计算机上侦测到的， 请选择一个进行配置"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -4609,7 +4609,7 @@ msgstr "如何使用和配置虚拟控制台。"
 #. (itstool) path: listitem/para
 #: book.translate.xml:5574
 msgid "How to create and manage users and groups on FreeBSD."
-msgstr "如何在 FreeBSD 中创建与管理用户和用户组"
+msgstr "如何在 FreeBSD 中创建与管理用户和用户组。"
 
 #. (itstool) path: listitem/para
 #: book.translate.xml:5579
@@ -35606,7 +35606,7 @@ msgstr ""
 #. (itstool) path: chapter/para
 #: book.translate.xml:37328
 msgid "The <emphasis>Z File System</emphasis>, or <acronym>ZFS</acronym>, is an advanced file system designed to overcome many of the major problems found in previous designs."
-msgstr "<emphasis>Z 文件系统</emphasis> 或 <acronym>ZFS</acronym>"
+msgstr "<emphasis>Z 文件系统</emphasis> 或 <acronym>ZFS</acronym>。"
 
 #. (itstool) path: chapter/para
 #: book.translate.xml:37333
@@ -35874,12 +35874,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37552
 msgid "Disks fail. One method of avoiding data loss from disk failure is to implement <acronym>RAID</acronym>. <acronym>ZFS</acronym> supports this feature in its pool design. <acronym>RAID-Z</acronym> pools require three or more disks but provide more usable space than mirrored pools."
-msgstr ""
+msgstr "当磁盘损坏时，为防止发生数据丢失应使用 <acronym>RAID</acronym>。<acronym>ZFS</acronym>支持在设计存储池设计的时候支持这个功能。<acronym>RAID-Z</acronym> 存储池需要三块以上的硬盘，相比于磁盘镜像它可以提供更多的可用空间。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37559
 msgid "This example creates a <acronym>RAID-Z</acronym> pool, specifying the disks to add to the pool:"
-msgstr ""
+msgstr "下面这个例子创建了一个 <acronym>RAID-Z</acronym> 存储池，并指定要加入这个存储池的磁盘："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37562
@@ -35895,7 +35895,7 @@ msgstr "<trademark>Sun</trademark> 推荐在一个 <acronym>RAID</acronym>-Z 配
 #. (itstool) path: sect2/para
 #: book.translate.xml:37575
 msgid "The previous example created the <literal>storage</literal> zpool. This example makes a new file system called <literal>home</literal> in that pool:"
-msgstr ""
+msgstr "在前一个例子中创建了一个名为 <literal>storage</literal> 的存储池。这个。下面这个例子在上面创建了一个名为 <literal>home</literal> 的文件系统："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37580
@@ -35977,7 +35977,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37624
 msgid "It is possible to write a script to perform regular snapshots on user data. However, over time, snapshots can consume a great deal of disk space. The previous snapshot can be removed using the command:"
-msgstr ""
+msgstr "我们可以写个脚本来定对用户数据进行快照。但时间久了快照会占用大量的磁盘空间。可以用下列命令删除早期创建的快照："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37629
@@ -35987,8 +35987,9 @@ msgstr ""
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37631
+#, fuzzy
 msgid "After testing, <filename>/storage/home</filename> can be made the real <filename>/home</filename> using this command:"
-msgstr ""
+msgstr "测试完成后，<filename>/storage/home</filename> 可以被挂载到 <filename>/home</filename> 使用以下命令："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37635
@@ -35999,7 +36000,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37637
 msgid "Run <command>df</command> and <command>mount</command> to confirm that the system now treats the file system as the real <filename>/home</filename>:"
-msgstr ""
+msgstr "执行 <command>df</command> 和 <command>mount</command> 来确认文件系统被挂载到 <filename>/home</filename>："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37641
@@ -36023,7 +36024,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37655
 msgid "This completes the <acronym>RAID-Z</acronym> configuration. Daily status updates about the file systems created can be generated as part of the nightly <citerefentry><refentrytitle>periodic</refentrytitle><manvolnum>8</manvolnum></citerefentry> runs. Add this line to <filename>/etc/periodic.conf</filename>:"
-msgstr ""
+msgstr "这样 <acronym>RAID-Z</acronym> 设置就完成了。文件系统的日常状态信息可用 <citerefentry><refentrytitle>periodic</refentrytitle><manvolnum>8</manvolnum></citerefentry> 定时生成。添加此行到 <filename>/etc/periodic.conf</filename>："
 
 #. (itstool) path: sect2/programlisting
 #: book.translate.xml:37661
@@ -36034,12 +36035,12 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: book.translate.xml:37665
 msgid "Recovering <acronym>RAID-Z</acronym>"
-msgstr ""
+msgstr "RAID-Z 还原"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37667
 msgid "Every software <acronym>RAID</acronym> has a method of monitoring its <literal>state</literal>. The status of <acronym>RAID-Z</acronym> devices may be viewed with this command:"
-msgstr ""
+msgstr "每个 <acronym>RAID</acronym> 软件都有方法来监测其状态（<literal>state</literal>）。<acronym>RAID-Z</acronym> 设备状态信息可以用以下命令查看："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37672
@@ -36050,7 +36051,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37674
 msgid "If all pools are <link linkend=\"zfs-term-online\">Online</link> and everything is normal, the message shows:"
-msgstr ""
+msgstr "如果所有的存储池都 <link linkend=\"zfs-term-online\">在线</link> 并工作正常，将会提示："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37678
@@ -36061,7 +36062,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37680
 msgid "If there is an issue, perhaps a disk is in the <link linkend=\"zfs-term-offline\">Offline</link> state, the pool state will look similar to:"
-msgstr ""
+msgstr "如果储线问题，可能是某个磁盘 <link linkend=\"zfs-term-offline\">离线</link>，存储池状态将会像下面这样："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37684
@@ -36090,7 +36091,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37703
 msgid "This indicates that the device was previously taken offline by the administrator with this command:"
-msgstr ""
+msgstr "这提示该设备在早先被管理员用此命令下线："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37706
@@ -36101,7 +36102,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37708
 msgid "Now the system can be powered down to replace <filename>da1</filename>. When the system is back online, the failed disk can replaced in the pool:"
-msgstr ""
+msgstr "现在可以关闭此系统来更换 <filename>da1</filename> 磁盘。当系统重新上线，可在存储池中使用下列命令替换坏掉的磁盘："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37712
@@ -36112,7 +36113,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37714
 msgid "From here, the status may be checked again, this time without <option>-x</option> so that all pools are shown:"
-msgstr ""
+msgstr "再次查看设备状态，这次不需要 <option>-x</option> 选项，故占式所有存储池状态："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37718
@@ -36137,27 +36138,27 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37733
 msgid "In this example, everything is normal."
-msgstr ""
+msgstr "在这个例子中，一切正常。"
 
 #. (itstool) path: sect2/title
 #: book.translate.xml:37737
 msgid "Data Verification"
-msgstr ""
+msgstr "数据验证"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37739
 msgid "<acronym>ZFS</acronym> uses checksums to verify the integrity of stored data. These are enabled automatically upon creation of file systems."
-msgstr ""
+msgstr "<acronym>ZFS</acronym> 使用校验码来确保数据的完整性。此功能在磁盘创建时会自动开启。"
 
 #. (itstool) path: warning/para
 #: book.translate.xml:37744
 msgid "Checksums can be disabled, but it is <emphasis>not</emphasis> recommended! Checksums take very little storage space and provide data integrity. Many <acronym>ZFS</acronym> features will not work properly with checksums disabled. There is no noticeable performance gain from disabling these checksums."
-msgstr ""
+msgstr "可以关闭校验功能，但不推荐！校验功能指挥占用很少的存储空间来提供数据完整性。如果关闭校验功能许多 <acronym>ZFS</acronym> 功能将可能不能正常运行。且关闭校验功能并不能显著提升性能。"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37752
 msgid "Checksum verification is known as <emphasis>scrubbing</emphasis>. Verify the data integrity of the <literal>storage</literal> pool with this command:"
-msgstr ""
+msgstr "校验功能，即<emphasis>scrubbing</emphasis>。用以下命令验证 <literal>storage</literal> 存储池的数据完整性："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37756
@@ -36168,7 +36169,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37758
 msgid "The duration of a scrub depends on the amount of data stored. Larger amounts of data will take proportionally longer to verify. Scrubs are very <acronym>I/O</acronym> intensive, and only one scrub is allowed to run at a time. After the scrub completes, the status can be viewed with <command>status</command>:"
-msgstr ""
+msgstr "校验时间长短取决于存储数据的大小。如果有很多数据将会占用更多时间来完成验证。数据校验对 <acronym>I/O</acronym> 敏感，一次只能运行一个数据校验 。当校验结束后，可以用<command>status</command>查看状态："
 
 #. (itstool) path: sect2/screen
 #: book.translate.xml:37765
@@ -36193,12 +36194,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: book.translate.xml:37780
 msgid "The completion date of the last scrub operation is displayed to help track when another scrub is required. Routine scrubs help protect data from silent corruption and ensure the integrity of the pool."
-msgstr ""
+msgstr "最后一次校验时间会显示在上面来帮助确定什么时候需要再次校验。校验过程保证了存储池的数据完整性，防止数据的静默腐坏（数据长时间存储在磁盘上有可能会产生数据错误）"
 
 #. (itstool) path: sect2/para
 #: book.translate.xml:37785
 msgid "Refer to <citerefentry><refentrytitle>zfs</refentrytitle><manvolnum>8</manvolnum></citerefentry> and <citerefentry><refentrytitle>zpool</refentrytitle><manvolnum>8</manvolnum></citerefentry> for other <acronym>ZFS</acronym> options."
-msgstr ""
+msgstr "请参考 <citerefentry><refentrytitle>zfs</refentrytitle><manvolnum>8</manvolnum></citerefentry> 和<citerefentry><refentrytitle>zpool</refentrytitle><manvolnum>8</manvolnum></citerefentry> 来获取更多 <acronym>ZFS</acronym> 选项。"
 
 #. (itstool) path: sect1/title
 #: book.translate.xml:37791
