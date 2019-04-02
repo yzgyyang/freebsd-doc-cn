@@ -1,3 +1,11 @@
+# !! Deprecation Warning !!
+
+This repo has been deprecated since we believe that the current workflow for translation is not straightforward enough. Language teams and doceng@ are discussing a better infrastructure setup, with more details TBA.
+
+In the meantime, please don't hesitate to contact myself (<ygy@FreeBSD.org>) for any questions and suggestions.
+
+Thanks for your understanding!
+
 # FreeBSD Simplified Chinese Documentation Project
 
 ## 指南 Instructions
@@ -9,9 +17,3 @@
 
 [`books/handbook` Status](status/books-handbook.md)  
 [`htdocs` Status](status/htdocs.md)
-
-## 贡献者 Contributors
-
-| ID | Name <Email> | GitHub | Projects |  
-|:-:|:-:|:-:|:-:|
-| ygy | `Guangyuan Yang <ygy@FreeBSD.org>` | [yzgyyang](https://github.com/yzgyyang) | books/handbook, htdocs |
